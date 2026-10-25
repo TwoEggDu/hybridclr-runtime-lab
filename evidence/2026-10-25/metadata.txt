@@ -1,0 +1,16 @@
+FILE HotUpdate.dll.bytes SHA256=6AB0CC588F8AA86BFE66697E0FC0EBF6F6266F53AC127726004D18A6F1E53864
+MethodDef 0x06000003 HotUpdate.GenericCalls::RunString sig=00000E
+  IL_0005: call 0x2B000001
+  MethodSpec 0x2B000001 blob=0A010E args=string
+  MemberRef 0x0A000009 Generic.AOT:GenericProbe.GenericTarget::Echo sig=1001011E001E00
+MethodDef 0x06000004 HotUpdate.GenericCalls::RunInt sig=000008
+  IL_0002: call 0x2B000002
+  MethodSpec 0x2B000002 blob=0A0108 args=int32
+  MemberRef 0x0A000009 Generic.AOT:GenericProbe.GenericTarget::Echo sig=1001011E001E00
+MethodDef 0x06000005 HotUpdate.GenericCalls::RunPayload sig=00000A
+  IL_001C: call 0x2B000003
+  MethodSpec 0x2B000003 blob=0A01112D args=valuetype Generic.AOT:GenericProbe.Payload
+  MemberRef 0x0A000009 Generic.AOT:GenericProbe.GenericTarget::Echo sig=1001011E001E00
+FILE Generic.AOT.dll.bytes SHA256=7233C01425D1B48E7C45439926020C86429A57B1BA7F679482CD2D38B41BC039
+MethodDef 0x06000003 GenericProbe.GenericTarget::Echo sig=1001011E001E00
+  GenericParam index=0 name=T flags=None constraints=0

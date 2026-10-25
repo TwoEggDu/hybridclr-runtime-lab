@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "editor": {
+    "version": "2022.3.62f3",
+    "revision": "96770f904ca7",
+    "distribution": "local-custom",
+    "product_version": "2022.3.62f3_96770f904ca7"
+  },
+  "target": "StandaloneWindows64",
+  "dependencies": {
+    "package": {
+      "url": "https://github.com/focus-creative-games/hybridclr_unity.git",
+      "tag": "v9.0.3",
+      "commit": "6cadd24d101f4cbd00cd80190106f6621132d24d"
+    },
+    "runtime": {
+      "url": "https://github.com/focus-creative-games/hybridclr.git",
+      "tag": "v9.0.1",
+      "commit": "83929787581bce6c7219418f62348a10c33582ee"
+    },
+    "il2cpp-plus": {
+      "url": "https://github.com/focus-creative-games/il2cpp_plus.git",
+      "tag": "v2022.3.x-9.0.1",
+      "commit": "ba3a76c9979d14cee404fb5d44301773e0768866"
+    }
+  }
+}

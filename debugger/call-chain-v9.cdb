@@ -1,0 +1,7 @@
+bu GameAssembly!hybridclr::metadata::Assembly::LoadFromBytes ".printf \"PROBE_NATIVE_LOAD bytes=%d\n\", @rdx; k 5; g"
+bu GameAssembly!hybridclr::interpreter::InterpreterInvoke ".printf \"PROBE_NATIVE_INVOKE method=%p\n\", @rdx; dt GameAssembly!MethodInfo @rdx name klass interpData; k 5; g"
+bu GameAssembly!hybridclr::interpreter::InterpreterModule::GetInterpMethodInfo ".printf \"PROBE_NATIVE_PREPARE method=%p\n\", @rcx; dt GameAssembly!MethodInfo @rcx name klass interpData; k 5; g"
+bu GameAssembly!hybridclr::transform::HiTransform::Transform ".printf \"PROBE_NATIVE_TRANSFORM method=%p\n\", @rcx; dt GameAssembly!MethodInfo @rcx name klass interpData; k 5; g"
+bu GameAssembly!hybridclr::interpreter::Interpreter::Execute ".printf \"PROBE_NATIVE_EXECUTE method=%p args=%d,%d\n\", @rcx, dwo(@rdx), dwo(@rdx+8); dt GameAssembly!MethodInfo @rcx name klass interpData; k 5; g"
+sxe -c "lmv m GameAssembly; g" ld:GameAssembly.dll
+g

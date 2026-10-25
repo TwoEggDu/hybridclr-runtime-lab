@@ -1,0 +1,107 @@
+{
+  "schema": 1,
+  "build_id": "136f3c65-0c8b-4944-a838-39a5f4024e27",
+  "actual_editor_product_version": "2022.3.62f3_96770f904ca7",
+  "builds": {
+    "p0": {
+      "hot_update_sha256": "6AB0CC588F8AA86BFE66697E0FC0EBF6F6266F53AC127726004D18A6F1E53864",
+      "supplementary_aot_sha256": "7233C01425D1B48E7C45439926020C86429A57B1BA7F679482CD2D38B41BC039",
+      "game_assembly_sha256": "AC196160B3F28122EDD5B231104D395068A52326576EEE282422E722DB8FFD9A",
+      "pdb_sha256": "AC01442A7D47F4BD851E430E759BFEAF1490E517A7BC458B0198148C885A702C",
+      "cpp_configuration": "Debug",
+      "bee_enable_full_generic_sharing": false,
+      "linker_ruleset": "Minimal",
+      "hot_update_excluded_from_aot": true
+    },
+    "p1": {
+      "hot_update_sha256": "6AB0CC588F8AA86BFE66697E0FC0EBF6F6266F53AC127726004D18A6F1E53864",
+      "supplementary_aot_sha256": "386EC6495B45DA451B6E31752B19ED91C436CCF14F94024F5529D651B9153D49",
+      "game_assembly_sha256": "A58D0BC206036650AC6B34C6A9BDDF3BC3B1AFFE522D9805001D12F4BD6BE111",
+      "pdb_sha256": "517B25563E60EAE6C91311DE6996C893AC9130DF2830B18B269266AE3F27B64B",
+      "cpp_configuration": "Debug",
+      "bee_enable_full_generic_sharing": false,
+      "linker_ruleset": "Minimal",
+      "hot_update_excluded_from_aot": true
+    }
+  },
+  "runs": {
+    "p0-m0": {
+      "standalone_pid": 141172,
+      "standalone_exit_code": 2,
+      "result_lines": [
+        "GENERIC_MODE metadata=False",
+        "GENERIC_RESULT case=RunString call=1 value=echo-string ok=True",
+        "GENERIC_RESULT case=RunString call=2 value=echo-string ok=True",
+        "GENERIC_EXCEPTION case=RunInt call=1 type=System.MissingMethodException message=AOT generic method not instantiated in aot. assembly:Generic.AOT.dll, method:System.Int32 GenericProbe.GenericTarget::Echo<System.Int32>(System.Int32)",
+        "GENERIC_EXCEPTION case=RunInt call=2 type=System.MissingMethodException message=AOT generic method not instantiated in aot. assembly:Generic.AOT.dll, method:System.Int32 GenericProbe.GenericTarget::Echo<System.Int32>(System.Int32)",
+        "GENERIC_EXCEPTION case=RunPayload call=1 type=System.MissingMethodException message=AOT generic method not instantiated in aot. assembly:Generic.AOT.dll, method:GenericProbe.Payload GenericProbe.GenericTarget::Echo<GenericProbe.Payload>(GenericProbe.Payload)",
+        "GENERIC_EXCEPTION case=RunPayload call=2 type=System.MissingMethodException message=AOT generic method not instantiated in aot. assembly:Generic.AOT.dll, method:GenericProbe.Payload GenericProbe.GenericTarget::Echo<GenericProbe.Payload>(GenericProbe.Payload)",
+        "GENERIC_DONE failures=4"
+      ],
+      "wrapper_transform_count": 3,
+      "wrapper_execute_count": 6,
+      "echo_inline_count": 0,
+      "native_shared_echo_hits_including_seeds": 2,
+      "same_wrapper_method_and_cache_on_second_call": true
+    },
+    "p0-m1": {
+      "standalone_pid": 140868,
+      "standalone_exit_code": 0,
+      "result_lines": [
+        "GENERIC_MODE metadata=True",
+        "GENERIC_METADATA code=OK bytes=4608",
+        "GENERIC_RESULT case=RunString call=1 value=echo-string ok=True",
+        "GENERIC_RESULT case=RunString call=2 value=echo-string ok=True",
+        "GENERIC_RESULT case=RunInt call=1 value=42 ok=True",
+        "GENERIC_RESULT case=RunInt call=2 value=42 ok=True",
+        "GENERIC_RESULT case=RunPayload call=1 value=7000011 ok=True",
+        "GENERIC_RESULT case=RunPayload call=2 value=7000011 ok=True",
+        "GENERIC_DONE failures=0"
+      ],
+      "wrapper_transform_count": 3,
+      "wrapper_execute_count": 6,
+      "echo_inline_count": 2,
+      "native_shared_echo_hits_including_seeds": 2,
+      "same_wrapper_method_and_cache_on_second_call": true
+    },
+    "p1-m0": {
+      "standalone_pid": 138116,
+      "standalone_exit_code": 0,
+      "result_lines": [
+        "GENERIC_MODE metadata=False",
+        "GENERIC_RESULT case=RunString call=1 value=echo-string ok=True",
+        "GENERIC_RESULT case=RunString call=2 value=echo-string ok=True",
+        "GENERIC_RESULT case=RunInt call=1 value=42 ok=True",
+        "GENERIC_RESULT case=RunInt call=2 value=42 ok=True",
+        "GENERIC_RESULT case=RunPayload call=1 value=7000011 ok=True",
+        "GENERIC_RESULT case=RunPayload call=2 value=7000011 ok=True",
+        "GENERIC_DONE failures=0"
+      ],
+      "wrapper_transform_count": 3,
+      "wrapper_execute_count": 6,
+      "echo_inline_count": 0,
+      "native_shared_echo_hits_including_seeds": 9,
+      "same_wrapper_method_and_cache_on_second_call": true
+    },
+    "p1-m1": {
+      "standalone_pid": 146332,
+      "standalone_exit_code": 0,
+      "result_lines": [
+        "GENERIC_MODE metadata=True",
+        "GENERIC_METADATA code=OK bytes=4608",
+        "GENERIC_RESULT case=RunString call=1 value=echo-string ok=True",
+        "GENERIC_RESULT case=RunString call=2 value=echo-string ok=True",
+        "GENERIC_RESULT case=RunInt call=1 value=42 ok=True",
+        "GENERIC_RESULT case=RunInt call=2 value=42 ok=True",
+        "GENERIC_RESULT case=RunPayload call=1 value=7000011 ok=True",
+        "GENERIC_RESULT case=RunPayload call=2 value=7000011 ok=True",
+        "GENERIC_DONE failures=0"
+      ],
+      "wrapper_transform_count": 3,
+      "wrapper_execute_count": 6,
+      "echo_inline_count": 0,
+      "native_shared_echo_hits_including_seeds": 9,
+      "same_wrapper_method_and_cache_on_second_call": true
+    }
+  }
+}

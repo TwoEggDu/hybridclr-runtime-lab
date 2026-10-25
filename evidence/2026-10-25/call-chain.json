@@ -1,0 +1,16 @@
+{
+  "build_id": "136f3c65-0c8b-4944-a838-39a5f4024e27",
+  "actual_editor_product_version": "2022.3.62f3_96770f904ca7",
+  "results": [
+    5,
+    15
+  ],
+  "load_count": 1,
+  "invoke_count": 2,
+  "transform_count": 1,
+  "execute_count": 2,
+  "same_method_and_cache": true,
+  "standalone_exit_code": 0,
+  "game_assembly_sha256": "a27dd2f85df0603e1e840beaf45a576bb1d8aeff5b7871987de37e6eb69f70ae",
+  "hot_update_sha256": "3a0be651942b13c706ec2369d6f9ce5f6174858672c75863796b643c2c3a3e98"
+}

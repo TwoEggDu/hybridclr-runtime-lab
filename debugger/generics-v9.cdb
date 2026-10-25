@@ -1,0 +1,8 @@
+bu GameAssembly!hybridclr::interpreter::InterpreterModule::GetInterpMethodInfo ".printf \"GENERIC_NATIVE_PREPARE method=%p\\n\", @rcx; dt GameAssembly!MethodInfo @rcx name interpData; k 4; g"
+bu GameAssembly!hybridclr::transform::HiTransform::Transform ".printf \"GENERIC_NATIVE_TRANSFORM method=%p\\n\", @rcx; dt GameAssembly!MethodInfo @rcx name interpData; k 4; g"
+bu GameAssembly!hybridclr::metadata::MethodBodyCache::GetMethodBody ".printf \"GENERIC_BODY image=%p token=%x\\n\", @rcx, @rdx; ln poi(@rcx); k 4; g"
+bu GameAssembly!hybridclr::transform::TransformContext::TransformSubMethodBody ".printf \"GENERIC_INLINE method=%p\\n\", @rdx; dt GameAssembly!MethodInfo @rdx name token; k 4; g"
+bu GameAssembly!hybridclr::interpreter::InterpFrameGroup::EnterFrameFromInterpreter ".printf \"GENERIC_INTERP_FRAME method=%p\\n\", @rdx; dt GameAssembly!MethodInfo @rdx name interpData; k 4; g"
+bu GameAssembly!hybridclr::interpreter::Interpreter::Execute ".printf \"GENERIC_EXECUTE method=%p\\n\", @rcx; dt GameAssembly!MethodInfo @rcx name interpData; k 4; g"
+sxe -c "lmv m GameAssembly; bm GameAssembly!GenericTarget_Echo* \".printf \\\"GENERIC_NATIVE_ECHO %y\\\\n\\\", @rip; k 5; g\"; g" ld:GameAssembly.dll
+g
