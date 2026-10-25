@@ -1,0 +1,14 @@
+bu GameAssembly!__ReversePInvokeMethod_0 ".printf \"GCP_NATIVE_WRAPPER tid=%x wrapper=%p context=%p seq=%d mode=%d\\n\", @$tid, @rip, @rcx, @edx, @r8d; g"
+bu GameAssembly!il2cpp::vm::ScopedThreadAttacher::ScopedThreadAttacher ".printf \"GCP_NATIVE_SCOPE_ENTER tid=%x helper=%p\\n\", @$tid, @rcx; g"
+bu GameAssembly!il2cpp::vm::ScopedThreadAttacher::~ScopedThreadAttacher ".printf \"GCP_NATIVE_SCOPE_LEAVE tid=%x helper=%p owned=%p\\n\", @$tid, @rcx, poi(@rcx); g"
+bu GameAssembly!il2cpp::vm::Thread::Attach ".printf \"GCP_NATIVE_ATTACH tid=%x\\n\", @$tid; g"
+bu GameAssembly!hybridclr::interpreter::Interpreter::Execute ".printf \"GCP_NATIVE_EXECUTE tid=%x method=%p\\n\", @$tid, @rcx; dt GameAssembly!MethodInfo @rcx name interpData; k 5; g"
+bu GameAssembly!hybridclr::interpreter::MachineState::MachineState ".printf \"GCP_NATIVE_CREATE tid=%x state=%p\\n\", @$tid, @rcx; g"
+bu GameAssembly!hybridclr::interpreter::MachineState::~MachineState ".printf \"GCP_NATIVE_DESTROY tid=%x state=%p\\n\", @$tid, @rcx; g"
+bu GameAssembly!hybridclr::interpreter::InterpreterModule::FreeThreadLocalMachineState ".printf \"GCP_NATIVE_FREE tid=%x\\n\", @$tid; g"
+bu GameAssembly!il2cpp::gc::GarbageCollector::RegisterDynamicRoot ".printf \"GCP_NATIVE_ROOT_ADD tid=%x root=%p\\n\", @$tid, @rcx; g"
+bu GameAssembly!il2cpp::gc::GarbageCollector::UnregisterDynamicRoot ".printf \"GCP_NATIVE_ROOT_REMOVE tid=%x root=%p\\n\", @$tid, @rcx; g"
+bu NativeProbe!NP_Event "lmv m NativeProbe; .printf \"GCP_NATIVE_PLUGIN tid=%x phase=%d seq=%d value=%d\\n\", @$tid, @ecx, @edx, @r8d; g"
+sxe -c "lmv m GameAssembly; bm GameAssembly!GcLauncher_Full* \".printf \\\"GCP_NATIVE_COLLECT tid=%x\\\\n\\\", @$tid; g\"; bm GameAssembly!GcState_FreeContext* \".printf \\\"GCP_NATIVE_CONTEXT_FREE tid=%x\\\\n\\\", @$tid; g\"; bm GameAssembly!il2cpp::vm::Thread::Detach* \".printf \\\"GCP_NATIVE_DETACH tid=%x function=%p thread=%p\\\\n\\\", @$tid, @rip, @rcx; g\"; g" ld:GameAssembly.dll
+bu GameAssembly!hybridclr::transform::HiTransform::Transform ".printf \"GCP_NATIVE_TRANSFORM tid=%x method=%p\\n\", @$tid, @rcx; dt GameAssembly!MethodInfo @rcx name; g"
+g

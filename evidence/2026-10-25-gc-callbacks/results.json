@@ -1,0 +1,1033 @@
+{
+  "build_id": "148235df-910b-441f-94b2-b7348eb02d8c",
+  "lock": {
+    "schema": 1,
+    "editor": {
+      "version": "2022.3.62f3",
+      "revision": "96770f904ca7",
+      "distribution": "local-custom",
+      "product_version": "2022.3.62f3_96770f904ca7"
+    },
+    "target": "StandaloneWindows64",
+    "dependencies": {
+      "package": {
+        "url": "https://github.com/focus-creative-games/hybridclr_unity.git",
+        "tag": "v9.0.3",
+        "commit": "6cadd24d101f4cbd00cd80190106f6621132d24d"
+      },
+      "runtime": {
+        "url": "https://github.com/focus-creative-games/hybridclr.git",
+        "tag": "v9.0.1",
+        "commit": "83929787581bce6c7219418f62348a10c33582ee"
+      },
+      "il2cpp-plus": {
+        "url": "https://github.com/focus-creative-games/il2cpp_plus.git",
+        "tag": "v2022.3.x-9.0.1",
+        "commit": "ba3a76c9979d14cee404fb5d44301773e0768866"
+      }
+    }
+  },
+  "compiler": {
+    "toolset": "14.51.36231",
+    "sha256": "b0a1818ebae6da7f18230a84e76ce839212584ac4c2ab55b97a0d5268085da57"
+  },
+  "source_sha256": {
+    "native/gc-callbacks/plugin.cpp": "df73cd07545f931bb9ca32267425a6b3ced9ad530e4df42a6d9d072f7837eeb8",
+    "projects/gc-callbacks/Assets/AOT/GcLauncher.cs": "c26958ce99c53cc439c5d109ca4c4fb1dcd0cbb93c0adb6c15b3e3b71bd7265a",
+    "projects/gc-callbacks/Assets/AOT/GcState.cs": "d6deae440d575f14341efeb26e590c5f31dafa3ffdf751858179272ee4c807da",
+    "projects/gc-callbacks/Assets/AOT/Probe.AOT.asmdef": "9bd5ec6f8bd8d9bb25e972fea176645ac3cf106be68156ab143d9c464a3502f6",
+    "projects/gc-callbacks/Assets/Editor/GcCallbackBuild.cs": "c3f988460a76e663ce38f87361b9c0c4298a5fa69a2b0092c1a0accd749b59bc",
+    "projects/gc-callbacks/Assets/Editor/LabRuntime.cs": "6b60665ec3e8649a493d91a26fab302956e37ce6d8a383e7a555450cc5bc0926",
+    "projects/gc-callbacks/Assets/HotUpdate/GcEntry.cs": "ca57e99ac4f3fb16bdfd01c93f7225a4c20e9fccca7bef2cdff2395f582fa54f",
+    "projects/gc-callbacks/Assets/HotUpdate/HotUpdate.asmdef": "a3305830df54e0f771fd14d1d4bd615caa3c4a2962f74166a242973bd5f05054",
+    "projects/gc-callbacks/Assets/HybridCLR/Generate/AOTGenericReferences.cs": "e79856adc7745aff87ff0c8b54f0f0c573484fedc77d9a7b93c78566e569d19f",
+    "projects/gc-callbacks/Packages/manifest.json": "b1c0a47ae3e0e5c8f8bdb34271d77580f92df2a48ea1f78560e55687b98a9484",
+    "projects/gc-callbacks/Packages/packages-lock.json": "aa03d38423d82ed088c7cab454ac8d8241cb564d028c46af1a5985b5d7d2a9a5",
+    "projects/gc-callbacks/ProjectSettings/AudioManager.asset": "9a554916fe138ebcad8443ee9b079363ecc72795c39d0e80f5f7ca99e2c6f5e7",
+    "projects/gc-callbacks/ProjectSettings/ClusterInputManager.asset": "40e65dd214bf254955d2c8829ca8ce2130fd3510485560ce012e9a1ddd93e623",
+    "projects/gc-callbacks/ProjectSettings/DynamicsManager.asset": "62fd35da36080a098d3e9f90cf4af6c655fe582091c33e505b812cf9aa36fee1",
+    "projects/gc-callbacks/ProjectSettings/EditorSettings.asset": "6f8761b516f06ff2f0373b6310571cf7951f63afb86c56bfd7be832e06a9987b",
+    "projects/gc-callbacks/ProjectSettings/GraphicsSettings.asset": "96fbec3a726513347293fb201477836277ade290a0bd7bd473cea90ffe896820",
+    "projects/gc-callbacks/ProjectSettings/InputManager.asset": "d0f454ddb880912abcae92e3e12957a7446786ba89e24937e019ff3bbc0d4300",
+    "projects/gc-callbacks/ProjectSettings/MemorySettings.asset": "1e8379a461b10ae09f3f696911088c16875d63e87ed5f2d95df9e1892703f9fd",
+    "projects/gc-callbacks/ProjectSettings/NavMeshAreas.asset": "7ebbf8f53b8033104e1878b95ca07a28d0954092d81c220f14196a42f651e658",
+    "projects/gc-callbacks/ProjectSettings/Physics2DSettings.asset": "531861618163b01648a075414f6e864506ad8fe0a0d4d0096aa1fbbfcd3937dc",
+    "projects/gc-callbacks/ProjectSettings/PresetManager.asset": "29c125923fe6e29f90190d4fce1c82d660e7051546e2c9d02908d18c9cf2436c",
+    "projects/gc-callbacks/ProjectSettings/ProjectSettings.asset": "ef308a4701a1ad1938256c847569e1a9fec837dcec3533fabe38048644e8c9af",
+    "projects/gc-callbacks/ProjectSettings/ProjectVersion.txt": "b51164d22c4d2716ba8aee7f0b59d6b7dd0efa8552fd1db2a8c3b123fae3a1ec",
+    "projects/gc-callbacks/ProjectSettings/QualitySettings.asset": "944b52d523bcb15b945bc80924b9289f59185ab19bce8a00e99eec345bde6440",
+    "projects/gc-callbacks/ProjectSettings/SceneTemplateSettings.json": "5baf593374ad67246277a435d8d0ded7167696eef6e05d2d245670e490625d8c",
+    "projects/gc-callbacks/ProjectSettings/TagManager.asset": "8e18b1c820e9c09e16bbd1f1b7842e9fb3b0158a0921b0964e0b8fa12c6e2c01",
+    "projects/gc-callbacks/ProjectSettings/TimeManager.asset": "1a83e54adbbda7c9f4851103a0c6ab7f6448a3343d4ea5b7620452fa08416ecd",
+    "projects/gc-callbacks/ProjectSettings/UnityConnectSettings.asset": "d6034acbef6c9e3179866486c31eab81fcbe5e7ed350ce71e0fa2b1449b77109",
+    "projects/gc-callbacks/ProjectSettings/VersionControlSettings.asset": "e7bda45bf7a394745fee1316e6c71fa676004d591ad1f3aa247fd3e4ceb86071",
+    "projects/gc-callbacks/ProjectSettings/VFXManager.asset": "3f31266c7c1910447586e71b041dabd58d8371715ac3142d3e38ace46121f4ab"
+  },
+  "standalone": [
+    {
+      "mode": "handle",
+      "run": 1,
+      "pid": 157384,
+      "exit_code": 0,
+      "observations": {
+        "mode": "handle",
+        "gc_before": 8,
+        "gc_after": 11,
+        "gc_delta": 3,
+        "pointer": 140717079640704,
+        "context": 3,
+        "main": {
+          "managed": 1,
+          "native": 124952
+        },
+        "native": 78692,
+        "count": 2,
+        "checksum": 149,
+        "released_alive": false,
+        "checkpoints": [
+          {
+            "seq": 2,
+            "full": 3,
+            "slices": 0,
+            "more": 0
+          }
+        ],
+        "payload_bytes": 0
+      }
+    },
+    {
+      "mode": "handle",
+      "run": 2,
+      "pid": 136168,
+      "exit_code": 0,
+      "observations": {
+        "mode": "handle",
+        "gc_before": 8,
+        "gc_after": 11,
+        "gc_delta": 3,
+        "pointer": 140717079640704,
+        "context": 3,
+        "main": {
+          "managed": 1,
+          "native": 147064
+        },
+        "native": 100772,
+        "count": 2,
+        "checksum": 149,
+        "released_alive": false,
+        "checkpoints": [
+          {
+            "seq": 2,
+            "full": 3,
+            "slices": 0,
+            "more": 0
+          }
+        ],
+        "payload_bytes": 0
+      }
+    },
+    {
+      "mode": "handle",
+      "run": 3,
+      "pid": 150320,
+      "exit_code": 0,
+      "observations": {
+        "mode": "handle",
+        "gc_before": 8,
+        "gc_after": 11,
+        "gc_delta": 3,
+        "pointer": 140717079640704,
+        "context": 3,
+        "main": {
+          "managed": 1,
+          "native": 135096
+        },
+        "native": 160624,
+        "count": 2,
+        "checksum": 149,
+        "released_alive": false,
+        "checkpoints": [
+          {
+            "seq": 2,
+            "full": 3,
+            "slices": 0,
+            "more": 0
+          }
+        ],
+        "payload_bytes": 0
+      }
+    },
+    {
+      "mode": "stack",
+      "run": 1,
+      "pid": 148320,
+      "exit_code": 0,
+      "observations": {
+        "mode": "stack",
+        "gc_before": 5,
+        "gc_after": 8,
+        "gc_delta": 3,
+        "pointer": 140717079640704,
+        "context": 0,
+        "main": {
+          "managed": 1,
+          "native": 158600
+        },
+        "native": 116940,
+        "count": 1,
+        "checksum": 257,
+        "released_alive": false,
+        "checkpoints": [
+          {
+            "seq": 1,
+            "full": 3,
+            "slices": 0,
+            "more": 0
+          }
+        ],
+        "payload_bytes": 0
+      }
+    },
+    {
+      "mode": "stack",
+      "run": 2,
+      "pid": 161128,
+      "exit_code": 0,
+      "observations": {
+        "mode": "stack",
+        "gc_before": 5,
+        "gc_after": 8,
+        "gc_delta": 3,
+        "pointer": 140717079640704,
+        "context": 0,
+        "main": {
+          "managed": 1,
+          "native": 157976
+        },
+        "native": 152920,
+        "count": 1,
+        "checksum": 257,
+        "released_alive": false,
+        "checkpoints": [
+          {
+            "seq": 1,
+            "full": 3,
+            "slices": 0,
+            "more": 0
+          }
+        ],
+        "payload_bytes": 0
+      }
+    },
+    {
+      "mode": "stack",
+      "run": 3,
+      "pid": 151260,
+      "exit_code": 0,
+      "observations": {
+        "mode": "stack",
+        "gc_before": 5,
+        "gc_after": 8,
+        "gc_delta": 3,
+        "pointer": 140717079640704,
+        "context": 0,
+        "main": {
+          "managed": 1,
+          "native": 157732
+        },
+        "native": 151836,
+        "count": 1,
+        "checksum": 257,
+        "released_alive": false,
+        "checkpoints": [
+          {
+            "seq": 1,
+            "full": 3,
+            "slices": 0,
+            "more": 0
+          }
+        ],
+        "payload_bytes": 0
+      }
+    },
+    {
+      "mode": "stress",
+      "run": 1,
+      "pid": 159648,
+      "exit_code": 0,
+      "observations": {
+        "mode": "stress",
+        "gc_before": 8,
+        "gc_after": 264,
+        "gc_delta": 256,
+        "pointer": 140717079640704,
+        "context": 3,
+        "main": {
+          "managed": 1,
+          "native": 135076
+        },
+        "native": 147248,
+        "count": 1024,
+        "checksum": 786944,
+        "released_alive": false,
+        "checkpoints": [
+          {
+            "seq": 32,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 64,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 96,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 128,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 160,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 192,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 224,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 256,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 288,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 320,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 352,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 384,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 416,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 448,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 480,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 512,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 544,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 576,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 608,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 640,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 672,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 704,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 736,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 768,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 800,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 832,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 864,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 896,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 928,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 960,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 992,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 1024,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          }
+        ],
+        "payload_bytes": 8388608
+      }
+    },
+    {
+      "mode": "stress",
+      "run": 2,
+      "pid": 141712,
+      "exit_code": 0,
+      "observations": {
+        "mode": "stress",
+        "gc_before": 8,
+        "gc_after": 264,
+        "gc_delta": 256,
+        "pointer": 140717079640704,
+        "context": 3,
+        "main": {
+          "managed": 1,
+          "native": 152964
+        },
+        "native": 151656,
+        "count": 1024,
+        "checksum": 786944,
+        "released_alive": false,
+        "checkpoints": [
+          {
+            "seq": 32,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 64,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 96,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 128,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 160,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 192,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 224,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 256,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 288,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 320,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 352,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 384,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 416,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 448,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 480,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 512,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 544,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 576,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 608,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 640,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 672,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 704,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 736,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 768,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 800,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 832,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 864,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 896,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 928,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 960,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 992,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 1024,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          }
+        ],
+        "payload_bytes": 8388608
+      }
+    },
+    {
+      "mode": "stress",
+      "run": 3,
+      "pid": 160260,
+      "exit_code": 0,
+      "observations": {
+        "mode": "stress",
+        "gc_before": 8,
+        "gc_after": 264,
+        "gc_delta": 256,
+        "pointer": 140717079640704,
+        "context": 3,
+        "main": {
+          "managed": 1,
+          "native": 153488
+        },
+        "native": 143008,
+        "count": 1024,
+        "checksum": 786944,
+        "released_alive": false,
+        "checkpoints": [
+          {
+            "seq": 32,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 64,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 96,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 128,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 160,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 192,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 224,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 256,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 288,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 320,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 352,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 384,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 416,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 448,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 480,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 512,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 544,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 576,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 608,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 640,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 672,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 704,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 736,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 768,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 800,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 832,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 864,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 896,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 928,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 960,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 992,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          },
+          {
+            "seq": 1024,
+            "full": 0,
+            "slices": 4,
+            "more": 0
+          }
+        ],
+        "payload_bytes": 8388608
+      }
+    }
+  ],
+  "debug": [
+    {
+      "mode": "handle",
+      "player": {
+        "mode": "handle",
+        "gc_before": 8,
+        "gc_after": 11,
+        "gc_delta": 3,
+        "pointer": 140716970916480,
+        "context": 3,
+        "main": {
+          "managed": 1,
+          "native": 155568
+        },
+        "native": 154732,
+        "count": 2,
+        "checksum": 149,
+        "released_alive": false,
+        "checkpoints": [
+          {
+            "seq": 2,
+            "full": 3,
+            "slices": 0,
+            "more": 0
+          }
+        ],
+        "payload_bytes": 0
+      },
+      "native": {
+        "mode": "handle",
+        "native": 154732,
+        "callback_count": 2,
+        "method": "000001bf701449b0",
+        "interpData": [
+          "0000000000000000",
+          "000001bf7018fb38"
+        ],
+        "states": [
+          "000001c0900dc2c0",
+          "000001c08fec8650"
+        ],
+        "active_full_collects": 3,
+        "attach_count": 2,
+        "detach_entry_count": 4,
+        "root_remove_count": 2,
+        "context_free_count": 1
+      }
+    },
+    {
+      "mode": "stack",
+      "player": {
+        "mode": "stack",
+        "gc_before": 5,
+        "gc_after": 8,
+        "gc_delta": 3,
+        "pointer": 140716970916480,
+        "context": 0,
+        "main": {
+          "managed": 1,
+          "native": 150364
+        },
+        "native": 100240,
+        "count": 1,
+        "checksum": 257,
+        "released_alive": false,
+        "checkpoints": [
+          {
+            "seq": 1,
+            "full": 3,
+            "slices": 0,
+            "more": 0
+          }
+        ],
+        "payload_bytes": 0
+      },
+      "native": {
+        "mode": "stack",
+        "native": 100240,
+        "callback_count": 1,
+        "method": "000002a5001449b0",
+        "interpData": [
+          "0000000000000000"
+        ],
+        "states": [
+          "000002a61acdce70"
+        ],
+        "active_full_collects": 3,
+        "attach_count": 1,
+        "detach_entry_count": 2,
+        "root_remove_count": 1,
+        "context_free_count": 0
+      }
+    }
+  ],
+  "source_base_commit": "b9156325820312f4d290c4af8158f76a3a6f9beb",
+  "source_status": "GC callback sources accompany this evidence in the enclosing Git commit; source_sha256 records raw working-tree bytes at capture time",
+  "artifact_sha256": {
+    "Player/GameAssembly.dll": "4779dbba491e0f499b694c2fd1d970414a06987c8cfe2a6c99538bf59211251b",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/GameAssembly.pdb": "f4e0a7a1e9fe33ed6457a46f0dc071ed10e813b1f67e8085ecb9419ae7f9948b",
+    "Player/GcCallbackProbe_Data/Plugins/x86_64/NativeProbe.dll": "c0c130d67cad443e396716b0b26d8d97ae2872e2a4c7c2f30dad2183472edf86",
+    "Player/GcCallbackProbe_Data/StreamingAssets/HotUpdate.dll.bytes": "2450ef104dfd279070a76d7d5fbf49a50087d51bf937ead89aa383a19d829098",
+    "plugin/NativeProbe.dll": "c0c130d67cad443e396716b0b26d8d97ae2872e2a4c7c2f30dad2183472edf86",
+    "plugin/NativeProbe.pdb": "bb3c92f58d4fd34294e022efc3e8bc22320b5a67d2a95cc7dd217879504c8ab2"
+  },
+  "verifier_sha256": {
+    "tools/gc_callback_lab.py": "92f278662a2a5e149b4c9f249180958c5eb0fa77131a49b957b78d16711486d5",
+    "tools/gc_callback_results.py": "bfd4cd79829b5e17648c367a7fffc073de7229da8ae3333ec641f68b24f2416a",
+    "debugger/gc-callbacks-v9.cdb": "589f1e69f8c3f839168900bfb74d0c82c65f04138072a6f5c13e1a3778c2062f",
+    "tests/test_gc_callback_results.py": "759b6b6bdc91bbe7b74e68c2a3d8115984875411fecc4f61d8c2e585ba6bb360",
+    "tests/GcCallbackChecks/GcCallbackChecks.csproj": "746c658f63d16380b03204912923cebefd4cc11b2b3c679d405c1c1b0c8af286",
+    "tests/GcCallbackChecks/Program.cs": "45a57c2b9e136f6eac3592f88bc96c5f6db8c33df230ec08d9ab9bd9954891be"
+  },
+  "local_log_sha256": {
+    "build.log": "b7cfde19a256d011b895fb0e1774fe4ae4a65fddad6866b473b09d977515c16d",
+    "handle-1.log": "fc9bd2b71529c3a368e714bf921c0b22cd0014f6310f91779ec6f73efa8bfc32",
+    "handle-2.log": "77a1d16ed77013355e73eae05c0a2716246b692aea84192027bb88cfc89b7767",
+    "handle-3.log": "0c602d978ae35ca28e3a3a78c9adf866df4d19ad7c76037705d2984933bc580c",
+    "handle-debug-player.log": "56143777b172169e74359e842e617f1c7210fe5353879c6830b016a243324d77",
+    "handle-trace.log": "3a8df2de4889a75100f336bf75a096dd1dced2fb93615f753d309bc52d236539",
+    "stack-1.log": "1771747357c854af10528fab814ecc9406a8be819ea16024df00e85d682c6b2e",
+    "stack-2.log": "a098780f8213c8ee244744bc9930ad533ca989ff6cc5b78c529472bb11573080",
+    "stack-3.log": "05671632392e3cadf14835e236f6c53da29eb48d9b39b838eff158729d57716d",
+    "stack-debug-player.log": "4ffc1d5dbd4e937b77405e8443697ea6d7884b4047cc5279b3ac22d190705f1e",
+    "stack-trace.log": "478323ed512e4acee25370db4f9d6fc4996082dcfe111d1d0a8d244eb2ce6236",
+    "stress-1.log": "b0988689e1628ebb0d105027f22fbd420519861d81831abb8ed8014d1586ccbd",
+    "stress-2.log": "7ac98093891df8483f03fe56af81bbda2ea2833a7ae3fcd9c2a31cc4be247011",
+    "stress-3.log": "e05faffa61fe48ff97828d710b539b92e58e0cc960f188ccb219bff1dc4c6316"
+  }
+}

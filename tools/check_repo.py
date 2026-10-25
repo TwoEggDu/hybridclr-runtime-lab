@@ -11,7 +11,7 @@ assert lock["editor"]["distribution"] == "local-custom"
 for spec in lock["dependencies"].values():
     assert re.fullmatch(r"[0-9a-f]{40}", spec["commit"])
     assert spec["url"].startswith("https://github.com/focus-creative-games/")
-for name in ("call-chain", "generic-p0", "generic-p1", "lifetime-threads", "native-callbacks"):
+for name in ("call-chain", "generic-p0", "generic-p1", "lifetime-threads", "native-callbacks", "gc-callbacks"):
     project = ROOT / "projects" / name
     manifest = json.loads((project / "Packages/manifest.json").read_text())
     dependency = manifest["dependencies"]["com.code-philosophy.hybridclr"]
@@ -33,7 +33,7 @@ paths = sorted(set(p for p in paths if p))
 for rel in paths:
     path = ROOT / rel
     assert not rel.startswith((".local/", "artifacts/")), rel
-    assert rel == "native/native-callbacks/plugin.cpp" or path.suffix.lower() not in {".dll", ".exe", ".pdb", ".cpp", ".h", ".bytes", ".log"}, rel
+    assert rel in {"native/native-callbacks/plugin.cpp", "native/gc-callbacks/plugin.cpp"} or path.suffix.lower() not in {".dll", ".exe", ".pdb", ".cpp", ".h", ".bytes", ".log"}, rel
     if path.suffix == ".py":
         ast.parse(path.read_text(encoding="utf-8"))
     if path.suffix == ".json":

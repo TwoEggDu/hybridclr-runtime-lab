@@ -121,6 +121,19 @@ python tools/callback_lab.py verify
 
 需要已有 x64 MSVC；通过 vswhere 定位编译环境。只将自有插件源码发布；生成 DLL、PDB、导入库和完整日志进入 `artifacts/callbacks/`。每轮结果由记录所在的 Git 提交及采集哈希定位，旧提交不代表后续新增样本。
 
+## 原生回调中的 GC 保留与有界压力
+
+独立工程 `projects/gc-callbacks` 分别验证 Normal GCHandle 上下文、无上下文句柄的活跃回调局部引用，以及1024次回调的对象分配/引用修改。记录收集请求与GC计数，并在停止/Join后释放句柄与委托。详见 [本轮记录](evidence/2026-10-25-gc-callbacks/README.md)。
+
+```powershell
+python tools/gc_callback_lab.py build --editor $editor
+python tools/gc_callback_lab.py run
+python tools/gc_callback_lab.py trace --cdb $cdb
+python tools/gc_callback_lab.py verify
+```
+
+输出在 `artifacts/gc-callbacks/`。聚焦断点仅覆盖handle/stack保留对照；stress使用独立Player结果，不能据此宣称所有写屏障或长期泄漏已经验证。
+
 ## 目录与维护约定
 
 ```text
