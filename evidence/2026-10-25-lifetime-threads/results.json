@@ -1,0 +1,368 @@
+{
+  "schema": 1,
+  "build_id": "70021d1d-8d18-4bdf-8066-446dd9898b80",
+  "source_base_commit": "e0220099d293f7a1a4601ee9931b49a10dd519f9",
+  "source_status": "experiment sources accompany this evidence in the enclosing Git commit; source_sha256 records raw working-tree bytes at capture time",
+  "source_sha256": {
+    "projects/lifetime-threads/Assets/AOT/LifetimeLauncher.cs": "68f857c6d265125501eedf42027cab1d2574c85c7c5b387a11d4fcdcfd992549",
+    "projects/lifetime-threads/Assets/AOT/Probe.AOT.asmdef": "9bd5ec6f8bd8d9bb25e972fea176645ac3cf106be68156ab143d9c464a3502f6",
+    "projects/lifetime-threads/Assets/AOT/RetentionHub.cs": "f1a72996cf69e3488026767dd5733b3feddacc93058f4f352c0fab835654c6c9",
+    "projects/lifetime-threads/Assets/Editor/LabRuntime.cs": "6b60665ec3e8649a493d91a26fab302956e37ce6d8a383e7a555450cc5bc0926",
+    "projects/lifetime-threads/Assets/Editor/LifetimeBuild.cs": "df063d51e49bd001dcefe3bc37f0b0a3fd1e7f081616f3696b5eb244945c473e",
+    "projects/lifetime-threads/Assets/HotUpdate/HotUpdate.asmdef": "a3305830df54e0f771fd14d1d4bd615caa3c4a2962f74166a242973bd5f05054",
+    "projects/lifetime-threads/Assets/HotUpdate/LifetimeHot.cs": "f842366cc2ae664eacc5edcf223170a7e10e219e8a9accc4e615644454253011",
+    "projects/lifetime-threads/Assets/HybridCLR/Generate/AOTGenericReferences.cs": "e79856adc7745aff87ff0c8b54f0f0c573484fedc77d9a7b93c78566e569d19f",
+    "projects/lifetime-threads/Packages/manifest.json": "b1c0a47ae3e0e5c8f8bdb34271d77580f92df2a48ea1f78560e55687b98a9484",
+    "projects/lifetime-threads/Packages/packages-lock.json": "aa03d38423d82ed088c7cab454ac8d8241cb564d028c46af1a5985b5d7d2a9a5",
+    "projects/lifetime-threads/ProjectSettings/AudioManager.asset": "9a554916fe138ebcad8443ee9b079363ecc72795c39d0e80f5f7ca99e2c6f5e7",
+    "projects/lifetime-threads/ProjectSettings/ClusterInputManager.asset": "40e65dd214bf254955d2c8829ca8ce2130fd3510485560ce012e9a1ddd93e623",
+    "projects/lifetime-threads/ProjectSettings/DynamicsManager.asset": "62fd35da36080a098d3e9f90cf4af6c655fe582091c33e505b812cf9aa36fee1",
+    "projects/lifetime-threads/ProjectSettings/EditorSettings.asset": "6f8761b516f06ff2f0373b6310571cf7951f63afb86c56bfd7be832e06a9987b",
+    "projects/lifetime-threads/ProjectSettings/GraphicsSettings.asset": "96fbec3a726513347293fb201477836277ade290a0bd7bd473cea90ffe896820",
+    "projects/lifetime-threads/ProjectSettings/InputManager.asset": "d0f454ddb880912abcae92e3e12957a7446786ba89e24937e019ff3bbc0d4300",
+    "projects/lifetime-threads/ProjectSettings/MemorySettings.asset": "1e8379a461b10ae09f3f696911088c16875d63e87ed5f2d95df9e1892703f9fd",
+    "projects/lifetime-threads/ProjectSettings/NavMeshAreas.asset": "7ebbf8f53b8033104e1878b95ca07a28d0954092d81c220f14196a42f651e658",
+    "projects/lifetime-threads/ProjectSettings/Physics2DSettings.asset": "531861618163b01648a075414f6e864506ad8fe0a0d4d0096aa1fbbfcd3937dc",
+    "projects/lifetime-threads/ProjectSettings/PresetManager.asset": "29c125923fe6e29f90190d4fce1c82d660e7051546e2c9d02908d18c9cf2436c",
+    "projects/lifetime-threads/ProjectSettings/ProjectSettings.asset": "130b9a21a461676ad6025286745bad53d34a5e7337ac28fb86dc50e134b9f88d",
+    "projects/lifetime-threads/ProjectSettings/ProjectVersion.txt": "b51164d22c4d2716ba8aee7f0b59d6b7dd0efa8552fd1db2a8c3b123fae3a1ec",
+    "projects/lifetime-threads/ProjectSettings/QualitySettings.asset": "944b52d523bcb15b945bc80924b9289f59185ab19bce8a00e99eec345bde6440",
+    "projects/lifetime-threads/ProjectSettings/SceneTemplateSettings.json": "5baf593374ad67246277a435d8d0ded7167696eef6e05d2d245670e490625d8c",
+    "projects/lifetime-threads/ProjectSettings/TagManager.asset": "8e18b1c820e9c09e16bbd1f1b7842e9fb3b0158a0921b0964e0b8fa12c6e2c01",
+    "projects/lifetime-threads/ProjectSettings/TimeManager.asset": "1a83e54adbbda7c9f4851103a0c6ab7f6448a3343d4ea5b7620452fa08416ecd",
+    "projects/lifetime-threads/ProjectSettings/UnityConnectSettings.asset": "d6034acbef6c9e3179866486c31eab81fcbe5e7ed350ce71e0fa2b1449b77109",
+    "projects/lifetime-threads/ProjectSettings/VersionControlSettings.asset": "e7bda45bf7a394745fee1316e6c71fa676004d591ad1f3aa247fd3e4ceb86071",
+    "projects/lifetime-threads/ProjectSettings/VFXManager.asset": "3f31266c7c1910447586e71b041dabd58d8371715ac3142d3e38ace46121f4ab"
+  },
+  "hot_update_excluded_from_aot": true,
+  "artifact_sha256": {
+    "Player/GameAssembly.dll": "57731a6181ec2d84be18723f022b6003d52b6a66793647d2e2555e9adce03b36",
+    "Player/LifetimeProbe_BackUpThisFolder_ButDontShipItWithYourGame/GameAssembly.pdb": "4e0e56f11cad4bc28be3d62fae493ab97bb92d588fa0389b331d5580cf679fb0",
+    "Player/LifetimeProbe_Data/StreamingAssets/HotUpdate.dll.bytes": "d5fea1286df5b1978dc5516e14b86127d62d7add974da20575d01744bb99fd93"
+  },
+  "local_evidence_sha256": {
+    "build.log": "878289e307c49fa087df2d4ee4d3ca7d07e109846ad6957ce40f6972ad2fd0e1",
+    "gc-1.log": "ea2cd0172f6d880c481350f03d4e2d7322babfb359d1782aefe17b3b27ce5d59",
+    "gc-2.log": "9f56702b99e23a49f99e80edf8310ac74e9236ec756b43144305ea04b664a75a",
+    "gc-3.log": "cdb73101cc252e2b80a32f3b5b335d8431a0135a67e7ee9668094fc1ec7eb034",
+    "threads-1.log": "7c932fd3040e02513dd0b447698bfe808fa617c4736ebbf4f6ded95c6ced28c9",
+    "threads-2.log": "dce9df1f9c2e897fc41845f6286a93a500cf66fa89e585bb4750b50bd3a3db9c",
+    "threads-3.log": "3a52be3d9a133c76c9dedef33c6c8d14d44b07dec3dab107ca8d70ab8943a39d",
+    "threads-debug-player.log": "101d35426fe7d2381341ca63a2286e513095c6d1c559bc3769bc8737fb76e6da",
+    "threads-trace.log": "b49234263cc6efa009cc772d9e8a2c3d24fed0355ed24711daeb07ab5f0efe0e"
+  },
+  "results": {
+    "build_id": "70021d1d-8d18-4bdf-8066-446dd9898b80",
+    "environment": {
+      "schema": 1,
+      "editor": {
+        "version": "2022.3.62f3",
+        "revision": "96770f904ca7",
+        "distribution": "local-custom",
+        "product_version": "2022.3.62f3_96770f904ca7"
+      },
+      "target": "StandaloneWindows64",
+      "dependencies": {
+        "package": {
+          "url": "https://github.com/focus-creative-games/hybridclr_unity.git",
+          "tag": "v9.0.3",
+          "commit": "6cadd24d101f4cbd00cd80190106f6621132d24d"
+        },
+        "runtime": {
+          "url": "https://github.com/focus-creative-games/hybridclr.git",
+          "tag": "v9.0.1",
+          "commit": "83929787581bce6c7219418f62348a10c33582ee"
+        },
+        "il2cpp-plus": {
+          "url": "https://github.com/focus-creative-games/il2cpp_plus.git",
+          "tag": "v2022.3.x-9.0.1",
+          "commit": "ba3a76c9979d14cee404fb5d44301773e0768866"
+        }
+      }
+    },
+    "standalone": [
+      {
+        "mode": "gc",
+        "run": 1,
+        "pid": 119672,
+        "exit_code": 0,
+        "observations": {
+          "held": {
+            "none": 0,
+            "static": 16,
+            "event": 16,
+            "rounds": 3
+          },
+          "static-cleared": {
+            "none": 0,
+            "static": 0,
+            "event": 16,
+            "rounds": 3
+          },
+          "all-cleared": {
+            "none": 0,
+            "static": 0,
+            "event": 0,
+            "rounds": 3
+          },
+          "environment": {
+            "mode": "gc",
+            "unity": "2022.3.62f3",
+            "incremental": true,
+            "gcMode": "Enabled",
+            "assembly": "HotUpdate",
+            "bytes": 5120
+          }
+        }
+      },
+      {
+        "mode": "gc",
+        "run": 2,
+        "pid": 143028,
+        "exit_code": 0,
+        "observations": {
+          "held": {
+            "none": 0,
+            "static": 16,
+            "event": 16,
+            "rounds": 3
+          },
+          "static-cleared": {
+            "none": 0,
+            "static": 0,
+            "event": 16,
+            "rounds": 3
+          },
+          "all-cleared": {
+            "none": 0,
+            "static": 0,
+            "event": 0,
+            "rounds": 3
+          },
+          "environment": {
+            "mode": "gc",
+            "unity": "2022.3.62f3",
+            "incremental": true,
+            "gcMode": "Enabled",
+            "assembly": "HotUpdate",
+            "bytes": 5120
+          }
+        }
+      },
+      {
+        "mode": "gc",
+        "run": 3,
+        "pid": 149040,
+        "exit_code": 0,
+        "observations": {
+          "held": {
+            "none": 0,
+            "static": 16,
+            "event": 16,
+            "rounds": 3
+          },
+          "static-cleared": {
+            "none": 0,
+            "static": 0,
+            "event": 16,
+            "rounds": 3
+          },
+          "all-cleared": {
+            "none": 0,
+            "static": 0,
+            "event": 0,
+            "rounds": 3
+          },
+          "environment": {
+            "mode": "gc",
+            "unity": "2022.3.62f3",
+            "incremental": true,
+            "gcMode": "Enabled",
+            "assembly": "HotUpdate",
+            "bytes": 5120
+          }
+        }
+      },
+      {
+        "mode": "threads",
+        "run": 1,
+        "pid": 150496,
+        "exit_code": 0,
+        "observations": {
+          "environment": {
+            "mode": "threads",
+            "unity": "2022.3.62f3",
+            "incremental": true,
+            "gcMode": "Enabled",
+            "assembly": "HotUpdate",
+            "bytes": 5120
+          },
+          "main": {
+            "managed": 1,
+            "native": 126596
+          },
+          "workers": [
+            {
+              "index": 0,
+              "managed": 5,
+              "native": 138812,
+              "first": 5,
+              "second": 15,
+              "joined": true
+            },
+            {
+              "index": 1,
+              "managed": 6,
+              "native": 149728,
+              "first": 5,
+              "second": 15,
+              "joined": true
+            }
+          ]
+        }
+      },
+      {
+        "mode": "threads",
+        "run": 2,
+        "pid": 123900,
+        "exit_code": 0,
+        "observations": {
+          "environment": {
+            "mode": "threads",
+            "unity": "2022.3.62f3",
+            "incremental": true,
+            "gcMode": "Enabled",
+            "assembly": "HotUpdate",
+            "bytes": 5120
+          },
+          "main": {
+            "managed": 1,
+            "native": 139568
+          },
+          "workers": [
+            {
+              "index": 0,
+              "managed": 5,
+              "native": 124384,
+              "first": 5,
+              "second": 15,
+              "joined": true
+            },
+            {
+              "index": 1,
+              "managed": 6,
+              "native": 141472,
+              "first": 5,
+              "second": 15,
+              "joined": true
+            }
+          ]
+        }
+      },
+      {
+        "mode": "threads",
+        "run": 3,
+        "pid": 143940,
+        "exit_code": 0,
+        "observations": {
+          "environment": {
+            "mode": "threads",
+            "unity": "2022.3.62f3",
+            "incremental": true,
+            "gcMode": "Enabled",
+            "assembly": "HotUpdate",
+            "bytes": 5120
+          },
+          "main": {
+            "managed": 1,
+            "native": 150160
+          },
+          "workers": [
+            {
+              "index": 0,
+              "managed": 5,
+              "native": 150032,
+              "first": 5,
+              "second": 15,
+              "joined": true
+            },
+            {
+              "index": 1,
+              "managed": 6,
+              "native": 139360,
+              "first": 5,
+              "second": 15,
+              "joined": true
+            }
+          ]
+        }
+      }
+    ],
+    "debug_player": {
+      "environment": {
+        "mode": "threads",
+        "unity": "2022.3.62f3",
+        "incremental": true,
+        "gcMode": "Enabled",
+        "assembly": "HotUpdate",
+        "bytes": 5120
+      },
+      "main": {
+        "managed": 1,
+        "native": 137848
+      },
+      "workers": [
+        {
+          "index": 0,
+          "managed": 5,
+          "native": 141284,
+          "first": 5,
+          "second": 15,
+          "joined": true
+        },
+        {
+          "index": 1,
+          "managed": 6,
+          "native": 149628,
+          "first": 5,
+          "second": 15,
+          "joined": true
+        }
+      ]
+    },
+    "native": {
+      "method": "00000170f0145930",
+      "interpData": "00000171d04dd208",
+      "execute_count": 4,
+      "transform_count": 1,
+      "workers": [
+        {
+          "index": 0,
+          "native": 141284,
+          "state": "00000172054163b0",
+          "execute_count": 2,
+          "root_add": 1,
+          "root_remove": 1,
+          "free": 1,
+          "destroy": 1
+        },
+        {
+          "index": 1,
+          "native": 149628,
+          "state": "0000017205416580",
+          "execute_count": 2,
+          "root_add": 1,
+          "root_remove": 1,
+          "free": 1,
+          "destroy": 1
+        }
+      ]
+    }
+  },
+  "verifier_sha256": {
+    "tools/lifetime_lab.py": "1a1c9df9bc2ccb7827fe07200457e142609ab2d50358a2802cea34b28ac0ce01",
+    "tools/lifetime_results.py": "03d643f3b9fbe76820cff942973711843169e041c3843bed9dd885fe2e8accca",
+    "debugger/lifetime-threads-v9.cdb": "bbe459626c05fd34690a260c9b2c12349520cea9d8571e8b84bb8b8a1d036142",
+    "tests/test_lifetime_results.py": "8c36bfcff00fb437965ae67631aa8d89e1880f4706889218d752e011e4750239"
+  }
+}

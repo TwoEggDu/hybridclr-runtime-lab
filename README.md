@@ -91,6 +91,23 @@ dotnet run --project tools/MetadataReader -- artifacts/generics/Player-p0/Runtim
 
 只读 DLL，不执行程序集。它按 IL 操作数宽度定位真实 call，输出 MemberRef、MethodSpec 和目标签名。类型解码只覆盖本实验的 string、int32、valuetype；不作为通用反编译器。
 
+## 对象保留与托管工作线程
+
+独立工程 `projects/lifetime-threads` 沿用同一份 `lab-lock.json`。详见 [本轮记录](evidence/2026-10-25-lifetime-threads/README.md)。
+
+```powershell
+python tools/lifetime_lab.py build --editor $editor
+python tools/lifetime_lab.py run
+python tools/lifetime_lab.py trace --cdb $cdb
+python tools/lifetime_lab.py verify
+```
+
+输出单独保存在 `artifacts/lifetime/`，不覆盖前两组实验。构建前后核对完整源码清单；运行前核对源码、构建身份与二进制哈希；验收时再次解析日志并核对构建回执。
+
+GC 与 threads 分别启动三个独立 Player。GC 以每组 16 个对象对照无强引用、静态数组持有、实例委托订阅持有；逐步清理后观察弱引用。持有组意外丢失属于失败，解除引用后仍存活则保留为观察，不能让校验器把它隐去。线程组让两个同时存活的托管工作线程串行调用相同热更 Add，各调用两次；它不测试并发首次转换竞争或线程池。
+
+CDB 脚本按 Windows x64 ABI 读取固定版本的入口参数。验收关联 Player 的 OS 线程号、四次 Execute、一次转换、非空共享 interpData、两份同时存在的 MachineState、各自注册／注销根与销毁的顺序。原始调用栈与符号日志留在本地；公共摘要不包含 Unity 实现正文。
+
 ## 目录与维护约定
 
 ```text

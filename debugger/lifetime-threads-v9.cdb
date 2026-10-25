@@ -1,0 +1,9 @@
+bu GameAssembly!hybridclr::interpreter::MachineState::MachineState ".printf \"LIFE_NATIVE_CREATE tid=%x state=%p\\n\", @$tid, @rcx; g"
+bu GameAssembly!hybridclr::interpreter::MachineState::~MachineState ".printf \"LIFE_NATIVE_DESTROY tid=%x state=%p\\n\", @$tid, @rcx; g"
+bu GameAssembly!hybridclr::interpreter::InterpreterModule::FreeThreadLocalMachineState ".printf \"LIFE_NATIVE_FREE tid=%x\\n\", @$tid; g"
+bu GameAssembly!hybridclr::interpreter::Interpreter::Execute ".printf \"LIFE_NATIVE_EXECUTE tid=%x method=%p args=%d,%d\\n\", @$tid, @rcx, dwo(@rdx), dwo(@rdx+8); dt GameAssembly!MethodInfo @rcx name interpData; k 4; g"
+bu GameAssembly!hybridclr::transform::HiTransform::Transform ".printf \"LIFE_NATIVE_TRANSFORM tid=%x method=%p\\n\", @$tid, @rcx; dt GameAssembly!MethodInfo @rcx name; g"
+bu GameAssembly!il2cpp::gc::GarbageCollector::RegisterDynamicRoot ".printf \"LIFE_NATIVE_ROOT_ADD tid=%x root=%p\\n\", @$tid, @rcx; g"
+bu GameAssembly!il2cpp::gc::GarbageCollector::UnregisterDynamicRoot ".printf \"LIFE_NATIVE_ROOT_REMOVE tid=%x root=%p\\n\", @$tid, @rcx; g"
+sxe -c "lmv m GameAssembly; g" ld:GameAssembly.dll
+g
