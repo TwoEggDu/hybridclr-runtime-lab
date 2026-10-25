@@ -1,0 +1,14 @@
+bu GameAssembly!__ReversePInvokeMethod_0 ".printf \"CB_NATIVE_WRAPPER tid=%x wrapper=%p a=%d b=%d\\n\", @$tid, @rip, @ecx, @edx; g"
+bu GameAssembly!il2cpp::vm::ScopedThreadAttacher::ScopedThreadAttacher ".printf \"CB_NATIVE_SCOPE_ENTER tid=%x helper=%p\\n\", @$tid, @rcx; g"
+bu GameAssembly!il2cpp::vm::ScopedThreadAttacher::~ScopedThreadAttacher ".printf \"CB_NATIVE_SCOPE_LEAVE tid=%x helper=%p owned=%p\\n\", @$tid, @rcx, poi(@rcx); g"
+bu GameAssembly!il2cpp::vm::Thread::Attach ".printf \"CB_NATIVE_ATTACH tid=%x\\n\", @$tid; g"
+bu GameAssembly!hybridclr::interpreter::Interpreter::Execute ".printf \"CB_NATIVE_EXECUTE tid=%x method=%p\\n\", @$tid, @rcx; dt GameAssembly!MethodInfo @rcx name interpData; k 5; g"
+bu GameAssembly!hybridclr::interpreter::MachineState::MachineState ".printf \"CB_NATIVE_CREATE tid=%x state=%p\\n\", @$tid, @rcx; g"
+bu GameAssembly!hybridclr::interpreter::MachineState::~MachineState ".printf \"CB_NATIVE_DESTROY tid=%x state=%p\\n\", @$tid, @rcx; g"
+bu GameAssembly!hybridclr::interpreter::InterpreterModule::FreeThreadLocalMachineState ".printf \"CB_NATIVE_FREE tid=%x\\n\", @$tid; g"
+bu GameAssembly!il2cpp::gc::GarbageCollector::RegisterDynamicRoot ".printf \"CB_NATIVE_ROOT_ADD tid=%x root=%p\\n\", @$tid, @rcx; g"
+bu GameAssembly!il2cpp::gc::GarbageCollector::UnregisterDynamicRoot ".printf \"CB_NATIVE_ROOT_REMOVE tid=%x root=%p\\n\", @$tid, @rcx; g"
+bu NativeProbe!NP_Event "lmv m NativeProbe; .printf \"CB_NATIVE_PLUGIN tid=%x phase=%d a=%d b=%d value=%d\\n\", @$tid, @ecx, @edx, @r8d, @r9d; g"
+sxe -c "lmv m GameAssembly; bm GameAssembly!il2cpp::vm::Thread::Detach* \".printf \\\"CB_NATIVE_DETACH tid=%x function=%p thread=%p\\\\n\\\", @$tid, @rip, @rcx; g\"; g" ld:GameAssembly.dll
+bu GameAssembly!hybridclr::transform::HiTransform::Transform ".printf \"CB_NATIVE_TRANSFORM tid=%x method=%p\\n\", @$tid, @rcx; dt GameAssembly!MethodInfo @rcx name; g"
+g

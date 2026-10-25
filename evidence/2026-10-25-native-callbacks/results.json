@@ -1,0 +1,461 @@
+{
+  "build_id": "65d3ddb9-3bb0-4ce9-99b9-59f4ff1cc82b",
+  "lock": {
+    "schema": 1,
+    "editor": {
+      "version": "2022.3.62f3",
+      "revision": "96770f904ca7",
+      "distribution": "local-custom",
+      "product_version": "2022.3.62f3_96770f904ca7"
+    },
+    "target": "StandaloneWindows64",
+    "dependencies": {
+      "package": {
+        "url": "https://github.com/focus-creative-games/hybridclr_unity.git",
+        "tag": "v9.0.3",
+        "commit": "6cadd24d101f4cbd00cd80190106f6621132d24d"
+      },
+      "runtime": {
+        "url": "https://github.com/focus-creative-games/hybridclr.git",
+        "tag": "v9.0.1",
+        "commit": "83929787581bce6c7219418f62348a10c33582ee"
+      },
+      "il2cpp-plus": {
+        "url": "https://github.com/focus-creative-games/il2cpp_plus.git",
+        "tag": "v2022.3.x-9.0.1",
+        "commit": "ba3a76c9979d14cee404fb5d44301773e0768866"
+      }
+    }
+  },
+  "compiler": {
+    "toolset": "14.51.36231",
+    "sha256": "b0a1818ebae6da7f18230a84e76ce839212584ac4c2ab55b97a0d5268085da57"
+  },
+  "source_sha256": {
+    "native/native-callbacks/plugin.cpp": "763357c8ec2d4a6ca5c70a06005bd6185a3c94997ebed0cfcb45fffdc7014b37",
+    "projects/native-callbacks/Assets/AOT/CallbackLauncher.cs": "d7d2f096f4812795a2ca4eddf083f99ee40874cf0705e1a4d742dc23fa5a6850",
+    "projects/native-callbacks/Assets/AOT/Probe.AOT.asmdef": "9bd5ec6f8bd8d9bb25e972fea176645ac3cf106be68156ab143d9c464a3502f6",
+    "projects/native-callbacks/Assets/AOT/ProbeState.cs": "bc84f95f92cbc96116f1982a737bc435a2ef3db8e062af6c40afd350fbf32dd7",
+    "projects/native-callbacks/Assets/Editor/CallbackBuild.cs": "bcf25d0e00fa6e85e24fa9f8d0e104533dba2a21bc8efca7b0ec05173eeb7b5f",
+    "projects/native-callbacks/Assets/Editor/LabRuntime.cs": "6b60665ec3e8649a493d91a26fab302956e37ce6d8a383e7a555450cc5bc0926",
+    "projects/native-callbacks/Assets/HotUpdate/HotUpdate.asmdef": "a3305830df54e0f771fd14d1d4bd615caa3c4a2962f74166a242973bd5f05054",
+    "projects/native-callbacks/Assets/HotUpdate/NativeEntry.cs": "a2ae81d356a79551439878d50643603910bb69bcd2e8b54806b8cd435637df47",
+    "projects/native-callbacks/Assets/HybridCLR/Generate/AOTGenericReferences.cs": "e79856adc7745aff87ff0c8b54f0f0c573484fedc77d9a7b93c78566e569d19f",
+    "projects/native-callbacks/Packages/manifest.json": "b1c0a47ae3e0e5c8f8bdb34271d77580f92df2a48ea1f78560e55687b98a9484",
+    "projects/native-callbacks/Packages/packages-lock.json": "aa03d38423d82ed088c7cab454ac8d8241cb564d028c46af1a5985b5d7d2a9a5",
+    "projects/native-callbacks/ProjectSettings/AudioManager.asset": "9a554916fe138ebcad8443ee9b079363ecc72795c39d0e80f5f7ca99e2c6f5e7",
+    "projects/native-callbacks/ProjectSettings/ClusterInputManager.asset": "40e65dd214bf254955d2c8829ca8ce2130fd3510485560ce012e9a1ddd93e623",
+    "projects/native-callbacks/ProjectSettings/DynamicsManager.asset": "62fd35da36080a098d3e9f90cf4af6c655fe582091c33e505b812cf9aa36fee1",
+    "projects/native-callbacks/ProjectSettings/EditorSettings.asset": "6f8761b516f06ff2f0373b6310571cf7951f63afb86c56bfd7be832e06a9987b",
+    "projects/native-callbacks/ProjectSettings/GraphicsSettings.asset": "96fbec3a726513347293fb201477836277ade290a0bd7bd473cea90ffe896820",
+    "projects/native-callbacks/ProjectSettings/InputManager.asset": "d0f454ddb880912abcae92e3e12957a7446786ba89e24937e019ff3bbc0d4300",
+    "projects/native-callbacks/ProjectSettings/MemorySettings.asset": "1e8379a461b10ae09f3f696911088c16875d63e87ed5f2d95df9e1892703f9fd",
+    "projects/native-callbacks/ProjectSettings/NavMeshAreas.asset": "7ebbf8f53b8033104e1878b95ca07a28d0954092d81c220f14196a42f651e658",
+    "projects/native-callbacks/ProjectSettings/Physics2DSettings.asset": "531861618163b01648a075414f6e864506ad8fe0a0d4d0096aa1fbbfcd3937dc",
+    "projects/native-callbacks/ProjectSettings/PresetManager.asset": "29c125923fe6e29f90190d4fce1c82d660e7051546e2c9d02908d18c9cf2436c",
+    "projects/native-callbacks/ProjectSettings/ProjectSettings.asset": "89fa2bc69841451f2dca438f6ec9cdf637c703825b7c025872beb9bcdbb9df27",
+    "projects/native-callbacks/ProjectSettings/ProjectVersion.txt": "b51164d22c4d2716ba8aee7f0b59d6b7dd0efa8552fd1db2a8c3b123fae3a1ec",
+    "projects/native-callbacks/ProjectSettings/QualitySettings.asset": "944b52d523bcb15b945bc80924b9289f59185ab19bce8a00e99eec345bde6440",
+    "projects/native-callbacks/ProjectSettings/SceneTemplateSettings.json": "5baf593374ad67246277a435d8d0ded7167696eef6e05d2d245670e490625d8c",
+    "projects/native-callbacks/ProjectSettings/TagManager.asset": "8e18b1c820e9c09e16bbd1f1b7842e9fb3b0158a0921b0964e0b8fa12c6e2c01",
+    "projects/native-callbacks/ProjectSettings/TimeManager.asset": "1a83e54adbbda7c9f4851103a0c6ab7f6448a3343d4ea5b7620452fa08416ecd",
+    "projects/native-callbacks/ProjectSettings/UnityConnectSettings.asset": "d6034acbef6c9e3179866486c31eab81fcbe5e7ed350ce71e0fa2b1449b77109",
+    "projects/native-callbacks/ProjectSettings/VersionControlSettings.asset": "e7bda45bf7a394745fee1316e6c71fa676004d591ad1f3aa247fd3e4ceb86071",
+    "projects/native-callbacks/ProjectSettings/VFXManager.asset": "3f31266c7c1910447586e71b041dabd58d8371715ac3142d3e38ace46121f4ab"
+  },
+  "standalone": [
+    {
+      "mode": "registered",
+      "run": 1,
+      "pid": 151684,
+      "exit_code": 0,
+      "observations": {
+        "mode": "registered",
+        "unity": "2022.3.62f3",
+        "incremental": true,
+        "gcMode": "Enabled",
+        "bytes": 5120,
+        "pointer": 140717079410784,
+        "main": {
+          "managed": 1,
+          "native": 151720
+        },
+        "calls": [
+          {
+            "index": 0,
+            "managed": 5,
+            "native": 131596,
+            "a": 2,
+            "b": 3,
+            "result": 5
+          },
+          {
+            "index": 1,
+            "managed": 5,
+            "native": 131596,
+            "a": 7,
+            "b": 8,
+            "result": 15
+          }
+        ]
+      }
+    },
+    {
+      "mode": "registered",
+      "run": 2,
+      "pid": 139580,
+      "exit_code": 0,
+      "observations": {
+        "mode": "registered",
+        "unity": "2022.3.62f3",
+        "incremental": true,
+        "gcMode": "Enabled",
+        "bytes": 5120,
+        "pointer": 140717079410784,
+        "main": {
+          "managed": 1,
+          "native": 148192
+        },
+        "calls": [
+          {
+            "index": 0,
+            "managed": 5,
+            "native": 126668,
+            "a": 2,
+            "b": 3,
+            "result": 5
+          },
+          {
+            "index": 1,
+            "managed": 5,
+            "native": 126668,
+            "a": 7,
+            "b": 8,
+            "result": 15
+          }
+        ]
+      }
+    },
+    {
+      "mode": "registered",
+      "run": 3,
+      "pid": 146004,
+      "exit_code": 0,
+      "observations": {
+        "mode": "registered",
+        "unity": "2022.3.62f3",
+        "incremental": true,
+        "gcMode": "Enabled",
+        "bytes": 5120,
+        "pointer": 140717079410784,
+        "main": {
+          "managed": 1,
+          "native": 114420
+        },
+        "calls": [
+          {
+            "index": 0,
+            "managed": 5,
+            "native": 141928,
+            "a": 2,
+            "b": 3,
+            "result": 5
+          },
+          {
+            "index": 1,
+            "managed": 5,
+            "native": 141928,
+            "a": 7,
+            "b": 8,
+            "result": 15
+          }
+        ]
+      }
+    },
+    {
+      "mode": "raw",
+      "run": 1,
+      "pid": 150548,
+      "exit_code": 0,
+      "observations": {
+        "mode": "raw",
+        "unity": "2022.3.62f3",
+        "incremental": true,
+        "gcMode": "Enabled",
+        "bytes": 5120,
+        "pointer": 140717079410784,
+        "main": {
+          "managed": 1,
+          "native": 151936
+        },
+        "calls": [
+          {
+            "index": 0,
+            "managed": 5,
+            "native": 152020,
+            "a": 2,
+            "b": 3,
+            "result": 5
+          },
+          {
+            "index": 1,
+            "managed": 6,
+            "native": 152020,
+            "a": 7,
+            "b": 8,
+            "result": 15
+          },
+          {
+            "index": 2,
+            "managed": 7,
+            "native": 152020,
+            "a": 11,
+            "b": 12,
+            "result": 23
+          }
+        ]
+      }
+    },
+    {
+      "mode": "raw",
+      "run": 2,
+      "pid": 117112,
+      "exit_code": 0,
+      "observations": {
+        "mode": "raw",
+        "unity": "2022.3.62f3",
+        "incremental": true,
+        "gcMode": "Enabled",
+        "bytes": 5120,
+        "pointer": 140717079410784,
+        "main": {
+          "managed": 1,
+          "native": 114596
+        },
+        "calls": [
+          {
+            "index": 0,
+            "managed": 5,
+            "native": 151616,
+            "a": 2,
+            "b": 3,
+            "result": 5
+          },
+          {
+            "index": 1,
+            "managed": 6,
+            "native": 151616,
+            "a": 7,
+            "b": 8,
+            "result": 15
+          },
+          {
+            "index": 2,
+            "managed": 7,
+            "native": 151616,
+            "a": 11,
+            "b": 12,
+            "result": 23
+          }
+        ]
+      }
+    },
+    {
+      "mode": "raw",
+      "run": 3,
+      "pid": 98820,
+      "exit_code": 0,
+      "observations": {
+        "mode": "raw",
+        "unity": "2022.3.62f3",
+        "incremental": true,
+        "gcMode": "Enabled",
+        "bytes": 5120,
+        "pointer": 140717079410784,
+        "main": {
+          "managed": 1,
+          "native": 152544
+        },
+        "calls": [
+          {
+            "index": 0,
+            "managed": 5,
+            "native": 151100,
+            "a": 2,
+            "b": 3,
+            "result": 5
+          },
+          {
+            "index": 1,
+            "managed": 6,
+            "native": 151100,
+            "a": 7,
+            "b": 8,
+            "result": 15
+          },
+          {
+            "index": 2,
+            "managed": 7,
+            "native": 151100,
+            "a": 11,
+            "b": 12,
+            "result": 23
+          }
+        ]
+      }
+    }
+  ],
+  "debug": [
+    {
+      "mode": "registered",
+      "player": {
+        "mode": "registered",
+        "unity": "2022.3.62f3",
+        "incremental": true,
+        "gcMode": "Enabled",
+        "bytes": 5120,
+        "pointer": 140717064665184,
+        "main": {
+          "managed": 1,
+          "native": 150788
+        },
+        "calls": [
+          {
+            "index": 0,
+            "managed": 5,
+            "native": 152068,
+            "a": 2,
+            "b": 3,
+            "result": 5
+          },
+          {
+            "index": 1,
+            "managed": 5,
+            "native": 152068,
+            "a": 7,
+            "b": 8,
+            "result": 15
+          }
+        ]
+      },
+      "native": {
+        "mode": "registered",
+        "native": 152068,
+        "callback_count": 2,
+        "method": "000001860013fe20",
+        "interpData": [
+          "0000000000000000",
+          "000001860015de68"
+        ],
+        "transform_count": 1,
+        "owned_threads": [
+          "0000000000000000",
+          "0000000000000000"
+        ],
+        "states": [
+          "000001871f3297c0"
+        ],
+        "attach_count": 0,
+        "detach_entry_count": 0,
+        "state_create_count": 1,
+        "root_remove_count": 1
+      }
+    },
+    {
+      "mode": "raw",
+      "player": {
+        "mode": "raw",
+        "unity": "2022.3.62f3",
+        "incremental": true,
+        "gcMode": "Enabled",
+        "bytes": 5120,
+        "pointer": 140717064665184,
+        "main": {
+          "managed": 1,
+          "native": 151952
+        },
+        "calls": [
+          {
+            "index": 0,
+            "managed": 5,
+            "native": 119432,
+            "a": 2,
+            "b": 3,
+            "result": 5
+          },
+          {
+            "index": 1,
+            "managed": 6,
+            "native": 119432,
+            "a": 7,
+            "b": 8,
+            "result": 15
+          },
+          {
+            "index": 2,
+            "managed": 7,
+            "native": 119432,
+            "a": 11,
+            "b": 12,
+            "result": 23
+          }
+        ]
+      },
+      "native": {
+        "mode": "raw",
+        "native": 119432,
+        "callback_count": 3,
+        "method": "000001fe8013fe20",
+        "interpData": [
+          "0000000000000000",
+          "000001fe80161298",
+          "000001fe80161298"
+        ],
+        "transform_count": 1,
+        "owned_threads": [
+          "000001ff96006a80",
+          "000001ff96006a20",
+          "000001ff960069c0"
+        ],
+        "states": [
+          "000001ff959d8320",
+          "000001ff959d9470",
+          "000001ff959d9750"
+        ],
+        "attach_count": 3,
+        "detach_entry_count": 6,
+        "state_create_count": 3,
+        "root_remove_count": 3
+      }
+    }
+  ],
+  "source_base_commit": "a387d2807f4251fce0e5fc24e8d1debddb4ca79d",
+  "source_status": "native callback sources accompany this evidence in the enclosing Git commit; source_sha256 records raw working-tree bytes at capture time",
+  "artifact_sha256": {
+    "Player/CallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/GameAssembly.pdb": "f3fc744e0c198b159b8f67421879e6880c6d1cca3719095823af2905c7deadf2",
+    "Player/CallbackProbe_Data/Plugins/x86_64/NativeProbe.dll": "aa47241f6d53768f645c1fb339a350cb83bc48c2714226ae2a7c3f683b38dcaa",
+    "Player/CallbackProbe_Data/StreamingAssets/HotUpdate.dll.bytes": "03def51af87a0d7a5376c2c76996d4b04216d84c5bb711e2ed40ba1c97c03c5b",
+    "Player/GameAssembly.dll": "5bc079fc7900d57657edbf5b4485983db2ea6e835d7a3f378839a8e0585fc28e",
+    "plugin/NativeProbe.dll": "aa47241f6d53768f645c1fb339a350cb83bc48c2714226ae2a7c3f683b38dcaa",
+    "plugin/NativeProbe.pdb": "abba48a07642debf87d8d3a7163bd27f8fa13c35a819c8aa241aa5f0297bc316"
+  },
+  "verifier_sha256": {
+    "tools/callback_lab.py": "7f5bc2c51097aa3bae738ec7b077ff1b99410097e0b33dd9a0a3ee7c49260609",
+    "tools/callback_results.py": "1ac7f7baa6fe2950e92b7e274167f1b7a6c21a4475e2aa176a81e18d85a7e32d",
+    "debugger/native-callbacks-v9.cdb": "7f4ab070fc55b90721209c424ce83e49d6549d449854f8e3b73e534124b4bd64",
+    "tests/test_callback_results.py": "08333e770d729a529a46fd0b7da32e8b93e46afba37b9a85f0ec27723b96d936"
+  },
+  "local_log_sha256": {
+    "build.log": "6af105f9cd65e2abcfab17ad8668bdeb17eabda7776a1fbe1d8d51e9ea848015",
+    "raw-1.log": "78fd8353f7b8c2d75cdc6638888e08c125a78df3218fb4f5623b1fa4e8aeed96",
+    "raw-2.log": "76a71c7bc9a6878017a5ceb9c4057a8236c2ecb90665654639136f011304a535",
+    "raw-3.log": "1ff6dad8a2b5b2dfbc655cabfeaaa2ff143b20f9d9356cc26ad0438680fb26b3",
+    "raw-debug-player.log": "8a1d986e49b6f745288448682ab3aa71d6eae1533edf69abe02633c26225f339",
+    "raw-trace.log": "3041351ef4d408ed4751bce86abc8eb31eacd2766b2a0e21bec40c28e6769243",
+    "registered-1.log": "876f98f5de52be4503e5d4bcd0db33647568b3a2af5944c7c7db9a46cecc7ac2",
+    "registered-2.log": "4b05d70b1054bcf250950490f56b4f5e93efa723a3eacdace176a591bbd36d7f",
+    "registered-3.log": "df59ecb19b4befda5552c40cb0f9e923070b78ed3fe8f7694f9b2849209b64ec",
+    "registered-debug-player.log": "31eabe396b31d6a61ce821ff09bbfbc59ae71ed8627da819f40c10ea496fc9e6",
+    "registered-trace.log": "8765b5f4f180cdb4808b497b74d16c7026f8dcbf0286e3f46d75063d1116ba63"
+  }
+}

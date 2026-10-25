@@ -108,6 +108,19 @@ GC 与 threads 分别启动三个独立 Player。GC 以每组 16 个对象对照
 
 CDB 脚本按 Windows x64 ABI 读取固定版本的入口参数。验收关联 Player 的 OS 线程号、四次 Execute、一次转换、非空共享 interpData、两份同时存在的 MachineState、各自注册／注销根与销毁的顺序。原始调用栈与符号日志留在本地；公共摘要不包含 Unity 实现正文。
 
+## 原生线程回调与在途停止
+
+新增独立工程 `projects/native-callbacks` 和自有 `native/native-callbacks/plugin.cpp`，沿用同一环境锁。对照已登记托管线程与插件 CreateThread 回调，验证重复调用、临时登记/TLS、停止在途回调、Join 后释放委托。结果见 [实测记录](evidence/2026-10-25-native-callbacks/README.md)。
+
+```powershell
+python tools/callback_lab.py build --editor $editor
+python tools/callback_lab.py run
+python tools/callback_lab.py trace --cdb $cdb
+python tools/callback_lab.py verify
+```
+
+需要已有 x64 MSVC；通过 vswhere 定位编译环境。只将自有插件源码发布；生成 DLL、PDB、导入库和完整日志进入 `artifacts/callbacks/`。每轮结果由记录所在的 Git 提交及采集哈希定位，旧提交不代表后续新增样本。
+
 ## 目录与维护约定
 
 ```text
