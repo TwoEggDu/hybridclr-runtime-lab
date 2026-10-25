@@ -1,0 +1,2352 @@
+{
+  "build_id": "993e5b9e-1f71-4949-b339-39ff10d359b1",
+  "lock": {
+    "schema": 1,
+    "editor": {
+      "version": "2022.3.62f3",
+      "revision": "96770f904ca7",
+      "distribution": "local-custom",
+      "product_version": "2022.3.62f3_96770f904ca7"
+    },
+    "target": "StandaloneWindows64",
+    "dependencies": {
+      "package": {
+        "url": "https://github.com/focus-creative-games/hybridclr_unity.git",
+        "tag": "v9.0.3",
+        "commit": "6cadd24d101f4cbd00cd80190106f6621132d24d"
+      },
+      "runtime": {
+        "url": "https://github.com/focus-creative-games/hybridclr.git",
+        "tag": "v9.0.1",
+        "commit": "83929787581bce6c7219418f62348a10c33582ee"
+      },
+      "il2cpp-plus": {
+        "url": "https://github.com/focus-creative-games/il2cpp_plus.git",
+        "tag": "v2022.3.x-9.0.1",
+        "commit": "ba3a76c9979d14cee404fb5d44301773e0768866"
+      }
+    }
+  },
+  "source_sha256": {
+    "native/gc-callbacks/plugin.cpp": "df73cd07545f931bb9ca32267425a6b3ced9ad530e4df42a6d9d072f7837eeb8",
+    "projects/gc-roots/Assets/AOT/GcLauncher.cs": "984a2fe8b08f9172d2eebf285a5f53153cd6a1bc7495ec19ce001893dd49f123",
+    "projects/gc-roots/Assets/AOT/GcState.cs": "d6deae440d575f14341efeb26e590c5f31dafa3ffdf751858179272ee4c807da",
+    "projects/gc-roots/Assets/AOT/Probe.AOT.asmdef": "9bd5ec6f8bd8d9bb25e972fea176645ac3cf106be68156ab143d9c464a3502f6",
+    "projects/gc-roots/Assets/Editor/GcCallbackBuild.cs": "ac9af35b86e8d5c93e5a9a527f05861935988b64fc23659d7b622d044893ce5f",
+    "projects/gc-roots/Assets/Editor/LabRuntime.cs": "6b60665ec3e8649a493d91a26fab302956e37ce6d8a383e7a555450cc5bc0926",
+    "projects/gc-roots/Assets/HotUpdate/GcEntry.cs": "207f3568886cc5048bfd7212fde5096ea2938d20f0a05d94dd8f67979ae7199e",
+    "projects/gc-roots/Assets/HotUpdate/HotUpdate.asmdef": "a3305830df54e0f771fd14d1d4bd615caa3c4a2962f74166a242973bd5f05054",
+    "projects/gc-roots/Assets/HybridCLR/Generate/AOTGenericReferences.cs": "e79856adc7745aff87ff0c8b54f0f0c573484fedc77d9a7b93c78566e569d19f",
+    "projects/gc-roots/Packages/manifest.json": "b1c0a47ae3e0e5c8f8bdb34271d77580f92df2a48ea1f78560e55687b98a9484",
+    "projects/gc-roots/Packages/packages-lock.json": "aa03d38423d82ed088c7cab454ac8d8241cb564d028c46af1a5985b5d7d2a9a5",
+    "projects/gc-roots/ProjectSettings/AudioManager.asset": "9a554916fe138ebcad8443ee9b079363ecc72795c39d0e80f5f7ca99e2c6f5e7",
+    "projects/gc-roots/ProjectSettings/ClusterInputManager.asset": "40e65dd214bf254955d2c8829ca8ce2130fd3510485560ce012e9a1ddd93e623",
+    "projects/gc-roots/ProjectSettings/DynamicsManager.asset": "62fd35da36080a098d3e9f90cf4af6c655fe582091c33e505b812cf9aa36fee1",
+    "projects/gc-roots/ProjectSettings/EditorSettings.asset": "6f8761b516f06ff2f0373b6310571cf7951f63afb86c56bfd7be832e06a9987b",
+    "projects/gc-roots/ProjectSettings/GraphicsSettings.asset": "96fbec3a726513347293fb201477836277ade290a0bd7bd473cea90ffe896820",
+    "projects/gc-roots/ProjectSettings/InputManager.asset": "d0f454ddb880912abcae92e3e12957a7446786ba89e24937e019ff3bbc0d4300",
+    "projects/gc-roots/ProjectSettings/MemorySettings.asset": "1e8379a461b10ae09f3f696911088c16875d63e87ed5f2d95df9e1892703f9fd",
+    "projects/gc-roots/ProjectSettings/NavMeshAreas.asset": "7ebbf8f53b8033104e1878b95ca07a28d0954092d81c220f14196a42f651e658",
+    "projects/gc-roots/ProjectSettings/Physics2DSettings.asset": "531861618163b01648a075414f6e864506ad8fe0a0d4d0096aa1fbbfcd3937dc",
+    "projects/gc-roots/ProjectSettings/PresetManager.asset": "29c125923fe6e29f90190d4fce1c82d660e7051546e2c9d02908d18c9cf2436c",
+    "projects/gc-roots/ProjectSettings/ProjectSettings.asset": "ef308a4701a1ad1938256c847569e1a9fec837dcec3533fabe38048644e8c9af",
+    "projects/gc-roots/ProjectSettings/ProjectVersion.txt": "b51164d22c4d2716ba8aee7f0b59d6b7dd0efa8552fd1db2a8c3b123fae3a1ec",
+    "projects/gc-roots/ProjectSettings/QualitySettings.asset": "944b52d523bcb15b945bc80924b9289f59185ab19bce8a00e99eec345bde6440",
+    "projects/gc-roots/ProjectSettings/SceneTemplateSettings.json": "5baf593374ad67246277a435d8d0ded7167696eef6e05d2d245670e490625d8c",
+    "projects/gc-roots/ProjectSettings/TagManager.asset": "8e18b1c820e9c09e16bbd1f1b7842e9fb3b0158a0921b0964e0b8fa12c6e2c01",
+    "projects/gc-roots/ProjectSettings/TimeManager.asset": "1a83e54adbbda7c9f4851103a0c6ab7f6448a3343d4ea5b7620452fa08416ecd",
+    "projects/gc-roots/ProjectSettings/UnityConnectSettings.asset": "d6034acbef6c9e3179866486c31eab81fcbe5e7ed350ce71e0fa2b1449b77109",
+    "projects/gc-roots/ProjectSettings/VersionControlSettings.asset": "e7bda45bf7a394745fee1316e6c71fa676004d591ad1f3aa247fd3e4ceb86071",
+    "projects/gc-roots/ProjectSettings/VFXManager.asset": "3f31266c7c1910447586e71b041dabd58d8371715ac3142d3e38ace46121f4ab"
+  },
+  "artifact_sha256": {
+    "Player/baselib.dll": "6b2641b799145e687a4ba75791bc163c60a65a0c76cf50378712dea37e2c0572",
+    "Player/GameAssembly.dll": "36773d92621385fec78c3ce6fd2b6e9f5dcca5f9556635b184e40f5185be4140",
+    "Player/GcCallbackProbe.exe": "8d4c804ff605213a298140be3c172eb407e7f5dc78c5082cdfaabaea7b43ba0e",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/GameAssembly.pdb": "8f22a8fcdd737484d3512f1b8e3c429678658f2b3a053d3d201aa19f08be7c9e",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/__Generated.cpp": "9a2bce0eb3751096b1bf33c7ce0e6948291f5efb6aabc173557f667975c4a6d4",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/__Generated_CodeGen.c": "804b958f7558139f62fe00144c50bf9337afdc0755001d33aebd94715903fb09",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/analytics.json": "3dedc960d2283b3e97bc3e87ad017af8fb5f6dfed60d61ad5ba00cf2d3b8af82",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Assembly-CSharp.cpp": "6dedf848c49fab7029b0581341367c04967d981f32c72ea8644f5bb73639ff65",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Assembly-CSharp_CodeGen.c": "2dcb38df7cc4fc9ec41e311eda9c27104c6159965ea0f83e18a1ef6ac5f05238",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/GenericMethods.cpp": "4fe9b7a7d4fd6dc4877970bf707037de18ec0137f87f9e1b4f75f84bea7820b6",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/GenericMethods__1.cpp": "eb1f423eeabe9a4eebe3a65b82dd778f5632c43cbb66a699d64260433bdf05a0",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/GenericMethods__2.cpp": "215f7d40c917849c234470d5a8051bbbb9499dd292588d634cb9feba7ac1579f",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/GenericMethods__3.cpp": "b3661b38bb3eba577c86c1e5028cbc2c3a87b8eaba748812fa2c5484f9648eca",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics.cpp": "a35f302f4f52499ded3a38e2c66032b1b6870a776badd2b7dc970498d2f0ce15",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__1.cpp": "0d8fec3f8243bc87ba51d960d56afeeb97421f9758e034b132cad45fb65437d6",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__2.cpp": "3a9626bdb2e9e4defb83af57650d1b91a48b4601da79b0549ba0556ba568e502",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__3.cpp": "f57be17d501d86ddb43794d8a8291f69d6f280fd3e9eee7283613bfaba3accd8",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__4.cpp": "ce664279e92e6d886866327372095ea8c84978ab1b87cf0b89c85dda14af5bd8",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__5.cpp": "063816ba5a05add2e5b8304f2f6eccc621b8eac4f37a45a38ac0b2a0ec9ef671",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__6.cpp": "5b1c75f775ec6f8b11d73998740e0d48bff1de30c0c19133d6529870e524f060",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__7.cpp": "0a69fae1e86c22909beba414f79a7b392712c2945d1efbff2e0e5d3feee52c39",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__8.cpp": "36d8c88fe7bca2df09e1047a1a5a4e2b5d000ed26b11b1cf458184c0246a059b",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__9.cpp": "e5638185dc0f413a66f37f89a014fe34455b01a7f3fb4a955b520f3788d306e8",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCalculateFieldValues.cpp": "befa711847d97d02625bdd5df0ac819efe338c2bb1d0b8bef21d0a6ca2b275c1",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCalculateTypeValues.cpp": "01d6487113198b823eeb88c81b03e79908f52f587bc7c75eacaee9868b1c9c11",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCFieldValuesTable.cpp": "39afe66f6450b71b6e520fd14ffd1e0d633a1d722efa31e5460408e634e86e51",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCTypeValuesTable.cpp": "a78572364ddfd68455c8142b6e1549dabca744cefd9b8b3b068016bc593fb37e",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCodeRegistration.cpp": "5fca4b7037b6a2ae92f8318de45f556a6db6c8176097f24c05c7ccbd24e55571",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericAdjustorThunkTable.c": "0166e9248c8b2ff938083f27d3be98d5882a6ce2f10a8e7ed551d80ff2d6d9b9",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericClassTable.c": "94b8c1f0f587714afeabd1536a9881bb3dc0c41f6d227f85a7b559b82f873dad",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericInstDefinitions.c": "6e529b700f91385e49b765a64010cd05a10337d5473f5252dc8cfd68cd9bfac2",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericMethodDefinitions.c": "68b055703b11b964efef503c16e1d111d99dd70626a2aea7ec574839eeaa4f2c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericMethodPointerTable.c": "38a5ee8ad91b4d08be520807c967adab673f122202d2607825cccce11f047694",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericMethodTable.c": "2c3d4f355f43b9a98ae4a6b03b995c7b96372bfdd37a8a261420882082159278",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppInteropDataTable.cpp": "48a75afa265931d4552b3eac956025d433139931fc99a3b7cdfb6a6b0f17a601",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppInvokerTable.cpp": "6ecb9727e6b33c38f1bbf4a53adb9b4e4955e7d40f3fe9ee497840946c4582ab",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppMetadataRegistration.c": "7f8603aea8b591922fa90f6941accd552e297428c75b98cae3dcf4487f007510",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppMetadataUsage.c": "86abf72afd182e3d15326612a8825d6fd4c61d0431e27b480359a470ef816bc9",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppReversePInvokeWrapperTable.cpp": "94ac24dc902d93215310e41313124b72ba9cccca202de211403835e35ec5e2a3",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppRgctxTable.c": "59bcb78440b7d38ff480d70faae2236c53700292530623553f23bcf5643f5c61",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppTypeDefinitions.c": "e4188708aad2ce27447f009c7327acbf1b25a38f31d4183e43a9fce44b589d39",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppUnresolvedIndirectCallStubs.cpp": "b50781095ed3f98fc961c0cf70919c12f06f8990973a9721dec63348cd82fa5e",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Mono.Security.cpp": "ea58e859bf1cad5368e7b4960181d9304ee433099d468048bca74fec7ddbf076",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Mono.Security_CodeGen.c": "c15af641bbd8a54108acc7cd194c3f1f8a88ae2e1ea7ac0f70b62ccc75afcd07",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib.cpp": "94459d99b02b8d5d5f9693d7b275c4f02c6e2bf7b79c68ddf94ed64325e3e532",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__1.cpp": "d07f806d39247b409c9f9673c1b9e713a782746f7b03966fc5403201f172fcc8",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__10.cpp": "3c6a0e60f296ac797663a33a50df5b92094ccdc892ffa9de3fcd4c01b6fbdbd5",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__11.cpp": "663cce6f8e775b46673dc995af39d8bcd7d96cad57090cc8d7f0da39bb0cce9d",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__12.cpp": "de6e3573c51f494d16bc4d4b904b94a73d9c4109d104ff3b842ae52fd9d15927",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__13.cpp": "6c7d07f5079a2c41b324c62d66ea1e0d56aa3df899170177966a57bc077aaf2c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__14.cpp": "d7501264a89e22b6b90218c9bae9bb2ed8ff3438b419518d52634e00251a8188",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__15.cpp": "c7c1f6a55022dcdc7e0a8361da873eabceb41a8d74b3e1f4631933275d693481",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__16.cpp": "fb254214954715a221a4d596a1920b0daca73b0fabd3ad9f03f3bbe10b357342",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__17.cpp": "63c2582da11a26bbeea5c9c19adb3d37c1c5878d908d4f77bb7270929e46e11f",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__2.cpp": "7d67ecd0130b14473c231855426a6a0fe133eed4c7f226364f3e454789868171",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__3.cpp": "90471e4cb1e348ccd47ca79668e157809095bb1e63efc6064d37bc3e524ed3da",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__4.cpp": "cd22f8a304d240678193baeebf5b3f826a168b279d14e33c94bd7b4710ba823e",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__5.cpp": "3fdc18feb2d7201b88adedfbe341c3a097673c8784386c8f4d616d33dc2be1c1",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__6.cpp": "8eb82c235eaa95ef0122e4e6ac3d5f682df71e13474e3a757993be491123d27b",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__7.cpp": "176acb5da58fdafe0e17f5a7ab22cedebad3f8dae328b32067f82c3c33230f25",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__8.cpp": "bb4215ceb3ea711583f5564b13b07b9af36d220bd133616fa7e24c41d8e9e51b",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__9.cpp": "6f077c067b5e7a8ddb9a9b188707e3f3963740aa8cf72d1a98c57afa558906b1",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib_CodeGen.c": "98d6c034a5129f08dd1ded29feeb66429241ac90cc835db2cf31c606822c2820",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Probe.AOT.cpp": "085c6557c1d2b78622e004d1221a1530f35b57a60cee8774f347bc1fa2cf032a",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Probe.AOT_CodeGen.c": "f0636d8dd59c9b53a15e43694c5ac67878c0c50bda842f4a0d9b4d2f2f1fb6b2",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Configuration.cpp": "147a6053bc181ebd584ace10b093f8e133993f64ee2e5ac5206bef318d5c5b16",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Configuration_CodeGen.c": "c60b9809c0f14edb89bdf8d81ba189103f3850a60f78968171758018ed00225e",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Core.cpp": "201050df04a815eb92ffafcf274eb3eec9b9fab014e35f4ffbab1094477839a3",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Core_CodeGen.c": "273c6642508299119c4c1eb1012856143e652c18b0afd35a9d3e6619a6ec9e63",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.cpp": "df4ec0374431147806dd56a018c3f6c30b36193c98341cb818342f9ef6ad296b",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Xml.cpp": "8763ada00594308308a27db7a98de214441000f9d0c2a12380f3ee504f9ac6dc",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Xml_CodeGen.c": "c9136ab5d62e83c4ca8c6f88694769ff0f61fa8533e55616645c28fb8bd022b3",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System__1.cpp": "a81d8560e15a43a14fa3bd36a06df8de8b85f731e9c57d3df538c2ec8026972b",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System__2.cpp": "c0a1f49af7857aecbcd341d1324e2148bf1c440cb50ccaad60fe9ba7476c8218",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System_CodeGen.c": "8756430db2d4316132150a2d45ee7a0a7a7d5e8b6be6a738260fc08cc575d4a2",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AIModule.cpp": "f3e581ec3d947b02bc9f4efcf28bf6eb03671f191ae12284c92105dda9d3e85c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AIModule_CodeGen.c": "d30c27e21c34aa994ca9acb70ef9659e5a8fe69d7f15ee65effee31f990a443b",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AndroidJNIModule.cpp": "a2caa53fe327a26c8bc6479a13dfa1fccbf1c24183c82c3b4842ba9f675c6075",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AndroidJNIModule_CodeGen.c": "111a5c539447a93ff9fc5cceb3f2cff87845cc198c72101cf4d65421b86caf8a",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AnimationModule.cpp": "9cdde61f2b8f8ff8e08386b6d44484292d87719759749c9b5ab1a4d6adde17a7",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c": "3875e86fde3fa0648b50d7a12d3eb2742cb6d071819f72cd77c8791b71d3b5f2",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AssetBundleModule.cpp": "e9c8b7e637c75275a71fbd5aa3a6c7896632c29dfcef21dcd4c2478a8c60cb2c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AssetBundleModule_CodeGen.c": "eae2659338e899027dcf2026efba017fc1cea09ca27e0e5dedcf84fdc2e7c740",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AudioModule.cpp": "884b83529f41679dbf37215f16f49425f881d8ce77faf596fe2fafda08e8b1a2",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AudioModule_CodeGen.c": "cbe8f90e0e8d07c572739adf40963d6f5841ad0e9671c5001f8334456b92b076",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.CoreModule.cpp": "1578b05593fb3cb9bd33d6bfe40e65484d6167458d88cf11547dff159ad1db57",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.CoreModule__1.cpp": "a3af1b776332061390b48c15d93895440435dfc12b97e8e6aa04ae5bb21d48b6",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.CoreModule_CodeGen.c": "ff1f82600ab1ea2ea89a6b0740e701da653492f96a52b7d8c1102c398b1d6a44",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.cpp": "aaef4deb23a4e70f31405c754b9301b4725f979983dd0491b58e5646133458fe",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.DirectorModule.cpp": "7db8484d167522ffba174611c7d28b19b1ebe4e6dfb6744d9870521278553cff",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.DirectorModule_CodeGen.c": "b4497eb98cfec7f683637ff2bcdc601974decf3de31297fd421767ddbcd48272",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.GridModule.cpp": "57577500cdd28ac02b32f84b3d9b22ca435cc3f458a72948afa6fc2642274e6e",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.GridModule_CodeGen.c": "a8c3e4a7023a625dad28f78677eacbfdadf9d5ba2eed38d13b847c49f84b80bb",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.IMGUIModule.cpp": "2ece6106200c3da361d89905c80c687eabf8d4dfadad2594ba8b393ff7ccf1e0",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c": "d3a270b2ad0f4d520678103b6fcd49c4c859e6d2da236ff6eb99e5b828758985",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputLegacyModule.cpp": "71040d1d17cb5a0f189897ce6aede67a4f40eebba73c9ad0a85c71806b88520c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c": "75b213d5451141d1966de750fc3923f0076b3c6b34b32116860bdad1e5607db9",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputModule.cpp": "fd93302d9ce3d15cabd80649eeb2290262f91c8bef6757b1778c73d771a927ba",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputModule_CodeGen.c": "7d5c69cf528354d0b6e89a6ea3b8ec38ad299a28b86c83dc2f05dab491cfd76e",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.ParticleSystemModule.cpp": "f434e85875b5d4e38d92c8c031c76cd2ae2afb1186eca179b51ea9c7c3615068",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.ParticleSystemModule_CodeGen.c": "1e4258c971097109988f361d886810a7510c7d22e5730a7e0e6fb2051df44cf2",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.Physics2DModule.cpp": "7127eee5eccaa4181b8f4a68b5fc3c0ffb61519c7b133b1367538ef67c913c59",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c": "fc7d768c4799cc4f4ccd487c7b0b53c7a3d7854b7b3e779ca692ff0acd66c85a",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.PhysicsModule.cpp": "0b2836e3e221cac095183c614c0fb34fc9bc12933706e5892daa221b7b6105a8",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c": "d65bfd52ef999de8064c87716171ff214be5337e27099617c1f8448d61e4dd56",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.PropertiesModule.cpp": "438b9ea01d6d3eed194fcbaa6d20e836d21ed304fff239327ad2a83c1db091dd",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.PropertiesModule_CodeGen.c": "4999516309dafa4d1f80ed1f765c1baf150319f55a8d031162ac7a23187907ff",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SharedInternalsModule.cpp": "4cff2dafa396f69d93220c65e6d50b072a7a7085156a270bbf9159aa42729f91",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c": "a324a3fbbc98e36396bc3d4ff625703381e717bb6b85a49348c1c210e79076b0",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SubsystemsModule.cpp": "8265d8c82323175af28e1e2fd0ab4fa4e1fbf88c22bd99bdfea5b9eca0557c29",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SubsystemsModule_CodeGen.c": "e8878268f93266009e55f894e391efc018df2d429b8f73c61638a80b94f9dccb",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TerrainModule.cpp": "20377ce6f824ae2bb6873eb61e5f087f2ed4d265c347c9000249873e8da328e1",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TerrainModule_CodeGen.c": "de543df8df9857a061bf112b672df95f49243c7b68228b6f9f09060ce09174d4",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TextRenderingModule.cpp": "fe8072fa56a6b23ba4bb248ee02d4a6fdaef5e2406605d6c6d51aea50229fff4",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c": "f55010e51c81277b78cfda502d0e3c9574ae24da1458f67eaaeb108c24f50cac",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TilemapModule.cpp": "b66a00ceff84cf4c7631114265c91797fe018635972d28f7a621a562275d6911",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TilemapModule_CodeGen.c": "f4b277636d778a4b12aabfc2dd3c4ef5a04d1ebaaad384225d039f29f427437a",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UIElementsModule.cpp": "a76470d9d64cb5dc0628d493fd3072b0aa9171d006feeaa7ce12e3198e6933a1",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UIElementsModule_CodeGen.c": "6dfafd6b09f6c9d1ff4f338d76348fe87e58cb9886265a7f8b793058efe60057",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UIModule.cpp": "965c45d678dcbb2e8efd74143a23b06f50544e0883ce44e3ee05ce5fb70c73c9",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UIModule_CodeGen.c": "76bc02f757a28c2092b97fb9f273103d100ae237d8b091200ca9b6ad0e78af02",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UnityAnalyticsModule.cpp": "bba80c4192c6f2b39b7fb4ea4aa915d7831266ff5014e7e7d66f336cc64883a8",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UnityAnalyticsModule_CodeGen.c": "dd14fc6855592448fb6e248770c49209fe537b126d65b5d7e49c0ff8d8ecac9b",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UnityWebRequestModule.cpp": "a63ada1d3002f5ef60334d7b36a6f005040920ff77b6fe4e4fedd0ccb0246a17",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UnityWebRequestModule_CodeGen.c": "027b12c276d7bfbf579a4632cf0275b6776f6824fed497a22281ffd3f40b4c87",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VFXModule.cpp": "51e5109c1b0f2f9a8c52c4dea102e4a7c8d87a9f6025a20be99d34816a9d08c1",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VFXModule_CodeGen.c": "ad6ab2be9ea703481798a52147e9db66f2bf51b7f4e373f41e25c2ea84853b93",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VideoModule.cpp": "c20eca6d58e5a1f777edf423251d286c38b490ea145d55bbe208421d8409ca38",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VideoModule_CodeGen.c": "279fcde993875c9de9af294a46f7512a53988537c0bf8644656f6fc270e2661f",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VRModule.cpp": "ba202110b69ce685f960a1cdad6de1b7885407ab498882b2326caf58744e11af",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VRModule_CodeGen.c": "19d0bed0409c1a16472d5ad7c9bf68122d349214496cf5e8ae91ea91ae7fd605",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.XRModule.cpp": "2c39446241d4b4994ac99c02c15a8c631ace655e7e30f1cf8dab575e2a8ee894",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.XRModule_CodeGen.c": "7473052b11c1597e851eaac436aea003d7b71fed84b96c1446e8be3530cd8b26",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine_CodeGen.c": "4d6e3851398e44006ca02d1fc0c194eedd6d9bf5d974d82607b25a7932d33de9",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/analytics.json": "ab24969143657caffacba65534943b3eba318a968f44bdd8745e96672a4b34ad",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.dll": "6ee44e465cb1f2f761162b499420ec98429cb0d07f159d6a3d36a1723202303b",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.pdb": "03aee86bccbbafac27b31d39b18042cd2f660d6d6ed96c27b569bb291f4a2aa4",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Mono.Security.dll": "17a3ad783c0218dfce8c7b95fc565e9c6a8e24e6d77666f36fc52f9fad98414c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/mscorlib.dll": "4fdacd84260ca8a784539a72a958c5ba0f9be78124f5f2deb310b94fe55dac1c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Probe.AOT.dll": "fcbbd5c7839a8cb94ce81cc94eea190222662e5bee7c195c695283f8f8297a1f",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Probe.AOT.pdb": "6b45e7e68f0e6f1513a3cdc22547e65d1f4840d6989a856d1c5d9a9299bb9ca9",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Configuration.dll": "b98d257cf0bb8bf12db7d691b82b4594bb2ed3c9ceeac6a3f999751bdfccdc9c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Core.dll": "e5d7a949e0a2ce20265d60283b2b43501385f458141dc90e32a98f9f69db59bd",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.dll": "49b2dba46c83f9f202113c32e2ef44848f6d1e19a2bac9e0f06c95aeba0a7d11",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Xml.dll": "78e643d8971ad22e1220de59c9ab40e54344194cff2d471b5837dd25701d7c6c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AIModule.dll": "9b10c8762dfa844e3d5efe48baeb782416dd8c0807bd5777ba38d2a17ab7583d",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AIModule.pdb": "9573c7c56729b23ff7f807dd920c2731492275126a49f4fc6700ec14f8b72aaf",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AndroidJNIModule.dll": "60154da9c94bebea807f6f56f2d58df32d274d3c4edbe41f8c5a0bf5cb62f551",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AndroidJNIModule.pdb": "8f812b9930da6aad03da002fc29dba6d7a6f8b54a18a2150128350074e53f710",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AnimationModule.dll": "26ce9506871fd3290004aa4b46b469585358082abea4ca5a02da5193dbf90189",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AnimationModule.pdb": "b65478f897bef3e70d0af04263b653d2516625890110c249f07b92017005c74e",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AssetBundleModule.dll": "813f41e8fb4f6a1d173d6a0d63897e843409710ddd9cdd1c03586cc23f527c10",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AssetBundleModule.pdb": "48751ad615005fed17c8c41d9b730de992202c1eb86a73a54953918866140ad4",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AudioModule.dll": "02b3462a17ee369402cfac5ceb794000ae7c1b288254cf2393d9ea6fe3742007",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AudioModule.pdb": "304775acfd26040e4cde3c763fcdaebaa7501162d6382bb809eb806d81c75f66",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.CoreModule.dll": "a64c1f080bec6cdbb2f28579f2431171d05207ec7395273b6831509952443ff8",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.CoreModule.pdb": "2c99dadf2bafcf69d2f560a2d553d56b6da2b6f15a17b6125312abba493379af",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.DirectorModule.dll": "ec15d0531aa137090a421f5760ce4a3c80ba04c3c6bc26e283f3740710a8eef4",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.DirectorModule.pdb": "47b3a8f8a44d6f9995d0ce0fb7c31e0fe2ecf0589c2ffa3fca7ab45dbedd7c75",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.dll": "ff556d00e4d71d27a2cebd5028f599973af3039176665bd1f35a69c0b1c4dccc",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.GridModule.dll": "52a909136699701804ae46f36d1564a4c709a15a6d497cecd0e2637f689840f1",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.GridModule.pdb": "62ca59cb515c209e14452cd16913b91b65d190ca2960f939994663d3cbe75be2",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.IMGUIModule.dll": "2153e639a03e6a7d6156ff333a25f4e9b2b1687b111a5773e38a8f95368dc078",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.IMGUIModule.pdb": "e96c28b449ccf2cd70f0055dad98fa5270fdb253157c89989af6bade83f4f40a",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputLegacyModule.dll": "92cec7f13a7debcb0b4884656956c77e3670a1ba8fa51ac78cb4fcb836bb43f7",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputLegacyModule.pdb": "eb7c1b237f2d6d44a41e1a3f96a4a0b175a160a3987ca3c778e66ec2031fdbc5",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputModule.dll": "2769f82515874cff00c1d06ce1761b76cddd31ddf5fb72a9916e6584f98b41a8",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputModule.pdb": "482f67a9e00b7fe0dd9e6f372d30f9f3fb91c6f81a7462e83a2fb19994421e2d",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.ParticleSystemModule.dll": "9022b2c04a2e8ba14cf5fbdaa1b7be72fc3e55917cc0c718bb09b3f693fabf2c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.ParticleSystemModule.pdb": "00cc9c0f7c504e1d4e6e192c0739526b4d00b8d600d366df494a06184f76cfb5",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.pdb": "1b1f82a026de5ace694caea232f91f2dcc606e9dabbc27e02e55395e02db7c94",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.Physics2DModule.dll": "9a141001b89d14311ba073a93c89d06b92fba4d7725738011673f4f659829f41",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.Physics2DModule.pdb": "d76581222e4161c431b486195ea93998eaad39968b5e258a977de69c1cc3f958",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PhysicsModule.dll": "d0b7a50d978f68fa2c112a56e581965ca7414f44b64ea8a852bdb5b75a9df21f",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PhysicsModule.pdb": "ce67b005422facf37ca3795070cd28b3e523ce5c58cefbe82ccf3273992d67db",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PropertiesModule.dll": "473ab6e6bf48154d090fd5791e8994ed55272dbe00ae41b02a83058d02c43316",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PropertiesModule.pdb": "eb2b4e3f27c4a3335e62ba230e4a172ee8ea94fa7dde844e620460b25b70cdad",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SharedInternalsModule.dll": "720d1899c172cc3957586dbb9ee73a3a743e4486c75a44cdea1c36049c6e6db4",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SharedInternalsModule.pdb": "9d5a2554562d3ad7dc46427da28966255ab4dddfc0e9114c5841006ac46890c6",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SubsystemsModule.dll": "fb1f1198c6139fd3c6967957c81396c79e6e326b4a9f0bb2a3f18326326f899f",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SubsystemsModule.pdb": "b118363b481ef4e69ea323bc1d0b0299b1af558e85b8ca9fbcb2be4322528aa4",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TerrainModule.dll": "621813ecc70a3e4e4f22a59389f37f302c57f2e0a8a726876ce343d63d006d14",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TerrainModule.pdb": "4b7d58e421702f369132f542d5909fef8ae874807807e48780b52e0a007e6581",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TextRenderingModule.dll": "7ebaaf38243dadcbbe6af711f6ce0b6904fb76d7408b08415607ada218cf4170",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TextRenderingModule.pdb": "a2db4efca06910b1a00278166085374857efa73d68ea7f7c0c3fe21f4ff4a48b",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TilemapModule.dll": "cfb2e0f771fd18454b7f4ac056cdae33254d5895fd94e08d344792a1bdddc77b",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TilemapModule.pdb": "97dfc7cf403cee6677c4b7542e8eb13ab0f7fee798faf8a64682b2fc32329628",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIElementsModule.dll": "8b40db605063ba39b299cb56f8d02844ef54b71fef04a4726892bca8d1b2581e",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIElementsModule.pdb": "8c5b01f676881e982a356ddfbbda3d2497388cebd2131a3efa02e5c23665c4e5",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIModule.dll": "cc2cf6755d5c24cf3eee543fb0b1570e2039fa22b86223530ba3f1012c601b89",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIModule.pdb": "6d691a9896e2bd0afdbd492315d954f257b0428b735d7a438b73374028c55a69",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityAnalyticsModule.dll": "39e737eff704580ac5701596d3c63b62beaca6f9657e6ee95230fcc3c936e251",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityAnalyticsModule.pdb": "5b2c1d9ecc45c1ae23aa119b3c7b9a153f110f235d65bce7eca33428e7a8dc23",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityWebRequestModule.dll": "e4a091f971cdcb39bfdb344da2fd2d9138e1e3e9ae69f2a0db62dae982d3df98",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityWebRequestModule.pdb": "d1dc945a68a462ab9b71fc03ab1d9496ef434ec58f084e1c22717408017a3d9a",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VFXModule.dll": "d7277b763aa73f03134e0c88e80cf9f16b090c4c0afc923d8d1cd3a7ddb2cd7c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VFXModule.pdb": "1fe75b718dc8ae08deff4e83a54b80a6990fd10de3288d7b2490bf9e80441bbf",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VideoModule.dll": "aebde1b44bd55d9b9f6944a81e751329cb4b5a0e3f3f2b4dc69aa2a30caddec2",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VideoModule.pdb": "7757528ce75cb924865bb450cb6dca4a473800b8b88d41d59fe770627714f70c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VRModule.dll": "985c4de8eca613907e43e19be8e9218f507f96d3e8146ef953e31c4da2740e99",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VRModule.pdb": "100b808ee2c02fb698fd5722f7756392146116bb6d14be640ecdcd4f1f18a3da",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.XRModule.dll": "f080fe9b21a2ab6f10b2fee6c3e509f01372706aa2e7ac8bb5c1788bc3346c76",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.XRModule.pdb": "12f95389ee2c119d0efdbb8c2e0f230575818688a16fef84824f23d05625b317",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityLinkerToEditorData.json": "0344843e4767af162e1e0ad4e4d6896c925a459dc9c07feec93d889d644646f7",
+    "Player/GcCallbackProbe_Data/app.info": "f12d544281f278815fb8a75416b0cdb1fe1641af319b5daad6e61eac83127ffe",
+    "Player/GcCallbackProbe_Data/boot.config": "01dab4c9662404175d4099be49c38814ba834d12f12c3b617ea9ccde2d125715",
+    "Player/GcCallbackProbe_Data/globalgamemanagers": "276a2eed1ac14edf027599282e99a05cf0792ea7eb683fa169c91c5349e2cb25",
+    "Player/GcCallbackProbe_Data/globalgamemanagers.assets": "1a05564d211fa8d97779bc56b2c7f3e2a348dfd1fe9a4105fbd6fb3a0dc7da76",
+    "Player/GcCallbackProbe_Data/globalgamemanagers.assets.resS": "ebf0f91664c0aa69e3b92e93d4d4e6feae1a9152529b0efeac047e3c9c3b0fc0",
+    "Player/GcCallbackProbe_Data/il2cpp_data/Metadata/global-metadata.dat": "bea29fda6653d620009be06410066a69e5aa6f952ddcaf43fb33a97cecea2d35",
+    "Player/GcCallbackProbe_Data/il2cpp_data/Resources/mscorlib.dll-resources.dat": "c5baa176a5b72cd545266340e42102d393a5e43d38c95796bc828918bb95277f",
+    "Player/GcCallbackProbe_Data/level0": "90a6d7fed1e177a6cb0f259054126cb3f5638994eb361536866a9c2dfe10162b",
+    "Player/GcCallbackProbe_Data/Plugins/x86_64/NativeProbe.dll": "8b77a9d1f8d27c93d5fa248d73d29053a6422e559dab447ccf1e95be5f6e17e5",
+    "Player/GcCallbackProbe_Data/Resources/unity default resources": "a11e3e24520676183b3750564b4d9f5a90e8f41fd3523cbfb0c49f3989453da2",
+    "Player/GcCallbackProbe_Data/Resources/unity_builtin_extra": "8ba8849a60bae801d6e700df5e44d991931bda6618b8789b7758d67112f187bb",
+    "Player/GcCallbackProbe_Data/RuntimeInitializeOnLoads.json": "1a418121cd324aad8e86f3e9e3f1253f1db900a707e8a01a094f1b0a2bb3550d",
+    "Player/GcCallbackProbe_Data/ScriptingAssemblies.json": "efcb079c23d5ca616c1cac12edc0db74d86bba7c3eb36b15b7eb7df4cd75fa4e",
+    "Player/GcCallbackProbe_Data/sharedassets0.assets": "84a59d750eec9c740502bfb33d6d4abd96bd13f0550c0db1186c5c8c61b4eb25",
+    "Player/GcCallbackProbe_Data/StreamingAssets/HotUpdate.dll.bytes": "86f0e44445bfc2eb76901724cd3856d6d5c372e8de9cb2c1cffb23f0d858c6b5",
+    "Player/UnityCrashHandler64.exe": "f93bf3c60560109f3f3281e44484f25e0c722a70e63380518a82e7fa0cf87690",
+    "Player/UnityPlayer.dll": "48e229dee287476ff2be61aceb5d2042a047874507b0d09ac66eda4632b9be91",
+    "Player/WinPixEventRuntime.dll": "23ef5b23f1cf6f1b7132542c4063b5e9da532572634afa41f27139bbf02468fc",
+    "plugin/build-native.cmd": "98d7f6348d043cf8e0a7b94803b67377c6018b44ee36002a34229c5cf421e997",
+    "plugin/compiler.pdb": "55b2679f4f80ebadb4a99a59b9d19475595123709670d9991b157e851ef24724",
+    "plugin/compiler.txt": "69360069f7b95f13fb640108f0023e1f5eb69810643df06b8b04fafd795acb01",
+    "plugin/NativeProbe.dll": "8b77a9d1f8d27c93d5fa248d73d29053a6422e559dab447ccf1e95be5f6e17e5",
+    "plugin/NativeProbe.exp": "62d33f30f30ebe611979150f933ebcffedb9e5278cd14fa908d047432ace5b01",
+    "plugin/NativeProbe.ilk": "6a18718df7dad59fb2abe776f5fde8c831daea6be59ba004948e331f1d8d39ef",
+    "plugin/NativeProbe.lib": "d477457cb6c4862b7021b4621803210bb153ce9e9bb535a719b4014cfdd348dc",
+    "plugin/NativeProbe.obj": "009986a5d2b3d87442b472e680e479803a2de0f74e49a8636b62d2217d2a25c8",
+    "plugin/NativeProbe.pdb": "bc0fdc6872a5fa93ac00b49f494b5fbff1b2a9d55c26d664f6e21273b903b1b3"
+  },
+  "official_reader": {
+    "status": "complete",
+    "build_id": "993e5b9e-1f71-4949-b339-39ff10d359b1",
+    "pid": 147180,
+    "exit_code": 0,
+    "package_url": "https://packages.unity.com/com.unity.memoryprofiler/-/com.unity.memoryprofiler-1.1.0.tgz",
+    "package_sha256": "c01e96c3da508dc1d37591f0ce47db82dbc316c99154d52d0f114d81cd83b270",
+    "package_tree_sha256": "0e5290f5b19ec4e07a9bb8779303624ab2fc441b3aad802ab56f1dced9783d93",
+    "editor_product_version": "2022.3.62f3_96770f904ca7",
+    "log_sha256": {
+      "unity-reader.log": "04002f312dd7e348c19d8d50062e3fcb8437000f6870ccb74db2207a01447c2f",
+      "unity-reader-results.json": "11f54b0e00bd51783c111be567832860bdcc4616bb88f9efa14466dceb1c069f"
+    },
+    "source_sha256": {
+      "tools/UnitySnapshotCheck.cs": "66f93276136d2c946cbac3221fc9bae4dac543af6fff7ae7302d0a189a642c86",
+      "tools/check_snapshots_unity.py": "a91a23544fdd883abfed8e2515a262e81076d003e3d255fe13d4d407f3ae8239"
+    }
+  },
+  "abi": {
+    "status": "complete",
+    "build_id": "993e5b9e-1f71-4949-b339-39ff10d359b1",
+    "pid": 84868,
+    "debugger_exit_code": 0,
+    "return_offset": 169,
+    "slot_bytes": 8,
+    "field_offsets": {
+      "_stackBase": 0,
+      "_stackSize": 8,
+      "_stackTopIdx": 12,
+      "_frameTopIdx": 32
+    },
+    "log_sha256": {
+      "abi-validation.log": "320837661cd8133eb434ff4f0b14261c4bb39dc9d8d2dbe32efcac1f8ff438c0"
+    }
+  },
+  "verifier_sha256": {
+    "tools/gc_roots_lab.py": "026d38a64a396bb75259863debcb1417b80c424bdeac5ebbae9410d4d7bd8539",
+    "tools/gc_roots_results.py": "0f2af9678243233051e2f6737a712f9305c1398d151dca7c652ecda13ad1d546",
+    "tools/unity_snapshot.py": "eee1b995957b902e81ee87888f6deb70d714c7c1ea82b16153a2084ad53566bd",
+    "debugger/gc-roots-v9.cdb": "067ed213eee89aafefe8b70f604e875df074a5f2952eee488966f4e581fb1054",
+    "tests/test_gc_roots_results.py": "e1d12e0d35d317a29c6e2e7673c09f9fa762941b14d698cc8f7930d4037f12be",
+    "tests/test_unity_snapshot.py": "b99bfa48b3d44d43f26cea48ff8b5f51068cef9c95795f4e80f99d5bccf6db68",
+    "tools/UnitySnapshotCheck.cs": "66f93276136d2c946cbac3221fc9bae4dac543af6fff7ae7302d0a189a642c86",
+    "tools/check_snapshots_unity.py": "a91a23544fdd883abfed8e2515a262e81076d003e3d255fe13d4d407f3ae8239",
+    "tools/gc_callback_lab.py": "92f278662a2a5e149b4c9f249180958c5eb0fa77131a49b957b78d16711486d5",
+    "tools/gc_callback_results.py": "bfd4cd79829b5e17648c367a7fffc073de7229da8ae3333ec641f68b24f2416a",
+    "tools/receipts.py": "9bf43a45ce276058029238737b75a35ef8440b207030a9c9ed7cbddbc52807de",
+    "tools/lifetime_lab.py": "1a1c9df9bc2ccb7827fe07200457e142609ab2d50358a2802cea34b28ac0ce01",
+    "tools/prepare.py": "250e1ec979ad823323e85dca23ef0a56e96b75cf39558b6ded31ae0ef25caf21",
+    "tools/lab.py": "a39186fabc77b53cdd41117b9f682d5e0a47fdc7f71cc8e65a9483c8772f45c7"
+  },
+  "run": {
+    "build_id": "993e5b9e-1f71-4949-b339-39ff10d359b1",
+    "runs": [
+      {
+        "mode": "handle",
+        "run": 1,
+        "pid": 167132,
+        "exit_code": 0,
+        "observations": {
+          "mode": "handle",
+          "gc_before": 8,
+          "gc_after": 11,
+          "gc_delta": 3,
+          "pointer": 140718419492192,
+          "context": 3,
+          "main": {
+            "managed": 1,
+            "native": 165732
+          },
+          "native": 124540,
+          "count": 2,
+          "checksum": 149,
+          "released_alive": false,
+          "checkpoints": [
+            {
+              "seq": 2,
+              "full": 3,
+              "slices": 0,
+              "more": 0
+            }
+          ],
+          "payload_bytes": 0
+        }
+      },
+      {
+        "mode": "handle",
+        "run": 2,
+        "pid": 158900,
+        "exit_code": 0,
+        "observations": {
+          "mode": "handle",
+          "gc_before": 8,
+          "gc_after": 11,
+          "gc_delta": 3,
+          "pointer": 140718419492192,
+          "context": 3,
+          "main": {
+            "managed": 1,
+            "native": 159656
+          },
+          "native": 159704,
+          "count": 2,
+          "checksum": 149,
+          "released_alive": false,
+          "checkpoints": [
+            {
+              "seq": 2,
+              "full": 3,
+              "slices": 0,
+              "more": 0
+            }
+          ],
+          "payload_bytes": 0
+        }
+      },
+      {
+        "mode": "handle",
+        "run": 3,
+        "pid": 149932,
+        "exit_code": 0,
+        "observations": {
+          "mode": "handle",
+          "gc_before": 8,
+          "gc_after": 11,
+          "gc_delta": 3,
+          "pointer": 140718419492192,
+          "context": 3,
+          "main": {
+            "managed": 1,
+            "native": 127052
+          },
+          "native": 70344,
+          "count": 2,
+          "checksum": 149,
+          "released_alive": false,
+          "checkpoints": [
+            {
+              "seq": 2,
+              "full": 3,
+              "slices": 0,
+              "more": 0
+            }
+          ],
+          "payload_bytes": 0
+        }
+      },
+      {
+        "mode": "stack",
+        "run": 1,
+        "pid": 159668,
+        "exit_code": 0,
+        "observations": {
+          "mode": "stack",
+          "gc_before": 5,
+          "gc_after": 8,
+          "gc_delta": 3,
+          "pointer": 140718419492192,
+          "context": 0,
+          "main": {
+            "managed": 1,
+            "native": 151200
+          },
+          "native": 17144,
+          "count": 1,
+          "checksum": 257,
+          "released_alive": false,
+          "checkpoints": [
+            {
+              "seq": 1,
+              "full": 3,
+              "slices": 0,
+              "more": 0
+            }
+          ],
+          "payload_bytes": 0
+        }
+      },
+      {
+        "mode": "stack",
+        "run": 2,
+        "pid": 163684,
+        "exit_code": 0,
+        "observations": {
+          "mode": "stack",
+          "gc_before": 5,
+          "gc_after": 8,
+          "gc_delta": 3,
+          "pointer": 140718419492192,
+          "context": 0,
+          "main": {
+            "managed": 1,
+            "native": 166784
+          },
+          "native": 163288,
+          "count": 1,
+          "checksum": 257,
+          "released_alive": false,
+          "checkpoints": [
+            {
+              "seq": 1,
+              "full": 3,
+              "slices": 0,
+              "more": 0
+            }
+          ],
+          "payload_bytes": 0
+        }
+      },
+      {
+        "mode": "stack",
+        "run": 3,
+        "pid": 166164,
+        "exit_code": 0,
+        "observations": {
+          "mode": "stack",
+          "gc_before": 5,
+          "gc_after": 8,
+          "gc_delta": 3,
+          "pointer": 140718419492192,
+          "context": 0,
+          "main": {
+            "managed": 1,
+            "native": 148792
+          },
+          "native": 165808,
+          "count": 1,
+          "checksum": 257,
+          "released_alive": false,
+          "checkpoints": [
+            {
+              "seq": 1,
+              "full": 3,
+              "slices": 0,
+              "more": 0
+            }
+          ],
+          "payload_bytes": 0
+        }
+      },
+      {
+        "mode": "idle",
+        "run": 1,
+        "pid": 162400,
+        "exit_code": 0,
+        "observations": {
+          "idle_alive": false,
+          "released_alive": false
+        }
+      },
+      {
+        "mode": "idle",
+        "run": 2,
+        "pid": 5072,
+        "exit_code": 0,
+        "observations": {
+          "idle_alive": false,
+          "released_alive": false
+        }
+      },
+      {
+        "mode": "idle",
+        "run": 3,
+        "pid": 160056,
+        "exit_code": 0,
+        "observations": {
+          "idle_alive": false,
+          "released_alive": false
+        }
+      },
+      {
+        "mode": "handle",
+        "run": 1,
+        "pid": 138604,
+        "exit_code": 0,
+        "observations": {
+          "mode": "handle",
+          "gc_before": 8,
+          "gc_after": 11,
+          "gc_delta": 3,
+          "pointer": 140718419492192,
+          "context": 3,
+          "main": {
+            "managed": 1,
+            "native": 51244
+          },
+          "native": 44872,
+          "count": 2,
+          "checksum": 149,
+          "released_alive": false,
+          "checkpoints": [
+            {
+              "seq": 2,
+              "full": 3,
+              "slices": 0,
+              "more": 0
+            }
+          ],
+          "payload_bytes": 0
+        },
+        "snapshots": {
+          "before-native": {
+            "sha256": "0f12b34df1206c0dfc917737a49ec446bae84cf9912ea5b3e30039ff1329c732",
+            "bytes": 1136988,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 3354,
+              "heap_section_count": 159,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 342,
+              "hot_types": [
+                "GcHot.Node",
+                "GcHot.Context",
+                "GcHot.Node[]",
+                "GcHot.Entry"
+              ],
+              "hot_handle_targets": [
+                {
+                  "address": 1892462201088,
+                  "klass": 1894082008624,
+                  "type": "GcHot.Context",
+                  "context": {
+                    "tag": 73,
+                    "head": 0,
+                    "slots": 1900569578880,
+                    "slots_type": "GcHot.Node[]",
+                    "slots_length": 64,
+                    "nonnull_slots": 0
+                  }
+                }
+              ],
+              "unknown_handle_targets": 0
+            }
+          },
+          "active": {
+            "sha256": "2d1b16a180308e248435969f3c9019c8bb18c3f14be4b3730a59c83ae020f58d",
+            "bytes": 1216378,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 3766,
+              "heap_section_count": 164,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 342,
+              "hot_types": [
+                "GcHot.Node",
+                "GcHot.Context",
+                "GcHot.Node[]",
+                "GcHot.Entry"
+              ],
+              "hot_handle_targets": [
+                {
+                  "address": 1892462201088,
+                  "klass": 1894082008624,
+                  "type": "GcHot.Context",
+                  "context": {
+                    "tag": 73,
+                    "head": 0,
+                    "slots": 1900569578880,
+                    "slots_type": "GcHot.Node[]",
+                    "slots_length": 64,
+                    "nonnull_slots": 0
+                  }
+                }
+              ],
+              "unknown_handle_targets": 0
+            }
+          },
+          "joined-held": {
+            "sha256": "789a75f56ae0dc5ad55a18be47910fea4250cbd7df6b6b0dbad0d947ab8b4661",
+            "bytes": 1332446,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 4392,
+              "heap_section_count": 164,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 342,
+              "hot_types": [
+                "GcHot.Node",
+                "GcHot.Context",
+                "GcHot.Node[]",
+                "GcHot.Entry"
+              ],
+              "hot_handle_targets": [
+                {
+                  "address": 1892462201088,
+                  "klass": 1894082008624,
+                  "type": "GcHot.Context",
+                  "context": {
+                    "tag": 73,
+                    "head": 0,
+                    "slots": 1900569578880,
+                    "slots_type": "GcHot.Node[]",
+                    "slots_length": 64,
+                    "nonnull_slots": 0
+                  }
+                }
+              ],
+              "unknown_handle_targets": 0
+            }
+          },
+          "released": {
+            "sha256": "5832bf4710a8440bcef19574caa7ead8c2d83bb238740363fc3574af115d8bc7",
+            "bytes": 1361999,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 4545,
+              "heap_section_count": 166,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 341,
+              "hot_types": [
+                "GcHot.Node",
+                "GcHot.Context",
+                "GcHot.Node[]",
+                "GcHot.Entry"
+              ],
+              "hot_handle_targets": [],
+              "unknown_handle_targets": 0
+            }
+          }
+        }
+      },
+      {
+        "mode": "handle",
+        "run": 2,
+        "pid": 162564,
+        "exit_code": 0,
+        "observations": {
+          "mode": "handle",
+          "gc_before": 8,
+          "gc_after": 11,
+          "gc_delta": 3,
+          "pointer": 140718419492192,
+          "context": 3,
+          "main": {
+            "managed": 1,
+            "native": 102724
+          },
+          "native": 165252,
+          "count": 2,
+          "checksum": 149,
+          "released_alive": false,
+          "checkpoints": [
+            {
+              "seq": 2,
+              "full": 3,
+              "slices": 0,
+              "more": 0
+            }
+          ],
+          "payload_bytes": 0
+        },
+        "snapshots": {
+          "before-native": {
+            "sha256": "333564784f0ac82d9038d8481cf0b6a49bd76b8518b50c4e326139c2d4e67c93",
+            "bytes": 1136954,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 3354,
+              "heap_section_count": 159,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 342,
+              "hot_types": [
+                "GcHot.Entry",
+                "GcHot.Context",
+                "GcHot.Node",
+                "GcHot.Node[]"
+              ],
+              "hot_handle_targets": [
+                {
+                  "address": 1537774815488,
+                  "klass": 1533036320304,
+                  "type": "GcHot.Context",
+                  "context": {
+                    "tag": 73,
+                    "head": 0,
+                    "slots": 1539399306624,
+                    "slots_type": "GcHot.Node[]",
+                    "slots_length": 64,
+                    "nonnull_slots": 0
+                  }
+                }
+              ],
+              "unknown_handle_targets": 0
+            }
+          },
+          "active": {
+            "sha256": "312fcbc3af6ac485dee6a79c652fa5e11d3bdff370609238fd9cfd124fb0576e",
+            "bytes": 1216378,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 3766,
+              "heap_section_count": 164,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 342,
+              "hot_types": [
+                "GcHot.Entry",
+                "GcHot.Context",
+                "GcHot.Node",
+                "GcHot.Node[]"
+              ],
+              "hot_handle_targets": [
+                {
+                  "address": 1537774815488,
+                  "klass": 1533036320304,
+                  "type": "GcHot.Context",
+                  "context": {
+                    "tag": 73,
+                    "head": 0,
+                    "slots": 1539399306624,
+                    "slots_type": "GcHot.Node[]",
+                    "slots_length": 64,
+                    "nonnull_slots": 0
+                  }
+                }
+              ],
+              "unknown_handle_targets": 0
+            }
+          },
+          "joined-held": {
+            "sha256": "d3e9e090c85901a4d88a7916df215dc56c953239c24f3031056798e446f57a48",
+            "bytes": 1332412,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 4392,
+              "heap_section_count": 164,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 342,
+              "hot_types": [
+                "GcHot.Entry",
+                "GcHot.Context",
+                "GcHot.Node",
+                "GcHot.Node[]"
+              ],
+              "hot_handle_targets": [
+                {
+                  "address": 1537774815488,
+                  "klass": 1533036320304,
+                  "type": "GcHot.Context",
+                  "context": {
+                    "tag": 73,
+                    "head": 0,
+                    "slots": 1539399306624,
+                    "slots_type": "GcHot.Node[]",
+                    "slots_length": 64,
+                    "nonnull_slots": 0
+                  }
+                }
+              ],
+              "unknown_handle_targets": 0
+            }
+          },
+          "released": {
+            "sha256": "0c7816ff99fbea4128160a01b193303d04b3d9a94d0fd584743e5ee382e5f3ac",
+            "bytes": 1361999,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 4545,
+              "heap_section_count": 166,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 341,
+              "hot_types": [
+                "GcHot.Entry",
+                "GcHot.Context",
+                "GcHot.Node",
+                "GcHot.Node[]"
+              ],
+              "hot_handle_targets": [],
+              "unknown_handle_targets": 0
+            }
+          }
+        }
+      },
+      {
+        "mode": "handle",
+        "run": 3,
+        "pid": 150252,
+        "exit_code": 0,
+        "observations": {
+          "mode": "handle",
+          "gc_before": 8,
+          "gc_after": 11,
+          "gc_delta": 3,
+          "pointer": 140718419492192,
+          "context": 3,
+          "main": {
+            "managed": 1,
+            "native": 164780
+          },
+          "native": 166160,
+          "count": 2,
+          "checksum": 149,
+          "released_alive": false,
+          "checkpoints": [
+            {
+              "seq": 2,
+              "full": 3,
+              "slices": 0,
+              "more": 0
+            }
+          ],
+          "payload_bytes": 0
+        },
+        "snapshots": {
+          "before-native": {
+            "sha256": "01f84630fe0a698574cf1fb54db16ee829c223d903ea7590bd2e644fa1fc9097",
+            "bytes": 1136988,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 3354,
+              "heap_section_count": 159,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 342,
+              "hot_types": [
+                "GcHot.Node[]",
+                "GcHot.Context",
+                "GcHot.Node",
+                "GcHot.Entry"
+              ],
+              "hot_handle_targets": [
+                {
+                  "address": 2327584344320,
+                  "klass": 2327605270064,
+                  "type": "GcHot.Context",
+                  "context": {
+                    "tag": 73,
+                    "head": 0,
+                    "slots": 2334080847232,
+                    "slots_type": "GcHot.Node[]",
+                    "slots_length": 64,
+                    "nonnull_slots": 0
+                  }
+                }
+              ],
+              "unknown_handle_targets": 0
+            }
+          },
+          "active": {
+            "sha256": "2ad08d8d7b77ae76f2182b0098fc29a41289f88f6e263594886817a43d3913d4",
+            "bytes": 1216344,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 3766,
+              "heap_section_count": 164,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 342,
+              "hot_types": [
+                "GcHot.Node[]",
+                "GcHot.Context",
+                "GcHot.Node",
+                "GcHot.Entry"
+              ],
+              "hot_handle_targets": [
+                {
+                  "address": 2327584344320,
+                  "klass": 2327605270064,
+                  "type": "GcHot.Context",
+                  "context": {
+                    "tag": 73,
+                    "head": 0,
+                    "slots": 2334080847232,
+                    "slots_type": "GcHot.Node[]",
+                    "slots_length": 64,
+                    "nonnull_slots": 0
+                  }
+                }
+              ],
+              "unknown_handle_targets": 0
+            }
+          },
+          "joined-held": {
+            "sha256": "9df0ffd1ff74f6ab876cb3d1d204be01c3ec8cd4e5c08360aac525ded305dfc1",
+            "bytes": 1332446,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 4392,
+              "heap_section_count": 164,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 342,
+              "hot_types": [
+                "GcHot.Node[]",
+                "GcHot.Context",
+                "GcHot.Node",
+                "GcHot.Entry"
+              ],
+              "hot_handle_targets": [
+                {
+                  "address": 2327584344320,
+                  "klass": 2327605270064,
+                  "type": "GcHot.Context",
+                  "context": {
+                    "tag": 73,
+                    "head": 0,
+                    "slots": 2334080847232,
+                    "slots_type": "GcHot.Node[]",
+                    "slots_length": 64,
+                    "nonnull_slots": 0
+                  }
+                }
+              ],
+              "unknown_handle_targets": 0
+            }
+          },
+          "released": {
+            "sha256": "3199694244ef1b420bc2091c871584cde806cb04db5aee721b6dbc35fa773283",
+            "bytes": 1362033,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 4545,
+              "heap_section_count": 166,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 341,
+              "hot_types": [
+                "GcHot.Node[]",
+                "GcHot.Context",
+                "GcHot.Node",
+                "GcHot.Entry"
+              ],
+              "hot_handle_targets": [],
+              "unknown_handle_targets": 0
+            }
+          }
+        }
+      },
+      {
+        "mode": "stack",
+        "run": 1,
+        "pid": 163368,
+        "exit_code": 0,
+        "observations": {
+          "mode": "stack",
+          "gc_before": 5,
+          "gc_after": 8,
+          "gc_delta": 3,
+          "pointer": 140718419492192,
+          "context": 0,
+          "main": {
+            "managed": 1,
+            "native": 158896
+          },
+          "native": 166420,
+          "count": 1,
+          "checksum": 257,
+          "released_alive": false,
+          "checkpoints": [
+            {
+              "seq": 1,
+              "full": 3,
+              "slices": 0,
+              "more": 0
+            }
+          ],
+          "payload_bytes": 0
+        },
+        "snapshots": {
+          "before-native": {
+            "sha256": "e15d8f4e3db8c066c047fad48c295294964910c6a00c3d125298df48c3acac2e",
+            "bytes": 1126038,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 3302,
+              "heap_section_count": 155,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 341,
+              "hot_types": [
+                "GcHot.Entry"
+              ],
+              "hot_handle_targets": [],
+              "unknown_handle_targets": 0
+            }
+          },
+          "active": {
+            "sha256": "380ffd86195e6c2fc6855d808449c965d795537770d09a5b2b9f78197eff8568",
+            "bytes": 1208338,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 3717,
+              "heap_section_count": 161,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 341,
+              "hot_types": [
+                "GcHot.Entry",
+                "GcHot.Node",
+                "GcHot.Context"
+              ],
+              "hot_handle_targets": [],
+              "unknown_handle_targets": 0
+            }
+          },
+          "released": {
+            "sha256": "081517a573b226cb6751a4b400e567382b213f2336b0d590b2d799343d28c9f5",
+            "bytes": 1328270,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 4367,
+              "heap_section_count": 161,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 341,
+              "hot_types": [
+                "GcHot.Entry",
+                "GcHot.Node",
+                "GcHot.Node[]",
+                "GcHot.Context"
+              ],
+              "hot_handle_targets": [],
+              "unknown_handle_targets": 0
+            }
+          }
+        }
+      },
+      {
+        "mode": "stack",
+        "run": 2,
+        "pid": 124816,
+        "exit_code": 0,
+        "observations": {
+          "mode": "stack",
+          "gc_before": 5,
+          "gc_after": 8,
+          "gc_delta": 3,
+          "pointer": 140718419492192,
+          "context": 0,
+          "main": {
+            "managed": 1,
+            "native": 155056
+          },
+          "native": 143056,
+          "count": 1,
+          "checksum": 257,
+          "released_alive": false,
+          "checkpoints": [
+            {
+              "seq": 1,
+              "full": 3,
+              "slices": 0,
+              "more": 0
+            }
+          ],
+          "payload_bytes": 0
+        },
+        "snapshots": {
+          "before-native": {
+            "sha256": "7ef980d07a4d9b284545536829feaa38c3e6a5d031a2cb51ac728aa883ea4796",
+            "bytes": 1126038,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 3302,
+              "heap_section_count": 155,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 341,
+              "hot_types": [
+                "GcHot.Entry"
+              ],
+              "hot_handle_targets": [],
+              "unknown_handle_targets": 0
+            }
+          },
+          "active": {
+            "sha256": "48f588df9f31c0df003fddd5d9d52d01620638d759887f391260a7566d308572",
+            "bytes": 1208304,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 3717,
+              "heap_section_count": 161,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 341,
+              "hot_types": [
+                "GcHot.Context",
+                "GcHot.Node",
+                "GcHot.Entry"
+              ],
+              "hot_handle_targets": [],
+              "unknown_handle_targets": 0
+            }
+          },
+          "released": {
+            "sha256": "0289465bc305cf6f2f8d581c92048de1db7af2b5eed0edc31fb352bc37700dde",
+            "bytes": 1328304,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 4367,
+              "heap_section_count": 161,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 341,
+              "hot_types": [
+                "GcHot.Context",
+                "GcHot.Node[]",
+                "GcHot.Node",
+                "GcHot.Entry"
+              ],
+              "hot_handle_targets": [],
+              "unknown_handle_targets": 0
+            }
+          }
+        }
+      },
+      {
+        "mode": "stack",
+        "run": 3,
+        "pid": 150924,
+        "exit_code": 0,
+        "observations": {
+          "mode": "stack",
+          "gc_before": 5,
+          "gc_after": 8,
+          "gc_delta": 3,
+          "pointer": 140718419492192,
+          "context": 0,
+          "main": {
+            "managed": 1,
+            "native": 149140
+          },
+          "native": 165840,
+          "count": 1,
+          "checksum": 257,
+          "released_alive": false,
+          "checkpoints": [
+            {
+              "seq": 1,
+              "full": 3,
+              "slices": 0,
+              "more": 0
+            }
+          ],
+          "payload_bytes": 0
+        },
+        "snapshots": {
+          "before-native": {
+            "sha256": "a2aad9193f9883ac9dddf6b962845ef67a045be65c3f378f0c9936d20852c7d2",
+            "bytes": 1125970,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 3302,
+              "heap_section_count": 155,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 341,
+              "hot_types": [
+                "GcHot.Entry"
+              ],
+              "hot_handle_targets": [],
+              "unknown_handle_targets": 0
+            }
+          },
+          "active": {
+            "sha256": "09ff2cbb0290fd4503a60f1a8864e39f5a37f7323cec4a2559ad7539e13949a4",
+            "bytes": 1208236,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 3717,
+              "heap_section_count": 161,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 341,
+              "hot_types": [
+                "GcHot.Node",
+                "GcHot.Context",
+                "GcHot.Entry"
+              ],
+              "hot_handle_targets": [],
+              "unknown_handle_targets": 0
+            }
+          },
+          "released": {
+            "sha256": "55dffead31283ba3a759c6375c7a24628b92d54e1ca99fb62ba200ad5725df63",
+            "bytes": 1328236,
+            "summary": {
+              "format_version": [
+                16
+              ],
+              "capture_flags": [
+                1
+              ],
+              "vm_info": [
+                [
+                  8,
+                  16,
+                  32,
+                  16,
+                  24,
+                  16
+                ]
+              ],
+              "type_count": 4367,
+              "heap_section_count": 161,
+              "managed_stack_sections": 0,
+              "gc_handle_count": 341,
+              "hot_types": [
+                "GcHot.Node",
+                "GcHot.Node[]",
+                "GcHot.Context",
+                "GcHot.Entry"
+              ],
+              "hot_handle_targets": [],
+              "unknown_handle_targets": 0
+            }
+          }
+        }
+      }
+    ]
+  },
+  "trace": {
+    "build_id": "993e5b9e-1f71-4949-b339-39ff10d359b1",
+    "runs": [
+      {
+        "mode": "handle",
+        "run": 1,
+        "pid": 164596,
+        "exit_code": 0,
+        "player": {
+          "mode": "handle",
+          "gc_before": 8,
+          "gc_after": 11,
+          "gc_delta": 3,
+          "pointer": 140718419492192,
+          "context": 3,
+          "main": {
+            "managed": 1,
+            "native": 123764
+          },
+          "native": 153312,
+          "count": 2,
+          "checksum": 149,
+          "released_alive": false,
+          "checkpoints": [
+            {
+              "seq": 2,
+              "full": 3,
+              "slices": 0,
+              "more": 0
+            }
+          ],
+          "payload_bytes": 0
+        },
+        "native": {
+          "samples": [
+            {
+              "state": "000001fc03c78f00",
+              "owner_tid": 153312,
+              "collector_tid": 123764,
+              "base": 2181043161904,
+              "allocated_base": 2181043161904,
+              "bytes": 288,
+              "top": 36,
+              "target": 2181913872640,
+              "capacity": 131072,
+              "frames": 1,
+              "target_offsets": [
+                24
+              ]
+            },
+            {
+              "state": "000001fc03c78f00",
+              "owner_tid": 153312,
+              "collector_tid": 123764,
+              "base": 2181043161904,
+              "allocated_base": 2181043161904,
+              "bytes": 288,
+              "top": 36,
+              "target": 2181913872640,
+              "capacity": 131072,
+              "frames": 1,
+              "target_offsets": [
+                24
+              ]
+            },
+            {
+              "state": "000001fc03c78f00",
+              "owner_tid": 153312,
+              "collector_tid": 123764,
+              "base": 2181043161904,
+              "allocated_base": 2181043161904,
+              "bytes": 288,
+              "top": 36,
+              "target": 2181913872640,
+              "capacity": 131072,
+              "frames": 1,
+              "target_offsets": [
+                24
+              ]
+            }
+          ],
+          "removed": [
+            "000001fc03c72690",
+            "000001fc03c78b10",
+            "000001fc03c78f00"
+          ]
+        }
+      },
+      {
+        "mode": "handle",
+        "run": 2,
+        "pid": 142556,
+        "exit_code": 0,
+        "player": {
+          "mode": "handle",
+          "gc_before": 8,
+          "gc_after": 11,
+          "gc_delta": 3,
+          "pointer": 140718419492192,
+          "context": 3,
+          "main": {
+            "managed": 1,
+            "native": 13344
+          },
+          "native": 164376,
+          "count": 2,
+          "checksum": 149,
+          "released_alive": false,
+          "checkpoints": [
+            {
+              "seq": 2,
+              "full": 3,
+              "slices": 0,
+              "more": 0
+            }
+          ],
+          "payload_bytes": 0
+        },
+        "native": {
+          "samples": [
+            {
+              "state": "000002231e0b82b0",
+              "owner_tid": 164376,
+              "collector_tid": 13344,
+              "base": 2348815321904,
+              "allocated_base": 2348815321904,
+              "bytes": 288,
+              "top": 36,
+              "target": 2349858261248,
+              "capacity": 131072,
+              "frames": 1,
+              "target_offsets": [
+                24
+              ]
+            },
+            {
+              "state": "000002231e0b82b0",
+              "owner_tid": 164376,
+              "collector_tid": 13344,
+              "base": 2348815321904,
+              "allocated_base": 2348815321904,
+              "bytes": 288,
+              "top": 36,
+              "target": 2349858261248,
+              "capacity": 131072,
+              "frames": 1,
+              "target_offsets": [
+                24
+              ]
+            },
+            {
+              "state": "000002231e0b82b0",
+              "owner_tid": 164376,
+              "collector_tid": 13344,
+              "base": 2348815321904,
+              "allocated_base": 2348815321904,
+              "bytes": 288,
+              "top": 36,
+              "target": 2349858261248,
+              "capacity": 131072,
+              "frames": 1,
+              "target_offsets": [
+                24
+              ]
+            }
+          ],
+          "removed": [
+            "000002231e0baae0",
+            "000002231e0b7e00",
+            "000002231e0b82b0"
+          ]
+        }
+      },
+      {
+        "mode": "handle",
+        "run": 3,
+        "pid": 167728,
+        "exit_code": 0,
+        "player": {
+          "mode": "handle",
+          "gc_before": 8,
+          "gc_after": 11,
+          "gc_delta": 3,
+          "pointer": 140718419492192,
+          "context": 3,
+          "main": {
+            "managed": 1,
+            "native": 103400
+          },
+          "native": 163884,
+          "count": 2,
+          "checksum": 149,
+          "released_alive": false,
+          "checkpoints": [
+            {
+              "seq": 2,
+              "full": 3,
+              "slices": 0,
+              "more": 0
+            }
+          ],
+          "payload_bytes": 0
+        },
+        "native": {
+          "samples": [
+            {
+              "state": "000001f583d78620",
+              "owner_tid": 163884,
+              "collector_tid": 103400,
+              "base": 2153125874480,
+              "allocated_base": 2153125874480,
+              "bytes": 288,
+              "top": 36,
+              "target": 2153997109504,
+              "capacity": 131072,
+              "frames": 1,
+              "target_offsets": [
+                24
+              ]
+            },
+            {
+              "state": "000001f583d78620",
+              "owner_tid": 163884,
+              "collector_tid": 103400,
+              "base": 2153125874480,
+              "allocated_base": 2153125874480,
+              "bytes": 288,
+              "top": 36,
+              "target": 2153997109504,
+              "capacity": 131072,
+              "frames": 1,
+              "target_offsets": [
+                24
+              ]
+            },
+            {
+              "state": "000001f583d78620",
+              "owner_tid": 163884,
+              "collector_tid": 103400,
+              "base": 2153125874480,
+              "allocated_base": 2153125874480,
+              "bytes": 288,
+              "top": 36,
+              "target": 2153997109504,
+              "capacity": 131072,
+              "frames": 1,
+              "target_offsets": [
+                24
+              ]
+            }
+          ],
+          "removed": [
+            "000001f583d721f0",
+            "000001f583d781a0",
+            "000001f583d78620"
+          ]
+        }
+      },
+      {
+        "mode": "stack",
+        "run": 1,
+        "pid": 153908,
+        "exit_code": 0,
+        "player": {
+          "mode": "stack",
+          "gc_before": 5,
+          "gc_after": 8,
+          "gc_delta": 3,
+          "pointer": 140718419492192,
+          "context": 0,
+          "main": {
+            "managed": 1,
+            "native": 163736
+          },
+          "native": 91772,
+          "count": 1,
+          "checksum": 257,
+          "released_alive": false,
+          "checkpoints": [
+            {
+              "seq": 1,
+              "full": 3,
+              "slices": 0,
+              "more": 0
+            }
+          ],
+          "payload_bytes": 0
+        },
+        "native": {
+          "samples": [
+            {
+              "state": "000001751f5b9320",
+              "owner_tid": 91772,
+              "collector_tid": 163736,
+              "base": 1601491077984,
+              "allocated_base": 1601491077984,
+              "bytes": 288,
+              "top": 36,
+              "target": 1602555447456,
+              "capacity": 131072,
+              "frames": 1,
+              "target_offsets": [
+                48,
+                264
+              ]
+            },
+            {
+              "state": "000001751f5b9320",
+              "owner_tid": 91772,
+              "collector_tid": 163736,
+              "base": 1601491077984,
+              "allocated_base": 1601491077984,
+              "bytes": 288,
+              "top": 36,
+              "target": 1602555447456,
+              "capacity": 131072,
+              "frames": 1,
+              "target_offsets": [
+                48,
+                264
+              ]
+            },
+            {
+              "state": "000001751f5b9320",
+              "owner_tid": 91772,
+              "collector_tid": 163736,
+              "base": 1601491077984,
+              "allocated_base": 1601491077984,
+              "bytes": 288,
+              "top": 36,
+              "target": 1602555447456,
+              "capacity": 131072,
+              "frames": 1,
+              "target_offsets": [
+                48,
+                264
+              ]
+            }
+          ],
+          "removed": [
+            "000001751f5b9320"
+          ]
+        }
+      },
+      {
+        "mode": "stack",
+        "run": 2,
+        "pid": 13988,
+        "exit_code": 0,
+        "player": {
+          "mode": "stack",
+          "gc_before": 5,
+          "gc_after": 8,
+          "gc_delta": 3,
+          "pointer": 140718419492192,
+          "context": 0,
+          "main": {
+            "managed": 1,
+            "native": 121720
+          },
+          "native": 154464,
+          "count": 1,
+          "checksum": 257,
+          "released_alive": false,
+          "checkpoints": [
+            {
+              "seq": 1,
+              "full": 3,
+              "slices": 0,
+              "more": 0
+            }
+          ],
+          "payload_bytes": 0
+        },
+        "native": {
+          "samples": [
+            {
+              "state": "0000028c8ec29970",
+              "owner_tid": 154464,
+              "collector_tid": 121720,
+              "base": 2801666001760,
+              "allocated_base": 2801666001760,
+              "bytes": 288,
+              "top": 36,
+              "target": 2802720082080,
+              "capacity": 131072,
+              "frames": 1,
+              "target_offsets": [
+                48,
+                264
+              ]
+            },
+            {
+              "state": "0000028c8ec29970",
+              "owner_tid": 154464,
+              "collector_tid": 121720,
+              "base": 2801666001760,
+              "allocated_base": 2801666001760,
+              "bytes": 288,
+              "top": 36,
+              "target": 2802720082080,
+              "capacity": 131072,
+              "frames": 1,
+              "target_offsets": [
+                48,
+                264
+              ]
+            },
+            {
+              "state": "0000028c8ec29970",
+              "owner_tid": 154464,
+              "collector_tid": 121720,
+              "base": 2801666001760,
+              "allocated_base": 2801666001760,
+              "bytes": 288,
+              "top": 36,
+              "target": 2802720082080,
+              "capacity": 131072,
+              "frames": 1,
+              "target_offsets": [
+                48,
+                264
+              ]
+            }
+          ],
+          "removed": [
+            "0000028c8ec29970"
+          ]
+        }
+      },
+      {
+        "mode": "stack",
+        "run": 3,
+        "pid": 164060,
+        "exit_code": 0,
+        "player": {
+          "mode": "stack",
+          "gc_before": 5,
+          "gc_after": 8,
+          "gc_delta": 3,
+          "pointer": 140718419492192,
+          "context": 0,
+          "main": {
+            "managed": 1,
+            "native": 166024
+          },
+          "native": 155524,
+          "count": 1,
+          "checksum": 257,
+          "released_alive": false,
+          "checkpoints": [
+            {
+              "seq": 1,
+              "full": 3,
+              "slices": 0,
+              "more": 0
+            }
+          ],
+          "payload_bytes": 0
+        },
+        "native": {
+          "samples": [
+            {
+              "state": "0000028287c34b80",
+              "owner_tid": 155524,
+              "collector_tid": 166024,
+              "base": 2758716263216,
+              "allocated_base": 2758716263216,
+              "bytes": 288,
+              "top": 36,
+              "target": 2753168967840,
+              "capacity": 131072,
+              "frames": 1,
+              "target_offsets": [
+                48,
+                264
+              ]
+            },
+            {
+              "state": "0000028287c34b80",
+              "owner_tid": 155524,
+              "collector_tid": 166024,
+              "base": 2758716263216,
+              "allocated_base": 2758716263216,
+              "bytes": 288,
+              "top": 36,
+              "target": 2753168967840,
+              "capacity": 131072,
+              "frames": 1,
+              "target_offsets": [
+                48,
+                264
+              ]
+            },
+            {
+              "state": "0000028287c34b80",
+              "owner_tid": 155524,
+              "collector_tid": 166024,
+              "base": 2758716263216,
+              "allocated_base": 2758716263216,
+              "bytes": 288,
+              "top": 36,
+              "target": 2753168967840,
+              "capacity": 131072,
+              "frames": 1,
+              "target_offsets": [
+                48,
+                264
+              ]
+            }
+          ],
+          "removed": [
+            "0000028287c34b80"
+          ]
+        }
+      },
+      {
+        "mode": "idle",
+        "run": 1,
+        "pid": 166720,
+        "exit_code": 0,
+        "player": {
+          "idle_alive": false,
+          "released_alive": false
+        },
+        "native": {
+          "samples": [
+            {
+              "state": "000002150650bce0",
+              "owner_tid": 17500,
+              "collector_tid": 137360,
+              "base": 0,
+              "allocated_base": 2288417344304,
+              "bytes": 0,
+              "top": 0,
+              "target": 2289329802000,
+              "capacity": 131072,
+              "frames": 0,
+              "target_offsets": []
+            },
+            {
+              "state": "000002150650bce0",
+              "owner_tid": 17500,
+              "collector_tid": 137360,
+              "base": 0,
+              "allocated_base": 2288417344304,
+              "bytes": 0,
+              "top": 0,
+              "target": 2289329802000,
+              "capacity": 131072,
+              "frames": 0,
+              "target_offsets": []
+            },
+            {
+              "state": "000002150650bce0",
+              "owner_tid": 17500,
+              "collector_tid": 137360,
+              "base": 0,
+              "allocated_base": 2288417344304,
+              "bytes": 0,
+              "top": 0,
+              "target": 2289329802000,
+              "capacity": 131072,
+              "frames": 0,
+              "target_offsets": []
+            }
+          ],
+          "removed": [
+            "000002150650bce0"
+          ]
+        }
+      },
+      {
+        "mode": "idle",
+        "run": 2,
+        "pid": 79784,
+        "exit_code": 0,
+        "player": {
+          "idle_alive": false,
+          "released_alive": false
+        },
+        "native": {
+          "samples": [
+            {
+              "state": "000001dc0d6f9d00",
+              "owner_tid": 155352,
+              "collector_tid": 164064,
+              "base": 0,
+              "allocated_base": 2043604208432,
+              "bytes": 0,
+              "top": 0,
+              "target": 2044636662544,
+              "capacity": 131072,
+              "frames": 0,
+              "target_offsets": []
+            },
+            {
+              "state": "000001dc0d6f9d00",
+              "owner_tid": 155352,
+              "collector_tid": 164064,
+              "base": 0,
+              "allocated_base": 2043604208432,
+              "bytes": 0,
+              "top": 0,
+              "target": 2044636662544,
+              "capacity": 131072,
+              "frames": 0,
+              "target_offsets": []
+            },
+            {
+              "state": "000001dc0d6f9d00",
+              "owner_tid": 155352,
+              "collector_tid": 164064,
+              "base": 0,
+              "allocated_base": 2043604208432,
+              "bytes": 0,
+              "top": 0,
+              "target": 2044636662544,
+              "capacity": 131072,
+              "frames": 0,
+              "target_offsets": []
+            }
+          ],
+          "removed": [
+            "000001dc0d6f9d00"
+          ]
+        }
+      },
+      {
+        "mode": "idle",
+        "run": 3,
+        "pid": 160408,
+        "exit_code": 0,
+        "player": {
+          "idle_alive": false,
+          "released_alive": false
+        },
+        "native": {
+          "samples": [
+            {
+              "state": "00000262a208ad20",
+              "owner_tid": 159124,
+              "collector_tid": 159904,
+              "base": 0,
+              "allocated_base": 2621814180656,
+              "bytes": 0,
+              "top": 0,
+              "target": 2622654810896,
+              "capacity": 131072,
+              "frames": 0,
+              "target_offsets": []
+            },
+            {
+              "state": "00000262a208ad20",
+              "owner_tid": 159124,
+              "collector_tid": 159904,
+              "base": 0,
+              "allocated_base": 2621814180656,
+              "bytes": 0,
+              "top": 0,
+              "target": 2622654810896,
+              "capacity": 131072,
+              "frames": 0,
+              "target_offsets": []
+            },
+            {
+              "state": "00000262a208ad20",
+              "owner_tid": 159124,
+              "collector_tid": 159904,
+              "base": 0,
+              "allocated_base": 2621814180656,
+              "bytes": 0,
+              "top": 0,
+              "target": 2622654810896,
+              "capacity": 131072,
+              "frames": 0,
+              "target_offsets": []
+            }
+          ],
+          "removed": [
+            "00000262a208ad20"
+          ]
+        }
+      }
+    ]
+  },
+  "evidence_status": "GC root sources and evidence accompany each other in the enclosing Git commit; baseline449a994 remains the prior experiment. source_sha256 records raw working-tree bytes at capture time.",
+  "raw_log_sha256": {
+    "handle-1.log": "dac675cb8da95aafb80cfaae9845c17f7578e0647ed6690a3ea49586bd31df07",
+    "handle-2.log": "3017a9cd85c52c0ac6fc4b2a29b0ff75cfa77df339cbf2ae24df7a5b2b29592b",
+    "handle-3.log": "9c4cbcc6710b56724b3f9a5d159a8640dbe854e88be37ac314f6ec50fa38f9be",
+    "stack-1.log": "752f0800e98aa5ba8427ab7d73f64b4058d5f6c45b992da3430124dde1d22899",
+    "stack-2.log": "5fdda21e2f7983fa5176f8d8cbb81786d7282281ffe50b379c2ebc0f59ea38e7",
+    "stack-3.log": "d03fded8573ef5e6a3c62693311f57e002e77ae5b323c83df805906ad8bf500b",
+    "idle-1.log": "f338f8d8b4ee8f2467c00c2d5d52492eb2da6150f3c32150e8fb88fc39c32bbb",
+    "idle-2.log": "45ccb28546a59a8f268caccced65d29760cf8c73004ccfb597fadbca58cf03af",
+    "idle-3.log": "57464da29b70405a7a6787df582c75ed574a2f7b19aa2ed01ae221214318a685",
+    "snapshots/handle-1/before-native.snap": "0f12b34df1206c0dfc917737a49ec446bae84cf9912ea5b3e30039ff1329c732",
+    "snapshots/handle-1/active.snap": "2d1b16a180308e248435969f3c9019c8bb18c3f14be4b3730a59c83ae020f58d",
+    "snapshots/handle-1/joined-held.snap": "789a75f56ae0dc5ad55a18be47910fea4250cbd7df6b6b0dbad0d947ab8b4661",
+    "snapshots/handle-1/released.snap": "5832bf4710a8440bcef19574caa7ead8c2d83bb238740363fc3574af115d8bc7",
+    "handle-snapshot-1.log": "efbc5e5bd38a1426fe9297f19444c35baeefbc6c671f50289f9b09c347434450",
+    "snapshots/handle-2/before-native.snap": "333564784f0ac82d9038d8481cf0b6a49bd76b8518b50c4e326139c2d4e67c93",
+    "snapshots/handle-2/active.snap": "312fcbc3af6ac485dee6a79c652fa5e11d3bdff370609238fd9cfd124fb0576e",
+    "snapshots/handle-2/joined-held.snap": "d3e9e090c85901a4d88a7916df215dc56c953239c24f3031056798e446f57a48",
+    "snapshots/handle-2/released.snap": "0c7816ff99fbea4128160a01b193303d04b3d9a94d0fd584743e5ee382e5f3ac",
+    "handle-snapshot-2.log": "5aa01337fa5eb1271f1e209b0b880952326d237c780f4a5c1a710dc4c21f311c",
+    "snapshots/handle-3/before-native.snap": "01f84630fe0a698574cf1fb54db16ee829c223d903ea7590bd2e644fa1fc9097",
+    "snapshots/handle-3/active.snap": "2ad08d8d7b77ae76f2182b0098fc29a41289f88f6e263594886817a43d3913d4",
+    "snapshots/handle-3/joined-held.snap": "9df0ffd1ff74f6ab876cb3d1d204be01c3ec8cd4e5c08360aac525ded305dfc1",
+    "snapshots/handle-3/released.snap": "3199694244ef1b420bc2091c871584cde806cb04db5aee721b6dbc35fa773283",
+    "handle-snapshot-3.log": "02be954cd2d295073a0149ec806a68f72eeca36b4b914404e45dc3ea5a45ae81",
+    "snapshots/stack-1/before-native.snap": "e15d8f4e3db8c066c047fad48c295294964910c6a00c3d125298df48c3acac2e",
+    "snapshots/stack-1/active.snap": "380ffd86195e6c2fc6855d808449c965d795537770d09a5b2b9f78197eff8568",
+    "snapshots/stack-1/released.snap": "081517a573b226cb6751a4b400e567382b213f2336b0d590b2d799343d28c9f5",
+    "stack-snapshot-1.log": "c8ed0e023ebc1e172dd1da9b2b4a992c72244f72aeceade96317004e783316c8",
+    "snapshots/stack-2/before-native.snap": "7ef980d07a4d9b284545536829feaa38c3e6a5d031a2cb51ac728aa883ea4796",
+    "snapshots/stack-2/active.snap": "48f588df9f31c0df003fddd5d9d52d01620638d759887f391260a7566d308572",
+    "snapshots/stack-2/released.snap": "0289465bc305cf6f2f8d581c92048de1db7af2b5eed0edc31fb352bc37700dde",
+    "stack-snapshot-2.log": "14ce29d403c1bb7b338f7548a64e4572efbbbbb25bf06cc96d1104c436e39284",
+    "snapshots/stack-3/before-native.snap": "a2aad9193f9883ac9dddf6b962845ef67a045be65c3f378f0c9936d20852c7d2",
+    "snapshots/stack-3/active.snap": "09ff2cbb0290fd4503a60f1a8864e39f5a37f7323cec4a2559ad7539e13949a4",
+    "snapshots/stack-3/released.snap": "55dffead31283ba3a759c6375c7a24628b92d54e1ca99fb62ba200ad5725df63",
+    "stack-snapshot-3.log": "b9b0585789e96bc99ffa05d7685e4143467b8a6450e4f3b955b6c338d64514e8",
+    "run-results.json": "ea2243b94f853232b6ffe01e1216741dc310e5c4d3f82f6272da175092141a6c",
+    "handle-trace-1.log": "8a91e4422908127260633915ef80e668d462bd53ebca0e79d9afbfbefaf68798",
+    "handle-debug-player-1.log": "5066ca0048b3f74351b083edb8a8cc0feac3eb8b8b356ac2de78362ad2de9d7f",
+    "handle-trace-2.log": "f65c8a7b17e29c95bdf2a8d7fe1afb5c6188879421ede6c0aa6d3582e406426b",
+    "handle-debug-player-2.log": "d8cdf5bbfb2189e28fb2218c581041005b7cc5bae761e9d2bc411d6f66c1d829",
+    "handle-trace-3.log": "3c5efe597d16af65cf4126b5fa118994852ef99cb7b5221d76c8d9987d61140b",
+    "handle-debug-player-3.log": "67239aee59f6b5cb305840abaef249e47bf8fb1c658040d2f766066301118d58",
+    "stack-trace-1.log": "a3defe29c5aaa1ecc2189c5a2780824018c6e5cb16928c74b8e6a5c2c3174c8b",
+    "stack-debug-player-1.log": "fb6bb79d9293da1e11c3ce35e8f275a39d1cf8aaa58e3bfc13ae396568b0fff7",
+    "stack-trace-2.log": "d51cad9dd981f8dfa1861d3e51493cab90f5b3a696bfaaac92d67b11352ee224",
+    "stack-debug-player-2.log": "1903d8a1430a15d0b10c26c23224449f48f816faa67bb7e886789233a82fa29c",
+    "stack-trace-3.log": "f4cc954456b4844c19ce3fc3cd355c48778fc746cdaa520193805256507c78a9",
+    "stack-debug-player-3.log": "b720a84e62fcbcae2c5dfb43f4e374c72449caf06fb59dddb7990b624216e7f7",
+    "idle-trace-1.log": "fa811f0925a80f257ee97faea0db473d23818bda0fa7e7d319351076c7781ae4",
+    "idle-debug-player-1.log": "6f7d008757c1d569bb74ca134893fa235819f09edf6a419a5b38a85c8ce28e95",
+    "idle-trace-2.log": "b08d51c04db5c0eae54c938a232b4e88397d994896ca05493a2a5fa38101d12e",
+    "idle-debug-player-2.log": "db8619fbe41f3a23a2105b74ed5017e5793c879b9a9f91d15436029cab51f294",
+    "idle-trace-3.log": "7cf8ac7980f1d1993167c75780e1d99b7402b89b82feb7adb4846dc115b5c744",
+    "idle-debug-player-3.log": "ea4287c421de9df64bbf97b901cdf413aced6e7d48584c1e5f163d8aa0fb23d6",
+    "trace-results.json": "2cf491c751109d1d6b51f1303d480e68795ea87e37eb09662745685c2454ba13",
+    "unity-reader.log": "04002f312dd7e348c19d8d50062e3fcb8437000f6870ccb74db2207a01447c2f",
+    "unity-reader-results.json": "11f54b0e00bd51783c111be567832860bdcc4616bb88f9efa14466dceb1c069f",
+    "abi-validation.log": "320837661cd8133eb434ff4f0b14261c4bb39dc9d8d2dbe32efcac1f8ff438c0"
+  },
+  "published_event_sha256": {
+    "handle-root-events.txt": "c435dd9608136962c742d05239d66c3509cce12f4447ae99a3246c861d6c4caf",
+    "idle-root-events.txt": "e61be117edc9fe8cf0bd1c2aeba0cbdb25cde09299f146687444d5af2a6210bb",
+    "stack-root-events.txt": "b818121f72ca833ec44d63a891364b1dcf95621fdf9fb963bfa54526bfdb849c"
+  },
+  "verification": {
+    "python_tests": 57,
+    "python_command": "python -B -m unittest discover -s tests",
+    "python_status": "passed",
+    "independent_review": "passed after adding wrong-owner negative test; raw runs unchanged"
+  }
+}

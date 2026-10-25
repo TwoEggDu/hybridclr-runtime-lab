@@ -134,6 +134,21 @@ python tools/gc_callback_lab.py verify
 
 输出在 `artifacts/gc-callbacks/`。聚焦断点仅覆盖handle/stack保留对照；stress使用独立Player结果，不能据此宣称所有写屏障或长期泄漏已经验证。
 
+## GC 对象快照与活跃根区间
+
+后续实验使用独立 `projects/gc-roots`，复用前轮自有插件，不改旧样本和回执。已完成实际动态根回调返回值、槽位成员关系、空闲解释帧与21份对象快照的分层验证；见 [实验记录](evidence/2026-10-25-gc-roots/README.md)。
+
+```powershell
+python tools/gc_roots_lab.py build --editor $editor
+python tools/gc_roots_lab.py run
+python tools/gc_roots_lab.py inspect --cdb $cdb
+python tools/gc_roots_lab.py trace --cdb $cdb
+python tools/check_snapshots_unity.py --editor $editor
+python tools/gc_roots_lab.py verify
+```
+
+本机输出在 `artifacts/gc-roots/`；官方Memory Profiler1.1.0读取器只在独立忽略目录的Editor分析工程使用。对象快照的强句柄路径与原生动态根区间分别采证，不宣称唯一根或完整写屏障验证。
+
 ## 目录与维护约定
 
 ```text

@@ -1,0 +1,32 @@
+# idle run 1
+GR_ADD tid=445c state=000002150650bce0
+GR_TARGET tid=445c object=0000021506b08b10
+GR_ENTRY tid=21890 state=000002150650bce0 out=000000bcee14e778 expected=00000214d04d8b30 top=0 capacity=131072 frames=0
+GR_RETURN tid=21890 state=000002150650bce0 pair=000000bcee14e778 base=0000000000000000 bytes=0 top=0 target=0000021506b08b10
+GR_ENTRY tid=21890 state=000002150650bce0 out=000000bcee14e778 expected=00000214d04d8b30 top=0 capacity=131072 frames=0
+GR_RETURN tid=21890 state=000002150650bce0 pair=000000bcee14e778 base=0000000000000000 bytes=0 top=0 target=0000021506b08b10
+GR_ENTRY tid=21890 state=000002150650bce0 out=000000bcee14e778 expected=00000214d04d8b30 top=0 capacity=131072 frames=0
+GR_RETURN tid=21890 state=000002150650bce0 pair=000000bcee14e778 base=0000000000000000 bytes=0 top=0 target=0000021506b08b10
+GR_REMOVE tid=445c state=000002150650bce0
+
+# idle run 2
+GR_ADD tid=25ed8 state=000001dc0d6f9d00
+GR_TARGET tid=25ed8 object=000001dc0dd78b10
+GR_ENTRY tid=280e0 state=000001dc0d6f9d00 out=00000070adeeea48 expected=000001dbd04d8b30 top=0 capacity=131072 frames=0
+GR_RETURN tid=280e0 state=000001dc0d6f9d00 pair=00000070adeeea48 base=0000000000000000 bytes=0 top=0 target=000001dc0dd78b10
+GR_ENTRY tid=280e0 state=000001dc0d6f9d00 out=00000070adeeea48 expected=000001dbd04d8b30 top=0 capacity=131072 frames=0
+GR_RETURN tid=280e0 state=000001dc0d6f9d00 pair=00000070adeeea48 base=0000000000000000 bytes=0 top=0 target=000001dc0dd78b10
+GR_ENTRY tid=280e0 state=000001dc0d6f9d00 out=00000070adeeea48 expected=000001dbd04d8b30 top=0 capacity=131072 frames=0
+GR_RETURN tid=280e0 state=000001dc0d6f9d00 pair=00000070adeeea48 base=0000000000000000 bytes=0 top=0 target=000001dc0dd78b10
+GR_REMOVE tid=25ed8 state=000001dc0d6f9d00
+
+# idle run 3
+GR_ADD tid=26d94 state=00000262a208ad20
+GR_TARGET tid=26d94 object=00000262a2688b10
+GR_ENTRY tid=270a0 state=00000262a208ad20 out=000000a0f9b4e4d8 expected=00000262704d8b30 top=0 capacity=131072 frames=0
+GR_RETURN tid=270a0 state=00000262a208ad20 pair=000000a0f9b4e4d8 base=0000000000000000 bytes=0 top=0 target=00000262a2688b10
+GR_ENTRY tid=270a0 state=00000262a208ad20 out=000000a0f9b4e4d8 expected=00000262704d8b30 top=0 capacity=131072 frames=0
+GR_RETURN tid=270a0 state=00000262a208ad20 pair=000000a0f9b4e4d8 base=0000000000000000 bytes=0 top=0 target=00000262a2688b10
+GR_ENTRY tid=270a0 state=00000262a208ad20 out=000000a0f9b4e4d8 expected=00000262704d8b30 top=0 capacity=131072 frames=0
+GR_RETURN tid=270a0 state=00000262a208ad20 pair=000000a0f9b4e4d8 base=0000000000000000 bytes=0 top=0 target=00000262a2688b10
+GR_REMOVE tid=26d94 state=00000262a208ad20

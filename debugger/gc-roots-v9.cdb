@@ -1,0 +1,8 @@
+r @$t5=0
+bu GameAssembly!hybridclr::interpreter::MachineState::GetGCRootData "r @$t0=@rdx; .printf \"GR_ENTRY tid=%x state=%p out=%p expected=%p top=%d capacity=%d frames=%d\\n\", @$tid, @rdx, @rcx, poi(@rdx), dwo(@rdx+0xc), dwo(@rdx+8), dwo(@rdx+0x20); k 10; g"
+bu GameAssembly!hybridclr::interpreter::MachineState::GetGCRootData+0xa9 ".printf \"GR_RETURN tid=%x state=%p pair=%p base=%p bytes=%I64u top=%d target=%p\\n\", @$tid, @$t0, @rax, poi(@rax), poi(@rax+8), dwo(@$t0+0xc), @$t5; .for (r @$t2=0; @$t2 < poi(@rax+8); r @$t2=@$t2+8) { .printf \"GR_SLOT state=%p offset=%I64u value=%p\\n\", @$t0, @$t2, poi(poi(@rax)+@$t2) }; g"
+bu GameAssembly!il2cpp::gc::GarbageCollector::RegisterDynamicRoot ".printf \"GR_ADD tid=%x state=%p\\n\", @$tid, @rcx; g"
+bu GameAssembly!il2cpp::gc::GarbageCollector::UnregisterDynamicRoot ".printf \"GR_REMOVE tid=%x state=%p\\n\", @$tid, @rcx; g"
+bu NativeProbe!NP_Event "lmv m NativeProbe; .printf \"GR_NATIVE tid=%x phase=%d seq=%d value=%d\\n\", @$tid, @ecx, @edx, @r8d; g"
+sxe -c "lmv m GameAssembly; bm GameAssembly!GcState_Track* \"r @$t5=@rcx; .printf \\\"GR_TARGET tid=%x object=%p\\\\n\\\", @$tid, @rcx; g\"; lmv m GameAssembly; g" ld:GameAssembly.dll
+g
