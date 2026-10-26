@@ -1,0 +1,13 @@
+{"event":"env","mode":"code","build":"7adc9fed-3322-4778-8a64-c7e6bb2018eb","unity":"2022.3.62f3","hot_before":false,"registration":true,"assembly_name_before":false}
+{"event":"stage","stage":"Assembly.Load"}
+{"event":"dll","name":"HotUpdate"}
+{"event":"ping","value":"resource-hot-v1"}
+{"event":"instantiate","value":"ResourceInstance"}
+{"event":"snapshot","instance":-90,"number":7,"label":"code-runtime","anchor":"Anchor","anchor_matches":true,"payload":"resource-payload-v1","payload_name":"Payload","type":"ResourceHot.MountProbe","assembly":"HotUpdate"}
+{"event":"life","name":"Awake","instance":-90,"number":7,"label":"code-runtime","anchor":"Anchor","payload":"resource-payload-v1","type":"ResourceHot.MountProbe","assembly":"HotUpdate"}
+{"event":"life","name":"OnEnable","instance":-90,"number":7,"label":"code-runtime","anchor":"Anchor","payload":"resource-payload-v1","type":"ResourceHot.MountProbe","assembly":"HotUpdate"}
+{"event":"life","name":"Start","instance":-90,"number":7,"label":"code-runtime","anchor":"Anchor","payload":"resource-payload-v1","type":"ResourceHot.MountProbe","assembly":"HotUpdate"}
+{"event":"life","name":"OnDisable","instance":-90,"number":7,"label":"code-runtime","anchor":"Anchor","payload":"resource-payload-v1","type":"ResourceHot.MountProbe","assembly":"HotUpdate"}
+{"event":"life","name":"OnDestroy","instance":-90,"number":7,"label":"code-runtime","anchor":"Anchor","payload":"resource-payload-v1","type":"ResourceHot.MountProbe","assembly":"HotUpdate"}
+{"event":"result","restored":true,"typed":1,"missing":0,"hot_loaded":true}
+{"event":"done","completed":true}

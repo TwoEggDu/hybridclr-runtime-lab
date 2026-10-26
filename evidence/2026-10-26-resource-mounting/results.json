@@ -1,0 +1,951 @@
+{
+  "schema": 1,
+  "build_id": "7adc9fed-3322-4778-8a64-c7e6bb2018eb",
+  "lock": {
+    "schema": 1,
+    "editor": {
+      "version": "2022.3.62f3",
+      "revision": "96770f904ca7",
+      "distribution": "local-custom",
+      "product_version": "2022.3.62f3_96770f904ca7"
+    },
+    "target": "StandaloneWindows64",
+    "dependencies": {
+      "package": {
+        "url": "https://github.com/focus-creative-games/hybridclr_unity.git",
+        "tag": "v9.0.3",
+        "commit": "6cadd24d101f4cbd00cd80190106f6621132d24d"
+      },
+      "runtime": {
+        "url": "https://github.com/focus-creative-games/hybridclr.git",
+        "tag": "v9.0.1",
+        "commit": "83929787581bce6c7219418f62348a10c33582ee"
+      },
+      "il2cpp-plus": {
+        "url": "https://github.com/focus-creative-games/il2cpp_plus.git",
+        "tag": "v2022.3.x-9.0.1",
+        "commit": "ba3a76c9979d14cee404fb5d44301773e0768866"
+      }
+    }
+  },
+  "source_sha256": {
+    "projects/resource-mounting/Assets/AOT/Probe.AOT.asmdef": "bbc557eeebc761afed58027e7a514047af12e3796ea951d3b8e947f834c681b8",
+    "projects/resource-mounting/Assets/AOT/Probe.AOT.asmdef.meta": "6cdd13385e95a742bf5343e4a7267986a619b3b21dc42ec4e59d97ef7c7cd20b",
+    "projects/resource-mounting/Assets/AOT/ResourceEvents.cs": "8ff5ccdd0f329e738c41d0a451dd45051aa7792046f5216c6ae9045691b6edf5",
+    "projects/resource-mounting/Assets/AOT/ResourceEvents.cs.meta": "b62bc7ca0279721ccc7b385efaf4cdee45306c6193203ba053383f7952ddf3b0",
+    "projects/resource-mounting/Assets/AOT/ResourceRunner.cs": "887e18e62c066f3d2a66c221c48c7f020890b78a4101af03abe6c5775662b481",
+    "projects/resource-mounting/Assets/AOT/ResourceRunner.cs.meta": "c680cd9421c2bff7445b8e5caced2c95e816db8e606101d44be940f1bc7491dc",
+    "projects/resource-mounting/Assets/AOT.meta": "ca3a9b87b95c25e5fde68bdda3d121687e6cf418c8ef584213ffeefa434bd2d1",
+    "projects/resource-mounting/Assets/Editor/LabRuntime.cs": "6b60665ec3e8649a493d91a26fab302956e37ce6d8a383e7a555450cc5bc0926",
+    "projects/resource-mounting/Assets/Editor/LabRuntime.cs.meta": "900571aa3bfb77b325823b5bcaa70ea75b6f815c3c1c9ead8b4b2bf5809aaa72",
+    "projects/resource-mounting/Assets/Editor/ResourceBuild.cs": "b766cf100d67585b36a7271f7c714d9adece2681bec60e54e9c56843ee3d1932",
+    "projects/resource-mounting/Assets/Editor/ResourceBuild.cs.meta": "efaba26c4e93155805c75df381b8cffbd6c1deab2d459fd81a35273d9369b4f1",
+    "projects/resource-mounting/Assets/Editor.meta": "497338b6dee8111707add2fca30291ec7db7af5db146ffe884d6adfcc2be0c28",
+    "projects/resource-mounting/Assets/Fixtures/BundleProbe.prefab": "7e2e890830cf90b0062c2a14f5c7145aa4aefa4041707416de99880a5daecd00",
+    "projects/resource-mounting/Assets/Fixtures/BundleProbe.prefab.meta": "d37b866df188e9c7c4457c4ab0391e5b9781bc62f2d9de213a783f6df43bdf8e",
+    "projects/resource-mounting/Assets/Fixtures/Payload.txt": "b3504c024cb88466dd2749d31ef928c0e5856810cfdfbcf5292a53c0e259108c",
+    "projects/resource-mounting/Assets/Fixtures/Payload.txt.meta": "562305386dffed42feeeefb12b62aafd7d35614f78cf504f93a62a0d5a97c1ad",
+    "projects/resource-mounting/Assets/Fixtures.meta": "201061c5e9c90f9688e36ff97c7e0d4dfedf0b732ee2ed2e4ca93e362e94ad6a",
+    "projects/resource-mounting/Assets/HotUpdate/HotUpdate.asmdef": "8ab6c0343b045923439b6a80eca21cb50343eb71bd49d555663d321613892282",
+    "projects/resource-mounting/Assets/HotUpdate/HotUpdate.asmdef.meta": "4141e8c40ccd5311725eb6bf1a3f3e406d47e3d199fc42a62805868036e63453",
+    "projects/resource-mounting/Assets/HotUpdate/MountProbe.cs": "c3fc92f544b6af6f43bc6448cccce3210a08cf9df202f5b16cb6274e90209442",
+    "projects/resource-mounting/Assets/HotUpdate/MountProbe.cs.meta": "4560febf54a1c834a1e7626814fd019d60c9068ab75058c17c4d7d22613c7d34",
+    "projects/resource-mounting/Assets/HotUpdate.meta": "7038813fd86e4749010db568b21ac4cc5bf85185d0094c21de415addc40ef07d",
+    "projects/resource-mounting/Assets/Resources/MainPackageProbe.prefab": "9c16689f1ef9add107e9018ac9f4ca2dd489ad7902f0a297a877690e04bd4e5b",
+    "projects/resource-mounting/Assets/Resources/MainPackageProbe.prefab.meta": "e593e57141fcaedc5851b2eb40d192a0b0d890ad2f1c856b654166c5c565572d",
+    "projects/resource-mounting/Assets/Resources.meta": "c280289c78aaffac4ff337356bda42ebf390843838e846968993b22158258ffd",
+    "projects/resource-mounting/Packages/manifest.json": "b1c0a47ae3e0e5c8f8bdb34271d77580f92df2a48ea1f78560e55687b98a9484",
+    "projects/resource-mounting/Packages/packages-lock.json": "aa03d38423d82ed088c7cab454ac8d8241cb564d028c46af1a5985b5d7d2a9a5",
+    "projects/resource-mounting/ProjectSettings/AudioManager.asset": "9a554916fe138ebcad8443ee9b079363ecc72795c39d0e80f5f7ca99e2c6f5e7",
+    "projects/resource-mounting/ProjectSettings/ClusterInputManager.asset": "40e65dd214bf254955d2c8829ca8ce2130fd3510485560ce012e9a1ddd93e623",
+    "projects/resource-mounting/ProjectSettings/DynamicsManager.asset": "62fd35da36080a098d3e9f90cf4af6c655fe582091c33e505b812cf9aa36fee1",
+    "projects/resource-mounting/ProjectSettings/EditorSettings.asset": "6f8761b516f06ff2f0373b6310571cf7951f63afb86c56bfd7be832e06a9987b",
+    "projects/resource-mounting/ProjectSettings/GraphicsSettings.asset": "96fbec3a726513347293fb201477836277ade290a0bd7bd473cea90ffe896820",
+    "projects/resource-mounting/ProjectSettings/InputManager.asset": "d0f454ddb880912abcae92e3e12957a7446786ba89e24937e019ff3bbc0d4300",
+    "projects/resource-mounting/ProjectSettings/MemorySettings.asset": "1e8379a461b10ae09f3f696911088c16875d63e87ed5f2d95df9e1892703f9fd",
+    "projects/resource-mounting/ProjectSettings/NavMeshAreas.asset": "7ebbf8f53b8033104e1878b95ca07a28d0954092d81c220f14196a42f651e658",
+    "projects/resource-mounting/ProjectSettings/Physics2DSettings.asset": "531861618163b01648a075414f6e864506ad8fe0a0d4d0096aa1fbbfcd3937dc",
+    "projects/resource-mounting/ProjectSettings/PresetManager.asset": "29c125923fe6e29f90190d4fce1c82d660e7051546e2c9d02908d18c9cf2436c",
+    "projects/resource-mounting/ProjectSettings/ProjectSettings.asset": "369cc30650d43a02bf5c43f56da56463a40ca285b24ba9c0b7f290b9a9714a84",
+    "projects/resource-mounting/ProjectSettings/ProjectVersion.txt": "b51164d22c4d2716ba8aee7f0b59d6b7dd0efa8552fd1db2a8c3b123fae3a1ec",
+    "projects/resource-mounting/ProjectSettings/QualitySettings.asset": "944b52d523bcb15b945bc80924b9289f59185ab19bce8a00e99eec345bde6440",
+    "projects/resource-mounting/ProjectSettings/SceneTemplateSettings.json": "5baf593374ad67246277a435d8d0ded7167696eef6e05d2d245670e490625d8c",
+    "projects/resource-mounting/ProjectSettings/TagManager.asset": "8e18b1c820e9c09e16bbd1f1b7842e9fb3b0158a0921b0964e0b8fa12c6e2c01",
+    "projects/resource-mounting/ProjectSettings/TimeManager.asset": "1a83e54adbbda7c9f4851103a0c6ab7f6448a3343d4ea5b7620452fa08416ecd",
+    "projects/resource-mounting/ProjectSettings/UnityConnectSettings.asset": "d6034acbef6c9e3179866486c31eab81fcbe5e7ed350ce71e0fa2b1449b77109",
+    "projects/resource-mounting/ProjectSettings/VersionControlSettings.asset": "e7bda45bf7a394745fee1316e6c71fa676004d591ad1f3aa247fd3e4ceb86071",
+    "projects/resource-mounting/ProjectSettings/VFXManager.asset": "3f31266c7c1910447586e71b041dabd58d8371715ac3142d3e38ace46121f4ab"
+  },
+  "artifact_sha256": {
+    "Bundles/Bundles": "00c6606f3e92482bd8b811e6ca8ae88c91b9f6e876f9980f1d2f90cab4998ba2",
+    "Bundles/Bundles.manifest": "4559bcc74081fe8a4bbfbfc40c1158b4ab2b02349da671d62c211d73a45bc0bd",
+    "Bundles/resource-probe.bundle": "78b7c9bccae05d95ac7c7b20627aca1c57a135c445968cbc3d02ae89980ed589",
+    "Bundles/resource-probe.bundle.manifest": "75c769eacc6d183d6ce22ca6e3585fd92ea2c37170ccc8c6f293121a22b26ef7",
+    "Player/baselib.dll": "6b2641b799145e687a4ba75791bc163c60a65a0c76cf50378712dea37e2c0572",
+    "Player/GameAssembly.dll": "2c943a5af7db8ed225fc4cb124a0b6ae18233e38fe24423dd8587a9878a13250",
+    "Player/ResourceMountingProbe.exe": "8d4c804ff605213a298140be3c172eb407e7f5dc78c5082cdfaabaea7b43ba0e",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/GameAssembly.pdb": "e1c89e77772905544acfc673d3841d3fd4b68c4cafeb0c5d4e4ebe5daed889fe",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/__Generated.cpp": "9a2bce0eb3751096b1bf33c7ce0e6948291f5efb6aabc173557f667975c4a6d4",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/__Generated_CodeGen.c": "0c7762826251d556bd26eeea2ece11c49b10341f1cf92c09c6b8500a435d1672",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/analytics.json": "3dedc960d2283b3e97bc3e87ad017af8fb5f6dfed60d61ad5ba00cf2d3b8af82",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Assembly-CSharp.cpp": "6dedf848c49fab7029b0581341367c04967d981f32c72ea8644f5bb73639ff65",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Assembly-CSharp_CodeGen.c": "d6fee96b69ed2b0a2d8aa110651a177dca46052a4b2ca6bb9a9697b5fc8db62f",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/GenericMethods.cpp": "eb5fce9e105634e4ca07540e7d8883f6661cf0727e7e1297e514be953284df1e",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/GenericMethods__1.cpp": "980f475632ac887490dfd47ba102edae37ab621abf0930596c1ce48dc446341d",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/GenericMethods__2.cpp": "3f2d384cf13d8d5c8f356345c19ac10417d98299b720db2ee83a425c2ccad7ac",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/GenericMethods__3.cpp": "7202d115cd6a2166a86a4ac16cca6aaf85dc81c596e92bdc6009f8d385ee4b0d",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics.cpp": "bdcf5d281107008b4fea6c86cc767950b068905556f843940411786fb16886a8",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__1.cpp": "0d8fec3f8243bc87ba51d960d56afeeb97421f9758e034b132cad45fb65437d6",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__10.cpp": "3bdfd16989a822e595326d30d8f540298c8475cdf387d7aa696628cb47b15a1f",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__2.cpp": "1ea843332d8c15c8f7021450116ceb913ff7815c87877ad56fdc0ef32f5d3251",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__3.cpp": "ab544a8c413b055eeb7036c8e9e4cf1ff3c680e9496eedd79f8970f1704d2239",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__4.cpp": "b32ffc9bf16d44debc165056b371c3ae4e150551ae679b34390dae0d86d110a3",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__5.cpp": "063816ba5a05add2e5b8304f2f6eccc621b8eac4f37a45a38ac0b2a0ec9ef671",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__6.cpp": "4dc481ef046acb28d9fd81509ed3b8b59b1b1037371144f703812d49a10c8ebc",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__7.cpp": "cb7f2f0c31c41687a3efeeeddc3e888bfa1d60d739709e4264cb9c5b7459a618",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__8.cpp": "4c8bc33605b817fbd6912d6aeb1afb9f9bb00b0597575894efef3cc7526d0470",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__9.cpp": "b9632fe2d0a7ae3f7a0c47fd57edf50a3db86e89aeee597bf62f573499896a61",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCalculateFieldValues.cpp": "12798f1ebd80ca2d6fad9a20d89840647e232f72d758b83735319833ba0a78ee",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCalculateTypeValues.cpp": "8dd7947d06fae9a9c2f22b7d91a9f0b7f57f7d74f0dbb9a01855a302d8657e0a",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCFieldValuesTable.cpp": "93df0c77bd10b5e4d737ec129d89a2e513fe3311c77168449a1aa2b925807099",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCTypeValuesTable.cpp": "770090cd61dd47e905b7d7333ab1ab5a069c8cc3d4f82f602461ad335bd42ebf",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCodeRegistration.cpp": "58b8a206a5e1bc49b19103a8584d842c754624b47fe4e48735405218d4cb2c0d",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericAdjustorThunkTable.c": "93f642ccffa06f6dbc8761bc75516a47776a39f3ae5015ddff9361581c068d40",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericClassTable.c": "a3a44524436dd2b788d52f629d77c55ec9038eb075b783ce1a0b961baf443b34",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericInstDefinitions.c": "24cbdd33bb1b5d0c6119c35f9c461c1d810e15a9ed1cf6a925b10443aed3b7b7",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericMethodDefinitions.c": "2bc32ddf09f0f0265341b194b95e8aeafed762964502331b170d636acc9eb1fc",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericMethodPointerTable.c": "cb3239f7d5227c9244cc0c95edb2bf1720d002c4f8ecb28c9e35376298099ec4",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericMethodTable.c": "4f5c43ea74502d44480f4ff70b31800d03c3b22844638f31c1e64aec2bef77d6",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppInteropDataTable.cpp": "ddfa80dbae44eb43c2461b110db3931cfc46fdd68dfbd6c2b2177f088e567640",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppInvokerTable.cpp": "d0529d40f9bf0d754e748d8b81d4dc16ec53baa723a656ec3c46079233f8a80b",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppMetadataRegistration.c": "6feca18430d6d2b0db31f718096c91f0aca4336348bf47c27fba467ae9390173",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppMetadataUsage.c": "b7d08a790e41d1ea12c04001a81701b6e68f58d052832347d62c347d3143d786",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppReversePInvokeWrapperTable.cpp": "94ac24dc902d93215310e41313124b72ba9cccca202de211403835e35ec5e2a3",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppRgctxTable.c": "d82bff3af6e34de3731bdc84a66337aa070c6950dc95e2748b96e6b86d780ac7",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppTypeDefinitions.c": "7892aecfbb0266b17f8b12105db7043e554fce6fe8b7d02458661075230ab6cc",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppUnresolvedIndirectCallStubs.cpp": "c00e96e5cede6b4c2a3cac76f362031a377b0e320135bb93f4d8e258834132e7",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Mono.Security.cpp": "ea58e859bf1cad5368e7b4960181d9304ee433099d468048bca74fec7ddbf076",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Mono.Security_CodeGen.c": "8fa2afc6156b9c4ba1299551655c19a1c165ffcf81a894f797e4ee8be520156d",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib.cpp": "e45cb237ac3c64eb1c3ec252c1ff367012b9b826412543f227816e83afc71ad9",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__1.cpp": "b95b796098f7fa0cdf43d1869ba8181d38b9c10b21fc4ef192f04cd61759fa64",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__10.cpp": "f0205e28d64ec3abc9f8a3cb7c5b83a3d72d03458031f2b50b48e22583a4aa5f",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__11.cpp": "b8332a56413d185a5259135b558deca7a1961c1680f4d22550210da5ed49c244",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__12.cpp": "25b64bc5791f304e36ca88126ae0155adef466f48f941d9b5597f4bc78a2db32",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__13.cpp": "17d8c734219618cdc74abc84d05d790b0c5edc7c9db4b3145b3843c25f1df2dd",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__14.cpp": "49e73b5535d94c85c2377c982a567fd7abba7f568a82455e030b7e4a8a45fade",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__15.cpp": "2b4e7a534188935e352b5f1b18e1a630d4e0b7f93e4e5add68fbbbd78c3370ed",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__16.cpp": "efbe45e20a612d34e77aca1b77f82aa3a65dd3fa57b1befab600e53c3d1f9b55",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__17.cpp": "a6b6544d73c80eda36651520f88a3d48515f9fa7dc8f5b51e22f84a9c4602732",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__2.cpp": "7d67ecd0130b14473c231855426a6a0fe133eed4c7f226364f3e454789868171",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__3.cpp": "19133e238dc56c5d0c67293413e9bef99bc13a6ca1e7d66c3671e32eedc82499",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__4.cpp": "ee076a381490a636070e87f82e56eec0fc428bcb9997617afbafd84db38bf28d",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__5.cpp": "9d9fdefe2d8b9dd615837ee0cf0efd9086e04eb6b24c251aa3095b806f7573ad",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__6.cpp": "3fd6466bda7e119031043bc003fcf95fc7ffeaccf834c7b4e625ff9df6994964",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__7.cpp": "e5caf5ecfa6e89d79c66084bd5aa69874e289765ed430e459365553b807a52ee",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__8.cpp": "b0f63c245e481c9d111212a14ef84bd342fb76c89a3ae9cb9a0593b939614d39",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__9.cpp": "6f90f6eccb8b7a59ec130522e9371a90a4699f177f6c014d49988d88c053c87f",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib_CodeGen.c": "2a593d1a166ee985862c1a54dc977b2fad099caa7f362335a57635da54811f8c",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Probe.AOT.cpp": "a8dd8a43702e9bd99544aaf0d87abd72b9d0d58e5b8d5cab593ce7a13601a8ef",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Probe.AOT_CodeGen.c": "56047519ac2ec5cf487777c4bd581b6a161b0c4bcf8dca6c122f7ee1299f4225",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Configuration.cpp": "147a6053bc181ebd584ace10b093f8e133993f64ee2e5ac5206bef318d5c5b16",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Configuration_CodeGen.c": "5b4629707187d5a3a4b213e81e9dd88b4fe3b55ed9d1e62708241a08b0fa85b5",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Core.cpp": "201050df04a815eb92ffafcf274eb3eec9b9fab014e35f4ffbab1094477839a3",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Core_CodeGen.c": "f4d45acba3eebbb8a957e7d976515b61a441e17c2c0ff4a58b8603763ac57d68",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.cpp": "74624327ae4cc7ca9172b425f4e3d3912dc6a8ee3a103809dac17e204b85287f",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Xml.cpp": "8763ada00594308308a27db7a98de214441000f9d0c2a12380f3ee504f9ac6dc",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Xml_CodeGen.c": "0285f25b20dd42f75b0b4af80cb68178fe433edb39e605b8acd6e619e87f1965",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System__1.cpp": "9ab95abd0c807f6dd26c620c7bfcec7a0023f40b630c3cefeee009b8f7593bb0",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System__2.cpp": "198ef01834c5def99d2a3f81b5860db6b85aaaf75a744eed357ffd5f2a70ccdf",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System_CodeGen.c": "27e13e3f3c64b533b69e53236d101b55fb5304de2b990c12815f6b969b13e9ae",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AIModule.cpp": "f3e581ec3d947b02bc9f4efcf28bf6eb03671f191ae12284c92105dda9d3e85c",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AIModule_CodeGen.c": "e87d73092c11956f9e83375ddeab596438040d1586cd26a5b1c21deb6f8c7002",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AndroidJNIModule.cpp": "1cfa6c231aa45fe78552397befb448c6fdd1cda85d64421c7e47950f07504fcf",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AndroidJNIModule_CodeGen.c": "0ba462e946f67d314c3da8abb138d747e561c226abc76cf2563a31664137ad33",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AnimationModule.cpp": "9cdde61f2b8f8ff8e08386b6d44484292d87719759749c9b5ab1a4d6adde17a7",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c": "2725c365c506ddd5f6026b6032f2bc016b96ee4ff9321a69df9091a94424470e",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AssetBundleModule.cpp": "d3f2cc5db33f951c4ffae7d95881c09ee6c525d8f95f8dcbf84ed951ab9ced61",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AssetBundleModule_CodeGen.c": "0270f4eb7b5042087588ffc08fe275ba13a1fa535918365cdbc4faa05e9699a5",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AudioModule.cpp": "884b83529f41679dbf37215f16f49425f881d8ce77faf596fe2fafda08e8b1a2",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AudioModule_CodeGen.c": "659b943d80a4b5756b312e977a4244fce05ba1669dff77cc2b9b13fe60e4fc43",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.CoreModule.cpp": "9ab34ac03b4098f5cb33392f955050861d402b22b000aec1e509470581bf2521",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.CoreModule__1.cpp": "3ed0148ff014bc65465991218dc6e2001a4569fd2f21bd2eef13c2b8faaae8f1",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.CoreModule_CodeGen.c": "a0687c1a18c5dce2273c09ed150f1048d834cbb5a7a93616932ab41e7a0843dc",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.cpp": "aaef4deb23a4e70f31405c754b9301b4725f979983dd0491b58e5646133458fe",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.DirectorModule.cpp": "7db8484d167522ffba174611c7d28b19b1ebe4e6dfb6744d9870521278553cff",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.DirectorModule_CodeGen.c": "23d943231e6fba87f5c96318d0212c6d87ab573f7358ce3c42efcd64258fe682",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.GridModule.cpp": "57577500cdd28ac02b32f84b3d9b22ca435cc3f458a72948afa6fc2642274e6e",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.GridModule_CodeGen.c": "1036a511cd551fa3e151045dbd384b009ccbef642d4210b84f313bde535fa572",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.IMGUIModule.cpp": "2ece6106200c3da361d89905c80c687eabf8d4dfadad2594ba8b393ff7ccf1e0",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c": "091c3591f0c1f721a906cf711dd8edc5c3652dcab4738c3a3f0dcc092ec217ee",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputLegacyModule.cpp": "71040d1d17cb5a0f189897ce6aede67a4f40eebba73c9ad0a85c71806b88520c",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c": "c89af8d9a87a0ab39d738ec25600d7f33e9816147baa17026f405a2529b2c5d2",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputModule.cpp": "fd93302d9ce3d15cabd80649eeb2290262f91c8bef6757b1778c73d771a927ba",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputModule_CodeGen.c": "bedf3b531e9bb6904b9c6b1b7c16150c700924e51994449a8cfd3b0cdc91926c",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.JSONSerializeModule.cpp": "7a099a490f89c790eca06a192753e40261206117b83b22c548fdb53cc56830f5",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.JSONSerializeModule_CodeGen.c": "6266a7163d3076c8f60de7b61cc18ed8da700b18c6be8c3931ae18e234a974da",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.ParticleSystemModule.cpp": "f434e85875b5d4e38d92c8c031c76cd2ae2afb1186eca179b51ea9c7c3615068",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.ParticleSystemModule_CodeGen.c": "a91be137db1874e93c163182c3b0b860af0407421b83f23aad91cf4e5dd40211",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.Physics2DModule.cpp": "7127eee5eccaa4181b8f4a68b5fc3c0ffb61519c7b133b1367538ef67c913c59",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c": "6d4da8d17ca49cdf8319172239f9b6e40e32155963df555615834d58b8e04d20",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.PhysicsModule.cpp": "0b2836e3e221cac095183c614c0fb34fc9bc12933706e5892daa221b7b6105a8",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c": "7c6447ede9d141d9da69b78c46feb0c2bd2ce47f47ce4f61838d22e3df564663",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.PropertiesModule.cpp": "4f1a2ae9f4b6f529c2fc433348982f6e4ffd9cb77717dfcb40602e2c13b6b399",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.PropertiesModule_CodeGen.c": "03a4b40860502d246c52917c5ce1ca3d69348d1e9fc1f36fc05fc9ae18e62581",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SharedInternalsModule.cpp": "97b2b93e36f5a17cb06ce125b6574c1e264ea0fdc19a8cea30409e9ebbe10f54",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c": "74ee016d8b196a2d4286605d175f9100d4e3cac7f1057faf851b63038d0ff5ca",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SubsystemsModule.cpp": "8265d8c82323175af28e1e2fd0ab4fa4e1fbf88c22bd99bdfea5b9eca0557c29",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SubsystemsModule_CodeGen.c": "c41f780ef6173d86f0c5b917590da97494c089cb186445903632b5cee94aaf71",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TerrainModule.cpp": "20377ce6f824ae2bb6873eb61e5f087f2ed4d265c347c9000249873e8da328e1",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TerrainModule_CodeGen.c": "b89b349ff70aba6ab9ff7583fe57f5c2b9b1727c5d5d835f12fd71d92d8a3c4d",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TextRenderingModule.cpp": "fe8072fa56a6b23ba4bb248ee02d4a6fdaef5e2406605d6c6d51aea50229fff4",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c": "d81feb178805560cf66ba979a71970d32c032cbae1a279c0d3ef7bcbe5dc7fe3",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TilemapModule.cpp": "b66a00ceff84cf4c7631114265c91797fe018635972d28f7a621a562275d6911",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TilemapModule_CodeGen.c": "9f3718630f98828e26f00934434aed17ca4839b7fa35ffa998473d85acbdc0d2",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UIElementsModule.cpp": "a76470d9d64cb5dc0628d493fd3072b0aa9171d006feeaa7ce12e3198e6933a1",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UIElementsModule_CodeGen.c": "79e628ada6a2df8c5b72056ca2baa32408bb16a2150790eb07f750b1cb121189",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UIModule.cpp": "965c45d678dcbb2e8efd74143a23b06f50544e0883ce44e3ee05ce5fb70c73c9",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UIModule_CodeGen.c": "d434665002e2bef017151b4d92bb2d4bde0288f64ce568f0eb7c2255ee4f55bb",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UnityAnalyticsModule.cpp": "bba80c4192c6f2b39b7fb4ea4aa915d7831266ff5014e7e7d66f336cc64883a8",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UnityAnalyticsModule_CodeGen.c": "b08650a3520703e5c9c8fc0f95f6ef91bfc7db9af0ceab06dd5c00047beb8c07",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UnityWebRequestModule.cpp": "a63ada1d3002f5ef60334d7b36a6f005040920ff77b6fe4e4fedd0ccb0246a17",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UnityWebRequestModule_CodeGen.c": "767bf1a036978e8bf41c359698f100c0f09f0c8df9fd1533eff665a6c9d5ab89",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VFXModule.cpp": "51e5109c1b0f2f9a8c52c4dea102e4a7c8d87a9f6025a20be99d34816a9d08c1",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VFXModule_CodeGen.c": "07e8ddb7aaec52cbb2c31ba7f699d4a07e7ceb32a4f11799bff55570a30c1f51",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VideoModule.cpp": "c20eca6d58e5a1f777edf423251d286c38b490ea145d55bbe208421d8409ca38",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VideoModule_CodeGen.c": "5508358e0bf45cdd769ba7721c333c1558a0d18f8bca52cc9dfd4a624380be15",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VRModule.cpp": "ba202110b69ce685f960a1cdad6de1b7885407ab498882b2326caf58744e11af",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VRModule_CodeGen.c": "032731a8682d7f8b50a53b3e80f947aa25f916cbb8e0a81fa6aa20cb17ab5ea8",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.XRModule.cpp": "2c39446241d4b4994ac99c02c15a8c631ace655e7e30f1cf8dab575e2a8ee894",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.XRModule_CodeGen.c": "9b7701c032ca55d1b4fe8c373539d2325ca818aba11296c92a6517e2bf4be0c8",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine_CodeGen.c": "4d6e3851398e44006ca02d1fc0c194eedd6d9bf5d974d82607b25a7932d33de9",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/analytics.json": "1bb3e5db5744a4367708a16f4f3818419784adb2213d2e5ad8ee4d283a9253c7",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.dll": "20177d5bc4b5a2d6659a8d23fe0cff83d9cd438d1f67f5e282979ee42a580c88",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.pdb": "44524c7e405d68f8125c1e3a0628f9c8a1c30e432a5300b53a68448029fada6d",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Mono.Security.dll": "17a3ad783c0218dfce8c7b95fc565e9c6a8e24e6d77666f36fc52f9fad98414c",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/mscorlib.dll": "4100fcc21791b8fc86bd71b586d941b65c1e5db1fb8fd0353db78cc5e435d6f4",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Probe.AOT.dll": "d91335c0db166715e032d84f31d2aca40f96f4d193f016f1079bd6fbc57294d0",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Probe.AOT.pdb": "6df6401abada3fe3018481dfc7a62138cff3dc60c4f686d2154777860c3c7dbe",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Configuration.dll": "b98d257cf0bb8bf12db7d691b82b4594bb2ed3c9ceeac6a3f999751bdfccdc9c",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Core.dll": "9247cc7d65444c4af57acf8b2c4a033f4edf12e3bdc7b14b41c0a3ac7dcb8596",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.dll": "600a30e26577e9d8abdd424abb2474e03519f71a62b44c858f3e2b891cbea5f0",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Xml.dll": "78e643d8971ad22e1220de59c9ab40e54344194cff2d471b5837dd25701d7c6c",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AIModule.dll": "9b10c8762dfa844e3d5efe48baeb782416dd8c0807bd5777ba38d2a17ab7583d",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AIModule.pdb": "9573c7c56729b23ff7f807dd920c2731492275126a49f4fc6700ec14f8b72aaf",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AndroidJNIModule.dll": "60154da9c94bebea807f6f56f2d58df32d274d3c4edbe41f8c5a0bf5cb62f551",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AndroidJNIModule.pdb": "8f812b9930da6aad03da002fc29dba6d7a6f8b54a18a2150128350074e53f710",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AnimationModule.dll": "26ce9506871fd3290004aa4b46b469585358082abea4ca5a02da5193dbf90189",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AnimationModule.pdb": "b65478f897bef3e70d0af04263b653d2516625890110c249f07b92017005c74e",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AssetBundleModule.dll": "9b0bcc4e6293a06fa09848b93ed8d3c893cdf68c3b57010a41f9809842897a7a",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AssetBundleModule.pdb": "074c4a0aa518256d5be4fd6f8d9806847bbc0fd9da04cbbde8cf403c0ef6160c",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AudioModule.dll": "02b3462a17ee369402cfac5ceb794000ae7c1b288254cf2393d9ea6fe3742007",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AudioModule.pdb": "304775acfd26040e4cde3c763fcdaebaa7501162d6382bb809eb806d81c75f66",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.CoreModule.dll": "525b09380f64961e76143fffb88e8c9b653ab8adb59ba0acf69f7757c1e384d9",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.CoreModule.pdb": "677ab80d9b7741313b92bfe72df55fe7e623e9f4c1d39adb91e9341006f4ba42",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.DirectorModule.dll": "ec15d0531aa137090a421f5760ce4a3c80ba04c3c6bc26e283f3740710a8eef4",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.DirectorModule.pdb": "47b3a8f8a44d6f9995d0ce0fb7c31e0fe2ecf0589c2ffa3fca7ab45dbedd7c75",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.dll": "b29aa087a1018ace4643f061ae9fdc51ebe36e6ba480c474f1a9c225565545df",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.GridModule.dll": "52a909136699701804ae46f36d1564a4c709a15a6d497cecd0e2637f689840f1",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.GridModule.pdb": "62ca59cb515c209e14452cd16913b91b65d190ca2960f939994663d3cbe75be2",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.IMGUIModule.dll": "2153e639a03e6a7d6156ff333a25f4e9b2b1687b111a5773e38a8f95368dc078",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.IMGUIModule.pdb": "e96c28b449ccf2cd70f0055dad98fa5270fdb253157c89989af6bade83f4f40a",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputLegacyModule.dll": "92cec7f13a7debcb0b4884656956c77e3670a1ba8fa51ac78cb4fcb836bb43f7",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputLegacyModule.pdb": "eb7c1b237f2d6d44a41e1a3f96a4a0b175a160a3987ca3c778e66ec2031fdbc5",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputModule.dll": "2769f82515874cff00c1d06ce1761b76cddd31ddf5fb72a9916e6584f98b41a8",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputModule.pdb": "482f67a9e00b7fe0dd9e6f372d30f9f3fb91c6f81a7462e83a2fb19994421e2d",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.JSONSerializeModule.dll": "dcc25364e1204bed9fccb632f7e3681bd39f255555140f42ff1897db66637157",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.JSONSerializeModule.pdb": "85ca35a910c01d8c28969daa56c4868c5a6d057160272962a2a670466755a391",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.ParticleSystemModule.dll": "9022b2c04a2e8ba14cf5fbdaa1b7be72fc3e55917cc0c718bb09b3f693fabf2c",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.ParticleSystemModule.pdb": "00cc9c0f7c504e1d4e6e192c0739526b4d00b8d600d366df494a06184f76cfb5",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.pdb": "92e362a076895522b1fdad6e5a7c369413984b95bc2be45922b743fcc44bc607",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.Physics2DModule.dll": "9a141001b89d14311ba073a93c89d06b92fba4d7725738011673f4f659829f41",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.Physics2DModule.pdb": "d76581222e4161c431b486195ea93998eaad39968b5e258a977de69c1cc3f958",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PhysicsModule.dll": "d0b7a50d978f68fa2c112a56e581965ca7414f44b64ea8a852bdb5b75a9df21f",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PhysicsModule.pdb": "ce67b005422facf37ca3795070cd28b3e523ce5c58cefbe82ccf3273992d67db",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PropertiesModule.dll": "473ab6e6bf48154d090fd5791e8994ed55272dbe00ae41b02a83058d02c43316",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PropertiesModule.pdb": "eb2b4e3f27c4a3335e62ba230e4a172ee8ea94fa7dde844e620460b25b70cdad",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SharedInternalsModule.dll": "82acbede4ddb21e667859ec1e6b63ab0d7415e4bcabef356deef5d0a05d3fe3a",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SharedInternalsModule.pdb": "9252d4276a875d2b9b1653c2b555583c36887f54c21cded4109889233edf6593",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SubsystemsModule.dll": "fb1f1198c6139fd3c6967957c81396c79e6e326b4a9f0bb2a3f18326326f899f",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SubsystemsModule.pdb": "b118363b481ef4e69ea323bc1d0b0299b1af558e85b8ca9fbcb2be4322528aa4",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TerrainModule.dll": "621813ecc70a3e4e4f22a59389f37f302c57f2e0a8a726876ce343d63d006d14",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TerrainModule.pdb": "4b7d58e421702f369132f542d5909fef8ae874807807e48780b52e0a007e6581",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TextRenderingModule.dll": "7ebaaf38243dadcbbe6af711f6ce0b6904fb76d7408b08415607ada218cf4170",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TextRenderingModule.pdb": "a2db4efca06910b1a00278166085374857efa73d68ea7f7c0c3fe21f4ff4a48b",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TilemapModule.dll": "cfb2e0f771fd18454b7f4ac056cdae33254d5895fd94e08d344792a1bdddc77b",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TilemapModule.pdb": "97dfc7cf403cee6677c4b7542e8eb13ab0f7fee798faf8a64682b2fc32329628",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIElementsModule.dll": "13614d41eff2fa219d8e571e86d5dd739ed3e5b536922d9aac358bcfb0b7c55e",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIElementsModule.pdb": "1c039de5df3ac3f0e549fb98adb72160ce0c53be248b44aa0fb715c0f90f2186",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIModule.dll": "cc2cf6755d5c24cf3eee543fb0b1570e2039fa22b86223530ba3f1012c601b89",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIModule.pdb": "6d691a9896e2bd0afdbd492315d954f257b0428b735d7a438b73374028c55a69",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityAnalyticsModule.dll": "39e737eff704580ac5701596d3c63b62beaca6f9657e6ee95230fcc3c936e251",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityAnalyticsModule.pdb": "5b2c1d9ecc45c1ae23aa119b3c7b9a153f110f235d65bce7eca33428e7a8dc23",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityWebRequestModule.dll": "e4a091f971cdcb39bfdb344da2fd2d9138e1e3e9ae69f2a0db62dae982d3df98",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityWebRequestModule.pdb": "d1dc945a68a462ab9b71fc03ab1d9496ef434ec58f084e1c22717408017a3d9a",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VFXModule.dll": "d7277b763aa73f03134e0c88e80cf9f16b090c4c0afc923d8d1cd3a7ddb2cd7c",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VFXModule.pdb": "1fe75b718dc8ae08deff4e83a54b80a6990fd10de3288d7b2490bf9e80441bbf",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VideoModule.dll": "aebde1b44bd55d9b9f6944a81e751329cb4b5a0e3f3f2b4dc69aa2a30caddec2",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VideoModule.pdb": "7757528ce75cb924865bb450cb6dca4a473800b8b88d41d59fe770627714f70c",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VRModule.dll": "985c4de8eca613907e43e19be8e9218f507f96d3e8146ef953e31c4da2740e99",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VRModule.pdb": "100b808ee2c02fb698fd5722f7756392146116bb6d14be640ecdcd4f1f18a3da",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.XRModule.dll": "f080fe9b21a2ab6f10b2fee6c3e509f01372706aa2e7ac8bb5c1788bc3346c76",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.XRModule.pdb": "12f95389ee2c119d0efdbb8c2e0f230575818688a16fef84824f23d05625b317",
+    "Player/ResourceMountingProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityLinkerToEditorData.json": "0344843e4767af162e1e0ad4e4d6896c925a459dc9c07feec93d889d644646f7",
+    "Player/ResourceMountingProbe_Data/app.info": "888c4211c2798ce8dd72c2f2aae9bde70d9286ea3def067501a2af6e323e8b0d",
+    "Player/ResourceMountingProbe_Data/boot.config": "5cc8cd7a964f0b6c7c9304857d35972c41bdeb456ed775e87d451be796998db3",
+    "Player/ResourceMountingProbe_Data/globalgamemanagers": "04252b9d3de02bc0998b7a965e015180694108b369493139595021a30b3a3738",
+    "Player/ResourceMountingProbe_Data/globalgamemanagers.assets": "9e1eb34a98a9bfd04cccbc26c24541e9ac2fcb84a46988f938518a2c1ed0fee2",
+    "Player/ResourceMountingProbe_Data/globalgamemanagers.assets.resS": "ebf0f91664c0aa69e3b92e93d4d4e6feae1a9152529b0efeac047e3c9c3b0fc0",
+    "Player/ResourceMountingProbe_Data/il2cpp_data/Metadata/global-metadata.dat": "2eb72ff23cca08c138db5b182edae03b53bf38053411a9973e82d46473f70009",
+    "Player/ResourceMountingProbe_Data/il2cpp_data/Resources/mscorlib.dll-resources.dat": "c5baa176a5b72cd545266340e42102d393a5e43d38c95796bc828918bb95277f",
+    "Player/ResourceMountingProbe_Data/level0": "90a6d7fed1e177a6cb0f259054126cb3f5638994eb361536866a9c2dfe10162b",
+    "Player/ResourceMountingProbe_Data/Resources/unity default resources": "a11e3e24520676183b3750564b4d9f5a90e8f41fd3523cbfb0c49f3989453da2",
+    "Player/ResourceMountingProbe_Data/Resources/unity_builtin_extra": "8ba8849a60bae801d6e700df5e44d991931bda6618b8789b7758d67112f187bb",
+    "Player/ResourceMountingProbe_Data/resources.assets": "fb0009ae73efb3f486126a4c21d5c37e042bae80fedbf8ef3d7eeddf5d190667",
+    "Player/ResourceMountingProbe_Data/RuntimeInitializeOnLoads.json": "82b60e787174ce0dc28b81f2d1a799f31f1b30cdd4f46c97987a442ca0ce22be",
+    "Player/ResourceMountingProbe_Data/ScriptingAssemblies.json": "efcb079c23d5ca616c1cac12edc0db74d86bba7c3eb36b15b7eb7df4cd75fa4e",
+    "Player/ResourceMountingProbe_Data/sharedassets0.assets": "84a59d750eec9c740502bfb33d6d4abd96bd13f0550c0db1186c5c8c61b4eb25",
+    "Player/ResourceMountingProbe_Data/StreamingAssets/HotUpdate.dll.bytes": "00307a491d657f9933bb4d643598547ab9486791aeb7fba190565c2e1224cc21",
+    "Player/ResourceMountingProbe_Data/StreamingAssets/resource-build-id.txt": "23d53181ee038dd435e65c83f42a9f460c05e0af1a5a8d6a626608ebd4b47162",
+    "Player/ResourceMountingProbe_Data/StreamingAssets/resource-probe.bundle": "78b7c9bccae05d95ac7c7b20627aca1c57a135c445968cbc3d02ae89980ed589",
+    "Player/UnityCrashHandler64.exe": "f93bf3c60560109f3f3281e44484f25e0c722a70e63380518a82e7fa0cf87690",
+    "Player/UnityPlayer.dll": "48e229dee287476ff2be61aceb5d2042a047874507b0d09ac66eda4632b9be91",
+    "Player/WinPixEventRuntime.dll": "23ef5b23f1cf6f1b7132542c4063b5e9da532572634afa41f27139bbf02468fc",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/baselib.dll": "6b2641b799145e687a4ba75791bc163c60a65a0c76cf50378712dea37e2c0572",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/GameAssembly.dll": "2c943a5af7db8ed225fc4cb124a0b6ae18233e38fe24423dd8587a9878a13250",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/ResourceMountingProbe.exe": "8d4c804ff605213a298140be3c172eb407e7f5dc78c5082cdfaabaea7b43ba0e",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/ResourceMountingProbe_Data/app.info": "888c4211c2798ce8dd72c2f2aae9bde70d9286ea3def067501a2af6e323e8b0d",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/ResourceMountingProbe_Data/boot.config": "5cc8cd7a964f0b6c7c9304857d35972c41bdeb456ed775e87d451be796998db3",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/ResourceMountingProbe_Data/globalgamemanagers": "04252b9d3de02bc0998b7a965e015180694108b369493139595021a30b3a3738",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/ResourceMountingProbe_Data/globalgamemanagers.assets": "9e1eb34a98a9bfd04cccbc26c24541e9ac2fcb84a46988f938518a2c1ed0fee2",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/ResourceMountingProbe_Data/globalgamemanagers.assets.resS": "ebf0f91664c0aa69e3b92e93d4d4e6feae1a9152529b0efeac047e3c9c3b0fc0",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/ResourceMountingProbe_Data/il2cpp_data/Metadata/global-metadata.dat": "2eb72ff23cca08c138db5b182edae03b53bf38053411a9973e82d46473f70009",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/ResourceMountingProbe_Data/il2cpp_data/Resources/mscorlib.dll-resources.dat": "c5baa176a5b72cd545266340e42102d393a5e43d38c95796bc828918bb95277f",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/ResourceMountingProbe_Data/level0": "90a6d7fed1e177a6cb0f259054126cb3f5638994eb361536866a9c2dfe10162b",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/ResourceMountingProbe_Data/Resources/unity default resources": "a11e3e24520676183b3750564b4d9f5a90e8f41fd3523cbfb0c49f3989453da2",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/ResourceMountingProbe_Data/Resources/unity_builtin_extra": "8ba8849a60bae801d6e700df5e44d991931bda6618b8789b7758d67112f187bb",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/ResourceMountingProbe_Data/resources.assets": "fb0009ae73efb3f486126a4c21d5c37e042bae80fedbf8ef3d7eeddf5d190667",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/ResourceMountingProbe_Data/RuntimeInitializeOnLoads.json": "82b60e787174ce0dc28b81f2d1a799f31f1b30cdd4f46c97987a442ca0ce22be",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/ResourceMountingProbe_Data/ScriptingAssemblies.json": "2ce142336379a6dd3cd5f2fd55a157cc172d17a1352f3624a135cc522b9de08a",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/ResourceMountingProbe_Data/sharedassets0.assets": "84a59d750eec9c740502bfb33d6d4abd96bd13f0550c0db1186c5c8c61b4eb25",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/ResourceMountingProbe_Data/StreamingAssets/HotUpdate.dll.bytes": "00307a491d657f9933bb4d643598547ab9486791aeb7fba190565c2e1224cc21",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/ResourceMountingProbe_Data/StreamingAssets/resource-build-id.txt": "23d53181ee038dd435e65c83f42a9f460c05e0af1a5a8d6a626608ebd4b47162",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/ResourceMountingProbe_Data/StreamingAssets/resource-probe.bundle": "78b7c9bccae05d95ac7c7b20627aca1c57a135c445968cbc3d02ae89980ed589",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/UnityCrashHandler64.exe": "f93bf3c60560109f3f3281e44484f25e0c722a70e63380518a82e7fa0cf87690",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/UnityPlayer.dll": "48e229dee287476ff2be61aceb5d2042a047874507b0d09ac66eda4632b9be91",
+    "Player-unregistered-7adc9fed-3322-4778-8a64-c7e6bb2018eb/WinPixEventRuntime.dll": "23ef5b23f1cf6f1b7132542c4063b5e9da532572634afa41f27139bbf02468fc"
+  },
+  "tool_sha256": {
+    "tools/resource_lab.py": "72feace36b1d1f671f9d10dae66e2af3adb1b326bc8e3e17ccc0e2c923b2a94b",
+    "tools/resource_results.py": "f04f8ed0022cae578cd3dd054edecf4b91942db4ed7d67c84192df9c018993c3",
+    "tests/test_resource_results.py": "e11cd26853e52d6d8d296794a006d080c2b617b17aef1fd2ebf42d167c3860fc",
+    "tests/test_resource_tool.py": "7ec757a15c87b755a8a398c9142560c70136e5d9561c90f034b36833f8821002",
+    "tools/receipts.py": "9bf43a45ce276058029238737b75a35ef8440b207030a9c9ed7cbddbc52807de",
+    "tools/prepare.py": "250e1ec979ad823323e85dca23ef0a56e96b75cf39558b6ded31ae0ef25caf21",
+    "tools/lifetime_lab.py": "1a1c9df9bc2ccb7827fe07200457e142609ab2d50358a2802cea34b28ac0ce01"
+  },
+  "hot_update_excluded_from_aot": true,
+  "type_tree_enabled": true,
+  "negative_differences": [
+    "ResourceMountingProbe_Data/ScriptingAssemblies.json"
+  ],
+  "raw_log_sha256": {
+    "code-1.log": "32eeeff94440b612baf7cdd310234ec42ee11b02f6400f41f326d0a76545d31c",
+    "code-2.log": "4e9a9e29b85279bb4caba2f8bee54698d307bf322f8c1e3e1567f936365e8688",
+    "code-3.log": "3428a09d75198be6ee8bed8cc52795b05fc4c86383209f9fafd88790eeaff257",
+    "bundle-1.log": "592ef70db40c1db49fb185eb04a31466abc1b821ad89932874069ae2414e8247",
+    "bundle-2.log": "e8608d07d6aab3ed7d43a2d16c838e50494a16f3fd8b59b6ffb161d7aebd3eeb",
+    "bundle-3.log": "ba3a44a9755e5cff4327d3cc491900414198442bbe117c58101931d4186bc142",
+    "late-1.log": "03f0cdd989b497d30ba706c8862ed506d8ade1f9adbbea0ebfb5ac74ccab202a",
+    "late-2.log": "b0b9633b6fb6283b717f9dda0fcbd30dac87f38cd65041dbdabae646b7167f17",
+    "late-3.log": "3baa3b01beadcf28265b85cff293e18a85ce5fb2f5b44c083e5ca79a842f94b2",
+    "unregistered-1.log": "948025092192df3f0dd29b4ac39e38fa0b1a999a468d5829c9d0c70506280752",
+    "unregistered-2.log": "fea85b79c101679cd0546299dfe1f1773f6ebb0a4b9770a91176d9cc9a9bd61c",
+    "unregistered-3.log": "2ed5fa3b4b66ce0a75922793a8d35b7d1b0fa4ea9dca85a22d14d85e73320386",
+    "resources-1.log": "dc5ed8ef3b2285c1a08a6b4c79d50ebf0eff8a640de016a55e1a4f2d66555b1c",
+    "resources-2.log": "7eba4206b492f20a6f81a2970647ec595e99008c84b521f639f3d4e13e3adfdc",
+    "resources-3.log": "41a5f2f460cf727146cb930ad68552c8aef01fbd69e7250b9c4a3299dabf59d3",
+    "run-results.json": "277345d99c081201c31b165ec25a42649037853009114d76722b32d2241036e7"
+  },
+  "baseline_commit": "64938d5c5040fbc2f63274ee4efd8ab6b3c9d07a",
+  "publication": "Sources and verified records are published together in the commit containing this record; baseline_commit contains only the preceding experiment. Use the fixed commit linked by the article.",
+  "actual_editor_product_version": "2022.3.62f3_96770f904ca7",
+  "generated_assembly_manifest": {
+    "path": "projects/resource-mounting/Library/HybridCLR/LocalIl2CppData-WindowsEditor/il2cpp/libil2cpp/hybridclr/generated/AssemblyManifest.inc",
+    "sha256": "0a2a471e398df6c05632821b80702e980e014f712636726551e6a5e414b6a305"
+  },
+  "assembly_registration": {
+    "normal_hot_count": 1,
+    "normal_names_count": 72,
+    "negative_hot_count": 0,
+    "negative_names_count": 71
+  },
+  "fixture": {
+    "number": 42,
+    "label": "resource-prefab-v1",
+    "child": "Anchor",
+    "payload": "resource-payload-v1"
+  },
+  "run": [
+    {
+      "mode": "code",
+      "run": 1,
+      "pid": 65360,
+      "exit_code": 0,
+      "observations": {
+        "mode": "code",
+        "restored": true,
+        "typed": 1,
+        "missing": 0,
+        "asset_restored": null,
+        "asset_typed": null,
+        "asset_missing": null,
+        "classification": "restored",
+        "hot_loaded": true,
+        "registration": true,
+        "lifecycle": [
+          "Awake",
+          "OnEnable",
+          "Start",
+          "OnDisable",
+          "OnDestroy"
+        ]
+      },
+      "event_file": "code-1-events.jsonl",
+      "event_sha256": "b3cf2eb339d6fd558fc0e64f4e8604b978e8337b022af9b71696c060b673f5ea",
+      "diagnostics": []
+    },
+    {
+      "mode": "code",
+      "run": 2,
+      "pid": 149064,
+      "exit_code": 0,
+      "observations": {
+        "mode": "code",
+        "restored": true,
+        "typed": 1,
+        "missing": 0,
+        "asset_restored": null,
+        "asset_typed": null,
+        "asset_missing": null,
+        "classification": "restored",
+        "hot_loaded": true,
+        "registration": true,
+        "lifecycle": [
+          "Awake",
+          "OnEnable",
+          "Start",
+          "OnDisable",
+          "OnDestroy"
+        ]
+      },
+      "event_file": "code-2-events.jsonl",
+      "event_sha256": "b3cf2eb339d6fd558fc0e64f4e8604b978e8337b022af9b71696c060b673f5ea",
+      "diagnostics": []
+    },
+    {
+      "mode": "code",
+      "run": 3,
+      "pid": 171616,
+      "exit_code": 0,
+      "observations": {
+        "mode": "code",
+        "restored": true,
+        "typed": 1,
+        "missing": 0,
+        "asset_restored": null,
+        "asset_typed": null,
+        "asset_missing": null,
+        "classification": "restored",
+        "hot_loaded": true,
+        "registration": true,
+        "lifecycle": [
+          "Awake",
+          "OnEnable",
+          "Start",
+          "OnDisable",
+          "OnDestroy"
+        ]
+      },
+      "event_file": "code-3-events.jsonl",
+      "event_sha256": "b3cf2eb339d6fd558fc0e64f4e8604b978e8337b022af9b71696c060b673f5ea",
+      "diagnostics": []
+    },
+    {
+      "mode": "bundle",
+      "run": 1,
+      "pid": 173756,
+      "exit_code": 0,
+      "observations": {
+        "mode": "bundle",
+        "restored": true,
+        "typed": 1,
+        "missing": 0,
+        "asset_restored": true,
+        "asset_typed": 1,
+        "asset_missing": 0,
+        "classification": "restored",
+        "hot_loaded": true,
+        "registration": true,
+        "lifecycle": [
+          "Awake",
+          "OnEnable",
+          "Start",
+          "OnDisable",
+          "OnDestroy"
+        ]
+      },
+      "event_file": "bundle-1-events.jsonl",
+      "event_sha256": "4d8478f122d794f3755f0f790bab3ea880ba1b85f322a0d93be2d1e0436e6a00",
+      "diagnostics": []
+    },
+    {
+      "mode": "bundle",
+      "run": 2,
+      "pid": 149332,
+      "exit_code": 0,
+      "observations": {
+        "mode": "bundle",
+        "restored": true,
+        "typed": 1,
+        "missing": 0,
+        "asset_restored": true,
+        "asset_typed": 1,
+        "asset_missing": 0,
+        "classification": "restored",
+        "hot_loaded": true,
+        "registration": true,
+        "lifecycle": [
+          "Awake",
+          "OnEnable",
+          "Start",
+          "OnDisable",
+          "OnDestroy"
+        ]
+      },
+      "event_file": "bundle-2-events.jsonl",
+      "event_sha256": "4d8478f122d794f3755f0f790bab3ea880ba1b85f322a0d93be2d1e0436e6a00",
+      "diagnostics": []
+    },
+    {
+      "mode": "bundle",
+      "run": 3,
+      "pid": 162176,
+      "exit_code": 0,
+      "observations": {
+        "mode": "bundle",
+        "restored": true,
+        "typed": 1,
+        "missing": 0,
+        "asset_restored": true,
+        "asset_typed": 1,
+        "asset_missing": 0,
+        "classification": "restored",
+        "hot_loaded": true,
+        "registration": true,
+        "lifecycle": [
+          "Awake",
+          "OnEnable",
+          "Start",
+          "OnDisable",
+          "OnDestroy"
+        ]
+      },
+      "event_file": "bundle-3-events.jsonl",
+      "event_sha256": "4d8478f122d794f3755f0f790bab3ea880ba1b85f322a0d93be2d1e0436e6a00",
+      "diagnostics": []
+    },
+    {
+      "mode": "late",
+      "run": 1,
+      "pid": 127656,
+      "exit_code": 0,
+      "observations": {
+        "mode": "late",
+        "restored": false,
+        "typed": 0,
+        "missing": 1,
+        "asset_restored": false,
+        "asset_typed": 0,
+        "asset_missing": 1,
+        "classification": "missing_at_asset_and_instance",
+        "hot_loaded": false,
+        "registration": true,
+        "lifecycle": []
+      },
+      "event_file": "late-1-events.jsonl",
+      "event_sha256": "a80e0651a64367f8065ac2c51db7eb4980b46a7ba57d2281fba96d310c568abf",
+      "diagnostics": [
+        {
+          "stage": "AssetBundle.LoadAsset",
+          "message": "The referenced script (ResourceHot.MountProbe) on this Behaviour is missing!"
+        },
+        {
+          "stage": "AssetBundle.LoadAsset",
+          "message": "The referenced script on this Behaviour (Game Object '') is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script on this Behaviour (Game Object '<null>') is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script (ResourceHot.MountProbe) on this Behaviour is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script on this Behaviour (Game Object 'BundleProbe') is missing!"
+        }
+      ]
+    },
+    {
+      "mode": "late",
+      "run": 2,
+      "pid": 169060,
+      "exit_code": 0,
+      "observations": {
+        "mode": "late",
+        "restored": false,
+        "typed": 0,
+        "missing": 1,
+        "asset_restored": false,
+        "asset_typed": 0,
+        "asset_missing": 1,
+        "classification": "missing_at_asset_and_instance",
+        "hot_loaded": false,
+        "registration": true,
+        "lifecycle": []
+      },
+      "event_file": "late-2-events.jsonl",
+      "event_sha256": "a80e0651a64367f8065ac2c51db7eb4980b46a7ba57d2281fba96d310c568abf",
+      "diagnostics": [
+        {
+          "stage": "AssetBundle.LoadAsset",
+          "message": "The referenced script (ResourceHot.MountProbe) on this Behaviour is missing!"
+        },
+        {
+          "stage": "AssetBundle.LoadAsset",
+          "message": "The referenced script on this Behaviour (Game Object '') is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script on this Behaviour (Game Object '<null>') is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script (ResourceHot.MountProbe) on this Behaviour is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script on this Behaviour (Game Object 'BundleProbe') is missing!"
+        }
+      ]
+    },
+    {
+      "mode": "late",
+      "run": 3,
+      "pid": 28736,
+      "exit_code": 0,
+      "observations": {
+        "mode": "late",
+        "restored": false,
+        "typed": 0,
+        "missing": 1,
+        "asset_restored": false,
+        "asset_typed": 0,
+        "asset_missing": 1,
+        "classification": "missing_at_asset_and_instance",
+        "hot_loaded": false,
+        "registration": true,
+        "lifecycle": []
+      },
+      "event_file": "late-3-events.jsonl",
+      "event_sha256": "a80e0651a64367f8065ac2c51db7eb4980b46a7ba57d2281fba96d310c568abf",
+      "diagnostics": [
+        {
+          "stage": "AssetBundle.LoadAsset",
+          "message": "The referenced script (ResourceHot.MountProbe) on this Behaviour is missing!"
+        },
+        {
+          "stage": "AssetBundle.LoadAsset",
+          "message": "The referenced script on this Behaviour (Game Object '') is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script on this Behaviour (Game Object '<null>') is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script (ResourceHot.MountProbe) on this Behaviour is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script on this Behaviour (Game Object 'BundleProbe') is missing!"
+        }
+      ]
+    },
+    {
+      "mode": "unregistered",
+      "run": 1,
+      "pid": 105404,
+      "exit_code": 0,
+      "observations": {
+        "mode": "unregistered",
+        "restored": false,
+        "typed": 0,
+        "missing": 1,
+        "asset_restored": false,
+        "asset_typed": 0,
+        "asset_missing": 1,
+        "classification": "missing_at_asset_and_instance",
+        "hot_loaded": true,
+        "registration": false,
+        "lifecycle": []
+      },
+      "event_file": "unregistered-1-events.jsonl",
+      "event_sha256": "4642b8924dd0e8cf5698142e141cb6bee24d26c178933012163d85d1e2ff8871",
+      "diagnostics": [
+        {
+          "stage": "AssetBundle.LoadAsset",
+          "message": "The referenced script (ResourceHot.MountProbe) on this Behaviour is missing!"
+        },
+        {
+          "stage": "AssetBundle.LoadAsset",
+          "message": "The referenced script on this Behaviour (Game Object '') is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script on this Behaviour (Game Object '<null>') is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script (ResourceHot.MountProbe) on this Behaviour is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script on this Behaviour (Game Object 'BundleProbe') is missing!"
+        }
+      ]
+    },
+    {
+      "mode": "unregistered",
+      "run": 2,
+      "pid": 167392,
+      "exit_code": 0,
+      "observations": {
+        "mode": "unregistered",
+        "restored": false,
+        "typed": 0,
+        "missing": 1,
+        "asset_restored": false,
+        "asset_typed": 0,
+        "asset_missing": 1,
+        "classification": "missing_at_asset_and_instance",
+        "hot_loaded": true,
+        "registration": false,
+        "lifecycle": []
+      },
+      "event_file": "unregistered-2-events.jsonl",
+      "event_sha256": "4642b8924dd0e8cf5698142e141cb6bee24d26c178933012163d85d1e2ff8871",
+      "diagnostics": [
+        {
+          "stage": "AssetBundle.LoadAsset",
+          "message": "The referenced script (ResourceHot.MountProbe) on this Behaviour is missing!"
+        },
+        {
+          "stage": "AssetBundle.LoadAsset",
+          "message": "The referenced script on this Behaviour (Game Object '') is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script on this Behaviour (Game Object '<null>') is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script (ResourceHot.MountProbe) on this Behaviour is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script on this Behaviour (Game Object 'BundleProbe') is missing!"
+        }
+      ]
+    },
+    {
+      "mode": "unregistered",
+      "run": 3,
+      "pid": 18228,
+      "exit_code": 0,
+      "observations": {
+        "mode": "unregistered",
+        "restored": false,
+        "typed": 0,
+        "missing": 1,
+        "asset_restored": false,
+        "asset_typed": 0,
+        "asset_missing": 1,
+        "classification": "missing_at_asset_and_instance",
+        "hot_loaded": true,
+        "registration": false,
+        "lifecycle": []
+      },
+      "event_file": "unregistered-3-events.jsonl",
+      "event_sha256": "4642b8924dd0e8cf5698142e141cb6bee24d26c178933012163d85d1e2ff8871",
+      "diagnostics": [
+        {
+          "stage": "AssetBundle.LoadAsset",
+          "message": "The referenced script (ResourceHot.MountProbe) on this Behaviour is missing!"
+        },
+        {
+          "stage": "AssetBundle.LoadAsset",
+          "message": "The referenced script on this Behaviour (Game Object '') is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script on this Behaviour (Game Object '<null>') is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script (ResourceHot.MountProbe) on this Behaviour is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script on this Behaviour (Game Object 'BundleProbe') is missing!"
+        }
+      ]
+    },
+    {
+      "mode": "resources",
+      "run": 1,
+      "pid": 147552,
+      "exit_code": 0,
+      "observations": {
+        "mode": "resources",
+        "restored": false,
+        "typed": 0,
+        "missing": 1,
+        "asset_restored": false,
+        "asset_typed": 0,
+        "asset_missing": 1,
+        "classification": "missing_at_asset_and_instance",
+        "hot_loaded": true,
+        "registration": true,
+        "lifecycle": []
+      },
+      "event_file": "resources-1-events.jsonl",
+      "event_sha256": "4fb5f7fa8313f624f61bae47928551a944b629a352379f8fbb881290b46990ab",
+      "diagnostics": [
+        {
+          "stage": "Resources.Load",
+          "message": "The referenced script (ResourceHot.MountProbe) on this Behaviour is missing!"
+        },
+        {
+          "stage": "Resources.Load",
+          "message": "The referenced script on this Behaviour (Game Object 'MainPackageProbe') is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script on this Behaviour (Game Object '<null>') is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script (ResourceHot.MountProbe) on this Behaviour is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script on this Behaviour (Game Object 'MainPackageProbe') is missing!"
+        }
+      ]
+    },
+    {
+      "mode": "resources",
+      "run": 2,
+      "pid": 77032,
+      "exit_code": 0,
+      "observations": {
+        "mode": "resources",
+        "restored": false,
+        "typed": 0,
+        "missing": 1,
+        "asset_restored": false,
+        "asset_typed": 0,
+        "asset_missing": 1,
+        "classification": "missing_at_asset_and_instance",
+        "hot_loaded": true,
+        "registration": true,
+        "lifecycle": []
+      },
+      "event_file": "resources-2-events.jsonl",
+      "event_sha256": "4fb5f7fa8313f624f61bae47928551a944b629a352379f8fbb881290b46990ab",
+      "diagnostics": [
+        {
+          "stage": "Resources.Load",
+          "message": "The referenced script (ResourceHot.MountProbe) on this Behaviour is missing!"
+        },
+        {
+          "stage": "Resources.Load",
+          "message": "The referenced script on this Behaviour (Game Object 'MainPackageProbe') is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script on this Behaviour (Game Object '<null>') is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script (ResourceHot.MountProbe) on this Behaviour is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script on this Behaviour (Game Object 'MainPackageProbe') is missing!"
+        }
+      ]
+    },
+    {
+      "mode": "resources",
+      "run": 3,
+      "pid": 150988,
+      "exit_code": 0,
+      "observations": {
+        "mode": "resources",
+        "restored": false,
+        "typed": 0,
+        "missing": 1,
+        "asset_restored": false,
+        "asset_typed": 0,
+        "asset_missing": 1,
+        "classification": "missing_at_asset_and_instance",
+        "hot_loaded": true,
+        "registration": true,
+        "lifecycle": []
+      },
+      "event_file": "resources-3-events.jsonl",
+      "event_sha256": "4fb5f7fa8313f624f61bae47928551a944b629a352379f8fbb881290b46990ab",
+      "diagnostics": [
+        {
+          "stage": "Resources.Load",
+          "message": "The referenced script (ResourceHot.MountProbe) on this Behaviour is missing!"
+        },
+        {
+          "stage": "Resources.Load",
+          "message": "The referenced script on this Behaviour (Game Object 'MainPackageProbe') is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script on this Behaviour (Game Object '<null>') is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script (ResourceHot.MountProbe) on this Behaviour is missing!"
+        },
+        {
+          "stage": "Instantiate",
+          "message": "The referenced script on this Behaviour (Game Object 'MainPackageProbe') is missing!"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Fixed local-custom Editor, Windows x64 Development IL2CPP Debug, Minimal stripping, TypeTree enabled.",
+    "One self-authored MonoBehaviour with two scalar and two Unity reference fields; no serialized schema/version migration, Addressables/network or other-platform validation.",
+    "Lifecycle and resource restoration observations are not GC, resource-release capacity, performance or leak-free claims.",
+    "No native breakpoint proof of placeholder pointer reuse; that mechanism remains a separate fixed-source explanation."
+  ]
+}

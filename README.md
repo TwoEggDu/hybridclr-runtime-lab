@@ -162,6 +162,19 @@ python tools/incremental_lab.py verify
 
 输出在 `artifacts/incremental-barriers/`。调试器脚本只读目标内存，PDB布局、返回偏移与构建指纹受验收器校验。没有禁用写屏障的反事实实验，不宣称唯一根或所有写屏障路径正确。
 
+## Prefab / AssetBundle 资源挂载链路
+
+独立 `projects/resource-mounting` 比较代码AddComponent、AssetBundle Prefab、DLL未提前加载、启动程序集清单缺项和主包Resources Prefab。五组各三个Player已采证；正向校验序列化值、引用身份与生命周期，负向记录实际缺脚本阶段。见[实验记录](evidence/2026-10-26-resource-mounting/README.md)。本轮源码与证据随包含该记录的同一提交发布；复现请固定文章所列的本轮提交。
+
+```powershell
+python tools/resource_lab.py build --editor $editor
+python tools/resource_lab.py run
+python tools/resource_lab.py verify
+python tools/resource_lab.py export
+```
+
+原始文件在 `artifacts/resource-mounting/`；旧实验不改。本轮不包含序列化schema演进、TypeTree关闭、Addressables、远程分发或其他平台验收。
+
 ## 目录与维护约定
 
 ```text

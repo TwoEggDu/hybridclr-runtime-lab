@@ -1,0 +1,8 @@
+{"event":"env","mode":"late","build":"7adc9fed-3322-4778-8a64-c7e6bb2018eb","unity":"2022.3.62f3","hot_before":false,"registration":true,"assembly_name_before":false}
+{"event":"stage","stage":"AssetBundle.LoadFromFile"}
+{"event":"stage","stage":"AssetBundle.LoadAsset"}
+{"event":"asset","stage":"AssetBundle.LoadAsset","value":"BundleProbe","typed":0,"missing":1,"restored":false}
+{"event":"stage","stage":"Instantiate"}
+{"event":"instantiate","value":"ResourceInstance"}
+{"event":"result","restored":false,"typed":0,"missing":1,"hot_loaded":false}
+{"event":"done","completed":true}

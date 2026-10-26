@@ -7,6 +7,7 @@
 
 # Unity serializes empty YAML fields with a trailing space.
 *.asset whitespace=-blank-at-eol
+*.prefab whitespace=-blank-at-eol
 *.meta whitespace=-blank-at-eol
 
 # Preserve the recorded bytes of these published evidence/verifier snapshots.
