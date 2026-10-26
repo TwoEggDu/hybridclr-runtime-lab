@@ -11,7 +11,7 @@ assert lock["editor"]["distribution"] == "local-custom"
 for spec in lock["dependencies"].values():
     assert re.fullmatch(r"[0-9a-f]{40}", spec["commit"])
     assert spec["url"].startswith("https://github.com/focus-creative-games/")
-for name in ("call-chain", "generic-p0", "generic-p1", "lifetime-threads", "native-callbacks", "gc-callbacks", "gc-roots", "incremental-barriers", "resource-mounting", "type-initialization", "exception-flow", "async-unitask", "constrained-boxing"):
+for name in ("call-chain", "generic-p0", "generic-p1", "lifetime-threads", "native-callbacks", "gc-callbacks", "gc-roots", "incremental-barriers", "resource-mounting", "type-initialization", "exception-flow", "async-unitask", "constrained-boxing", "concurrent-initialization"):
     project = ROOT / "projects" / name
     manifest = json.loads((project / "Packages/manifest.json").read_text())
     dependency = manifest["dependencies"]["com.code-philosophy.hybridclr"]

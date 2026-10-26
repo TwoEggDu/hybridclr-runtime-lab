@@ -222,3 +222,9 @@ python -m unittest discover -s tests -v
 独立`projects/constrained-boxing`比较泛型按值/ref、接口装箱与拆箱副本、ToString覆盖/回退以及引用类型身份。72普通Player为69完成／3个cross-off-value明确MissingMethod对照；补充匹配metadata后按值调用由解释方法体完成，ref on/off均命中native共享入口。27个private PDB进程验证箱内this、拆箱副本和实际方法路径，详见[本轮记录](evidence/2026-10-26-constrained-boxing/README.md)。
 
 复现用`tools/box_lab.py build/run/verify/export`及`tools/box_trace.py --cdb $cdb`。本轮源码与证据随包含本实验记录的同一提交发布；沿用lab-lock，不改旧实验，无性能与其他平台结论。
+
+## 并发首次调用与类型初始化
+
+独立 `projects/concurrent-initialization` 沿用原始 lab-lock 环境，2／4 个托管 worker 对照无 .cctor 的冷方法、成功／失败初始化、封闭泛型静态状态，以及直接 AOT 与 hot Bridge 共享同一 AOT 类型。54 个普通 Player 与 8 个独立匹配 PDB 进程见[本轮记录](evidence/2026-10-26-concurrent-initialization/README.md)。
+
+复现用 `tools/concurrent_lab.py build/run/verify/export` 和 `tools/concurrent_trace.py --cdb $cdb`；Editor 路径由 `--editor $editor` 指定。没有安装前轮异常补丁；失败在 AOT 反射边界捕获。原生 Transform／Execute 使用硬件断点，仍与普通并发结果分开。本轮源码与证据随包含本记录的同一提交发布；复现请固定文章所列提交，前轮 5638131 不包含本样本。
