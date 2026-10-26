@@ -1,0 +1,16 @@
+{"seq":1,"kind":"env","route":"ha","fault":"body","variant":"counterfactual","build":"c811dcee-5771-4a89-86f9-ed53d862be1d","unity":"2022.3.62f3","hot_before":false}
+{"seq":2,"kind":"attempt","value":1}
+{"seq":3,"kind":"caller","origin":"hot"}
+{"seq":4,"kind":"throw","origin":"aot"}
+{"seq":5,"kind":"caught","origin":"hot","type":"System.InvalidOperationException","detail":"System.InvalidOperationException"}
+{"seq":6,"kind":"finally","origin":"hot"}
+{"seq":7,"kind":"after","origin":"hot"}
+{"seq":8,"kind":"return"}
+{"seq":9,"kind":"attempt","value":2}
+{"seq":10,"kind":"caller","origin":"hot"}
+{"seq":11,"kind":"throw","origin":"aot"}
+{"seq":12,"kind":"caught","origin":"hot","type":"System.InvalidOperationException","detail":"System.InvalidOperationException"}
+{"seq":13,"kind":"finally","origin":"hot"}
+{"seq":14,"kind":"after","origin":"hot"}
+{"seq":15,"kind":"return"}
+{"seq":16,"kind":"done","completed":true}

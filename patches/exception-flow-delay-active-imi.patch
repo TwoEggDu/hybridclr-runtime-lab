@@ -1,0 +1,11 @@
+--- a/hybridclr/interpreter/Interpreter_Execute.cpp
++++ b/hybridclr/interpreter/Interpreter_Execute.cpp
+@@ -1408,6 +1408,7 @@
+ #define PREPARE_NEW_FRAME_FROM_INTERPRETER(newMethodInfo, argBasePtr, retPtr)                                                                   \
+     {                                                                                                                                           \
+-        imi = newMethodInfo->interpData ? (InterpMethodInfo*)newMethodInfo->interpData : InterpreterModule::GetInterpMethodInfo(newMethodInfo); \
++        auto nextImi = newMethodInfo->interpData ? (InterpMethodInfo*)newMethodInfo->interpData : InterpreterModule::GetInterpMethodInfo(newMethodInfo); \
+         RuntimeInitClassCCtorWithoutInitClass(newMethodInfo);                                                                                   \
++        imi = nextImi; \
+         frame = interpFrameGroup.EnterFrameFromInterpreter(newMethodInfo, argBasePtr);                                                          \
+         frame->ret = retPtr;                                                                                                                    \

@@ -206,3 +206,7 @@ python -m unittest discover -s tests -v
 ## 类型初始化与首次调用
 
 独立 `projects/type-initialization` 比较 AOT／hot 的显式 .cctor、beforefieldinit、泛型静态字段及失败初始化。四组问题加内外捕获边界，共30个普通Player与2个独立native取证进程；27个普通进程完成，3个热更内部捕获对照保留为异常逃逸差异，不宣称全部语义通过。见[实验记录](evidence/2026-10-26-type-initialization/README.md)。本轮源码与证据随包含实验记录的同一提交发布；复现请固定文章所列提交。74da063仍是前轮资源实验。
+
+## 跨 AOT／解释器异常传播
+
+独立 `projects/exception-flow` 比较四个调用方向与四种抛出/初始化路径。原始与隔离反事实各48个普通Player，另8个native取证；新工程内仅延后一个公开宏的活动imi切换，保持方法准备与自有DLL不变。已定位初始化失败时调用方帧与被调方法EH表错配，保留基线3个逃逸对照，并验证catch/finally恢复。见[实验记录](evidence/2026-10-26-exception-flow/README.md)。本轮源码、公开补丁与验证记录随包含实验记录的同一提交发布；复现请固定文章所列的本轮提交。46ac71c仍是前轮类型初始化实验。

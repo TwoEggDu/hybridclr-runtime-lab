@@ -1,0 +1,16 @@
+{"seq":1,"kind":"env","route":"hh","fault":"manual","variant":"baseline","build":"0628a07c-8e75-40ed-bb91-c295c40414c7","unity":"2022.3.62f3","hot_before":false}
+{"seq":2,"kind":"attempt","value":1}
+{"seq":3,"kind":"caller","origin":"hot"}
+{"seq":4,"kind":"throw","origin":"hot"}
+{"seq":5,"kind":"caught","origin":"hot","type":"System.TypeInitializationException","detail":"System.TypeInitializationException>System.InvalidOperationException"}
+{"seq":6,"kind":"finally","origin":"hot"}
+{"seq":7,"kind":"after","origin":"hot"}
+{"seq":8,"kind":"return"}
+{"seq":9,"kind":"attempt","value":2}
+{"seq":10,"kind":"caller","origin":"hot"}
+{"seq":11,"kind":"throw","origin":"hot"}
+{"seq":12,"kind":"caught","origin":"hot","type":"System.TypeInitializationException","detail":"System.TypeInitializationException>System.InvalidOperationException"}
+{"seq":13,"kind":"finally","origin":"hot"}
+{"seq":14,"kind":"after","origin":"hot"}
+{"seq":15,"kind":"return"}
+{"seq":16,"kind":"done","completed":true}
