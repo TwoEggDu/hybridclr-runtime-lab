@@ -1,0 +1,6 @@
+{"seq":1,"value":0,"a":0,"b":0,"c":0,"flag":false,"hot_before":false,"kind":"env","label":"","route":"hot","mode":"text-override","metadata":"off","build":"9e084001-a41b-42c2-8fbd-62efc0d147d4","unity":"2022.3.62f3","type":"","detail":"","text":""}
+{"seq":2,"value":10,"a":0,"b":0,"c":0,"flag":false,"hot_before":false,"kind":"begin","label":"","route":"","mode":"","metadata":"","build":"","unity":"","type":"","detail":"","text":""}
+{"seq":3,"value":0,"a":0,"b":0,"c":0,"flag":false,"hot_before":false,"kind":"body","label":"Local.Text","route":"","mode":"","metadata":"","build":"","unity":"","type":"","detail":"","text":""}
+{"seq":4,"value":10,"a":0,"b":0,"c":0,"flag":false,"hot_before":false,"kind":"target","label":"Counter.ToString","route":"","mode":"","metadata":"","build":"","unity":"","type":"","detail":"","text":""}
+{"seq":5,"value":0,"a":10,"b":0,"c":0,"flag":false,"hot_before":false,"kind":"result","label":"","route":"","mode":"","metadata":"","build":"","unity":"","type":"","detail":"","text":"counter:10"}
+{"seq":6,"value":0,"a":0,"b":0,"c":0,"flag":false,"hot_before":false,"kind":"done","label":"","route":"","mode":"","metadata":"","build":"","unity":"","type":"","detail":"","text":""}

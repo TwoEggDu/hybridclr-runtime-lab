@@ -1,0 +1,1 @@
+{"name": "Probe.AOT", "references": ["Probe.Contracts", "HybridCLR.Runtime"], "autoReferenced": true}

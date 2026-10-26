@@ -216,3 +216,9 @@ python -m unittest discover -s tests -v
 独立`projects/async-unitask`固定UniTask2.5.10，比较实际class/struct热更状态机的同步完成、两次跨帧恢复、await前后异常，以及补充metadata on/off。同一Player的60个普通进程与12个native进程结果见[本轮记录](evidence/2026-10-26-async-unitask/README.md)。本样本保留整个UniTask程序集，两种形态都已有native builder实现，因此不补metadata组也完成；不把它推广为所有async都无需补充。
 
 先运行`python tools/prepare_async.py`获取额外固定依赖，再用`tools/async_lab.py build/run/verify/export`和`tools/async_trace.py --cdb $cdb`复现。旧runtime／实验和异常反事实不改；历史Android故障仍保留未知。本轮源码与证据随包含本实验记录的同一提交发布；复现请固定文章所列提交。
+
+## constrained. / 装箱调用
+
+独立`projects/constrained-boxing`比较泛型按值/ref、接口装箱与拆箱副本、ToString覆盖/回退以及引用类型身份。72普通Player为69完成／3个cross-off-value明确MissingMethod对照；补充匹配metadata后按值调用由解释方法体完成，ref on/off均命中native共享入口。27个private PDB进程验证箱内this、拆箱副本和实际方法路径，详见[本轮记录](evidence/2026-10-26-constrained-boxing/README.md)。
+
+复现用`tools/box_lab.py build/run/verify/export`及`tools/box_trace.py --cdb $cdb`。本轮源码与证据随包含本实验记录的同一提交发布；沿用lab-lock，不改旧实验，无性能与其他平台结论。

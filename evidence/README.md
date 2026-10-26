@@ -5,3 +5,5 @@
 本机自定义 Editor 的结果不构成标准 Unity 发行版兼容保证。完整日志、二进制、PDB 和第三方实现不在此目录发布。
 
 - [2026-10-26 async／UniTask](2026-10-26-async-unitask/README.md)：60普通＋12native，class／struct跨帧和前后异常；metadata对照均有可用native路径。源码与记录随包含本轮实验的同一提交发布。
+
+- [2026-10-26 constrained.／装箱](2026-10-26-constrained-boxing/README.md)：72普通＋27native，值/地址/箱副本与cross按值metadata对照；源码与记录随包含本轮实验的同一提交发布。
