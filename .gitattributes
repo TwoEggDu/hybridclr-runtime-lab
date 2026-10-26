@@ -8,3 +8,7 @@
 # Unity serializes empty YAML fields with a trailing space.
 *.asset whitespace=-blank-at-eol
 *.meta whitespace=-blank-at-eol
+
+# Preserve the recorded bytes of these published evidence/verifier snapshots.
+evidence/2026-10-25-incremental-barriers/cil.txt -text whitespace=-blank-at-eol
+tools/incremental_debugger.py -text whitespace=-blank-at-eol

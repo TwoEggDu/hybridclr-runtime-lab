@@ -1,0 +1,6542 @@
+{
+  "schema": 1,
+  "build_id": "70a8a176-4eee-43b2-8aa8-a75754ac0bfb",
+  "baseline_commit": "4861bedd35f9785038a15d34c8de38f261746867",
+  "publication": "Sources and evidence are published together in the commit containing this file; baseline_commit identifies only the preceding root-range experiment.",
+  "lock": {
+    "schema": 1,
+    "editor": {
+      "version": "2022.3.62f3",
+      "revision": "96770f904ca7",
+      "distribution": "local-custom",
+      "product_version": "2022.3.62f3_96770f904ca7"
+    },
+    "target": "StandaloneWindows64",
+    "dependencies": {
+      "package": {
+        "url": "https://github.com/focus-creative-games/hybridclr_unity.git",
+        "tag": "v9.0.3",
+        "commit": "6cadd24d101f4cbd00cd80190106f6621132d24d"
+      },
+      "runtime": {
+        "url": "https://github.com/focus-creative-games/hybridclr.git",
+        "tag": "v9.0.1",
+        "commit": "83929787581bce6c7219418f62348a10c33582ee"
+      },
+      "il2cpp-plus": {
+        "url": "https://github.com/focus-creative-games/il2cpp_plus.git",
+        "tag": "v2022.3.x-9.0.1",
+        "commit": "ba3a76c9979d14cee404fb5d44301773e0768866"
+      }
+    }
+  },
+  "source_sha256": {
+    "native/incremental-barriers/plugin.cpp": "fc10a8084f43994f2cfbcffc9538b50cd8882aaec76109f09a896c37a9ed3279",
+    "projects/incremental-barriers/Assets/AOT/GcLauncher.cs": "16fa25fe6d209e5d522b19a74c42c1437169a2f714ba2deba8de3d548d1e1254",
+    "projects/incremental-barriers/Assets/AOT/GcState.cs": "2b953936f330a9bb9afc7a9ba1ea2619a830bb3190dcd2183b713c983124757e",
+    "projects/incremental-barriers/Assets/AOT/Probe.AOT.asmdef": "9bd5ec6f8bd8d9bb25e972fea176645ac3cf106be68156ab143d9c464a3502f6",
+    "projects/incremental-barriers/Assets/Editor/GcCallbackBuild.cs": "5a706a4eb793b24a2c88cb01b3dcc1f5d3205f6cf153b36a55ad0a6beb1fa12e",
+    "projects/incremental-barriers/Assets/Editor/LabRuntime.cs": "6b60665ec3e8649a493d91a26fab302956e37ce6d8a383e7a555450cc5bc0926",
+    "projects/incremental-barriers/Assets/HotUpdate/GcEntry.cs": "d4ab9d5885608a45894b7a22af6341f1ed5e1fbde650df3573940daa9ca62335",
+    "projects/incremental-barriers/Assets/HotUpdate/HotUpdate.asmdef": "a3305830df54e0f771fd14d1d4bd615caa3c4a2962f74166a242973bd5f05054",
+    "projects/incremental-barriers/Assets/HybridCLR/Generate/AOTGenericReferences.cs": "e79856adc7745aff87ff0c8b54f0f0c573484fedc77d9a7b93c78566e569d19f",
+    "projects/incremental-barriers/Packages/manifest.json": "b1c0a47ae3e0e5c8f8bdb34271d77580f92df2a48ea1f78560e55687b98a9484",
+    "projects/incremental-barriers/Packages/packages-lock.json": "aa03d38423d82ed088c7cab454ac8d8241cb564d028c46af1a5985b5d7d2a9a5",
+    "projects/incremental-barriers/ProjectSettings/AudioManager.asset": "9a554916fe138ebcad8443ee9b079363ecc72795c39d0e80f5f7ca99e2c6f5e7",
+    "projects/incremental-barriers/ProjectSettings/ClusterInputManager.asset": "40e65dd214bf254955d2c8829ca8ce2130fd3510485560ce012e9a1ddd93e623",
+    "projects/incremental-barriers/ProjectSettings/DynamicsManager.asset": "62fd35da36080a098d3e9f90cf4af6c655fe582091c33e505b812cf9aa36fee1",
+    "projects/incremental-barriers/ProjectSettings/EditorSettings.asset": "6f8761b516f06ff2f0373b6310571cf7951f63afb86c56bfd7be832e06a9987b",
+    "projects/incremental-barriers/ProjectSettings/GraphicsSettings.asset": "96fbec3a726513347293fb201477836277ade290a0bd7bd473cea90ffe896820",
+    "projects/incremental-barriers/ProjectSettings/InputManager.asset": "d0f454ddb880912abcae92e3e12957a7446786ba89e24937e019ff3bbc0d4300",
+    "projects/incremental-barriers/ProjectSettings/MemorySettings.asset": "1e8379a461b10ae09f3f696911088c16875d63e87ed5f2d95df9e1892703f9fd",
+    "projects/incremental-barriers/ProjectSettings/NavMeshAreas.asset": "7ebbf8f53b8033104e1878b95ca07a28d0954092d81c220f14196a42f651e658",
+    "projects/incremental-barriers/ProjectSettings/Physics2DSettings.asset": "531861618163b01648a075414f6e864506ad8fe0a0d4d0096aa1fbbfcd3937dc",
+    "projects/incremental-barriers/ProjectSettings/PresetManager.asset": "29c125923fe6e29f90190d4fce1c82d660e7051546e2c9d02908d18c9cf2436c",
+    "projects/incremental-barriers/ProjectSettings/ProjectSettings.asset": "ef308a4701a1ad1938256c847569e1a9fec837dcec3533fabe38048644e8c9af",
+    "projects/incremental-barriers/ProjectSettings/ProjectVersion.txt": "b51164d22c4d2716ba8aee7f0b59d6b7dd0efa8552fd1db2a8c3b123fae3a1ec",
+    "projects/incremental-barriers/ProjectSettings/QualitySettings.asset": "944b52d523bcb15b945bc80924b9289f59185ab19bce8a00e99eec345bde6440",
+    "projects/incremental-barriers/ProjectSettings/SceneTemplateSettings.json": "5baf593374ad67246277a435d8d0ded7167696eef6e05d2d245670e490625d8c",
+    "projects/incremental-barriers/ProjectSettings/TagManager.asset": "8e18b1c820e9c09e16bbd1f1b7842e9fb3b0158a0921b0964e0b8fa12c6e2c01",
+    "projects/incremental-barriers/ProjectSettings/TimeManager.asset": "1a83e54adbbda7c9f4851103a0c6ab7f6448a3343d4ea5b7620452fa08416ecd",
+    "projects/incremental-barriers/ProjectSettings/UnityConnectSettings.asset": "d6034acbef6c9e3179866486c31eab81fcbe5e7ed350ce71e0fa2b1449b77109",
+    "projects/incremental-barriers/ProjectSettings/VersionControlSettings.asset": "e7bda45bf7a394745fee1316e6c71fa676004d591ad1f3aa247fd3e4ceb86071",
+    "projects/incremental-barriers/ProjectSettings/VFXManager.asset": "3f31266c7c1910447586e71b041dabd58d8371715ac3142d3e38ace46121f4ab"
+  },
+  "artifact_sha256": {
+    "Player/baselib.dll": "6b2641b799145e687a4ba75791bc163c60a65a0c76cf50378712dea37e2c0572",
+    "Player/GameAssembly.dll": "5c6b54bc202736a7d585c3263c62be4b3981e3312808ac33ba84961a39fc4918",
+    "Player/GcCallbackProbe.exe": "8d4c804ff605213a298140be3c172eb407e7f5dc78c5082cdfaabaea7b43ba0e",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/GameAssembly.pdb": "236dae3344e709351395df8766a2615dfc7a3bc238d5d259854422d786d8e92e",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/__Generated.cpp": "9a2bce0eb3751096b1bf33c7ce0e6948291f5efb6aabc173557f667975c4a6d4",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/__Generated_CodeGen.c": "1f37901121d117c68c789c08efd19862e43438947e138f64c8993ae5bd67f39c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/analytics.json": "3dedc960d2283b3e97bc3e87ad017af8fb5f6dfed60d61ad5ba00cf2d3b8af82",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Assembly-CSharp.cpp": "6dedf848c49fab7029b0581341367c04967d981f32c72ea8644f5bb73639ff65",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Assembly-CSharp_CodeGen.c": "c82ef4255bc2cb0de85acfb573b502ef5519d0c39f59700a783bac3ff36b803d",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/GenericMethods.cpp": "0f47e74a95e015a743937c4443fe2c99df8048919d043dd2fe1cd5dddc650507",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/GenericMethods__1.cpp": "143a5afa85ce7049f48a99dcc763c211aa21f9db41b78e2eb40887f9ba19d27c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/GenericMethods__2.cpp": "f0358b6ffe2f388db538d8d67884cb3eabe39d5dba7fbb76b96916e0aa33963f",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/GenericMethods__3.cpp": "8e35aa689c1a550885da8efa0a5f6b022b4fea5dda8e2e880b52a26016058d28",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics.cpp": "ff9e997fa47addbef9e2df4390c08eb441c91806ea117957a16c766daed4dddb",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__1.cpp": "0d8fec3f8243bc87ba51d960d56afeeb97421f9758e034b132cad45fb65437d6",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__2.cpp": "de5a6def9f7cc1f1d1da15fa1da2cfef65675be76d70f6df15ca7efdccec53ae",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__3.cpp": "61ab7f42cf6bc9993ffd726e6546974d2f272eac871607093658bc4453b6ae5d",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__4.cpp": "03d738ce3d1a725669cc01ea5d25022a63d189e89c11175ab26d9a8392d15e77",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__5.cpp": "063816ba5a05add2e5b8304f2f6eccc621b8eac4f37a45a38ac0b2a0ec9ef671",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__6.cpp": "3fca867225c44b1fd6cbd414fe2c3b0c4fe48b80b8729e4770eea4ac93a4071a",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__7.cpp": "d588117a7d725080ccc8d445ed3da9387cb34adde71074e7719377fb62e9c84c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__8.cpp": "36d8c88fe7bca2df09e1047a1a5a4e2b5d000ed26b11b1cf458184c0246a059b",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__9.cpp": "e5638185dc0f413a66f37f89a014fe34455b01a7f3fb4a955b520f3788d306e8",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCalculateFieldValues.cpp": "706abcaa0b9c36dd0cc20349493a7ad86ffadf35f99998db4990a731e385fa7a",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCalculateTypeValues.cpp": "da65d7b124d88858a7c4d87093f817554efc723f071df2107e9a42a12025b39d",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCFieldValuesTable.cpp": "5e4e102e57ede0670b0e4437400bd30c6a6529a297bce645b2aefd3a79bf1754",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCTypeValuesTable.cpp": "aac71bf069db32712d6d10bf8ea83287593d2602be44c8e4f10c9daa378a8c5f",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCodeRegistration.cpp": "64af09f81d3beceee513499fa238759c58271b0b80f0c0b3db4ddfc3a3683757",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericAdjustorThunkTable.c": "e9d5768c973cae227ab809a87139acdb0aec4630fc99edc8ed0dcf5e166b7bdf",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericClassTable.c": "b47f0c5db33c3654c7d520fb74589a18483340ad96228cf17db1e64eda785b72",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericInstDefinitions.c": "64c6f79853ed6ad7a4806a5ece96168fd5ad22eea0ee441bce72f7cb63497aa9",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericMethodDefinitions.c": "9632a115c7991cc46d15535cc7170cefe280498ce38a3f38623545a428e2aa15",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericMethodPointerTable.c": "a9a5f5cabee46ab965837d73485f14cf3937346a585d69b2454a4e1e85c01fe9",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericMethodTable.c": "0a21b9708b5d82eb5d6f1c27062e92e1fdb183c0e0841c50d3182da54c51b1e6",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppInteropDataTable.cpp": "28b0f6a848ee296a3c50c993790dd9a8498f2565d4a9ed136aae3d6929dd2d8a",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppInvokerTable.cpp": "34d36ba0f66116bb61d2ca07ed41999849ac0f057bc3cce0c7ba818fa9cac01e",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppMetadataRegistration.c": "438f69a85eb6aa0fce796bd3d15cd563d1a2f44be291d904dfa8a7457a86d3c0",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppMetadataUsage.c": "ea8d5a7f15b09b8862489146f4326ec762345e2521cffe0887a6877fc7ecbd97",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppReversePInvokeWrapperTable.cpp": "94ac24dc902d93215310e41313124b72ba9cccca202de211403835e35ec5e2a3",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppRgctxTable.c": "a159a9665954345a9fa8c2deed90005bdc018b7c09313dac93e27b951961fb93",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppTypeDefinitions.c": "2beb00d52fe6496ece78d8c4de83e2b5cfd416265d2b446ab30380c5553f0e31",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppUnresolvedIndirectCallStubs.cpp": "7cd7c75232d91495e6723678368777dbec167183cdcb2152d33387c6683d16d0",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Mono.Security.cpp": "ea58e859bf1cad5368e7b4960181d9304ee433099d468048bca74fec7ddbf076",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Mono.Security_CodeGen.c": "c803a883bea2fba9551aab5622fb2f1affa02562bb04740dd037fa08cba88e54",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib.cpp": "e45cb237ac3c64eb1c3ec252c1ff367012b9b826412543f227816e83afc71ad9",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__1.cpp": "a7ce8af7567e98e97028cd655017c2e0e6b4e4d4a050056333946899bcd81740",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__10.cpp": "f0205e28d64ec3abc9f8a3cb7c5b83a3d72d03458031f2b50b48e22583a4aa5f",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__11.cpp": "7c5f5eccf7e501f54f856a22df4f2bf6d6d2bdb8583dfd326f3c4135b98c202b",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__12.cpp": "d1d9c5d26ee41710ae5e2210f687a65ec3142a842c8c6d2459b070d70660e364",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__13.cpp": "17d8c734219618cdc74abc84d05d790b0c5edc7c9db4b3145b3843c25f1df2dd",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__14.cpp": "331e7dfba36a37cf4da83c49ce1af7055b7739620cee44f3386662095d864a85",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__15.cpp": "2b4e7a534188935e352b5f1b18e1a630d4e0b7f93e4e5add68fbbbd78c3370ed",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__16.cpp": "701d066c4438acc3c10a4cd554159c7a6cdaa01beca1b2e7619b38f3904415e3",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__17.cpp": "c42d055781d9ebeae05ff2feb0485f500948d3f1b3e3cde11a80f1c0eeef8477",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__2.cpp": "7d67ecd0130b14473c231855426a6a0fe133eed4c7f226364f3e454789868171",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__3.cpp": "19133e238dc56c5d0c67293413e9bef99bc13a6ca1e7d66c3671e32eedc82499",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__4.cpp": "497e22524c195f2d074464e14d344a66569642483c1b8477825c94f2c18b6aea",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__5.cpp": "c495d1f1d12aa1bf5cb9899d42f5b9baec8c0f7c728870fd9006fc358d629076",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__6.cpp": "49adecb887a87edb9a887ed1071a12e7f183ec39e396cecca73a3e9dea1674b2",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__7.cpp": "a1b1ba633af32da241b390548f6017e9aa67f486b0be97fddd76730f8c6fc141",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__8.cpp": "8001aaf047b076763c12929dee683c9c882dfdaff49d254e7634bbf56e277203",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__9.cpp": "e7023b245a4653b44c99c053533ea6ebd09fa7e5dcd1a8432140d58d59b294c2",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib_CodeGen.c": "0d3c7b64454f10153225ee08572228ee65af9fcf19976bbda5762e39a67d9bcd",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Probe.AOT.cpp": "fd3d030b59bf1ddde4ac3fb646aa623c4982111bf809759eb996a53f71cd0206",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Probe.AOT_CodeGen.c": "d822e68a6d19922934b01fcadfb0b64c3fde471e7ef8dda4fa351c1d2faf3749",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Configuration.cpp": "147a6053bc181ebd584ace10b093f8e133993f64ee2e5ac5206bef318d5c5b16",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Configuration_CodeGen.c": "855cbf5899a782eb25760ef23724db25f2300a2224e3bbd3bac0db1213cea2c3",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Core.cpp": "201050df04a815eb92ffafcf274eb3eec9b9fab014e35f4ffbab1094477839a3",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Core_CodeGen.c": "69eb5f12c47faa3d73337c89e4952f0fb6d1c6cb12550ea2361438d92c6b3cca",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.cpp": "74624327ae4cc7ca9172b425f4e3d3912dc6a8ee3a103809dac17e204b85287f",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Xml.cpp": "8763ada00594308308a27db7a98de214441000f9d0c2a12380f3ee504f9ac6dc",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Xml_CodeGen.c": "215c875af41efb6f55984e9e396fa1ad173caf440ccc35a874a1861bb36b43db",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System__1.cpp": "9ab95abd0c807f6dd26c620c7bfcec7a0023f40b630c3cefeee009b8f7593bb0",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System__2.cpp": "d54ed44a25f76670137608c530a45a8be63f8f467ad0429a71e2e5343f295bed",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System_CodeGen.c": "23811b0180669045e3118147e4ea24c49c24180aa33dba3b530bfaf662437b4a",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AIModule.cpp": "f3e581ec3d947b02bc9f4efcf28bf6eb03671f191ae12284c92105dda9d3e85c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AIModule_CodeGen.c": "c78b3751cb178263a98b969b8fe8e098c43b5a2bce6ea1a0da5c3f75f0a6dea4",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AndroidJNIModule.cpp": "1cfa6c231aa45fe78552397befb448c6fdd1cda85d64421c7e47950f07504fcf",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AndroidJNIModule_CodeGen.c": "b20266841e3c2733cafd31e06323a7c7027f9ffed4d455ce334baf660f8b3555",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AnimationModule.cpp": "9cdde61f2b8f8ff8e08386b6d44484292d87719759749c9b5ab1a4d6adde17a7",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c": "75bb7faf82cbd3a389a48e305179de4b820404ba279d9fa14ca9c8e5e60207ce",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AssetBundleModule.cpp": "e9c8b7e637c75275a71fbd5aa3a6c7896632c29dfcef21dcd4c2478a8c60cb2c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AssetBundleModule_CodeGen.c": "eae2659338e899027dcf2026efba017fc1cea09ca27e0e5dedcf84fdc2e7c740",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AudioModule.cpp": "884b83529f41679dbf37215f16f49425f881d8ce77faf596fe2fafda08e8b1a2",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AudioModule_CodeGen.c": "3267fae74ae90b3ee7786736e86fa2a5b1ea4ff2973f29055b3df171d7318eb8",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.CoreModule.cpp": "bbcb3098840a5619f8413a25848e9e6390886fd1e0bc321a5b922d888bc21dd4",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.CoreModule__1.cpp": "05ae36d4b6b10af3d05d88dd5373f635c44447795d5cd0334e0b29dd3e118d34",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.CoreModule_CodeGen.c": "fc0c1e7040294fd601b2033b0fbf37e334e7d6e7919f516e87f56c50d6ece439",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.cpp": "aaef4deb23a4e70f31405c754b9301b4725f979983dd0491b58e5646133458fe",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.DirectorModule.cpp": "7db8484d167522ffba174611c7d28b19b1ebe4e6dfb6744d9870521278553cff",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.DirectorModule_CodeGen.c": "fbd018ff84e9108279fd5139dcd2a08a69df64af6bffaa836eed06e6916ddb00",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.GridModule.cpp": "57577500cdd28ac02b32f84b3d9b22ca435cc3f458a72948afa6fc2642274e6e",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.GridModule_CodeGen.c": "8e7cbeca8791a1a695db43e33c34c8ba771826be89b1aaa6cdadcbc6e98f7af2",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.IMGUIModule.cpp": "2ece6106200c3da361d89905c80c687eabf8d4dfadad2594ba8b393ff7ccf1e0",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c": "dc9830473be6a5812785a2c17add4827a7c1326208555d2cc60290366223f09e",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputLegacyModule.cpp": "71040d1d17cb5a0f189897ce6aede67a4f40eebba73c9ad0a85c71806b88520c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c": "4bf0514e3cc534433b5e1ca110629443d7edadb0e2629a096c7e251091cfe47d",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputModule.cpp": "fd93302d9ce3d15cabd80649eeb2290262f91c8bef6757b1778c73d771a927ba",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputModule_CodeGen.c": "b91edee728ea370fdf2cd6e5b923dc39a2b94daa18540b0ed841dac2344c1b9e",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.ParticleSystemModule.cpp": "f434e85875b5d4e38d92c8c031c76cd2ae2afb1186eca179b51ea9c7c3615068",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.ParticleSystemModule_CodeGen.c": "c52d62024f412f8cbbf1d4b482d5293042d9319c89dd7a320f0f49309326ffbe",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.Physics2DModule.cpp": "7127eee5eccaa4181b8f4a68b5fc3c0ffb61519c7b133b1367538ef67c913c59",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c": "3df2bd138e8d9329b7762d03cfd9f1b0aee742a6e5d8a44bef5b1a5a2936bc6d",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.PhysicsModule.cpp": "0b2836e3e221cac095183c614c0fb34fc9bc12933706e5892daa221b7b6105a8",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c": "73cc84081bd5ded671558139775d46617694b467f6a4f7095cd366e80cf323eb",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.PropertiesModule.cpp": "4f1a2ae9f4b6f529c2fc433348982f6e4ffd9cb77717dfcb40602e2c13b6b399",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.PropertiesModule_CodeGen.c": "c4f81fd0ef9b00e883ace57740137f0d32915558184294698c48bc4d352d5f85",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SharedInternalsModule.cpp": "4cff2dafa396f69d93220c65e6d50b072a7a7085156a270bbf9159aa42729f91",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c": "e0b2451676fc959df69a7809cbb326c7691cc9c5b3950fb7c921098bc2bc8df1",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SubsystemsModule.cpp": "8265d8c82323175af28e1e2fd0ab4fa4e1fbf88c22bd99bdfea5b9eca0557c29",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SubsystemsModule_CodeGen.c": "27a4d9d1f73bc7051ec59bf4234aa5829938e414e8b73573596783f862945fcc",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TerrainModule.cpp": "20377ce6f824ae2bb6873eb61e5f087f2ed4d265c347c9000249873e8da328e1",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TerrainModule_CodeGen.c": "29947e3ba7bd324f926e17fde74713a336e22e6469b8774690f0dbbec403c767",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TextRenderingModule.cpp": "fe8072fa56a6b23ba4bb248ee02d4a6fdaef5e2406605d6c6d51aea50229fff4",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c": "7395bf4a7e64b35aaa9b85606b76e09f79a9d3ef61e77ad6b8a427fe990a1725",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TilemapModule.cpp": "b66a00ceff84cf4c7631114265c91797fe018635972d28f7a621a562275d6911",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TilemapModule_CodeGen.c": "a249087f9951229171e357b4c95979e0fb3c21e77040b47dd7035835ec5b1e10",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UIElementsModule.cpp": "a76470d9d64cb5dc0628d493fd3072b0aa9171d006feeaa7ce12e3198e6933a1",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UIElementsModule_CodeGen.c": "e7357d1286e70b96f30618d05d71eab4e6c310d567a567c1d7527befeb5bc975",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UIModule.cpp": "965c45d678dcbb2e8efd74143a23b06f50544e0883ce44e3ee05ce5fb70c73c9",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UIModule_CodeGen.c": "5b10e1cafe3434d0c4ae7e1b41d492ce759a8f16fca93c2b8a57a799d3029086",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UnityAnalyticsModule.cpp": "bba80c4192c6f2b39b7fb4ea4aa915d7831266ff5014e7e7d66f336cc64883a8",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UnityAnalyticsModule_CodeGen.c": "13572c1ccd6cf505574717d477a7b0937d1618e84bee896d13081cc374ff479e",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UnityWebRequestModule.cpp": "a63ada1d3002f5ef60334d7b36a6f005040920ff77b6fe4e4fedd0ccb0246a17",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UnityWebRequestModule_CodeGen.c": "f20afabfac1ebed7b425eef64417be16f5126023a34a41deda2f1929aa4f78b6",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VFXModule.cpp": "51e5109c1b0f2f9a8c52c4dea102e4a7c8d87a9f6025a20be99d34816a9d08c1",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VFXModule_CodeGen.c": "d789ef80924054e7ce3f42e9d8c7c5fde3b11c20e5d04ee22ecdd92a1befddf9",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VideoModule.cpp": "c20eca6d58e5a1f777edf423251d286c38b490ea145d55bbe208421d8409ca38",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VideoModule_CodeGen.c": "fe7ea86daaef4ab134f204aa367e13d4d943e3f8aeb2e6ed878e42eab254d8aa",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VRModule.cpp": "ba202110b69ce685f960a1cdad6de1b7885407ab498882b2326caf58744e11af",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VRModule_CodeGen.c": "f1eef7a488ab3ffc389e0fdc1b24c2bdaf3741b25b79a5a92e83afb621f76aff",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.XRModule.cpp": "2c39446241d4b4994ac99c02c15a8c631ace655e7e30f1cf8dab575e2a8ee894",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.XRModule_CodeGen.c": "21f15a3c6eaef3d2b41e57b2b1d0eb526bcc291e1d5fe5b821efbdc27a062cab",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine_CodeGen.c": "4d6e3851398e44006ca02d1fc0c194eedd6d9bf5d974d82607b25a7932d33de9",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/analytics.json": "1dba2d99884c4cde344b4102b6a43a49b9b2c980ce1d97c2e67e4bb10806eab2",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.dll": "b0aca9a04274829b02df962265b41eafd895db0eea4517b8da04ac5b61ee68a3",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.pdb": "5fb37965623e08399076ed939e6c4de8ca5b4e251355b54e34c1154847d0345f",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Mono.Security.dll": "17a3ad783c0218dfce8c7b95fc565e9c6a8e24e6d77666f36fc52f9fad98414c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/mscorlib.dll": "7949f8da484313231c147a5426e0705d6f32e3e33e37bde6ae0502b68643404e",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Probe.AOT.dll": "c64e1ae29e36666610259241f48d225e5d82cfd3efc01f256bae61a1b0619da9",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Probe.AOT.pdb": "f615e6abff440133a7e6b0d3b872c64fa1256e1958b3e7c1a2be7c3bf7db7fb6",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Configuration.dll": "b98d257cf0bb8bf12db7d691b82b4594bb2ed3c9ceeac6a3f999751bdfccdc9c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Core.dll": "e5d7a949e0a2ce20265d60283b2b43501385f458141dc90e32a98f9f69db59bd",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.dll": "49b2dba46c83f9f202113c32e2ef44848f6d1e19a2bac9e0f06c95aeba0a7d11",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Xml.dll": "78e643d8971ad22e1220de59c9ab40e54344194cff2d471b5837dd25701d7c6c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AIModule.dll": "9b10c8762dfa844e3d5efe48baeb782416dd8c0807bd5777ba38d2a17ab7583d",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AIModule.pdb": "9573c7c56729b23ff7f807dd920c2731492275126a49f4fc6700ec14f8b72aaf",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AndroidJNIModule.dll": "60154da9c94bebea807f6f56f2d58df32d274d3c4edbe41f8c5a0bf5cb62f551",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AndroidJNIModule.pdb": "8f812b9930da6aad03da002fc29dba6d7a6f8b54a18a2150128350074e53f710",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AnimationModule.dll": "26ce9506871fd3290004aa4b46b469585358082abea4ca5a02da5193dbf90189",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AnimationModule.pdb": "b65478f897bef3e70d0af04263b653d2516625890110c249f07b92017005c74e",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AssetBundleModule.dll": "813f41e8fb4f6a1d173d6a0d63897e843409710ddd9cdd1c03586cc23f527c10",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AssetBundleModule.pdb": "48751ad615005fed17c8c41d9b730de992202c1eb86a73a54953918866140ad4",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AudioModule.dll": "02b3462a17ee369402cfac5ceb794000ae7c1b288254cf2393d9ea6fe3742007",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AudioModule.pdb": "304775acfd26040e4cde3c763fcdaebaa7501162d6382bb809eb806d81c75f66",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.CoreModule.dll": "86175dc8a6c10613557c3a7e7aa06fafd7752f640bd3bd97216a6b5eef74d4b4",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.CoreModule.pdb": "97f66963140c2fb0d0bb9896609434c5cc8d5fdd7b26d285b605adfb334b02b9",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.DirectorModule.dll": "ec15d0531aa137090a421f5760ce4a3c80ba04c3c6bc26e283f3740710a8eef4",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.DirectorModule.pdb": "47b3a8f8a44d6f9995d0ce0fb7c31e0fe2ecf0589c2ffa3fca7ab45dbedd7c75",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.dll": "d1f66c4a030d4fdc0c4359c73f0f238238e8ab8e66f68c4d019d6d5e986d1459",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.GridModule.dll": "52a909136699701804ae46f36d1564a4c709a15a6d497cecd0e2637f689840f1",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.GridModule.pdb": "62ca59cb515c209e14452cd16913b91b65d190ca2960f939994663d3cbe75be2",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.IMGUIModule.dll": "2153e639a03e6a7d6156ff333a25f4e9b2b1687b111a5773e38a8f95368dc078",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.IMGUIModule.pdb": "e96c28b449ccf2cd70f0055dad98fa5270fdb253157c89989af6bade83f4f40a",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputLegacyModule.dll": "92cec7f13a7debcb0b4884656956c77e3670a1ba8fa51ac78cb4fcb836bb43f7",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputLegacyModule.pdb": "eb7c1b237f2d6d44a41e1a3f96a4a0b175a160a3987ca3c778e66ec2031fdbc5",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputModule.dll": "2769f82515874cff00c1d06ce1761b76cddd31ddf5fb72a9916e6584f98b41a8",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputModule.pdb": "482f67a9e00b7fe0dd9e6f372d30f9f3fb91c6f81a7462e83a2fb19994421e2d",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.ParticleSystemModule.dll": "9022b2c04a2e8ba14cf5fbdaa1b7be72fc3e55917cc0c718bb09b3f693fabf2c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.ParticleSystemModule.pdb": "00cc9c0f7c504e1d4e6e192c0739526b4d00b8d600d366df494a06184f76cfb5",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.pdb": "5c9cb680917b1e8fb89b1f70d41cd68d3eb691faaa3ebdf2abbe5a953bff6fea",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.Physics2DModule.dll": "9a141001b89d14311ba073a93c89d06b92fba4d7725738011673f4f659829f41",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.Physics2DModule.pdb": "d76581222e4161c431b486195ea93998eaad39968b5e258a977de69c1cc3f958",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PhysicsModule.dll": "d0b7a50d978f68fa2c112a56e581965ca7414f44b64ea8a852bdb5b75a9df21f",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PhysicsModule.pdb": "ce67b005422facf37ca3795070cd28b3e523ce5c58cefbe82ccf3273992d67db",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PropertiesModule.dll": "473ab6e6bf48154d090fd5791e8994ed55272dbe00ae41b02a83058d02c43316",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PropertiesModule.pdb": "eb2b4e3f27c4a3335e62ba230e4a172ee8ea94fa7dde844e620460b25b70cdad",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SharedInternalsModule.dll": "720d1899c172cc3957586dbb9ee73a3a743e4486c75a44cdea1c36049c6e6db4",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SharedInternalsModule.pdb": "9d5a2554562d3ad7dc46427da28966255ab4dddfc0e9114c5841006ac46890c6",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SubsystemsModule.dll": "fb1f1198c6139fd3c6967957c81396c79e6e326b4a9f0bb2a3f18326326f899f",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SubsystemsModule.pdb": "b118363b481ef4e69ea323bc1d0b0299b1af558e85b8ca9fbcb2be4322528aa4",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TerrainModule.dll": "621813ecc70a3e4e4f22a59389f37f302c57f2e0a8a726876ce343d63d006d14",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TerrainModule.pdb": "4b7d58e421702f369132f542d5909fef8ae874807807e48780b52e0a007e6581",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TextRenderingModule.dll": "7ebaaf38243dadcbbe6af711f6ce0b6904fb76d7408b08415607ada218cf4170",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TextRenderingModule.pdb": "a2db4efca06910b1a00278166085374857efa73d68ea7f7c0c3fe21f4ff4a48b",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TilemapModule.dll": "cfb2e0f771fd18454b7f4ac056cdae33254d5895fd94e08d344792a1bdddc77b",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TilemapModule.pdb": "97dfc7cf403cee6677c4b7542e8eb13ab0f7fee798faf8a64682b2fc32329628",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIElementsModule.dll": "8b40db605063ba39b299cb56f8d02844ef54b71fef04a4726892bca8d1b2581e",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIElementsModule.pdb": "8c5b01f676881e982a356ddfbbda3d2497388cebd2131a3efa02e5c23665c4e5",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIModule.dll": "cc2cf6755d5c24cf3eee543fb0b1570e2039fa22b86223530ba3f1012c601b89",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIModule.pdb": "6d691a9896e2bd0afdbd492315d954f257b0428b735d7a438b73374028c55a69",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityAnalyticsModule.dll": "39e737eff704580ac5701596d3c63b62beaca6f9657e6ee95230fcc3c936e251",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityAnalyticsModule.pdb": "5b2c1d9ecc45c1ae23aa119b3c7b9a153f110f235d65bce7eca33428e7a8dc23",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityWebRequestModule.dll": "e4a091f971cdcb39bfdb344da2fd2d9138e1e3e9ae69f2a0db62dae982d3df98",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityWebRequestModule.pdb": "d1dc945a68a462ab9b71fc03ab1d9496ef434ec58f084e1c22717408017a3d9a",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VFXModule.dll": "d7277b763aa73f03134e0c88e80cf9f16b090c4c0afc923d8d1cd3a7ddb2cd7c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VFXModule.pdb": "1fe75b718dc8ae08deff4e83a54b80a6990fd10de3288d7b2490bf9e80441bbf",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VideoModule.dll": "aebde1b44bd55d9b9f6944a81e751329cb4b5a0e3f3f2b4dc69aa2a30caddec2",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VideoModule.pdb": "7757528ce75cb924865bb450cb6dca4a473800b8b88d41d59fe770627714f70c",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VRModule.dll": "985c4de8eca613907e43e19be8e9218f507f96d3e8146ef953e31c4da2740e99",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VRModule.pdb": "100b808ee2c02fb698fd5722f7756392146116bb6d14be640ecdcd4f1f18a3da",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.XRModule.dll": "f080fe9b21a2ab6f10b2fee6c3e509f01372706aa2e7ac8bb5c1788bc3346c76",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.XRModule.pdb": "12f95389ee2c119d0efdbb8c2e0f230575818688a16fef84824f23d05625b317",
+    "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityLinkerToEditorData.json": "0344843e4767af162e1e0ad4e4d6896c925a459dc9c07feec93d889d644646f7",
+    "Player/GcCallbackProbe_Data/app.info": "f12d544281f278815fb8a75416b0cdb1fe1641af319b5daad6e61eac83127ffe",
+    "Player/GcCallbackProbe_Data/boot.config": "2dc3115020b5dc708833c423427c11454b37397d56f32ce3c82e9180e3cf5757",
+    "Player/GcCallbackProbe_Data/globalgamemanagers": "35d81422e58de0573038445a08e40fef806826df5d8a544ad97143a0dc4b7519",
+    "Player/GcCallbackProbe_Data/globalgamemanagers.assets": "fa2f52af97a9cf87607673abb7e04ee871bb2b8945d25948dd1e49dc2386cfff",
+    "Player/GcCallbackProbe_Data/globalgamemanagers.assets.resS": "ebf0f91664c0aa69e3b92e93d4d4e6feae1a9152529b0efeac047e3c9c3b0fc0",
+    "Player/GcCallbackProbe_Data/il2cpp_data/Metadata/global-metadata.dat": "c0272e3a54486ae02a1163600309cfa311d758697fc2c27a5c3b0b6cb9d5cbbd",
+    "Player/GcCallbackProbe_Data/il2cpp_data/Resources/mscorlib.dll-resources.dat": "c5baa176a5b72cd545266340e42102d393a5e43d38c95796bc828918bb95277f",
+    "Player/GcCallbackProbe_Data/level0": "90a6d7fed1e177a6cb0f259054126cb3f5638994eb361536866a9c2dfe10162b",
+    "Player/GcCallbackProbe_Data/Plugins/x86_64/NativeProbe.dll": "df584d693baa9f367b96c4e8bbd5f111f095691dbe0c9693331474a404c0f829",
+    "Player/GcCallbackProbe_Data/Resources/unity default resources": "a11e3e24520676183b3750564b4d9f5a90e8f41fd3523cbfb0c49f3989453da2",
+    "Player/GcCallbackProbe_Data/Resources/unity_builtin_extra": "8ba8849a60bae801d6e700df5e44d991931bda6618b8789b7758d67112f187bb",
+    "Player/GcCallbackProbe_Data/RuntimeInitializeOnLoads.json": "1a418121cd324aad8e86f3e9e3f1253f1db900a707e8a01a094f1b0a2bb3550d",
+    "Player/GcCallbackProbe_Data/ScriptingAssemblies.json": "efcb079c23d5ca616c1cac12edc0db74d86bba7c3eb36b15b7eb7df4cd75fa4e",
+    "Player/GcCallbackProbe_Data/sharedassets0.assets": "84a59d750eec9c740502bfb33d6d4abd96bd13f0550c0db1186c5c8c61b4eb25",
+    "Player/GcCallbackProbe_Data/StreamingAssets/HotUpdate.dll.bytes": "bd7324d3c3d484881cfc00c0517a4b736cd99e08293cb9bae45d08e9129c6dc4",
+    "Player/UnityCrashHandler64.exe": "f93bf3c60560109f3f3281e44484f25e0c722a70e63380518a82e7fa0cf87690",
+    "Player/UnityPlayer.dll": "48e229dee287476ff2be61aceb5d2042a047874507b0d09ac66eda4632b9be91",
+    "Player/WinPixEventRuntime.dll": "23ef5b23f1cf6f1b7132542c4063b5e9da532572634afa41f27139bbf02468fc",
+    "plugin/build-native.cmd": "c9f6f60203ca778fe8fed8316c94714788151408fdbefd3bbdb9709087fddbcd",
+    "plugin/compiler.pdb": "a4f747a5e657be42edf17f33d4249ce4fc7f230025c4660c1960b8031074b411",
+    "plugin/compiler.txt": "69360069f7b95f13fb640108f0023e1f5eb69810643df06b8b04fafd795acb01",
+    "plugin/NativeProbe.dll": "df584d693baa9f367b96c4e8bbd5f111f095691dbe0c9693331474a404c0f829",
+    "plugin/NativeProbe.exp": "ba720a32b0178f4216c351049bab8ae8946faf188b28519c0f446a6012258c7d",
+    "plugin/NativeProbe.ilk": "bab9b70a5b2ec37f5928a6f6e626bcbd87195aee134e316ac9e29eaa65f68d8b",
+    "plugin/NativeProbe.lib": "d1b421c48d5631e066ede40ca1064f9741521ec6989a1e0a0c47964584d351f1",
+    "plugin/NativeProbe.obj": "a07e297d44f4da17ba41d33fba52dcde6ee44e9d876a9643185d3cdf2553a1e6",
+    "plugin/NativeProbe.pdb": "50facb581da24ac84b3727491d5d1940c2a00852d93eb9912da3e5af02a593c0"
+  },
+  "verifier_sha256": {
+    "tools/incremental_lab.py": "d52daa3c88111b8512cee855ecd7dd54b01adf1a2073360f46a12a44b0be07a8",
+    "tools/incremental_results.py": "8691847bd0f43858625ed89657adc2193d0005e20b66e391b7c62b455603c225",
+    "tools/incremental_debugger.py": "9460c022151fbac10e0c068ee234c884a2f8bbedd27ee4bb039eb2c6a7b7677f",
+    "debugger/incremental-barriers-v9.cdb": "9fc3b7ac6f9182874c86b4a381caa2d62bb79513b645c91b0d07cf0606f60fc4",
+    "tools/BarrierMetadata/Program.cs": "a48cb2f0e94faa70bdb2d536530ff95d7469fa172a9cdc7055ddf34a88ce0c03",
+    "tools/BarrierMetadata/BarrierMetadata.csproj": "5500354786e3863d0990ac6092d8373c56e1220912384c8e2b77cc2a456d9b41",
+    "tests/test_incremental_results.py": "ac59fd6347d1f05340ba1f18f606ac73b31311b3accb03c0218332cb79c6778b",
+    "tools/receipts.py": "9bf43a45ce276058029238737b75a35ef8440b207030a9c9ed7cbddbc52807de",
+    "tools/lifetime_lab.py": "1a1c9df9bc2ccb7827fe07200457e142609ab2d50358a2802cea34b28ac0ce01",
+    "tools/prepare.py": "250e1ec979ad823323e85dca23ef0a56e96b75cf39558b6ded31ae0ef25caf21",
+    "tools/lab.py": "a39186fabc77b53cdd41117b9f682d5e0a47fdc7f71cc8e65a9483c8772f45c7"
+  },
+  "cil": {
+    "log_sha256": "5cb90e35409d1ffdad706764b5d34fe29d602388e9a2c0772328936c7312a013",
+    "input_sha256": {
+      "Player/GcCallbackProbe_Data/StreamingAssets/HotUpdate.dll.bytes": "bd7324d3c3d484881cfc00c0517a4b736cd99e08293cb9bae45d08e9129c6dc4",
+      "Player/GcCallbackProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Probe.AOT.dll": "c64e1ae29e36666610259241f48d225e5d82cfd3efc01f256bae61a1b0619da9"
+    },
+    "identical_write_instructions_except_diagnostic_literal": true,
+    "diagnostic_literal_difference": [
+      "Candidate lost before hot write",
+      "Candidate lost before write"
+    ]
+  },
+  "raw_log_sha256": {
+    "aot-1.log": "a96294295ddfb74b8c4be4981b3da2c213250a17da8c92e21de9559dc2210b14",
+    "aot-2.log": "3bb7df1c21ce61d2fa1a598c7109851be76cdd6310ca5a430d50cda803edd794",
+    "aot-3.log": "4b418cb0a48aa6381fd16dcd6a76c6364684ff2a04cfe1c54f2da5a97a0ac846",
+    "hot-1.log": "53f0eb1be9c202cab44db6aa83551c1076162a1f978012bfc82427ad0f33a9b4",
+    "hot-2.log": "93ae93ebe4a5e7047a09b1309852ac9d966c7ab5582668166c64c0a5c9494d6d",
+    "hot-3.log": "d9c260c6d7286b49f677750cfe953dfc4fa9b47aa74cdd24af110cc6455eab58",
+    "aot-trace-1.log": "dd43787727802c4d41a58036f9bbeafb6cd7ab93580c936dbabefbda368109fd",
+    "aot-debug-player-1.log": "0a33730bdb6580d6aafa0ce25dfa712c3cc7dd89e56e7d791a65b93bb0a0b4a3",
+    "aot-trace-2.log": "3ce70a9d474e37352cdc09430696cc13cd5f65afc8b90a215222827c7bea033b",
+    "aot-debug-player-2.log": "dc77859f90dad504a9ff152ebf428392654e954a3370af7fb5842b77c9d14802",
+    "aot-trace-3.log": "2d6af13de2ff84e08947b0859b795607f228426efaa278ba6dcce7dac3d30b63",
+    "aot-debug-player-3.log": "dee4295403ba10cc3045dd7be92f90d708048cc95306586fe6e08075edc12406",
+    "hot-trace-1.log": "e72a89c443b4c63253caf5c28754b87258a2a64c23517d3c74d7406ab34d7c13",
+    "hot-debug-player-1.log": "fccea019d48dd929e10e7608d3f7f093353e099592f673ae504a2cb993c524c9",
+    "hot-trace-2.log": "52746dffb758ef02250a439000c6b9ea792423be08b362bf4c142cf4a6612f0a",
+    "hot-debug-player-2.log": "8875e41f307a3549a8bc4ead5d3b450a98b525636f00c72069d44723e5a957d6",
+    "hot-trace-3.log": "339b8979cc431cc0acd469ea8d68343e1935ae387a76bd5259272195fcf35993",
+    "hot-debug-player-3.log": "a6ea1014b8e7151688c3ca871d3eb1db9452a17bf65fa8a0328e5444dc6b126c"
+  },
+  "run": [
+    {
+      "mode": "aot",
+      "run": 1,
+      "pid": 168464,
+      "exit_code": 0,
+      "observations": {
+        "writer": "aot",
+        "cycle": 2,
+        "steps": [
+          {
+            "seq": 1,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1001
+          },
+          {
+            "seq": 2,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1002
+          },
+          {
+            "seq": 3,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1003
+          },
+          {
+            "seq": 4,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1004
+          },
+          {
+            "seq": 5,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1005
+          },
+          {
+            "seq": 6,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1006
+          },
+          {
+            "seq": 7,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1007
+          },
+          {
+            "seq": 8,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1008
+          },
+          {
+            "seq": 9,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1009
+          },
+          {
+            "seq": 10,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1010
+          },
+          {
+            "seq": 11,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1011
+          },
+          {
+            "seq": 12,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1012
+          }
+        ],
+        "frames": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "drain_calls": 1723,
+        "mark_attempts": 3,
+        "checksum": 12078,
+        "retained": 12,
+        "released_alive": 0,
+        "events": [
+          {
+            "index": 0,
+            "event": 0,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 1,
+            "event": 6,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 2,
+            "event": 7,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 3,
+            "event": 1,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 4,
+            "event": 2,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 5,
+            "event": 8,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 6,
+            "event": 9,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 7,
+            "event": 3,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 8,
+            "event": 4,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 9,
+            "event": 5,
+            "starts": 1,
+            "ends": 1,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 10,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 11,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 12,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 13,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 14,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 15,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 16,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 17,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 18,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 19,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 20,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 21,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 22,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 23,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 24,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 25,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 26,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 27,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 28,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 29,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 30,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 31,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 32,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 33,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 34,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 35,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 36,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 37,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 38,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 39,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 40,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          }
+        ]
+      }
+    },
+    {
+      "mode": "aot",
+      "run": 2,
+      "pid": 172632,
+      "exit_code": 0,
+      "observations": {
+        "writer": "aot",
+        "cycle": 2,
+        "steps": [
+          {
+            "seq": 1,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1001
+          },
+          {
+            "seq": 2,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1002
+          },
+          {
+            "seq": 3,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1003
+          },
+          {
+            "seq": 4,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1004
+          },
+          {
+            "seq": 5,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1005
+          },
+          {
+            "seq": 6,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1006
+          },
+          {
+            "seq": 7,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1007
+          },
+          {
+            "seq": 8,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1008
+          },
+          {
+            "seq": 9,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1009
+          },
+          {
+            "seq": 10,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1010
+          },
+          {
+            "seq": 11,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1011
+          },
+          {
+            "seq": 12,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1012
+          }
+        ],
+        "frames": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "drain_calls": 1723,
+        "mark_attempts": 3,
+        "checksum": 12078,
+        "retained": 12,
+        "released_alive": 0,
+        "events": [
+          {
+            "index": 0,
+            "event": 0,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 1,
+            "event": 6,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 2,
+            "event": 7,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 3,
+            "event": 1,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 4,
+            "event": 2,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 5,
+            "event": 8,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 6,
+            "event": 9,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 7,
+            "event": 3,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 8,
+            "event": 4,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 9,
+            "event": 5,
+            "starts": 1,
+            "ends": 1,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 10,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 11,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 12,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 13,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 14,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 15,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 16,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 17,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 18,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 19,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 20,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 21,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 22,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 23,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 24,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 25,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 26,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 27,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 28,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 29,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 30,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 31,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 32,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 33,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 34,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 35,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 36,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 37,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 38,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 39,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 40,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          }
+        ]
+      }
+    },
+    {
+      "mode": "aot",
+      "run": 3,
+      "pid": 134200,
+      "exit_code": 0,
+      "observations": {
+        "writer": "aot",
+        "cycle": 2,
+        "steps": [
+          {
+            "seq": 1,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1001
+          },
+          {
+            "seq": 2,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1002
+          },
+          {
+            "seq": 3,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1003
+          },
+          {
+            "seq": 4,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1004
+          },
+          {
+            "seq": 5,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1005
+          },
+          {
+            "seq": 6,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1006
+          },
+          {
+            "seq": 7,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1007
+          },
+          {
+            "seq": 8,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1008
+          },
+          {
+            "seq": 9,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1009
+          },
+          {
+            "seq": 10,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1010
+          },
+          {
+            "seq": 11,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1011
+          },
+          {
+            "seq": 12,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1012
+          }
+        ],
+        "frames": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "drain_calls": 1723,
+        "mark_attempts": 3,
+        "checksum": 12078,
+        "retained": 12,
+        "released_alive": 0,
+        "events": [
+          {
+            "index": 0,
+            "event": 0,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 1,
+            "event": 6,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 2,
+            "event": 7,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 3,
+            "event": 1,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 4,
+            "event": 2,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 5,
+            "event": 8,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 6,
+            "event": 9,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 7,
+            "event": 3,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 8,
+            "event": 4,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 9,
+            "event": 5,
+            "starts": 1,
+            "ends": 1,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 10,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 11,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 12,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 13,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 14,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 15,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 16,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 17,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 18,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 19,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 20,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 21,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 22,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 23,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 24,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 25,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 26,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 27,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 28,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 29,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 30,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 31,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 32,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 33,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 34,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 35,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 36,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 37,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 38,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 39,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 40,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          }
+        ]
+      }
+    },
+    {
+      "mode": "hot",
+      "run": 1,
+      "pid": 118860,
+      "exit_code": 0,
+      "observations": {
+        "writer": "hot",
+        "cycle": 2,
+        "steps": [
+          {
+            "seq": 1,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1001
+          },
+          {
+            "seq": 2,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1002
+          },
+          {
+            "seq": 3,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1003
+          },
+          {
+            "seq": 4,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1004
+          },
+          {
+            "seq": 5,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1005
+          },
+          {
+            "seq": 6,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1006
+          },
+          {
+            "seq": 7,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1007
+          },
+          {
+            "seq": 8,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1008
+          },
+          {
+            "seq": 9,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1009
+          },
+          {
+            "seq": 10,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1010
+          },
+          {
+            "seq": 11,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1011
+          },
+          {
+            "seq": 12,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1012
+          }
+        ],
+        "frames": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "drain_calls": 1722,
+        "mark_attempts": 3,
+        "checksum": 12078,
+        "retained": 12,
+        "released_alive": 0,
+        "events": [
+          {
+            "index": 0,
+            "event": 0,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 1,
+            "event": 6,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 2,
+            "event": 7,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 3,
+            "event": 1,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 4,
+            "event": 2,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 5,
+            "event": 8,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 6,
+            "event": 9,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 7,
+            "event": 3,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 8,
+            "event": 4,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 9,
+            "event": 5,
+            "starts": 1,
+            "ends": 1,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 10,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 11,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 12,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 13,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 14,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 15,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 16,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 17,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 18,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 19,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 20,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 21,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 22,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 23,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 24,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 25,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 26,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 27,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 28,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 29,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 30,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 31,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 32,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 33,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 34,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 35,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 36,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 37,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 38,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 39,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 40,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          }
+        ]
+      }
+    },
+    {
+      "mode": "hot",
+      "run": 2,
+      "pid": 113544,
+      "exit_code": 0,
+      "observations": {
+        "writer": "hot",
+        "cycle": 2,
+        "steps": [
+          {
+            "seq": 1,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1001
+          },
+          {
+            "seq": 2,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1002
+          },
+          {
+            "seq": 3,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1003
+          },
+          {
+            "seq": 4,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1004
+          },
+          {
+            "seq": 5,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1005
+          },
+          {
+            "seq": 6,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1006
+          },
+          {
+            "seq": 7,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1007
+          },
+          {
+            "seq": 8,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1008
+          },
+          {
+            "seq": 9,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1009
+          },
+          {
+            "seq": 10,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1010
+          },
+          {
+            "seq": 11,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1011
+          },
+          {
+            "seq": 12,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1012
+          }
+        ],
+        "frames": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "drain_calls": 1724,
+        "mark_attempts": 3,
+        "checksum": 12078,
+        "retained": 12,
+        "released_alive": 0,
+        "events": [
+          {
+            "index": 0,
+            "event": 0,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 1,
+            "event": 6,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 2,
+            "event": 7,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 3,
+            "event": 1,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 4,
+            "event": 2,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 5,
+            "event": 8,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 6,
+            "event": 9,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 7,
+            "event": 3,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 8,
+            "event": 4,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 9,
+            "event": 5,
+            "starts": 1,
+            "ends": 1,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 10,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 11,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 12,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 13,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 14,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 15,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 16,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 17,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 18,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 19,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 20,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 21,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 22,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 23,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 24,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 25,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 26,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 27,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 28,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 29,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 30,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 31,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 32,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 33,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 34,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 35,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 36,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 37,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 38,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 39,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 40,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          }
+        ]
+      }
+    },
+    {
+      "mode": "hot",
+      "run": 3,
+      "pid": 159580,
+      "exit_code": 0,
+      "observations": {
+        "writer": "hot",
+        "cycle": 2,
+        "steps": [
+          {
+            "seq": 1,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1001
+          },
+          {
+            "seq": 2,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1002
+          },
+          {
+            "seq": 3,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1003
+          },
+          {
+            "seq": 4,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1004
+          },
+          {
+            "seq": 5,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1005
+          },
+          {
+            "seq": 6,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1006
+          },
+          {
+            "seq": 7,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1007
+          },
+          {
+            "seq": 8,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1008
+          },
+          {
+            "seq": 9,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1009
+          },
+          {
+            "seq": 10,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1010
+          },
+          {
+            "seq": 11,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1011
+          },
+          {
+            "seq": 12,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1012
+          }
+        ],
+        "frames": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "drain_calls": 1725,
+        "mark_attempts": 3,
+        "checksum": 12078,
+        "retained": 12,
+        "released_alive": 0,
+        "events": [
+          {
+            "index": 0,
+            "event": 0,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 1,
+            "event": 6,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 2,
+            "event": 7,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 3,
+            "event": 1,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 4,
+            "event": 2,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 5,
+            "event": 8,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 6,
+            "event": 9,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 7,
+            "event": 3,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 8,
+            "event": 4,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 9,
+            "event": 5,
+            "starts": 1,
+            "ends": 1,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 10,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 11,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 12,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 13,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 14,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 15,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 16,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 17,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 18,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 19,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 20,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 21,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 22,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 23,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 24,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 25,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 26,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 27,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 28,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 29,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 30,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 31,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 32,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 33,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 34,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 35,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 36,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 37,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 38,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 39,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 40,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          }
+        ]
+      }
+    }
+  ],
+  "trace": [
+    {
+      "mode": "aot",
+      "run": 1,
+      "pid": 173644,
+      "exit_code": 0,
+      "player": {
+        "writer": "aot",
+        "cycle": 2,
+        "steps": [
+          {
+            "seq": 1,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1001
+          },
+          {
+            "seq": 2,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1002
+          },
+          {
+            "seq": 3,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1003
+          },
+          {
+            "seq": 4,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1004
+          },
+          {
+            "seq": 5,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1005
+          },
+          {
+            "seq": 6,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1006
+          },
+          {
+            "seq": 7,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1007
+          },
+          {
+            "seq": 8,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1008
+          },
+          {
+            "seq": 9,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1009
+          },
+          {
+            "seq": 10,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1010
+          },
+          {
+            "seq": 11,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1011
+          },
+          {
+            "seq": 12,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1012
+          }
+        ],
+        "frames": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "drain_calls": 1734,
+        "mark_attempts": 3,
+        "checksum": 12078,
+        "retained": 12,
+        "released_alive": 0,
+        "events": [
+          {
+            "index": 0,
+            "event": 0,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 1,
+            "event": 6,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 2,
+            "event": 7,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 3,
+            "event": 1,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 4,
+            "event": 2,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 5,
+            "event": 8,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 6,
+            "event": 9,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 7,
+            "event": 3,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 8,
+            "event": 4,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 9,
+            "event": 5,
+            "starts": 1,
+            "ends": 1,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 10,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 11,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 12,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 13,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 14,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 15,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 16,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 17,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 18,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 19,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 20,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 21,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 22,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 23,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 24,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 25,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 26,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 27,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 28,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 29,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 30,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 31,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 32,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 33,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 34,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 35,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 36,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 37,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 38,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 39,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 40,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          }
+        ]
+      },
+      "native_summary": {
+        "root_queries": 0,
+        "gc_before": 4,
+        "gc_after": 5,
+        "owner_marks": [
+          1
+        ],
+        "target_marks_before": [
+          0
+        ],
+        "target_marks_after": [
+          1
+        ],
+        "barrier_count": 16,
+        "dirty_transitions_0_to_1": 2,
+        "rescanned_destination_pages": 3,
+        "worker_stack_hits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "root_query_windows": {
+          "baseline": 0,
+          "cycle": 0,
+          "after_cycle": 0
+        }
+      },
+      "event_file": "aot-1-events.txt",
+      "event_sha256": "9f554c2eed461ec26afb06ba0d58a4c374a0da2adc105978c48e97db4531444e",
+      "stack_checks": {
+        "writer": "WbState_Write",
+        "collector": "GC_push_next_marked_dirty"
+      },
+      "roots": []
+    },
+    {
+      "mode": "aot",
+      "run": 2,
+      "pid": 169552,
+      "exit_code": 0,
+      "player": {
+        "writer": "aot",
+        "cycle": 2,
+        "steps": [
+          {
+            "seq": 1,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1001
+          },
+          {
+            "seq": 2,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1002
+          },
+          {
+            "seq": 3,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1003
+          },
+          {
+            "seq": 4,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1004
+          },
+          {
+            "seq": 5,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1005
+          },
+          {
+            "seq": 6,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1006
+          },
+          {
+            "seq": 7,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1007
+          },
+          {
+            "seq": 8,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1008
+          },
+          {
+            "seq": 9,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1009
+          },
+          {
+            "seq": 10,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1010
+          },
+          {
+            "seq": 11,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1011
+          },
+          {
+            "seq": 12,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1012
+          }
+        ],
+        "frames": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "drain_calls": 1734,
+        "mark_attempts": 3,
+        "checksum": 12078,
+        "retained": 12,
+        "released_alive": 0,
+        "events": [
+          {
+            "index": 0,
+            "event": 0,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 1,
+            "event": 6,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 2,
+            "event": 7,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 3,
+            "event": 1,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 4,
+            "event": 2,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 5,
+            "event": 8,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 6,
+            "event": 9,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 7,
+            "event": 3,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 8,
+            "event": 4,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 9,
+            "event": 5,
+            "starts": 1,
+            "ends": 1,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 10,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 11,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 12,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 13,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 14,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 15,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 16,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 17,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 18,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 19,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 20,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 21,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 22,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 23,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 24,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 25,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 26,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 27,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 28,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 29,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 30,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 31,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 32,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 33,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 34,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 35,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 36,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 37,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 38,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 39,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 40,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          }
+        ]
+      },
+      "native_summary": {
+        "root_queries": 0,
+        "gc_before": 4,
+        "gc_after": 5,
+        "owner_marks": [
+          1
+        ],
+        "target_marks_before": [
+          0
+        ],
+        "target_marks_after": [
+          1
+        ],
+        "barrier_count": 16,
+        "dirty_transitions_0_to_1": 2,
+        "rescanned_destination_pages": 3,
+        "worker_stack_hits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "root_query_windows": {
+          "baseline": 0,
+          "cycle": 0,
+          "after_cycle": 0
+        }
+      },
+      "event_file": "aot-2-events.txt",
+      "event_sha256": "a7d6b6d0d39dab0380773b5908a9a198c1c00765087da57df6c86ef60d8eb696",
+      "stack_checks": {
+        "writer": "WbState_Write",
+        "collector": "GC_push_next_marked_dirty"
+      },
+      "roots": []
+    },
+    {
+      "mode": "aot",
+      "run": 3,
+      "pid": 132256,
+      "exit_code": 0,
+      "player": {
+        "writer": "aot",
+        "cycle": 2,
+        "steps": [
+          {
+            "seq": 1,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1001
+          },
+          {
+            "seq": 2,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1002
+          },
+          {
+            "seq": 3,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1003
+          },
+          {
+            "seq": 4,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1004
+          },
+          {
+            "seq": 5,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1005
+          },
+          {
+            "seq": 6,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1006
+          },
+          {
+            "seq": 7,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1007
+          },
+          {
+            "seq": 8,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1008
+          },
+          {
+            "seq": 9,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1009
+          },
+          {
+            "seq": 10,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1010
+          },
+          {
+            "seq": 11,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1011
+          },
+          {
+            "seq": 12,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1012
+          }
+        ],
+        "frames": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "drain_calls": 1734,
+        "mark_attempts": 3,
+        "checksum": 12078,
+        "retained": 12,
+        "released_alive": 0,
+        "events": [
+          {
+            "index": 0,
+            "event": 0,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 1,
+            "event": 6,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 2,
+            "event": 7,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 3,
+            "event": 1,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 4,
+            "event": 2,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 5,
+            "event": 8,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 6,
+            "event": 9,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 7,
+            "event": 3,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 8,
+            "event": 4,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 9,
+            "event": 5,
+            "starts": 1,
+            "ends": 1,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 10,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 11,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 12,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 13,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 14,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 15,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 16,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 17,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 18,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 19,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 20,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 21,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 22,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 23,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 24,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 25,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 26,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 27,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 28,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 29,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 30,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 31,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 32,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 33,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 34,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 35,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 36,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 37,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 38,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 39,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 40,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          }
+        ]
+      },
+      "native_summary": {
+        "root_queries": 0,
+        "gc_before": 4,
+        "gc_after": 5,
+        "owner_marks": [
+          1
+        ],
+        "target_marks_before": [
+          0
+        ],
+        "target_marks_after": [
+          1
+        ],
+        "barrier_count": 16,
+        "dirty_transitions_0_to_1": 2,
+        "rescanned_destination_pages": 3,
+        "worker_stack_hits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "root_query_windows": {
+          "baseline": 0,
+          "cycle": 0,
+          "after_cycle": 0
+        }
+      },
+      "event_file": "aot-3-events.txt",
+      "event_sha256": "7969d23e808307077bee0bf68deb8d8900e8bc98d24bca48098e2e832fdf5b40",
+      "stack_checks": {
+        "writer": "WbState_Write",
+        "collector": "GC_push_next_marked_dirty"
+      },
+      "roots": []
+    },
+    {
+      "mode": "hot",
+      "run": 1,
+      "pid": 172896,
+      "exit_code": 0,
+      "player": {
+        "writer": "hot",
+        "cycle": 2,
+        "steps": [
+          {
+            "seq": 1,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1001
+          },
+          {
+            "seq": 2,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1002
+          },
+          {
+            "seq": 3,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1003
+          },
+          {
+            "seq": 4,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1004
+          },
+          {
+            "seq": 5,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1005
+          },
+          {
+            "seq": 6,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1006
+          },
+          {
+            "seq": 7,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1007
+          },
+          {
+            "seq": 8,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1008
+          },
+          {
+            "seq": 9,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1009
+          },
+          {
+            "seq": 10,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1010
+          },
+          {
+            "seq": 11,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1011
+          },
+          {
+            "seq": 12,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1012
+          }
+        ],
+        "frames": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "drain_calls": 1734,
+        "mark_attempts": 3,
+        "checksum": 12078,
+        "retained": 12,
+        "released_alive": 0,
+        "events": [
+          {
+            "index": 0,
+            "event": 0,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 1,
+            "event": 6,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 2,
+            "event": 7,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 3,
+            "event": 1,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 4,
+            "event": 2,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 5,
+            "event": 8,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 6,
+            "event": 9,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 7,
+            "event": 3,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 8,
+            "event": 4,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 9,
+            "event": 5,
+            "starts": 1,
+            "ends": 1,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 10,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 11,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 12,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 13,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 14,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 15,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 16,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 17,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 18,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 19,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 20,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 21,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 22,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 23,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 24,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 25,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 26,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 27,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 28,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 29,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 30,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 31,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 32,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 33,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 34,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 35,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 36,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 37,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 38,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 39,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 40,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          }
+        ]
+      },
+      "native_summary": {
+        "root_queries": 6,
+        "gc_before": 4,
+        "gc_after": 5,
+        "owner_marks": [
+          1
+        ],
+        "target_marks_before": [
+          0
+        ],
+        "target_marks_after": [
+          1
+        ],
+        "barrier_count": 24,
+        "dirty_transitions_0_to_1": 2,
+        "rescanned_destination_pages": 3,
+        "worker_stack_hits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "root_query_windows": {
+          "baseline": 1,
+          "cycle": 2,
+          "after_cycle": 3
+        }
+      },
+      "event_file": "hot-1-events.txt",
+      "event_sha256": "eea727f0014158f5e897d17d17810b043399ce720e694e7399d60316da31e6ce",
+      "stack_checks": {
+        "writer": "Interpreter::Execute",
+        "collector": "GC_push_next_marked_dirty"
+      },
+      "roots": [
+        {
+          "tid": 135692,
+          "root": 2016590169584,
+          "event": "WBI_ROOT_ADD"
+        },
+        {
+          "tid": 95124,
+          "root": 2016590169584,
+          "top": 0,
+          "frames": 0,
+          "event": "WBI_ROOT_QUERY"
+        },
+        {
+          "tid": 95124,
+          "root": 2016590169584,
+          "top": 0,
+          "frames": 0,
+          "event": "WBI_ROOT_QUERY"
+        },
+        {
+          "tid": 95124,
+          "root": 2016590169584,
+          "top": 0,
+          "frames": 0,
+          "event": "WBI_ROOT_QUERY"
+        },
+        {
+          "tid": 95124,
+          "root": 2016590169584,
+          "top": 0,
+          "frames": 0,
+          "event": "WBI_ROOT_QUERY"
+        },
+        {
+          "tid": 135692,
+          "root": 2016590169584,
+          "top": 0,
+          "frames": 0,
+          "event": "WBI_ROOT_QUERY"
+        },
+        {
+          "tid": 135692,
+          "root": 2016590169584,
+          "top": 0,
+          "frames": 0,
+          "event": "WBI_ROOT_QUERY"
+        },
+        {
+          "tid": 135692,
+          "root": 2016590169584,
+          "event": "WBI_ROOT_REMOVE"
+        }
+      ]
+    },
+    {
+      "mode": "hot",
+      "run": 2,
+      "pid": 168784,
+      "exit_code": 0,
+      "player": {
+        "writer": "hot",
+        "cycle": 2,
+        "steps": [
+          {
+            "seq": 1,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1001
+          },
+          {
+            "seq": 2,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1002
+          },
+          {
+            "seq": 3,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1003
+          },
+          {
+            "seq": 4,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1004
+          },
+          {
+            "seq": 5,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1005
+          },
+          {
+            "seq": 6,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1006
+          },
+          {
+            "seq": 7,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1007
+          },
+          {
+            "seq": 8,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1008
+          },
+          {
+            "seq": 9,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1009
+          },
+          {
+            "seq": 10,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1010
+          },
+          {
+            "seq": 11,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1011
+          },
+          {
+            "seq": 12,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1012
+          }
+        ],
+        "frames": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "drain_calls": 1734,
+        "mark_attempts": 3,
+        "checksum": 12078,
+        "retained": 12,
+        "released_alive": 0,
+        "events": [
+          {
+            "index": 0,
+            "event": 0,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 1,
+            "event": 6,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 2,
+            "event": 7,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 3,
+            "event": 1,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 4,
+            "event": 2,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 5,
+            "event": 8,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 6,
+            "event": 9,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 7,
+            "event": 3,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 8,
+            "event": 4,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 9,
+            "event": 5,
+            "starts": 1,
+            "ends": 1,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 10,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 11,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 12,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 13,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 14,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 15,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 16,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 17,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 18,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 19,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 20,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 21,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 22,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 23,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 24,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 25,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 26,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 27,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 28,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 29,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 30,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 31,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 32,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 33,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 34,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 35,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 36,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 37,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 38,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 39,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 40,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          }
+        ]
+      },
+      "native_summary": {
+        "root_queries": 6,
+        "gc_before": 4,
+        "gc_after": 5,
+        "owner_marks": [
+          1
+        ],
+        "target_marks_before": [
+          0
+        ],
+        "target_marks_after": [
+          1
+        ],
+        "barrier_count": 24,
+        "dirty_transitions_0_to_1": 2,
+        "rescanned_destination_pages": 3,
+        "worker_stack_hits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "root_query_windows": {
+          "baseline": 1,
+          "cycle": 2,
+          "after_cycle": 3
+        }
+      },
+      "event_file": "hot-2-events.txt",
+      "event_sha256": "677c7b3c929871d1fa50d42f4a9bff36be81ae2692673185d9305b4e8ef7347f",
+      "stack_checks": {
+        "writer": "Interpreter::Execute",
+        "collector": "GC_push_next_marked_dirty"
+      },
+      "roots": [
+        {
+          "tid": 163096,
+          "root": 2270241547456,
+          "event": "WBI_ROOT_ADD"
+        },
+        {
+          "tid": 159332,
+          "root": 2270241547456,
+          "top": 0,
+          "frames": 0,
+          "event": "WBI_ROOT_QUERY"
+        },
+        {
+          "tid": 159332,
+          "root": 2270241547456,
+          "top": 0,
+          "frames": 0,
+          "event": "WBI_ROOT_QUERY"
+        },
+        {
+          "tid": 159332,
+          "root": 2270241547456,
+          "top": 0,
+          "frames": 0,
+          "event": "WBI_ROOT_QUERY"
+        },
+        {
+          "tid": 159332,
+          "root": 2270241547456,
+          "top": 0,
+          "frames": 0,
+          "event": "WBI_ROOT_QUERY"
+        },
+        {
+          "tid": 163096,
+          "root": 2270241547456,
+          "top": 0,
+          "frames": 0,
+          "event": "WBI_ROOT_QUERY"
+        },
+        {
+          "tid": 163096,
+          "root": 2270241547456,
+          "top": 0,
+          "frames": 0,
+          "event": "WBI_ROOT_QUERY"
+        },
+        {
+          "tid": 163096,
+          "root": 2270241547456,
+          "event": "WBI_ROOT_REMOVE"
+        }
+      ]
+    },
+    {
+      "mode": "hot",
+      "run": 3,
+      "pid": 157248,
+      "exit_code": 0,
+      "player": {
+        "writer": "hot",
+        "cycle": 2,
+        "steps": [
+          {
+            "seq": 1,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1001
+          },
+          {
+            "seq": 2,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1002
+          },
+          {
+            "seq": 3,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1003
+          },
+          {
+            "seq": 4,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1004
+          },
+          {
+            "seq": 5,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1005
+          },
+          {
+            "seq": 6,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1006
+          },
+          {
+            "seq": 7,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1007
+          },
+          {
+            "seq": 8,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1008
+          },
+          {
+            "seq": 9,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1009
+          },
+          {
+            "seq": 10,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 0,
+            "candidate": 1010
+          },
+          {
+            "seq": 11,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 1,
+            "candidate": 1011
+          },
+          {
+            "seq": 12,
+            "more": true,
+            "starts": 2,
+            "ends": 1,
+            "write_starts": 2,
+            "write_ends": 1,
+            "kind": 2,
+            "candidate": 1012
+          }
+        ],
+        "frames": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "drain_calls": 1734,
+        "mark_attempts": 3,
+        "checksum": 12078,
+        "retained": 12,
+        "released_alive": 0,
+        "events": [
+          {
+            "index": 0,
+            "event": 0,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 1,
+            "event": 6,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 2,
+            "event": 7,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 3,
+            "event": 1,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 4,
+            "event": 2,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 5,
+            "event": 8,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 6,
+            "event": 9,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 7,
+            "event": 3,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 8,
+            "event": 4,
+            "starts": 1,
+            "ends": 0,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 9,
+            "event": 5,
+            "starts": 1,
+            "ends": 1,
+            "phase": 0,
+            "seq": 0
+          },
+          {
+            "index": 10,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 11,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 12,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 13,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 14,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 1,
+            "seq": 0
+          },
+          {
+            "index": 15,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 16,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 17,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 18,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 19,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 20,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 21,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 22,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 6,
+            "seq": 12
+          },
+          {
+            "index": 23,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 24,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 25,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 26,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 27,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 28,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 29,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 30,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 31,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 32,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 33,
+            "event": 6,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 34,
+            "event": 7,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 35,
+            "event": 1,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 36,
+            "event": 2,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 37,
+            "event": 8,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 38,
+            "event": 9,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 39,
+            "event": 3,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          },
+          {
+            "index": 40,
+            "event": 4,
+            "starts": 1,
+            "ends": 1,
+            "phase": 7,
+            "seq": 12
+          }
+        ]
+      },
+      "native_summary": {
+        "root_queries": 6,
+        "gc_before": 4,
+        "gc_after": 5,
+        "owner_marks": [
+          1
+        ],
+        "target_marks_before": [
+          0
+        ],
+        "target_marks_after": [
+          1
+        ],
+        "barrier_count": 24,
+        "dirty_transitions_0_to_1": 2,
+        "rescanned_destination_pages": 3,
+        "worker_stack_hits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "root_query_windows": {
+          "baseline": 1,
+          "cycle": 2,
+          "after_cycle": 3
+        }
+      },
+      "event_file": "hot-3-events.txt",
+      "event_sha256": "e038882ec90b71bd69caa226a70482226a3cd46ed6bec40405a4337f35ecc971",
+      "stack_checks": {
+        "writer": "Interpreter::Execute",
+        "collector": "GC_push_next_marked_dirty"
+      },
+      "roots": [
+        {
+          "tid": 114164,
+          "root": 2313150258224,
+          "event": "WBI_ROOT_ADD"
+        },
+        {
+          "tid": 163680,
+          "root": 2313150258224,
+          "top": 0,
+          "frames": 0,
+          "event": "WBI_ROOT_QUERY"
+        },
+        {
+          "tid": 163680,
+          "root": 2313150258224,
+          "top": 0,
+          "frames": 0,
+          "event": "WBI_ROOT_QUERY"
+        },
+        {
+          "tid": 163680,
+          "root": 2313150258224,
+          "top": 0,
+          "frames": 0,
+          "event": "WBI_ROOT_QUERY"
+        },
+        {
+          "tid": 163680,
+          "root": 2313150258224,
+          "top": 0,
+          "frames": 0,
+          "event": "WBI_ROOT_QUERY"
+        },
+        {
+          "tid": 114164,
+          "root": 2313150258224,
+          "top": 0,
+          "frames": 0,
+          "event": "WBI_ROOT_QUERY"
+        },
+        {
+          "tid": 114164,
+          "root": 2313150258224,
+          "top": 0,
+          "frames": 0,
+          "event": "WBI_ROOT_QUERY"
+        },
+        {
+          "tid": 114164,
+          "root": 2313150258224,
+          "event": "WBI_ROOT_REMOVE"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "No barrier-disable counterfactual or unique-root proof",
+    "Marked owner is not proof that its reference fields were already scanned",
+    "Stack search checks exact current target pointer on the live worker stack only; not registers, interior pointers, or every other root",
+    "Manual GC, serialized managed worker, Windows x64 custom Editor only; no concurrent/native callback/platform/performance acceptance"
+  ]
+}

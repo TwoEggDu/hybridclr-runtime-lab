@@ -149,6 +149,19 @@ python tools/gc_roots_lab.py verify
 
 本机输出在 `artifacts/gc-roots/`；官方Memory Profiler1.1.0读取器只在独立忽略目录的Editor分析工程使用。对象快照的强句柄路径与原生动态根区间分别采证，不宣称唯一根或完整写屏障验证。
 
+## 持续跨增量片段的引用修改与写屏障
+
+独立 `projects/incremental-barriers` 使用同一环境锁，GCMode切为Manual作为控制变量。AOT／解释写入各3个普通Player、各3个匹配PDB的CDB Player；记录同一未完成周期的12次修改、实际槽位、标记位、写屏障、脏页和重扫。见[实验记录](evidence/2026-10-25-incremental-barriers/README.md)。旧gc-roots样本和证据不改。
+
+```powershell
+python tools/incremental_lab.py build --editor $editor
+python tools/incremental_lab.py run
+python tools/incremental_lab.py trace --cdb $cdb
+python tools/incremental_lab.py verify
+```
+
+输出在 `artifacts/incremental-barriers/`。调试器脚本只读目标内存，PDB布局、返回偏移与构建指纹受验收器校验。没有禁用写屏障的反事实实验，不宣称唯一根或所有写屏障路径正确。
+
 ## 目录与维护约定
 
 ```text

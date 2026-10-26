@@ -1,0 +1,172 @@
+FILE HotUpdate.dll.bytes SHA256=BD7324D3C3D484881CFC00C0517A4B736CD99E08293CB9BAE45D08E9129C6DC4
+METHOD Entry::Write TOKEN=06000003
+ IL_0000: nop 
+ IL_0001: ldarg.1 
+ IL_0002: ldc.i4.0 
+ IL_0003: ceq 
+ IL_0005: stloc.1 
+ IL_0006: ldloc.1 
+ IL_0007: brfalse.s 05
+ IL_0009: br A6000000
+ IL_000E: ldsfld 0x0A000009 Candidates
+ IL_0013: ldarg.1 
+ IL_0014: ldelem.ref 
+ IL_0015: callvirt 0x0A00000A get_Target
+ IL_001A: castclass 0x0100000C WbNode
+ IL_001F: stloc.0 
+ IL_0020: ldloc.0 
+ IL_0021: ldnull 
+ IL_0022: ceq 
+ IL_0024: stloc.2 
+ IL_0025: ldloc.2 
+ IL_0026: brfalse.s 0B
+ IL_0028: ldstr string:Candidate lost before hot write
+ IL_002D: newobj 0x0A00000B .ctor
+ IL_0032: throw 
+ IL_0033: ldarg.0 
+ IL_0034: ldloc.0 
+ IL_0035: ldarg.2 
+ IL_0036: ldarg.1 
+ IL_0037: call 0x0A00000C Observe
+ IL_003C: nop 
+ IL_003D: ldarg.2 
+ IL_003E: ldc.i4.0 
+ IL_003F: ceq 
+ IL_0041: stloc.3 
+ IL_0042: ldloc.3 
+ IL_0043: brfalse.s 09
+ IL_0045: ldarg.0 
+ IL_0046: ldloc.0 
+ IL_0047: stfld 0x0A00000D Field
+ IL_004C: br.s 56
+ IL_004E: ldarg.2 
+ IL_004F: ldc.i4.1 
+ IL_0050: ceq 
+ IL_0052: stloc.s 04
+ IL_0054: ldloc.s 04
+ IL_0056: brfalse.s 0B
+ IL_0058: ldarg.0 
+ IL_0059: ldfld 0x0A00000E Slots
+ IL_005E: ldarg.1 
+ IL_005F: ldloc.0 
+ IL_0060: stelem.ref 
+ IL_0061: br.s 41
+ IL_0063: nop 
+ IL_0064: ldloca.s 06
+ IL_0066: initobj 0x0100000D WbPair
+ IL_006C: ldloca.s 06
+ IL_006E: ldloc.0 
+ IL_006F: stfld 0x0A00000F Left
+ IL_0074: ldloca.s 06
+ IL_0076: ldarg.0 
+ IL_0077: ldfld 0x0A00000D Field
+ IL_007C: stfld 0x0A000010 Right
+ IL_0081: ldloca.s 06
+ IL_0083: ldarg.1 
+ IL_0084: stfld 0x0A000011 Tag
+ IL_0089: ldloc.s 06
+ IL_008B: stloc.s 05
+ IL_008D: ldarg.0 
+ IL_008E: ldloc.s 05
+ IL_0090: stfld 0x0A000012 Pair
+ IL_0095: ldarg.0 
+ IL_0096: ldfld 0x0A000013 Pairs
+ IL_009B: ldarg.1 
+ IL_009C: ldloc.s 05
+ IL_009E: stelem 0x0100000D WbPair
+ IL_00A3: nop 
+ IL_00A4: ldc.i4.4 
+ IL_00A5: ldarg.1 
+ IL_00A6: ldarg.2 
+ IL_00A7: call 0x0A000014 WB_Marker
+ IL_00AC: nop 
+ IL_00AD: ldloc.0 
+ IL_00AE: call 0x0A000015 KeepAlive
+ IL_00B3: nop 
+ IL_00B4: ret 
+FILE Probe.AOT.dll SHA256=C64E1AE29E36666610259241F48D225E5D82CFD3EFC01F256BAE61A1B0619DA9
+METHOD WbState::Write TOKEN=06000020
+ IL_0000: nop 
+ IL_0001: ldarg.1 
+ IL_0002: ldc.i4.0 
+ IL_0003: ceq 
+ IL_0005: stloc.1 
+ IL_0006: ldloc.1 
+ IL_0007: brfalse.s 05
+ IL_0009: br A6000000
+ IL_000E: ldsfld 0x0400002F Candidates
+ IL_0013: ldarg.1 
+ IL_0014: ldelem.ref 
+ IL_0015: callvirt 0x0A000032 get_Target
+ IL_001A: castclass 0x02000005 WbNode
+ IL_001F: stloc.0 
+ IL_0020: ldloc.0 
+ IL_0021: ldnull 
+ IL_0022: ceq 
+ IL_0024: stloc.2 
+ IL_0025: ldloc.2 
+ IL_0026: brfalse.s 0B
+ IL_0028: ldstr string:Candidate lost before write
+ IL_002D: newobj 0x0A000014 .ctor
+ IL_0032: throw 
+ IL_0033: ldarg.0 
+ IL_0034: ldloc.0 
+ IL_0035: ldarg.2 
+ IL_0036: ldarg.1 
+ IL_0037: call 0x0600001F Observe
+ IL_003C: nop 
+ IL_003D: ldarg.2 
+ IL_003E: ldc.i4.0 
+ IL_003F: ceq 
+ IL_0041: stloc.3 
+ IL_0042: ldloc.3 
+ IL_0043: brfalse.s 09
+ IL_0045: ldarg.0 
+ IL_0046: ldloc.0 
+ IL_0047: stfld 0x04000029 Field
+ IL_004C: br.s 56
+ IL_004E: ldarg.2 
+ IL_004F: ldc.i4.1 
+ IL_0050: ceq 
+ IL_0052: stloc.s 04
+ IL_0054: ldloc.s 04
+ IL_0056: brfalse.s 0B
+ IL_0058: ldarg.0 
+ IL_0059: ldfld 0x0400002A Slots
+ IL_005E: ldarg.1 
+ IL_005F: ldloc.0 
+ IL_0060: stelem.ref 
+ IL_0061: br.s 41
+ IL_0063: nop 
+ IL_0064: ldloca.s 06
+ IL_0066: initobj 0x02000006 WbPair
+ IL_006C: ldloca.s 06
+ IL_006E: ldloc.0 
+ IL_006F: stfld 0x04000026 Left
+ IL_0074: ldloca.s 06
+ IL_0076: ldarg.0 
+ IL_0077: ldfld 0x04000029 Field
+ IL_007C: stfld 0x04000027 Right
+ IL_0081: ldloca.s 06
+ IL_0083: ldarg.1 
+ IL_0084: stfld 0x04000028 Tag
+ IL_0089: ldloc.s 06
+ IL_008B: stloc.s 05
+ IL_008D: ldarg.0 
+ IL_008E: ldloc.s 05
+ IL_0090: stfld 0x0400002B Pair
+ IL_0095: ldarg.0 
+ IL_0096: ldfld 0x0400002C Pairs
+ IL_009B: ldarg.1 
+ IL_009C: ldloc.s 05
+ IL_009E: stelem 0x02000006 WbPair
+ IL_00A3: nop 
+ IL_00A4: ldc.i4.4 
+ IL_00A5: ldarg.1 
+ IL_00A6: ldarg.2 
+ IL_00A7: call 0x06000019 WB_Marker
+ IL_00AC: nop 
+ IL_00AD: ldloc.0 
+ IL_00AE: call 0x0A000031 KeepAlive
+ IL_00B3: nop 
+ IL_00B4: ret 

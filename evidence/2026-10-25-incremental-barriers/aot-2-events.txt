@@ -1,0 +1,101 @@
+WBI_NATIVE_BEGIN gc=4 state=0
+WBI_NATIVE_OBSERVE seq=1 kind=0 tid=1b308 owner=000002b314e40370 target=000002b377cd5600 ownerMark=1 targetMark=0 gc=4 state=1 slotA=000002b314e40380 slotB=0000000000000000 slotC=0000000000000000 slotD=0000000000000000
+WBI_NATIVE_BARRIER seq=1 kind=0 slot=000002b314e40380 value=000002b377cd5600 gc=4 state=1
+WBI_NATIVE_DIRTY phase=before seq=1 kind=0 slot=000002b314e40380 bit=1
+WBI_NATIVE_DIRTY phase=after seq=1 kind=0 slot=000002b314e40380 bit=1
+WBI_NATIVE_RETURN seq=1 target=000002b377cd5600 mark=0 gc=4 state=1
+WBI_NATIVE_PARK seq=1 tid=1b308 stackHits=0 gc=4 state=1
+WBI_NATIVE_OBSERVE seq=2 kind=1 tid=1b308 owner=000002b314e40370 target=000002b377cd55d0 ownerMark=1 targetMark=0 gc=4 state=1 slotA=000002b314f18b70 slotB=0000000000000000 slotC=0000000000000000 slotD=0000000000000000
+WBI_NATIVE_BARRIER seq=2 kind=1 slot=000002b314f18b70 value=000002b377cd55d0 gc=4 state=1
+WBI_NATIVE_DIRTY phase=before seq=2 kind=1 slot=000002b314f18b70 bit=0
+WBI_NATIVE_DIRTY phase=after seq=2 kind=1 slot=000002b314f18b70 bit=1
+WBI_NATIVE_RETURN seq=2 target=000002b377cd55d0 mark=0 gc=4 state=1
+WBI_NATIVE_PARK seq=2 tid=1b308 stackHits=0 gc=4 state=1
+WBI_NATIVE_OBSERVE seq=3 kind=2 tid=1b308 owner=000002b314e40370 target=000002b377cd55a0 ownerMark=1 targetMark=0 gc=4 state=1 slotA=000002b314e40390 slotB=000002b314e40398 slotC=000002b314f23868 slotD=000002b314f23870
+WBI_NATIVE_BARRIER seq=3 kind=2 slot=000002b314e40390 value=000002b377cd55a0 gc=4 state=1
+WBI_NATIVE_DIRTY phase=before seq=3 kind=2 slot=000002b314e40390 bit=1
+WBI_NATIVE_DIRTY phase=after seq=3 kind=2 slot=000002b314e40390 bit=1
+WBI_NATIVE_BARRIER seq=3 kind=2 slot=000002b314f23868 value=000002b377cd55a0 gc=4 state=1
+WBI_NATIVE_DIRTY phase=before seq=3 kind=2 slot=000002b314f23868 bit=0
+WBI_NATIVE_DIRTY phase=after seq=3 kind=2 slot=000002b314f23868 bit=1
+WBI_NATIVE_RETURN seq=3 target=000002b377cd55a0 mark=0 gc=4 state=1
+WBI_NATIVE_PARK seq=3 tid=1b308 stackHits=0 gc=4 state=1
+WBI_NATIVE_OBSERVE seq=4 kind=0 tid=1b308 owner=000002b314e40370 target=000002b377cd5570 ownerMark=1 targetMark=0 gc=4 state=1 slotA=000002b314e40380 slotB=0000000000000000 slotC=0000000000000000 slotD=0000000000000000
+WBI_NATIVE_BARRIER seq=4 kind=0 slot=000002b314e40380 value=000002b377cd5570 gc=4 state=1
+WBI_NATIVE_DIRTY phase=before seq=4 kind=0 slot=000002b314e40380 bit=1
+WBI_NATIVE_DIRTY phase=after seq=4 kind=0 slot=000002b314e40380 bit=1
+WBI_NATIVE_RETURN seq=4 target=000002b377cd5570 mark=0 gc=4 state=1
+WBI_NATIVE_PARK seq=4 tid=1b308 stackHits=0 gc=4 state=1
+WBI_NATIVE_OBSERVE seq=5 kind=1 tid=1b308 owner=000002b314e40370 target=000002b377cd5540 ownerMark=1 targetMark=0 gc=4 state=1 slotA=000002b314f18b88 slotB=0000000000000000 slotC=0000000000000000 slotD=0000000000000000
+WBI_NATIVE_BARRIER seq=5 kind=1 slot=000002b314f18b88 value=000002b377cd5540 gc=4 state=1
+WBI_NATIVE_DIRTY phase=before seq=5 kind=1 slot=000002b314f18b88 bit=1
+WBI_NATIVE_DIRTY phase=after seq=5 kind=1 slot=000002b314f18b88 bit=1
+WBI_NATIVE_RETURN seq=5 target=000002b377cd5540 mark=0 gc=4 state=1
+WBI_NATIVE_PARK seq=5 tid=1b308 stackHits=0 gc=4 state=1
+WBI_NATIVE_OBSERVE seq=6 kind=2 tid=1b308 owner=000002b314e40370 target=000002b377cd5510 ownerMark=1 targetMark=0 gc=4 state=1 slotA=000002b314e40390 slotB=000002b314e40398 slotC=000002b314f238b0 slotD=000002b314f238b8
+WBI_NATIVE_BARRIER seq=6 kind=2 slot=000002b314e40390 value=000002b377cd5510 gc=4 state=1
+WBI_NATIVE_DIRTY phase=before seq=6 kind=2 slot=000002b314e40390 bit=1
+WBI_NATIVE_DIRTY phase=after seq=6 kind=2 slot=000002b314e40390 bit=1
+WBI_NATIVE_BARRIER seq=6 kind=2 slot=000002b314f238b0 value=000002b377cd5510 gc=4 state=1
+WBI_NATIVE_DIRTY phase=before seq=6 kind=2 slot=000002b314f238b0 bit=1
+WBI_NATIVE_DIRTY phase=after seq=6 kind=2 slot=000002b314f238b0 bit=1
+WBI_NATIVE_RETURN seq=6 target=000002b377cd5510 mark=0 gc=4 state=1
+WBI_NATIVE_PARK seq=6 tid=1b308 stackHits=0 gc=4 state=1
+WBI_NATIVE_OBSERVE seq=7 kind=0 tid=1b308 owner=000002b314e40370 target=000002b377cd54e0 ownerMark=1 targetMark=0 gc=4 state=1 slotA=000002b314e40380 slotB=0000000000000000 slotC=0000000000000000 slotD=0000000000000000
+WBI_NATIVE_BARRIER seq=7 kind=0 slot=000002b314e40380 value=000002b377cd54e0 gc=4 state=1
+WBI_NATIVE_DIRTY phase=before seq=7 kind=0 slot=000002b314e40380 bit=1
+WBI_NATIVE_DIRTY phase=after seq=7 kind=0 slot=000002b314e40380 bit=1
+WBI_NATIVE_RETURN seq=7 target=000002b377cd54e0 mark=0 gc=4 state=1
+WBI_NATIVE_PARK seq=7 tid=1b308 stackHits=0 gc=4 state=1
+WBI_NATIVE_OBSERVE seq=8 kind=1 tid=1b308 owner=000002b314e40370 target=000002b377cd54b0 ownerMark=1 targetMark=0 gc=4 state=1 slotA=000002b314f18ba0 slotB=0000000000000000 slotC=0000000000000000 slotD=0000000000000000
+WBI_NATIVE_BARRIER seq=8 kind=1 slot=000002b314f18ba0 value=000002b377cd54b0 gc=4 state=1
+WBI_NATIVE_DIRTY phase=before seq=8 kind=1 slot=000002b314f18ba0 bit=1
+WBI_NATIVE_DIRTY phase=after seq=8 kind=1 slot=000002b314f18ba0 bit=1
+WBI_NATIVE_RETURN seq=8 target=000002b377cd54b0 mark=0 gc=4 state=1
+WBI_NATIVE_PARK seq=8 tid=1b308 stackHits=0 gc=4 state=1
+WBI_NATIVE_OBSERVE seq=9 kind=2 tid=1b308 owner=000002b314e40370 target=000002b377cd5480 ownerMark=1 targetMark=0 gc=4 state=1 slotA=000002b314e40390 slotB=000002b314e40398 slotC=000002b314f238f8 slotD=000002b314f23900
+WBI_NATIVE_BARRIER seq=9 kind=2 slot=000002b314e40390 value=000002b377cd5480 gc=4 state=1
+WBI_NATIVE_DIRTY phase=before seq=9 kind=2 slot=000002b314e40390 bit=1
+WBI_NATIVE_DIRTY phase=after seq=9 kind=2 slot=000002b314e40390 bit=1
+WBI_NATIVE_BARRIER seq=9 kind=2 slot=000002b314f238f8 value=000002b377cd5480 gc=4 state=1
+WBI_NATIVE_DIRTY phase=before seq=9 kind=2 slot=000002b314f238f8 bit=1
+WBI_NATIVE_DIRTY phase=after seq=9 kind=2 slot=000002b314f238f8 bit=1
+WBI_NATIVE_RETURN seq=9 target=000002b377cd5480 mark=0 gc=4 state=1
+WBI_NATIVE_PARK seq=9 tid=1b308 stackHits=0 gc=4 state=1
+WBI_NATIVE_OBSERVE seq=10 kind=0 tid=1b308 owner=000002b314e40370 target=000002b377cd5450 ownerMark=1 targetMark=0 gc=4 state=1 slotA=000002b314e40380 slotB=0000000000000000 slotC=0000000000000000 slotD=0000000000000000
+WBI_NATIVE_BARRIER seq=10 kind=0 slot=000002b314e40380 value=000002b377cd5450 gc=4 state=1
+WBI_NATIVE_DIRTY phase=before seq=10 kind=0 slot=000002b314e40380 bit=1
+WBI_NATIVE_DIRTY phase=after seq=10 kind=0 slot=000002b314e40380 bit=1
+WBI_NATIVE_RETURN seq=10 target=000002b377cd5450 mark=0 gc=4 state=1
+WBI_NATIVE_PARK seq=10 tid=1b308 stackHits=0 gc=4 state=1
+WBI_NATIVE_OBSERVE seq=11 kind=1 tid=1b308 owner=000002b314e40370 target=000002b377cd5420 ownerMark=1 targetMark=0 gc=4 state=1 slotA=000002b314f18bb8 slotB=0000000000000000 slotC=0000000000000000 slotD=0000000000000000
+WBI_NATIVE_BARRIER seq=11 kind=1 slot=000002b314f18bb8 value=000002b377cd5420 gc=4 state=1
+WBI_NATIVE_DIRTY phase=before seq=11 kind=1 slot=000002b314f18bb8 bit=1
+WBI_NATIVE_DIRTY phase=after seq=11 kind=1 slot=000002b314f18bb8 bit=1
+WBI_NATIVE_RETURN seq=11 target=000002b377cd5420 mark=0 gc=4 state=1
+WBI_NATIVE_PARK seq=11 tid=1b308 stackHits=0 gc=4 state=1
+WBI_NATIVE_OBSERVE seq=12 kind=2 tid=1b308 owner=000002b314e40370 target=000002b377cd53f0 ownerMark=1 targetMark=0 gc=4 state=1 slotA=000002b314e40390 slotB=000002b314e40398 slotC=000002b314f23940 slotD=000002b314f23948
+WBI_NATIVE_BARRIER seq=12 kind=2 slot=000002b314e40390 value=000002b377cd53f0 gc=4 state=1
+WBI_NATIVE_DIRTY phase=before seq=12 kind=2 slot=000002b314e40390 bit=1
+WBI_NATIVE_DIRTY phase=after seq=12 kind=2 slot=000002b314e40390 bit=1
+WBI_NATIVE_BARRIER seq=12 kind=2 slot=000002b314f23940 value=000002b377cd53f0 gc=4 state=1
+WBI_NATIVE_DIRTY phase=before seq=12 kind=2 slot=000002b314f23940 bit=1
+WBI_NATIVE_DIRTY phase=after seq=12 kind=2 slot=000002b314f23940 bit=1
+WBI_NATIVE_RETURN seq=12 target=000002b377cd53f0 mark=0 gc=4 state=1
+WBI_NATIVE_PARK seq=12 tid=1b308 stackHits=0 gc=4 state=1
+WBI_NATIVE_RESCAN seq=12 block=000002b314e40000 gc=4 state=1
+WBI_NATIVE_RESCAN seq=12 block=000002b314f18000 gc=4 state=1
+WBI_NATIVE_RESCAN seq=12 block=000002b314f23000 gc=4 state=1
+WBI_NATIVE_END gc=5 state=0
+WBI_NATIVE_FINAL seq=1 target=000002b377cd5600 mark=1 gc=5 state=0
+WBI_NATIVE_FINAL seq=2 target=000002b377cd55d0 mark=1 gc=5 state=0
+WBI_NATIVE_FINAL seq=3 target=000002b377cd55a0 mark=1 gc=5 state=0
+WBI_NATIVE_FINAL seq=4 target=000002b377cd5570 mark=1 gc=5 state=0
+WBI_NATIVE_FINAL seq=5 target=000002b377cd5540 mark=1 gc=5 state=0
+WBI_NATIVE_FINAL seq=6 target=000002b377cd5510 mark=1 gc=5 state=0
+WBI_NATIVE_FINAL seq=7 target=000002b377cd54e0 mark=1 gc=5 state=0
+WBI_NATIVE_FINAL seq=8 target=000002b377cd54b0 mark=1 gc=5 state=0
+WBI_NATIVE_FINAL seq=9 target=000002b377cd5480 mark=1 gc=5 state=0
+WBI_NATIVE_FINAL seq=10 target=000002b377cd5450 mark=1 gc=5 state=0
+WBI_NATIVE_FINAL seq=11 target=000002b377cd5420 mark=1 gc=5 state=0
+WBI_NATIVE_FINAL seq=12 target=000002b377cd53f0 mark=1 gc=5 state=0
