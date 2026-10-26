@@ -1,0 +1,15 @@
+{"seq":1,"kind":"env","side":"hot","mode":"relaxed","build":"5b177115-e8ae-4e58-8808-2a0bc54b092a","unity":"2022.3.62f3","hot_before":false}
+{"seq":2,"kind":"stage","phase":"before_load"}
+{"seq":3,"kind":"stage","phase":"after_load"}
+{"seq":4,"kind":"stage","phase":"after_resolve"}
+{"seq":5,"kind":"meta","subject":"Relaxed","bfi":true,"cctor":true}
+{"seq":6,"kind":"stage","phase":"before_call1"}
+{"seq":7,"kind":"init","subject":"Relaxed.field","value":41}
+{"seq":8,"kind":"method","subject":"Ping","value":7}
+{"seq":9,"kind":"read","subject":"call1","value":7}
+{"seq":10,"kind":"stage","phase":"before_field"}
+{"seq":11,"kind":"read","subject":"field","value":41}
+{"seq":12,"kind":"stage","phase":"before_call2"}
+{"seq":13,"kind":"method","subject":"Ping","value":7}
+{"seq":14,"kind":"read","subject":"call2","value":7}
+{"seq":15,"kind":"done","completed":true}

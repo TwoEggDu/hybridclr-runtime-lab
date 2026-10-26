@@ -1,0 +1,9 @@
+{"seq":1,"kind":"env","side":"hot","mode":"failed","build":"5b177115-e8ae-4e58-8808-2a0bc54b092a","unity":"2022.3.62f3","hot_before":false}
+{"seq":2,"kind":"stage","phase":"before_load"}
+{"seq":3,"kind":"stage","phase":"after_load"}
+{"seq":4,"kind":"stage","phase":"after_resolve"}
+{"seq":5,"kind":"meta","subject":"Failed","bfi":false,"cctor":true}
+{"seq":6,"kind":"stage","phase":"before_call1"}
+{"seq":7,"kind":"init","subject":"Failed.cctor","value":1}
+{"seq":8,"kind":"escaped","subject":"outer_entry","type":"System.Reflection.TargetInvocationException","detail":"System.Reflection.TargetInvocationException>System.TypeInitializationException>System.InvalidOperationException"}
+{"seq":9,"kind":"done","completed":false}

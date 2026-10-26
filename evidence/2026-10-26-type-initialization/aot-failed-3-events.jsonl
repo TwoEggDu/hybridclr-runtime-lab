@@ -1,0 +1,11 @@
+{"seq":1,"kind":"env","side":"aot","mode":"failed","build":"5b177115-e8ae-4e58-8808-2a0bc54b092a","unity":"2022.3.62f3","hot_before":false}
+{"seq":2,"kind":"stage","phase":"before_load"}
+{"seq":3,"kind":"stage","phase":"after_load"}
+{"seq":4,"kind":"stage","phase":"after_resolve"}
+{"seq":5,"kind":"meta","subject":"Failed","bfi":false,"cctor":true}
+{"seq":6,"kind":"stage","phase":"before_call1"}
+{"seq":7,"kind":"init","subject":"Failed.cctor","value":1}
+{"seq":8,"kind":"caught","subject":"call1","type":"System.TypeInitializationException","detail":"System.TypeInitializationException>System.InvalidOperationException"}
+{"seq":9,"kind":"stage","phase":"before_call2"}
+{"seq":10,"kind":"caught","subject":"call2","type":"System.TypeInitializationException","detail":"System.TypeInitializationException>System.InvalidOperationException"}
+{"seq":11,"kind":"done","completed":true}

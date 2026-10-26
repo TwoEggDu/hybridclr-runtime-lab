@@ -1,0 +1,2727 @@
+{
+  "schema": 1,
+  "build_id": "5b177115-e8ae-4e58-8808-2a0bc54b092a",
+  "lock": {
+    "schema": 1,
+    "editor": {
+      "version": "2022.3.62f3",
+      "revision": "96770f904ca7",
+      "distribution": "local-custom",
+      "product_version": "2022.3.62f3_96770f904ca7"
+    },
+    "target": "StandaloneWindows64",
+    "dependencies": {
+      "package": {
+        "url": "https://github.com/focus-creative-games/hybridclr_unity.git",
+        "tag": "v9.0.3",
+        "commit": "6cadd24d101f4cbd00cd80190106f6621132d24d"
+      },
+      "runtime": {
+        "url": "https://github.com/focus-creative-games/hybridclr.git",
+        "tag": "v9.0.1",
+        "commit": "83929787581bce6c7219418f62348a10c33582ee"
+      },
+      "il2cpp-plus": {
+        "url": "https://github.com/focus-creative-games/il2cpp_plus.git",
+        "tag": "v2022.3.x-9.0.1",
+        "commit": "ba3a76c9979d14cee404fb5d44301773e0768866"
+      }
+    }
+  },
+  "source_sha256": {
+    "projects/type-initialization/Assets/AOT/InitEvents.cs": "b6dd560762ed58d70266f12f43e2c83f5293fcb43573421391781ce145fe2e19",
+    "projects/type-initialization/Assets/AOT/InitEvents.cs.meta": "c1bec76db44ec02dd66b18740518a470d1f6d92e8ed2b7bbeb9b3c0c8e06cd2d",
+    "projects/type-initialization/Assets/AOT/InitRunner.cs": "bb8d7058122284558b454e15edbdf8eadf0a322df636554206f5232fa199155c",
+    "projects/type-initialization/Assets/AOT/InitRunner.cs.meta": "31284bec58c53eab2a99efe1e297c6d932c42d2446c60e710232072e79bd1dd0",
+    "projects/type-initialization/Assets/AOT/link.xml": "dbe85d75efbc1fb610e6aae7d1b9e68d5f97402a2b5e7e5122521bda9c9a7e28",
+    "projects/type-initialization/Assets/AOT/link.xml.meta": "bbc9cd6b4115d78ac7900c550b2de4e652457e25d2c7339411b84db2037743d2",
+    "projects/type-initialization/Assets/AOT/Probe.AOT.asmdef": "142dd0b5d4ba4d4b08004f751d77f603327eb54f38e8c547a3d9224f33b673bf",
+    "projects/type-initialization/Assets/AOT/Probe.AOT.asmdef.meta": "6a532a5832111654f08b239a991019b55e43e07575f63f97cbb0d492274ff97d",
+    "projects/type-initialization/Assets/AOT/Scenarios.cs": "6724f82dd1d4f408920cc3c9b9e683de65a56bfb18632b362d3326b34669a61d",
+    "projects/type-initialization/Assets/AOT/Scenarios.cs.meta": "d225485c7f077d28d176fa49ed5a41d338ca3433368cea2643e701a945a38f96",
+    "projects/type-initialization/Assets/AOT.meta": "97b05d16196dd19fe2ed360131da78275c1de6a451e61271a9c985a77fc4fa53",
+    "projects/type-initialization/Assets/Editor/InitBuild.cs": "cc832dec7cca8176fa429a9f7e4894db0c95c1ab69a1c0d7897b4f716e6280fa",
+    "projects/type-initialization/Assets/Editor/InitBuild.cs.meta": "e9cabd34eccab7b015ce361a10776777b49948abd8029ffd49ef2573e8e3bfcf",
+    "projects/type-initialization/Assets/Editor/LabRuntime.cs": "6b60665ec3e8649a493d91a26fab302956e37ce6d8a383e7a555450cc5bc0926",
+    "projects/type-initialization/Assets/Editor/LabRuntime.cs.meta": "c0e66fa3b5c6de042680bd52d9adccf12609554cd12be883ae7e668c890d4351",
+    "projects/type-initialization/Assets/Editor.meta": "c0602c8404742a7d4970876435f72d51b88bcb59bca55367e645583f9ae60487",
+    "projects/type-initialization/Assets/HotUpdate/HotUpdate.asmdef": "4e036b348a19f5a360435545234214e3fc3511da3ba81e6c6ef44750261264fd",
+    "projects/type-initialization/Assets/HotUpdate/HotUpdate.asmdef.meta": "3bc694b60bcb6993b515589d56694fff6988b3766e2b78024d2112273ce70eb2",
+    "projects/type-initialization/Assets/HotUpdate/Scenarios.cs": "7719986ab7a48cf86a138bc30e791e2669b1bc4a99c2b5e12e751720d2437fd2",
+    "projects/type-initialization/Assets/HotUpdate/Scenarios.cs.meta": "a117bcd38d04cecdbc85c896acb31cb26a0246029b0e4039be85667c6d3fd0f3",
+    "projects/type-initialization/Assets/HotUpdate.meta": "a08cfa88076413606a85527a93008fc25bef438922d4783311fea1dd35d34ada",
+    "projects/type-initialization/Packages/manifest.json": "b1c0a47ae3e0e5c8f8bdb34271d77580f92df2a48ea1f78560e55687b98a9484",
+    "projects/type-initialization/Packages/packages-lock.json": "aa03d38423d82ed088c7cab454ac8d8241cb564d028c46af1a5985b5d7d2a9a5",
+    "projects/type-initialization/ProjectSettings/AudioManager.asset": "9a554916fe138ebcad8443ee9b079363ecc72795c39d0e80f5f7ca99e2c6f5e7",
+    "projects/type-initialization/ProjectSettings/ClusterInputManager.asset": "40e65dd214bf254955d2c8829ca8ce2130fd3510485560ce012e9a1ddd93e623",
+    "projects/type-initialization/ProjectSettings/DynamicsManager.asset": "62fd35da36080a098d3e9f90cf4af6c655fe582091c33e505b812cf9aa36fee1",
+    "projects/type-initialization/ProjectSettings/EditorSettings.asset": "6f8761b516f06ff2f0373b6310571cf7951f63afb86c56bfd7be832e06a9987b",
+    "projects/type-initialization/ProjectSettings/GraphicsSettings.asset": "96fbec3a726513347293fb201477836277ade290a0bd7bd473cea90ffe896820",
+    "projects/type-initialization/ProjectSettings/InputManager.asset": "d0f454ddb880912abcae92e3e12957a7446786ba89e24937e019ff3bbc0d4300",
+    "projects/type-initialization/ProjectSettings/MemorySettings.asset": "1e8379a461b10ae09f3f696911088c16875d63e87ed5f2d95df9e1892703f9fd",
+    "projects/type-initialization/ProjectSettings/NavMeshAreas.asset": "7ebbf8f53b8033104e1878b95ca07a28d0954092d81c220f14196a42f651e658",
+    "projects/type-initialization/ProjectSettings/Physics2DSettings.asset": "531861618163b01648a075414f6e864506ad8fe0a0d4d0096aa1fbbfcd3937dc",
+    "projects/type-initialization/ProjectSettings/PresetManager.asset": "29c125923fe6e29f90190d4fce1c82d660e7051546e2c9d02908d18c9cf2436c",
+    "projects/type-initialization/ProjectSettings/ProjectSettings.asset": "8b381b9f781ba29f2972cab8e7d4c7f0b9aa63055734ca8d897900a57ba34370",
+    "projects/type-initialization/ProjectSettings/ProjectVersion.txt": "b51164d22c4d2716ba8aee7f0b59d6b7dd0efa8552fd1db2a8c3b123fae3a1ec",
+    "projects/type-initialization/ProjectSettings/QualitySettings.asset": "944b52d523bcb15b945bc80924b9289f59185ab19bce8a00e99eec345bde6440",
+    "projects/type-initialization/ProjectSettings/SceneTemplateSettings.json": "07a6234aebf1d02a7029e9c874342cc8b8de047a20317c0f22e4cfeb0bc224f5",
+    "projects/type-initialization/ProjectSettings/TagManager.asset": "8e18b1c820e9c09e16bbd1f1b7842e9fb3b0158a0921b0964e0b8fa12c6e2c01",
+    "projects/type-initialization/ProjectSettings/TimeManager.asset": "1a83e54adbbda7c9f4851103a0c6ab7f6448a3343d4ea5b7620452fa08416ecd",
+    "projects/type-initialization/ProjectSettings/UnityConnectSettings.asset": "d6034acbef6c9e3179866486c31eab81fcbe5e7ed350ce71e0fa2b1449b77109",
+    "projects/type-initialization/ProjectSettings/VersionControlSettings.asset": "e7bda45bf7a394745fee1316e6c71fa676004d591ad1f3aa247fd3e4ceb86071",
+    "projects/type-initialization/ProjectSettings/VFXManager.asset": "3f31266c7c1910447586e71b041dabd58d8371715ac3142d3e38ace46121f4ab",
+    "samples/type-initialization/Scenarios.cs": "245098d32ff9e6506494e1c115703e43a36d328b27f1c3b8472a6fefd52f4479"
+  },
+  "artifact_sha256": {
+    "metadata.json": "01b29e603d7c978df822a5081db2704fb62f2c5f33c523e71f1a1971beaf2b03",
+    "Player/baselib.dll": "6b2641b799145e687a4ba75791bc163c60a65a0c76cf50378712dea37e2c0572",
+    "Player/GameAssembly.dll": "8b74c6527553d357f9e2f6dbebdb9f9f4a996aa2e41b537ff1295a05de57097c",
+    "Player/TypeInitializationProbe.exe": "8d4c804ff605213a298140be3c172eb407e7f5dc78c5082cdfaabaea7b43ba0e",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/GameAssembly.pdb": "4201ea98417505e2636919691f7d49da58d411a6bfc2ddbb5befc03eb8274503",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/__Generated.cpp": "9a2bce0eb3751096b1bf33c7ce0e6948291f5efb6aabc173557f667975c4a6d4",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/__Generated_CodeGen.c": "a84f5826437cdc26ee485f8d317cdf9011a281b0666c3e28f2ee620a25839dc9",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/analytics.json": "3dedc960d2283b3e97bc3e87ad017af8fb5f6dfed60d61ad5ba00cf2d3b8af82",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Assembly-CSharp.cpp": "6dedf848c49fab7029b0581341367c04967d981f32c72ea8644f5bb73639ff65",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Assembly-CSharp_CodeGen.c": "7b3d023071888a82c9725ab76368224da1cd63b1d8639e7fb47c048a56f2d942",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/GenericMethods.cpp": "4fe9b7a7d4fd6dc4877970bf707037de18ec0137f87f9e1b4f75f84bea7820b6",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/GenericMethods__1.cpp": "eb1f423eeabe9a4eebe3a65b82dd778f5632c43cbb66a699d64260433bdf05a0",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/GenericMethods__2.cpp": "059b8e90808100e09f3851091c9061b09c9809683e048db5c3dee8c3ed1b9296",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/GenericMethods__3.cpp": "a52d8b53ee9e963bfe2474c83bbf4fbf31bb5c8fdd9a10579e8070ae1fb71cad",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics.cpp": "7a882e6edb2aee9c2c56422366a98e3ce3c75b5d065d48d2c6650bf6b3eb6d64",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__1.cpp": "5a5c48f81a8b69b71e4facad4192fe5bc07c05131c6cdd29252f828ca048f2e0",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__2.cpp": "adf26ef37312dd1bcff82bfa44fbb5e33007a56595be4d90b8ab054d26de6ebf",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__3.cpp": "06db00ad04174a32e0cb7d97be70fd99decf59de21e6a52060d9f151998850db",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__4.cpp": "8b30c23adf836e7e0496f80a64ffc34ec8e32e3c63fdea9c8302a618e547f88a",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__5.cpp": "299f85cc9ae0278980acf4cfdb8fe72ad76414a73f7cef3990bc3b0435a343f0",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__6.cpp": "455a2ed3e85ae3c6a7ab3d6eb205bd6699f3cb01c95a583b812d4dbb30cfb2b1",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__7.cpp": "bf5c6761ab21d95fb217d3cb13d124787c5f369ba10d883a1ae583cf58f9685b",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__8.cpp": "db77e47854e6b86f9f993262ecc28b64088698b2734ddb480f24916d351684d3",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics__9.cpp": "9965434bb94ec843630a563a62c4ade6426e7b8b3dab5c92e7497a2c9fd403c7",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCalculateFieldValues.cpp": "cc5302880da6cf9573fbc02cb2546c2c3c119c54bb140e7df6b7474d1d513a5e",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCalculateTypeValues.cpp": "007b8fe5aaeae32e8bdc39575becf715452c7616690bb2c7a9333c09e1fff112",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCFieldValuesTable.cpp": "25eb6971a9db8f5e4a90ab0f33682a3aa245313475dd8bcaa3af4000ec60fb86",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCTypeValuesTable.cpp": "8912dfa74c128c2c7ce5a995b55b58478a209e3df0eb56bf82a8393b0ef559bb",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCodeRegistration.cpp": "aed01699ba895d1d761206131d941b5de58f2a314afad5c54e225af3fcbf9dcf",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericAdjustorThunkTable.c": "db4c6d5521f3941267a84f18d8b45726080373b8e2ecbd05c5c45af367322b2a",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericClassTable.c": "58b9d320ddee31aa58222fbbc49ccc7bc200d5975ba58986a22ef2cb10121553",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericInstDefinitions.c": "3f6503e4b5c4362d140ae4c27789945493b21eb0be997b382a6b5f25da0a1c62",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericMethodDefinitions.c": "a19e74379f1d9edfaf04b82966cfed60b5dd81603a4829b8d7419eb73b8c321b",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericMethodPointerTable.c": "34c2044d0c209186df3857849b63922811f600ff011df45160ff6298451f73a8",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericMethodTable.c": "5a8dec799c0c861d90b767879ef77ad41edee37cdcac4019a1572e701b7d8a8e",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppInteropDataTable.cpp": "4af879aed7e0470476c33a99d40e2d4f1f029486d417d0097400dcd975020598",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppInvokerTable.cpp": "2b145f751ba495de7ae35556087c05e67b3010ad32c504a8aeebc471f295706d",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppMetadataRegistration.c": "68c8694788705798cdb0e5e2d95b8bd539b330279ec16975e34e8db459b0aadb",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppMetadataUsage.c": "55f1e5fe4e62ccbc038fa7882a33cdde638ca3181a421a92dd6a12c1c9545d11",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppReversePInvokeWrapperTable.cpp": "94ac24dc902d93215310e41313124b72ba9cccca202de211403835e35ec5e2a3",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppRgctxTable.c": "4f11d160032d71a0571789f3c7bff97844413d016e92ba0c02468536ee6f1ab4",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppTypeDefinitions.c": "9e15f600a1bcbdb89db5e2509a2cf87ce2e8ae007eba390aa680e86092fa6fe0",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppUnresolvedIndirectCallStubs.cpp": "535bf46b57c726e9864cd8cd23ff80c50cd8d0548593d083fb7bab7d577ded43",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Mono.Security.cpp": "ea58e859bf1cad5368e7b4960181d9304ee433099d468048bca74fec7ddbf076",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Mono.Security_CodeGen.c": "8996d4749041c02302991809682af85af089d5ce76ddbe7258ac680f7de95984",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib.cpp": "d0758909a0c1a67fb0ae09db57a914d17da4062168a00fe2438823b86a8045bf",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__1.cpp": "b13005649ea6f15a04b24ed358c93cd08b27597fb0806c026cb908dac7f71271",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__10.cpp": "3e99ad31c3e548f5f4f7713ed06ce2452f55c1fa6cc230973b217c97129f486a",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__11.cpp": "183a0f0fba31b87551e3af73a9b8579d7020d5d6f448f9f42d3c91136212079b",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__12.cpp": "10a1c55fb702e9a66f86905395b3dea4080e3a5ed3ceedb7d6987ed2ac105351",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__13.cpp": "f89a0f2641b6772e9a846a77d442c896e45d909b770b192892b52201a982fa1b",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__14.cpp": "36b7cc0cedccb7c4bb89e14f88dec3eecefe8368af07eca34905ee3ec98a7a4a",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__15.cpp": "b0a5dcdecdb0bf7533d5ddb7155a900fa4b2332c7d13e26a04583e7749bf3117",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__16.cpp": "a935a38d47af78b782d13b1042fbdc1be5ea4392df908a68148637555ef81eb8",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__17.cpp": "a6b6544d73c80eda36651520f88a3d48515f9fa7dc8f5b51e22f84a9c4602732",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__2.cpp": "7d67ecd0130b14473c231855426a6a0fe133eed4c7f226364f3e454789868171",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__3.cpp": "83afdb203ee11dc41e5dfb29bb4a3bbe04e404f05777a2a88e85d63334b94582",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__4.cpp": "e164340119cde3596324829f8e933fd933ebe26ce289084f2430a0d05231b594",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__5.cpp": "8c1efbe1b531bc50c23d85d6448f1ba1616ebe3e5b1d49c3bc3f9e9b4f44f3a4",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__6.cpp": "eb44ce0cf74b731eb724e040eb82973d1019150c7e23b778817ada0973cd8757",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__7.cpp": "d3452b0833791bdf3874512a11c507a9a5fc94a13f635dd2cca28192583fd81e",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__8.cpp": "ba8ee81da277aaff7f2b47dceb49a2a8726a8a990a6bfb15d1529e8286a367ed",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib__9.cpp": "b08ca54a6a6bfc13ddde3d9ef742d1c9371a49b3a4af055c2b494f1f2effaefe",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib_CodeGen.c": "a003aa1e82bb2704160a8dd45c3b7181ac1b5332cec8089d25617e1abf1ea04a",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Probe.AOT.cpp": "bbc845142adaf8448879cc099975b2d0ca6a418855c1cd561333c793d2577081",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Probe.AOT_CodeGen.c": "dc26ed40442ac06dc0ac6a64fc048052b25d081c867aaeb3f102f0798405650f",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Configuration.cpp": "147a6053bc181ebd584ace10b093f8e133993f64ee2e5ac5206bef318d5c5b16",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Configuration_CodeGen.c": "2b32da71e6b8c8363cb35dc9bd32ee452746d11b46fc097d8c52fe628e5b54ca",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Core.cpp": "201050df04a815eb92ffafcf274eb3eec9b9fab014e35f4ffbab1094477839a3",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Core_CodeGen.c": "c1e1fa574ff543fb0ccca7538c0862ac714a9e2f3cc0a0c45e37860bda0b901e",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.cpp": "dbf211e6533a928ce995625a05c3d414f25eee8f1eecc6f44ae7551759cbed85",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Xml.cpp": "8763ada00594308308a27db7a98de214441000f9d0c2a12380f3ee504f9ac6dc",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Xml_CodeGen.c": "1607bf221acc85dc20ec22cbfded1bf2e396e4486b874adf6e0ba5db7abac918",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System__1.cpp": "c3010de14c1b7adb105ce2fe77b49f96885ec84518c7785edb6b8258a61fc808",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System__2.cpp": "9d6f43f2d594366ed836d914f0f4ded11a7dd9c65a168b977145bfec76bb7152",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System_CodeGen.c": "bb35b6615544da9b66484fb6ff28c9b3f3e6d20fc3dc7e204a22decf68383089",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AIModule.cpp": "f3e581ec3d947b02bc9f4efcf28bf6eb03671f191ae12284c92105dda9d3e85c",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AIModule_CodeGen.c": "03f47b8669ab0c18482e7c6619364e230d152b9163f584f47ac603c77fd694ef",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AndroidJNIModule.cpp": "27fc6ca93e51fd84242bceb0f764de9697946726e8f3a3bffb0e7e49529db21a",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AndroidJNIModule_CodeGen.c": "024518e86720a86f9f5ef84367b432d4e8873e41c6c6f9e5a0467711c5516413",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AnimationModule.cpp": "9cdde61f2b8f8ff8e08386b6d44484292d87719759749c9b5ab1a4d6adde17a7",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c": "d4f1fe23960c6b5c947dd615dfe917f735b2a119385b1ba2db3645a431e6332f",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AssetBundleModule.cpp": "e9c8b7e637c75275a71fbd5aa3a6c7896632c29dfcef21dcd4c2478a8c60cb2c",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AssetBundleModule_CodeGen.c": "eae2659338e899027dcf2026efba017fc1cea09ca27e0e5dedcf84fdc2e7c740",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AudioModule.cpp": "884b83529f41679dbf37215f16f49425f881d8ce77faf596fe2fafda08e8b1a2",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AudioModule_CodeGen.c": "7e220e64eb9a9d370f56e3650891fef2fc6e54a77a36421cd74efe62d2d5edff",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.CoreModule.cpp": "3482f3ce6c2fb8a924d91a108e236f3229461c800d7a303a80c6d1b953d7627a",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.CoreModule__1.cpp": "dc617a66710935118e9ffdf52df27ca10866e95e21de7141ca50c95e50e862bc",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.CoreModule_CodeGen.c": "f97c7c9f331a95457395b4038821e88f7a9e40f15dbd50aaf6a97723c6b6dc68",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.cpp": "aaef4deb23a4e70f31405c754b9301b4725f979983dd0491b58e5646133458fe",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.DirectorModule.cpp": "7db8484d167522ffba174611c7d28b19b1ebe4e6dfb6744d9870521278553cff",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.DirectorModule_CodeGen.c": "a4e8accaacdfeb4a943e93583f58d37701ecbdf8d24d2988dc9070569ffa242f",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.GridModule.cpp": "57577500cdd28ac02b32f84b3d9b22ca435cc3f458a72948afa6fc2642274e6e",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.GridModule_CodeGen.c": "62f132a174cf23456b65f3ce821dabe59e0bf0ebe2694145750fa088738d40d5",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.IMGUIModule.cpp": "e679b06f27771563dda5ea81327530605463d2d340fd2821b201ef3e00bb3173",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c": "3f62e2d8fe22f9928998ee06fdd74b07c216a2822c9287608cccf4e7f0dd0665",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputLegacyModule.cpp": "71040d1d17cb5a0f189897ce6aede67a4f40eebba73c9ad0a85c71806b88520c",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c": "ef480ac806bbe224bb5b9f71679563b2ed1b3bf836621904cc69952a601cf930",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputModule.cpp": "fd93302d9ce3d15cabd80649eeb2290262f91c8bef6757b1778c73d771a927ba",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputModule_CodeGen.c": "7676857ab4283e7f15769b124e71deff55d7cbf2d1f1351f439df5f65a6c3832",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.JSONSerializeModule.cpp": "7a099a490f89c790eca06a192753e40261206117b83b22c548fdb53cc56830f5",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.JSONSerializeModule_CodeGen.c": "d2b7c19a09f504f92159a0de8c4db60db3508bb7d7038cbb7732fc776b7a9bb1",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.ParticleSystemModule.cpp": "f434e85875b5d4e38d92c8c031c76cd2ae2afb1186eca179b51ea9c7c3615068",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.ParticleSystemModule_CodeGen.c": "2acf8457370ba244060b6fbbe15e73cfaf44a360d0aa386af735e522df1d6ca5",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.Physics2DModule.cpp": "7127eee5eccaa4181b8f4a68b5fc3c0ffb61519c7b133b1367538ef67c913c59",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c": "ab3ce34ee2884ffee605927207d1c0705447d4280ad94a318349cc0c6a2dcc51",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.PhysicsModule.cpp": "0b2836e3e221cac095183c614c0fb34fc9bc12933706e5892daa221b7b6105a8",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c": "290ac3a0042a039c1ca3e9264f0eab843ca73c8e640ace722c7cd17fab4e3a8b",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.PropertiesModule.cpp": "5101df1ac8ecc9f60ece457cfcbd5108d66bf498c8a86dfb700e0c31bee81781",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.PropertiesModule_CodeGen.c": "db619ce392a6170434bf5ab68856ec8b93e7c3bcafea819ecc8a64bcdf88fdbd",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SharedInternalsModule.cpp": "4cff2dafa396f69d93220c65e6d50b072a7a7085156a270bbf9159aa42729f91",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c": "1501d1affadb18bf5fa01f9b693bfdec32406c06b0662e12e114f3edd03d23b1",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SubsystemsModule.cpp": "8265d8c82323175af28e1e2fd0ab4fa4e1fbf88c22bd99bdfea5b9eca0557c29",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SubsystemsModule_CodeGen.c": "47abcdae011359f9f4ebee9da9389e6db4606714be531b9b41fa45843ae24e30",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TerrainModule.cpp": "20377ce6f824ae2bb6873eb61e5f087f2ed4d265c347c9000249873e8da328e1",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TerrainModule_CodeGen.c": "9690419c8930afa25792f8e9b5e6abb890a88a1f78f15f19dae30644784a140d",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TextRenderingModule.cpp": "fe8072fa56a6b23ba4bb248ee02d4a6fdaef5e2406605d6c6d51aea50229fff4",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c": "c7da624ee9f663aa61e88b595ee22f48f02a0ae565cc4dc35dbc1ead5f128809",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TilemapModule.cpp": "b66a00ceff84cf4c7631114265c91797fe018635972d28f7a621a562275d6911",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.TilemapModule_CodeGen.c": "f7d346501318d75f80cfba33fe5e5508d6a866b4ad974e3692d74ce39f87b056",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UIElementsModule.cpp": "a76470d9d64cb5dc0628d493fd3072b0aa9171d006feeaa7ce12e3198e6933a1",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UIElementsModule_CodeGen.c": "2b50a0f035753760c9bed6bb1cb1e7f20ada2a6d9cb0b269c7ecc0cea42fd590",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UIModule.cpp": "965c45d678dcbb2e8efd74143a23b06f50544e0883ce44e3ee05ce5fb70c73c9",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UIModule_CodeGen.c": "f3bd52763a3972709b020f354699856bcff7c941129ad5d012308bc89d28cece",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UnityAnalyticsModule.cpp": "bba80c4192c6f2b39b7fb4ea4aa915d7831266ff5014e7e7d66f336cc64883a8",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UnityAnalyticsModule_CodeGen.c": "bb752ad06d134b65abeca248f699ead2b925af1e088f2b4c3cc363cfd825c220",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UnityWebRequestModule.cpp": "a63ada1d3002f5ef60334d7b36a6f005040920ff77b6fe4e4fedd0ccb0246a17",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UnityWebRequestModule_CodeGen.c": "d68c9590371cb77586a19a34fed58be1985512fee18d78e5f2d9336b5129de04",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VFXModule.cpp": "51e5109c1b0f2f9a8c52c4dea102e4a7c8d87a9f6025a20be99d34816a9d08c1",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VFXModule_CodeGen.c": "7bca4c7d4e963328cd2ea7ba6922558033945df9cfe67aa5109366b86eca02a3",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VideoModule.cpp": "c20eca6d58e5a1f777edf423251d286c38b490ea145d55bbe208421d8409ca38",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VideoModule_CodeGen.c": "3097eae7378fed85ceaac978c95f6c66f9d7343f6656d7dd803eff08caa26626",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VRModule.cpp": "ba202110b69ce685f960a1cdad6de1b7885407ab498882b2326caf58744e11af",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.VRModule_CodeGen.c": "eeaec5eecc7a6e5be4d929753e6993e7f7dd866328ab92f2b7dcaade11cfe954",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.XRModule.cpp": "2c39446241d4b4994ac99c02c15a8c631ace655e7e30f1cf8dab575e2a8ee894",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.XRModule_CodeGen.c": "e4592722dfbf758ba2f4672148d0fca61e50723c8758cc16f039a8c04a7bdfe3",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine_CodeGen.c": "4d6e3851398e44006ca02d1fc0c194eedd6d9bf5d974d82607b25a7932d33de9",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/analytics.json": "9e9f6100f30ea9fb531128f707a83c4cff2b98674e853edbee5d722e434f592e",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.dll": "80d58093c7ce63e140eee8323635e2583ea4a917cb6f5f74e01edef83dfba3a3",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.pdb": "71e0782db53a878e39462efbdc9eb7737abc6a778e24245b46b8a74f93f4dfdb",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Mono.Security.dll": "17a3ad783c0218dfce8c7b95fc565e9c6a8e24e6d77666f36fc52f9fad98414c",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/mscorlib.dll": "6102904d038e26b2e6eadb2f128153630f5376964bbe9dc52f9f612715a401d9",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Probe.AOT.dll": "ac76feef500ec22df066b01097a9a4129e935264116dc20f3c952f37665317d8",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Probe.AOT.pdb": "1200e6987009043dcc89fb78126928d9a48de2f4f5a235fcb8cc34b62e713f72",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Configuration.dll": "b98d257cf0bb8bf12db7d691b82b4594bb2ed3c9ceeac6a3f999751bdfccdc9c",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Core.dll": "3803dc131420a4e8bd26421d0d3c48d0b12748e4af53582d70ad90857e5086a9",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.dll": "8e8d461505ce78e0d15cf884cfa3832b812da207833ac7f2cc812009e2fbf31a",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Xml.dll": "78e643d8971ad22e1220de59c9ab40e54344194cff2d471b5837dd25701d7c6c",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AIModule.dll": "9b10c8762dfa844e3d5efe48baeb782416dd8c0807bd5777ba38d2a17ab7583d",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AIModule.pdb": "9573c7c56729b23ff7f807dd920c2731492275126a49f4fc6700ec14f8b72aaf",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AndroidJNIModule.dll": "60154da9c94bebea807f6f56f2d58df32d274d3c4edbe41f8c5a0bf5cb62f551",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AndroidJNIModule.pdb": "8f812b9930da6aad03da002fc29dba6d7a6f8b54a18a2150128350074e53f710",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AnimationModule.dll": "26ce9506871fd3290004aa4b46b469585358082abea4ca5a02da5193dbf90189",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AnimationModule.pdb": "b65478f897bef3e70d0af04263b653d2516625890110c249f07b92017005c74e",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AssetBundleModule.dll": "813f41e8fb4f6a1d173d6a0d63897e843409710ddd9cdd1c03586cc23f527c10",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AssetBundleModule.pdb": "48751ad615005fed17c8c41d9b730de992202c1eb86a73a54953918866140ad4",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AudioModule.dll": "02b3462a17ee369402cfac5ceb794000ae7c1b288254cf2393d9ea6fe3742007",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AudioModule.pdb": "304775acfd26040e4cde3c763fcdaebaa7501162d6382bb809eb806d81c75f66",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.CoreModule.dll": "6f909864afd9c39280680a35fe18d90a7a33612689ea8d2937d76f5de461d806",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.CoreModule.pdb": "71936cbdf846cb8109b3033e2764e1578c47a6881002894ff7e5f66944724d89",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.DirectorModule.dll": "ec15d0531aa137090a421f5760ce4a3c80ba04c3c6bc26e283f3740710a8eef4",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.DirectorModule.pdb": "47b3a8f8a44d6f9995d0ce0fb7c31e0fe2ecf0589c2ffa3fca7ab45dbedd7c75",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.dll": "ec96e33523bbeb605c0717c812c765f49b28920d8e8595c400e3863bc8f5c093",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.GridModule.dll": "52a909136699701804ae46f36d1564a4c709a15a6d497cecd0e2637f689840f1",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.GridModule.pdb": "62ca59cb515c209e14452cd16913b91b65d190ca2960f939994663d3cbe75be2",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.IMGUIModule.dll": "2153e639a03e6a7d6156ff333a25f4e9b2b1687b111a5773e38a8f95368dc078",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.IMGUIModule.pdb": "e96c28b449ccf2cd70f0055dad98fa5270fdb253157c89989af6bade83f4f40a",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputLegacyModule.dll": "92cec7f13a7debcb0b4884656956c77e3670a1ba8fa51ac78cb4fcb836bb43f7",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputLegacyModule.pdb": "eb7c1b237f2d6d44a41e1a3f96a4a0b175a160a3987ca3c778e66ec2031fdbc5",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputModule.dll": "2769f82515874cff00c1d06ce1761b76cddd31ddf5fb72a9916e6584f98b41a8",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputModule.pdb": "482f67a9e00b7fe0dd9e6f372d30f9f3fb91c6f81a7462e83a2fb19994421e2d",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.JSONSerializeModule.dll": "dcc25364e1204bed9fccb632f7e3681bd39f255555140f42ff1897db66637157",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.JSONSerializeModule.pdb": "85ca35a910c01d8c28969daa56c4868c5a6d057160272962a2a670466755a391",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.ParticleSystemModule.dll": "9022b2c04a2e8ba14cf5fbdaa1b7be72fc3e55917cc0c718bb09b3f693fabf2c",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.ParticleSystemModule.pdb": "00cc9c0f7c504e1d4e6e192c0739526b4d00b8d600d366df494a06184f76cfb5",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.pdb": "90a8ddd19a756a6205ba849aafee1e1e94de1fb69ab0324187fcfd9f8f0428a3",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.Physics2DModule.dll": "9a141001b89d14311ba073a93c89d06b92fba4d7725738011673f4f659829f41",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.Physics2DModule.pdb": "d76581222e4161c431b486195ea93998eaad39968b5e258a977de69c1cc3f958",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PhysicsModule.dll": "d0b7a50d978f68fa2c112a56e581965ca7414f44b64ea8a852bdb5b75a9df21f",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PhysicsModule.pdb": "ce67b005422facf37ca3795070cd28b3e523ce5c58cefbe82ccf3273992d67db",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PropertiesModule.dll": "87759571274d2ee4963339a0b5667b56d2688e892b425aecacc762973bf36d16",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PropertiesModule.pdb": "d6339cd7a58c0c1c352112edb09e5dc9f461d74f454e2f47e07afa94690b7538",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SharedInternalsModule.dll": "720d1899c172cc3957586dbb9ee73a3a743e4486c75a44cdea1c36049c6e6db4",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SharedInternalsModule.pdb": "9d5a2554562d3ad7dc46427da28966255ab4dddfc0e9114c5841006ac46890c6",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SubsystemsModule.dll": "fb1f1198c6139fd3c6967957c81396c79e6e326b4a9f0bb2a3f18326326f899f",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SubsystemsModule.pdb": "b118363b481ef4e69ea323bc1d0b0299b1af558e85b8ca9fbcb2be4322528aa4",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TerrainModule.dll": "621813ecc70a3e4e4f22a59389f37f302c57f2e0a8a726876ce343d63d006d14",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TerrainModule.pdb": "4b7d58e421702f369132f542d5909fef8ae874807807e48780b52e0a007e6581",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TextRenderingModule.dll": "7ebaaf38243dadcbbe6af711f6ce0b6904fb76d7408b08415607ada218cf4170",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TextRenderingModule.pdb": "a2db4efca06910b1a00278166085374857efa73d68ea7f7c0c3fe21f4ff4a48b",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TilemapModule.dll": "cfb2e0f771fd18454b7f4ac056cdae33254d5895fd94e08d344792a1bdddc77b",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TilemapModule.pdb": "97dfc7cf403cee6677c4b7542e8eb13ab0f7fee798faf8a64682b2fc32329628",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIElementsModule.dll": "13614d41eff2fa219d8e571e86d5dd739ed3e5b536922d9aac358bcfb0b7c55e",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIElementsModule.pdb": "1c039de5df3ac3f0e549fb98adb72160ce0c53be248b44aa0fb715c0f90f2186",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIModule.dll": "cc2cf6755d5c24cf3eee543fb0b1570e2039fa22b86223530ba3f1012c601b89",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIModule.pdb": "6d691a9896e2bd0afdbd492315d954f257b0428b735d7a438b73374028c55a69",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityAnalyticsModule.dll": "39e737eff704580ac5701596d3c63b62beaca6f9657e6ee95230fcc3c936e251",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityAnalyticsModule.pdb": "5b2c1d9ecc45c1ae23aa119b3c7b9a153f110f235d65bce7eca33428e7a8dc23",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityWebRequestModule.dll": "e4a091f971cdcb39bfdb344da2fd2d9138e1e3e9ae69f2a0db62dae982d3df98",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityWebRequestModule.pdb": "d1dc945a68a462ab9b71fc03ab1d9496ef434ec58f084e1c22717408017a3d9a",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VFXModule.dll": "d7277b763aa73f03134e0c88e80cf9f16b090c4c0afc923d8d1cd3a7ddb2cd7c",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VFXModule.pdb": "1fe75b718dc8ae08deff4e83a54b80a6990fd10de3288d7b2490bf9e80441bbf",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VideoModule.dll": "aebde1b44bd55d9b9f6944a81e751329cb4b5a0e3f3f2b4dc69aa2a30caddec2",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VideoModule.pdb": "7757528ce75cb924865bb450cb6dca4a473800b8b88d41d59fe770627714f70c",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VRModule.dll": "985c4de8eca613907e43e19be8e9218f507f96d3e8146ef953e31c4da2740e99",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VRModule.pdb": "100b808ee2c02fb698fd5722f7756392146116bb6d14be640ecdcd4f1f18a3da",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.XRModule.dll": "f080fe9b21a2ab6f10b2fee6c3e509f01372706aa2e7ac8bb5c1788bc3346c76",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.XRModule.pdb": "12f95389ee2c119d0efdbb8c2e0f230575818688a16fef84824f23d05625b317",
+    "Player/TypeInitializationProbe_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityLinkerToEditorData.json": "0344843e4767af162e1e0ad4e4d6896c925a459dc9c07feec93d889d644646f7",
+    "Player/TypeInitializationProbe_Data/app.info": "2517395b0f8c9c55014924772d3197e8c10c78daa80d423970eabf69d4491cde",
+    "Player/TypeInitializationProbe_Data/boot.config": "629c7e9c095210c6cb83c6fc62748ae855e2aa093b07296002d4834adf140e50",
+    "Player/TypeInitializationProbe_Data/globalgamemanagers": "1df230c806c982ce172e4211306948db7a48a97396fd4f44df7baa8f3fd808b9",
+    "Player/TypeInitializationProbe_Data/globalgamemanagers.assets": "70eb8bed24105d23e22b1447ba15cffe36a51d3f108ebfb409124da8692b2257",
+    "Player/TypeInitializationProbe_Data/globalgamemanagers.assets.resS": "ebf0f91664c0aa69e3b92e93d4d4e6feae1a9152529b0efeac047e3c9c3b0fc0",
+    "Player/TypeInitializationProbe_Data/il2cpp_data/Metadata/global-metadata.dat": "b1caddc8b8d0b5248830bb0be166fbe020ee4ff93766a677fd923d7250b631ae",
+    "Player/TypeInitializationProbe_Data/il2cpp_data/Resources/mscorlib.dll-resources.dat": "c5baa176a5b72cd545266340e42102d393a5e43d38c95796bc828918bb95277f",
+    "Player/TypeInitializationProbe_Data/level0": "90a6d7fed1e177a6cb0f259054126cb3f5638994eb361536866a9c2dfe10162b",
+    "Player/TypeInitializationProbe_Data/Resources/unity default resources": "a11e3e24520676183b3750564b4d9f5a90e8f41fd3523cbfb0c49f3989453da2",
+    "Player/TypeInitializationProbe_Data/Resources/unity_builtin_extra": "8ba8849a60bae801d6e700df5e44d991931bda6618b8789b7758d67112f187bb",
+    "Player/TypeInitializationProbe_Data/RuntimeInitializeOnLoads.json": "28cc6e28ab9e95994c258ae0a946d6747d74f9ec0ea1d500cb43dde54d3dd628",
+    "Player/TypeInitializationProbe_Data/ScriptingAssemblies.json": "efcb079c23d5ca616c1cac12edc0db74d86bba7c3eb36b15b7eb7df4cd75fa4e",
+    "Player/TypeInitializationProbe_Data/sharedassets0.assets": "84a59d750eec9c740502bfb33d6d4abd96bd13f0550c0db1186c5c8c61b4eb25",
+    "Player/TypeInitializationProbe_Data/StreamingAssets/HotUpdate.dll.bytes": "ef05a8e5232eafcc3b33ea1027fd47bc3b206615359186c5810b9a8671628031",
+    "Player/TypeInitializationProbe_Data/StreamingAssets/init-build-id.txt": "fe60e7c91539b73aebfa5140fc86f8af49ca5ce2d082040e60665e296a83bc70",
+    "Player/UnityCrashHandler64.exe": "f93bf3c60560109f3f3281e44484f25e0c722a70e63380518a82e7fa0cf87690",
+    "Player/UnityPlayer.dll": "48e229dee287476ff2be61aceb5d2042a047874507b0d09ac66eda4632b9be91",
+    "Player/WinPixEventRuntime.dll": "23ef5b23f1cf6f1b7132542c4063b5e9da532572634afa41f27139bbf02468fc"
+  },
+  "tool_sha256": {
+    "tools/init_lab.py": "bff36e60abcd64eb8a7ee3d274a9af729efb47329d7a116b758254d072632ad9",
+    "tools/init_results.py": "67650422679722713195aa7314fbb50b36e09e9f0b215d455337bd043910b73a",
+    "tools/init_trace.py": "1af41f77448044fb1b08a9e7c15614f0f677ccde1a7955a67882836139fb759a",
+    "tests/test_init_results.py": "0f0269fff0dc35785d89024afd6279375b3b2e909d2ad93a9cf4e29d9f58b4db",
+    "tests/test_init_trace.py": "16424718c44ddf35afefa502761b31aec8dc3efa5f4a09ed492d16c51623ddbd",
+    "tools/InitMetadata/Program.cs": "1906f5edea086e965c173b09e03536dede3445b478a3976acb245efb51f886ef",
+    "tools/InitMetadata/InitMetadata.csproj": "a1b3e3f0e3c871a8a91bb1cdd2dd51e110989470b48156e31f8c3cb0855a104a",
+    "tools/receipts.py": "9bf43a45ce276058029238737b75a35ef8440b207030a9c9ed7cbddbc52807de",
+    "tools/prepare.py": "250e1ec979ad823323e85dca23ef0a56e96b75cf39558b6ded31ae0ef25caf21",
+    "tools/lifetime_lab.py": "1a1c9df9bc2ccb7827fe07200457e142609ab2d50358a2802cea34b28ac0ce01"
+  },
+  "metadata": [
+    {
+      "file": "Probe.AOT.dll",
+      "sha256": "ac76feef500ec22df066b01097a9a4129e935264116dc20f3c952f37665317d8",
+      "types": [
+        {
+          "ns": "AotInit",
+          "name": "Cases",
+          "token": 33554440,
+          "beforefieldinit": true,
+          "methods": [
+            {
+              "calls": [
+                {
+                  "offset": 1,
+                  "opcode": "call",
+                  "target": "AotInit.Failed::Ping"
+                }
+              ],
+              "exception_regions": [],
+              "name": "AccessFailed",
+              "token": 100663313,
+              "il_sha256": "cc5730f52ce1cb5b613149b3e9418eaf42b02f4060b92057cad2abf06c0db552",
+              "il_bytes": 8,
+              "il_hex": "00281E000006262A"
+            },
+            {
+              "calls": [
+                {
+                  "offset": 7,
+                  "opcode": "call",
+                  "target": "System.String::op_Equality"
+                },
+                {
+                  "offset": 20,
+                  "opcode": "call",
+                  "target": "System.String::op_Equality"
+                },
+                {
+                  "offset": 33,
+                  "opcode": "call",
+                  "target": "System.String::op_Equality"
+                },
+                {
+                  "offset": 45,
+                  "opcode": "call",
+                  "target": "System.Type::GetTypeFromHandle"
+                },
+                {
+                  "offset": 57,
+                  "opcode": "call",
+                  "target": "System.Type::GetTypeFromHandle"
+                },
+                {
+                  "offset": 69,
+                  "opcode": "call",
+                  "target": "System.Type::GetTypeFromHandle"
+                },
+                {
+                  "offset": 81,
+                  "opcode": "call",
+                  "target": "System.Type::GetTypeFromHandle"
+                },
+                {
+                  "offset": 87,
+                  "opcode": "newobj",
+                  "target": ".InitRow::.ctor"
+                },
+                {
+                  "offset": 105,
+                  "opcode": "callvirt",
+                  "target": "System.Reflection.MemberInfo::get_Name"
+                },
+                {
+                  "offset": 117,
+                  "opcode": "callvirt",
+                  "target": "System.Type::get_Attributes"
+                },
+                {
+                  "offset": 138,
+                  "opcode": "callvirt",
+                  "target": "System.Type::get_TypeInitializer"
+                },
+                {
+                  "offset": 144,
+                  "opcode": "call",
+                  "target": "System.Reflection.ConstructorInfo::op_Inequality"
+                },
+                {
+                  "offset": 154,
+                  "opcode": "call",
+                  "target": ".InitEvents::Write"
+                },
+                {
+                  "offset": 166,
+                  "opcode": "call",
+                  "target": "System.String::op_Equality"
+                },
+                {
+                  "offset": 175,
+                  "opcode": "call",
+                  "target": "AotInit.Cases::RunStrict"
+                },
+                {
+                  "offset": 189,
+                  "opcode": "call",
+                  "target": "System.String::op_Equality"
+                },
+                {
+                  "offset": 198,
+                  "opcode": "call",
+                  "target": "AotInit.Cases::RunRelaxed"
+                },
+                {
+                  "offset": 212,
+                  "opcode": "call",
+                  "target": "System.String::op_Equality"
+                },
+                {
+                  "offset": 221,
+                  "opcode": "call",
+                  "target": "AotInit.Cases::RunGeneric"
+                },
+                {
+                  "offset": 235,
+                  "opcode": "call",
+                  "target": "System.String::op_Equality"
+                },
+                {
+                  "offset": 246,
+                  "opcode": "call",
+                  "target": "AotInit.Cases::RunFailed"
+                },
+                {
+                  "offset": 259,
+                  "opcode": "newobj",
+                  "target": "System.Exception::.ctor"
+                }
+              ],
+              "exception_regions": [],
+              "name": "Run",
+              "token": 100663314,
+              "il_sha256": "a9d2a2ba0bba5f34d160cad1999503789aa2561949c097e5f4781fd3cb45ed81",
+              "il_bytes": 266,
+              "il_hex": "0002729F000070280D00000A2D3E0272AD000070280D00000A2D250272BD000070280D00000A2D0CD00C000002281900000A2B0AD00B000002281900000A2B0AD00A000002281900000A2B0AD009000002281900000A0A73010000062572F30100707D0300000425066F1F00000A7D0900000425066F2000000A20000010005F16FE037D0D00000425066F2100000A14282200000A7D0E00000428020000060002729F000070280D00000A0B072C082813000006002B520272AD000070280D00000A0C082C082814000006002B3B0272BD000070280D00000A0D092C082815000006002B240272CD000070280D00000A130411042C082816000006002B0B72DB020070730E00000A7A2A"
+            },
+            {
+              "calls": [
+                {
+                  "offset": 6,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 17,
+                  "opcode": "call",
+                  "target": "AotInit.Strict::Ping"
+                },
+                {
+                  "offset": 22,
+                  "opcode": "call",
+                  "target": ".InitEvents::Read"
+                },
+                {
+                  "offset": 33,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 49,
+                  "opcode": "call",
+                  "target": ".InitEvents::Read"
+                },
+                {
+                  "offset": 60,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 71,
+                  "opcode": "call",
+                  "target": "AotInit.Strict::Ping"
+                },
+                {
+                  "offset": 76,
+                  "opcode": "call",
+                  "target": ".InitEvents::Read"
+                }
+              ],
+              "exception_regions": [],
+              "name": "RunStrict",
+              "token": 100663315,
+              "il_sha256": "e3c8c745434e3db022577036252b8d8afe2877d511de86db9a08293c41a3d62c",
+              "il_bytes": 83,
+              "il_hex": "0072F5020070280300000600720F0300702818000006280600000600721B03007028030000060072350300707E180000042806000006007241030070280300000600725B03007028180000062806000006002A"
+            },
+            {
+              "calls": [
+                {
+                  "offset": 6,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 17,
+                  "opcode": "call",
+                  "target": "AotInit.Relaxed::Ping"
+                },
+                {
+                  "offset": 22,
+                  "opcode": "call",
+                  "target": ".InitEvents::Read"
+                },
+                {
+                  "offset": 33,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 49,
+                  "opcode": "call",
+                  "target": ".InitEvents::Read"
+                },
+                {
+                  "offset": 60,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 71,
+                  "opcode": "call",
+                  "target": "AotInit.Relaxed::Ping"
+                },
+                {
+                  "offset": 76,
+                  "opcode": "call",
+                  "target": ".InitEvents::Read"
+                }
+              ],
+              "exception_regions": [],
+              "name": "RunRelaxed",
+              "token": 100663316,
+              "il_sha256": "1c89f7302642dfee048ee86720fb60af9fdc3af3e7e6815dd06d44fe7d7cf9bf",
+              "il_bytes": 83,
+              "il_hex": "0072F5020070280300000600720F0300702819000006280600000600721B03007028030000060072350300707E190000042806000006007241030070280300000600725B03007028190000062806000006002A"
+            },
+            {
+              "calls": [
+                {
+                  "offset": 6,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 17,
+                  "opcode": "call",
+                  "target": "TypeSpecification:0x1B000002::Next"
+                },
+                {
+                  "offset": 22,
+                  "opcode": "call",
+                  "target": ".InitEvents::Read"
+                },
+                {
+                  "offset": 33,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 44,
+                  "opcode": "call",
+                  "target": "TypeSpecification:0x1B000003::Next"
+                },
+                {
+                  "offset": 49,
+                  "opcode": "call",
+                  "target": ".InitEvents::Read"
+                },
+                {
+                  "offset": 60,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 71,
+                  "opcode": "call",
+                  "target": "TypeSpecification:0x1B000002::Next"
+                },
+                {
+                  "offset": 76,
+                  "opcode": "call",
+                  "target": ".InitEvents::Read"
+                },
+                {
+                  "offset": 87,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 98,
+                  "opcode": "call",
+                  "target": "TypeSpecification:0x1B000003::Next"
+                },
+                {
+                  "offset": 103,
+                  "opcode": "call",
+                  "target": ".InitEvents::Read"
+                }
+              ],
+              "exception_regions": [],
+              "name": "RunGeneric",
+              "token": 100663317,
+              "il_sha256": "45618d3e9f1ff963c15d946b3f5ebb0ad642fbc9329c1fe71f30bbd6999398bd",
+              "il_bytes": 110,
+              "il_hex": "007267030070280300000600727F030070283000000A280600000600728903007028030000060072A7030070283100000A28060000060072B703007028030000060072CF030070283000000A28060000060072D903007028030000060072F7030070283100000A2806000006002A"
+            },
+            {
+              "calls": [
+                {
+                  "offset": 13,
+                  "opcode": "call",
+                  "target": "System.Int32::ToString"
+                },
+                {
+                  "offset": 18,
+                  "opcode": "call",
+                  "target": "System.String::Concat"
+                },
+                {
+                  "offset": 23,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 30,
+                  "opcode": "call",
+                  "target": "AotInit.Failed::Ping"
+                },
+                {
+                  "offset": 41,
+                  "opcode": "newobj",
+                  "target": "System.Exception::.ctor"
+                },
+                {
+                  "offset": 56,
+                  "opcode": "call",
+                  "target": "System.Int32::ToString"
+                },
+                {
+                  "offset": 61,
+                  "opcode": "call",
+                  "target": "System.String::Concat"
+                },
+                {
+                  "offset": 72,
+                  "opcode": "call",
+                  "target": ".InitEvents::Caught"
+                }
+              ],
+              "exception_regions": [
+                {
+                  "kind": "Catch",
+                  "try_start": 29,
+                  "try_length": 18,
+                  "handler_start": 47,
+                  "handler_length": 34,
+                  "catch_type": "System.TypeInitializationException"
+                }
+              ],
+              "name": "RunFailed",
+              "token": 100663318,
+              "il_sha256": "0b4781d5feb98a7cb786752a73fd8d4432ea31f9daf37a64dfaf3aaded462733",
+              "il_bytes": 98,
+              "il_hex": "00170A2B510072170200701200282300000A280300000A28030000060000281E000006267207040070730E00000A7A0B0072670200701200282300000A280300000A07727102007028070000060000DE00000617580A0618FE0216FE010C082DA42A"
+            }
+          ]
+        },
+        {
+          "ns": "AotInit",
+          "name": "Strict",
+          "token": 33554441,
+          "beforefieldinit": false,
+          "methods": [
+            {
+              "calls": [
+                {
+                  "offset": 7,
+                  "opcode": "call",
+                  "target": ".InitEvents::Initial"
+                },
+                {
+                  "offset": 28,
+                  "opcode": "call",
+                  "target": ".InitEvents::Initial"
+                }
+              ],
+              "exception_regions": [],
+              "name": ".cctor",
+              "token": 100663319,
+              "il_sha256": "a0295bcfd7bd8b0a8a206f57900e17ea5f706b82cfc9a8503f02d1b4894af5bb",
+              "il_bytes": 35,
+              "il_hex": "72570400701F29280400000680180000040072710400707E180000042804000006262A"
+            },
+            {
+              "calls": [
+                {
+                  "offset": 7,
+                  "opcode": "call",
+                  "target": ".InitEvents::Method"
+                }
+              ],
+              "exception_regions": [],
+              "name": "Ping",
+              "token": 100663320,
+              "il_sha256": "9d53e1cde551cd6beddbf04c75e9efb78bfb4f710640f92a802c3f2e8c93f3ed",
+              "il_bytes": 17,
+              "il_hex": "00728B0400701D28050000060A2B00062A"
+            }
+          ]
+        },
+        {
+          "ns": "AotInit",
+          "name": "Relaxed",
+          "token": 33554442,
+          "beforefieldinit": true,
+          "methods": [
+            {
+              "calls": [
+                {
+                  "offset": 7,
+                  "opcode": "call",
+                  "target": ".InitEvents::Method"
+                }
+              ],
+              "exception_regions": [],
+              "name": "Ping",
+              "token": 100663321,
+              "il_sha256": "9d53e1cde551cd6beddbf04c75e9efb78bfb4f710640f92a802c3f2e8c93f3ed",
+              "il_bytes": 17,
+              "il_hex": "00728B0400701D28050000060A2B00062A"
+            },
+            {
+              "calls": [
+                {
+                  "offset": 7,
+                  "opcode": "call",
+                  "target": ".InitEvents::Initial"
+                }
+              ],
+              "exception_regions": [],
+              "name": ".cctor",
+              "token": 100663322,
+              "il_sha256": "6e3f770579f8ddd1c6ea64361e50a253a332bfc805dded2389f5caebe120838d",
+              "il_bytes": 18,
+              "il_hex": "72950400701F29280400000680190000042A"
+            }
+          ]
+        },
+        {
+          "ns": "AotInit",
+          "name": "Cache`1",
+          "token": 33554443,
+          "beforefieldinit": false,
+          "methods": [
+            {
+              "calls": [
+                {
+                  "offset": 10,
+                  "opcode": "call",
+                  "target": "System.Type::GetTypeFromHandle"
+                },
+                {
+                  "offset": 15,
+                  "opcode": "callvirt",
+                  "target": "System.Type::get_FullName"
+                },
+                {
+                  "offset": 25,
+                  "opcode": "call",
+                  "target": "System.String::Concat"
+                },
+                {
+                  "offset": 35,
+                  "opcode": "call",
+                  "target": "System.Type::GetTypeFromHandle"
+                },
+                {
+                  "offset": 45,
+                  "opcode": "call",
+                  "target": "System.Type::GetTypeFromHandle"
+                },
+                {
+                  "offset": 50,
+                  "opcode": "call",
+                  "target": "System.Type::op_Equality"
+                },
+                {
+                  "offset": 63,
+                  "opcode": "call",
+                  "target": ".InitEvents::Initial"
+                },
+                {
+                  "offset": 84,
+                  "opcode": "call",
+                  "target": "System.Type::GetTypeFromHandle"
+                },
+                {
+                  "offset": 89,
+                  "opcode": "callvirt",
+                  "target": "System.Type::get_FullName"
+                },
+                {
+                  "offset": 99,
+                  "opcode": "call",
+                  "target": "System.String::Concat"
+                },
+                {
+                  "offset": 109,
+                  "opcode": "call",
+                  "target": ".InitEvents::Initial"
+                }
+              ],
+              "exception_regions": [],
+              "name": ".cctor",
+              "token": 100663323,
+              "il_sha256": "e4203c45cbd9e4342597293a0c1eb481525c88fbc249af54211310fbe9461718",
+              "il_bytes": 116,
+              "il_hex": "72B1040070D00400001B281900000A6F0600000A72BF040070280800000AD00400001B281900000AD01B000001281900000A283200000A2D041F512B021F292804000006803300000A0072B1040070D00400001B281900000A6F0600000A72CF040070280800000A7E3300000A2804000006262A"
+            },
+            {
+              "calls": [
+                {
+                  "offset": 19,
+                  "opcode": "call",
+                  "target": ".InitEvents::Method"
+                }
+              ],
+              "exception_regions": [],
+              "name": "Next",
+              "token": 100663324,
+              "il_sha256": "1d802e5ed3337d3298001db6448ee55e0da16b6263aac526d0ffecbfc8181405",
+              "il_bytes": 29,
+              "il_hex": "0072DF0400707E3300000A175825803300000A28050000060A2B00062A"
+            }
+          ]
+        },
+        {
+          "ns": "AotInit",
+          "name": "Failed",
+          "token": 33554444,
+          "beforefieldinit": false,
+          "methods": [
+            {
+              "calls": [
+                {
+                  "offset": 7,
+                  "opcode": "call",
+                  "target": ".InitEvents::Initial"
+                },
+                {
+                  "offset": 18,
+                  "opcode": "newobj",
+                  "target": "System.InvalidOperationException::.ctor"
+                }
+              ],
+              "exception_regions": [],
+              "name": ".cctor",
+              "token": 100663325,
+              "il_sha256": "a045ecea380f3cc5e24f9dfb9e45343015bcde07899435e06c0b42e56aed5cef",
+              "il_bytes": 24,
+              "il_hex": "0072E9040070172804000006267203050070733400000A7A"
+            },
+            {
+              "calls": [
+                {
+                  "offset": 7,
+                  "opcode": "call",
+                  "target": ".InitEvents::Method"
+                }
+              ],
+              "exception_regions": [],
+              "name": "Ping",
+              "token": 100663326,
+              "il_sha256": "9d53e1cde551cd6beddbf04c75e9efb78bfb4f710640f92a802c3f2e8c93f3ed",
+              "il_bytes": 17,
+              "il_hex": "00728B0400701D28050000060A2B00062A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "HotUpdate.dll.bytes",
+      "sha256": "ef05a8e5232eafcc3b33ea1027fd47bc3b206615359186c5810b9a8671628031",
+      "types": [
+        {
+          "ns": "HotInit",
+          "name": "Cases",
+          "token": 33554435,
+          "beforefieldinit": true,
+          "methods": [
+            {
+              "calls": [
+                {
+                  "offset": 1,
+                  "opcode": "call",
+                  "target": "HotInit.Failed::Ping"
+                }
+              ],
+              "exception_regions": [],
+              "name": "AccessFailed",
+              "token": 100663299,
+              "il_sha256": "d6320a7d5be4b553eb67e585b0ab7acae1a63ad6c7be9602e2d09b7f4c5bc810",
+              "il_bytes": 8,
+              "il_hex": "002810000006262A"
+            },
+            {
+              "calls": [
+                {
+                  "offset": 7,
+                  "opcode": "call",
+                  "target": "System.String::op_Equality"
+                },
+                {
+                  "offset": 20,
+                  "opcode": "call",
+                  "target": "System.String::op_Equality"
+                },
+                {
+                  "offset": 33,
+                  "opcode": "call",
+                  "target": "System.String::op_Equality"
+                },
+                {
+                  "offset": 45,
+                  "opcode": "call",
+                  "target": "System.Type::GetTypeFromHandle"
+                },
+                {
+                  "offset": 57,
+                  "opcode": "call",
+                  "target": "System.Type::GetTypeFromHandle"
+                },
+                {
+                  "offset": 69,
+                  "opcode": "call",
+                  "target": "System.Type::GetTypeFromHandle"
+                },
+                {
+                  "offset": 81,
+                  "opcode": "call",
+                  "target": "System.Type::GetTypeFromHandle"
+                },
+                {
+                  "offset": 87,
+                  "opcode": "newobj",
+                  "target": ".InitRow::.ctor"
+                },
+                {
+                  "offset": 105,
+                  "opcode": "callvirt",
+                  "target": "System.Reflection.MemberInfo::get_Name"
+                },
+                {
+                  "offset": 117,
+                  "opcode": "callvirt",
+                  "target": "System.Type::get_Attributes"
+                },
+                {
+                  "offset": 138,
+                  "opcode": "callvirt",
+                  "target": "System.Type::get_TypeInitializer"
+                },
+                {
+                  "offset": 144,
+                  "opcode": "call",
+                  "target": "System.Reflection.ConstructorInfo::op_Inequality"
+                },
+                {
+                  "offset": 154,
+                  "opcode": "call",
+                  "target": ".InitEvents::Write"
+                },
+                {
+                  "offset": 166,
+                  "opcode": "call",
+                  "target": "System.String::op_Equality"
+                },
+                {
+                  "offset": 175,
+                  "opcode": "call",
+                  "target": "HotInit.Cases::RunStrict"
+                },
+                {
+                  "offset": 189,
+                  "opcode": "call",
+                  "target": "System.String::op_Equality"
+                },
+                {
+                  "offset": 198,
+                  "opcode": "call",
+                  "target": "HotInit.Cases::RunRelaxed"
+                },
+                {
+                  "offset": 212,
+                  "opcode": "call",
+                  "target": "System.String::op_Equality"
+                },
+                {
+                  "offset": 221,
+                  "opcode": "call",
+                  "target": "HotInit.Cases::RunGeneric"
+                },
+                {
+                  "offset": 235,
+                  "opcode": "call",
+                  "target": "System.String::op_Equality"
+                },
+                {
+                  "offset": 246,
+                  "opcode": "call",
+                  "target": "HotInit.Cases::RunFailed"
+                },
+                {
+                  "offset": 259,
+                  "opcode": "newobj",
+                  "target": "System.Exception::.ctor"
+                }
+              ],
+              "exception_regions": [],
+              "name": "Run",
+              "token": 100663300,
+              "il_sha256": "af88e517383694459cec5702a0d8dc5dd667ea5b56706615f10b7b8e1bb5192d",
+              "il_bytes": 266,
+              "il_hex": "00027201000070280900000A2D3E02720F000070280900000A2D2502721F000070280900000A2D0CD007000002280A00000A2B0AD006000002280A00000A2B0AD005000002280A00000A2B0AD004000002280A00000A0A730B00000A25722F0000707D0C00000A25066F0D00000A7D0E00000A25066F0F00000A20000010005F16FE037D1000000A25066F1100000A14281200000A7D1300000A281400000A00027201000070280900000A0B072C082805000006002B5202720F000070280900000A0C082C082806000006002B3B02721F000070280900000A0D092C082807000006002B24027239000070280900000A130411042C082808000006002B0B7247000070731500000A7A2A"
+            },
+            {
+              "calls": [
+                {
+                  "offset": 6,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 17,
+                  "opcode": "call",
+                  "target": "HotInit.Strict::Ping"
+                },
+                {
+                  "offset": 22,
+                  "opcode": "call",
+                  "target": ".InitEvents::Read"
+                },
+                {
+                  "offset": 33,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 49,
+                  "opcode": "call",
+                  "target": ".InitEvents::Read"
+                },
+                {
+                  "offset": 60,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 71,
+                  "opcode": "call",
+                  "target": "HotInit.Strict::Ping"
+                },
+                {
+                  "offset": 76,
+                  "opcode": "call",
+                  "target": ".InitEvents::Read"
+                }
+              ],
+              "exception_regions": [],
+              "name": "RunStrict",
+              "token": 100663301,
+              "il_sha256": "0fda3c4af412b70e6e32102924e5b0f68c6a089c1441cfe7cbd28300dcea8cd3",
+              "il_bytes": 83,
+              "il_hex": "007261000070281600000A00727B000070280A000006281700000A007287000070281600000A0072A10000707E01000004281700000A0072AD000070281600000A0072C7000070280A000006281700000A002A"
+            },
+            {
+              "calls": [
+                {
+                  "offset": 6,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 17,
+                  "opcode": "call",
+                  "target": "HotInit.Relaxed::Ping"
+                },
+                {
+                  "offset": 22,
+                  "opcode": "call",
+                  "target": ".InitEvents::Read"
+                },
+                {
+                  "offset": 33,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 49,
+                  "opcode": "call",
+                  "target": ".InitEvents::Read"
+                },
+                {
+                  "offset": 60,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 71,
+                  "opcode": "call",
+                  "target": "HotInit.Relaxed::Ping"
+                },
+                {
+                  "offset": 76,
+                  "opcode": "call",
+                  "target": ".InitEvents::Read"
+                }
+              ],
+              "exception_regions": [],
+              "name": "RunRelaxed",
+              "token": 100663302,
+              "il_sha256": "9fbac2f1d3473c3eac0a3b9d055180eeb32b618e4010d2dafa7f4e797dd682aa",
+              "il_bytes": 83,
+              "il_hex": "007261000070281600000A00727B000070280B000006281700000A007287000070281600000A0072A10000707E02000004281700000A0072AD000070281600000A0072C7000070280B000006281700000A002A"
+            },
+            {
+              "calls": [
+                {
+                  "offset": 6,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 17,
+                  "opcode": "call",
+                  "target": "TypeSpecification:0x1B000001::Next"
+                },
+                {
+                  "offset": 22,
+                  "opcode": "call",
+                  "target": ".InitEvents::Read"
+                },
+                {
+                  "offset": 33,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 44,
+                  "opcode": "call",
+                  "target": "TypeSpecification:0x1B000002::Next"
+                },
+                {
+                  "offset": 49,
+                  "opcode": "call",
+                  "target": ".InitEvents::Read"
+                },
+                {
+                  "offset": 60,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 71,
+                  "opcode": "call",
+                  "target": "TypeSpecification:0x1B000001::Next"
+                },
+                {
+                  "offset": 76,
+                  "opcode": "call",
+                  "target": ".InitEvents::Read"
+                },
+                {
+                  "offset": 87,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 98,
+                  "opcode": "call",
+                  "target": "TypeSpecification:0x1B000002::Next"
+                },
+                {
+                  "offset": 103,
+                  "opcode": "call",
+                  "target": ".InitEvents::Read"
+                }
+              ],
+              "exception_regions": [],
+              "name": "RunGeneric",
+              "token": 100663303,
+              "il_sha256": "d9081b9d3b813a433810e4d1c460036da8be09417ed23dabe0a459205b6e56d6",
+              "il_bytes": 110,
+              "il_hex": "0072D3000070281600000A0072EB000070281800000A281700000A0072F5000070281600000A007213010070281900000A281700000A007223010070281600000A00723B010070281800000A281700000A007245010070281600000A007263010070281900000A281700000A002A"
+            },
+            {
+              "calls": [
+                {
+                  "offset": 13,
+                  "opcode": "call",
+                  "target": "System.Int32::ToString"
+                },
+                {
+                  "offset": 18,
+                  "opcode": "call",
+                  "target": "System.String::Concat"
+                },
+                {
+                  "offset": 23,
+                  "opcode": "call",
+                  "target": ".InitEvents::Stage"
+                },
+                {
+                  "offset": 30,
+                  "opcode": "call",
+                  "target": "HotInit.Failed::Ping"
+                },
+                {
+                  "offset": 41,
+                  "opcode": "newobj",
+                  "target": "System.Exception::.ctor"
+                },
+                {
+                  "offset": 56,
+                  "opcode": "call",
+                  "target": "System.Int32::ToString"
+                },
+                {
+                  "offset": 61,
+                  "opcode": "call",
+                  "target": "System.String::Concat"
+                },
+                {
+                  "offset": 72,
+                  "opcode": "call",
+                  "target": ".InitEvents::Caught"
+                }
+              ],
+              "exception_regions": [
+                {
+                  "kind": "Catch",
+                  "try_start": 29,
+                  "try_length": 18,
+                  "handler_start": 47,
+                  "handler_length": 34,
+                  "catch_type": "System.TypeInitializationException"
+                }
+              ],
+              "name": "RunFailed",
+              "token": 100663304,
+              "il_sha256": "3c18e48f4fa7e7eaf37ac628bb8c3da88582531ad37255f90bc86a82e4706344",
+              "il_bytes": 98,
+              "il_hex": "00170A2B510072730100701200281A00000A281B00000A281600000A0000281000000626728B010070731500000A7A0B0072DB0100701200281A00000A281B00000A0772E5010070281C00000A0000DE00000617580A0618FE0216FE010C082DA42A"
+            }
+          ]
+        },
+        {
+          "ns": "HotInit",
+          "name": "Strict",
+          "token": 33554436,
+          "beforefieldinit": false,
+          "methods": [
+            {
+              "calls": [
+                {
+                  "offset": 7,
+                  "opcode": "call",
+                  "target": ".InitEvents::Initial"
+                },
+                {
+                  "offset": 28,
+                  "opcode": "call",
+                  "target": ".InitEvents::Initial"
+                }
+              ],
+              "exception_regions": [],
+              "name": ".cctor",
+              "token": 100663305,
+              "il_sha256": "1aad32fb23d54720bedd32be5257c9f20fe646589b01f99778545f9ba5295cb4",
+              "il_bytes": 35,
+              "il_hex": "72F30100701F29281D00000A800100000400720D0200707E01000004281D00000A262A"
+            },
+            {
+              "calls": [
+                {
+                  "offset": 7,
+                  "opcode": "call",
+                  "target": ".InitEvents::Method"
+                }
+              ],
+              "exception_regions": [],
+              "name": "Ping",
+              "token": 100663306,
+              "il_sha256": "67205b25b30df17d3683e959d5cf5dff0bb74f81b3a6566ae016528586688d2d",
+              "il_bytes": 17,
+              "il_hex": "0072270200701D281E00000A0A2B00062A"
+            }
+          ]
+        },
+        {
+          "ns": "HotInit",
+          "name": "Relaxed",
+          "token": 33554437,
+          "beforefieldinit": true,
+          "methods": [
+            {
+              "calls": [
+                {
+                  "offset": 7,
+                  "opcode": "call",
+                  "target": ".InitEvents::Method"
+                }
+              ],
+              "exception_regions": [],
+              "name": "Ping",
+              "token": 100663307,
+              "il_sha256": "67205b25b30df17d3683e959d5cf5dff0bb74f81b3a6566ae016528586688d2d",
+              "il_bytes": 17,
+              "il_hex": "0072270200701D281E00000A0A2B00062A"
+            },
+            {
+              "calls": [
+                {
+                  "offset": 7,
+                  "opcode": "call",
+                  "target": ".InitEvents::Initial"
+                }
+              ],
+              "exception_regions": [],
+              "name": ".cctor",
+              "token": 100663308,
+              "il_sha256": "cd93b3ca46b5f24e44f09713408dfe18c7b17f8a73bbff309c3851fcd8560286",
+              "il_bytes": 18,
+              "il_hex": "72310200701F29281D00000A80020000042A"
+            }
+          ]
+        },
+        {
+          "ns": "HotInit",
+          "name": "Cache`1",
+          "token": 33554438,
+          "beforefieldinit": false,
+          "methods": [
+            {
+              "calls": [
+                {
+                  "offset": 10,
+                  "opcode": "call",
+                  "target": "System.Type::GetTypeFromHandle"
+                },
+                {
+                  "offset": 15,
+                  "opcode": "callvirt",
+                  "target": "System.Type::get_FullName"
+                },
+                {
+                  "offset": 25,
+                  "opcode": "call",
+                  "target": "System.String::Concat"
+                },
+                {
+                  "offset": 35,
+                  "opcode": "call",
+                  "target": "System.Type::GetTypeFromHandle"
+                },
+                {
+                  "offset": 45,
+                  "opcode": "call",
+                  "target": "System.Type::GetTypeFromHandle"
+                },
+                {
+                  "offset": 50,
+                  "opcode": "call",
+                  "target": "System.Type::op_Equality"
+                },
+                {
+                  "offset": 63,
+                  "opcode": "call",
+                  "target": ".InitEvents::Initial"
+                },
+                {
+                  "offset": 84,
+                  "opcode": "call",
+                  "target": "System.Type::GetTypeFromHandle"
+                },
+                {
+                  "offset": 89,
+                  "opcode": "callvirt",
+                  "target": "System.Type::get_FullName"
+                },
+                {
+                  "offset": 99,
+                  "opcode": "call",
+                  "target": "System.String::Concat"
+                },
+                {
+                  "offset": 109,
+                  "opcode": "call",
+                  "target": ".InitEvents::Initial"
+                }
+              ],
+              "exception_regions": [],
+              "name": ".cctor",
+              "token": 100663309,
+              "il_sha256": "140c1218fe29628828aaa2ec9077832c0a28a6129fbdc65c5b1ce8da84677b8e",
+              "il_bytes": 116,
+              "il_hex": "724D020070D00300001B280A00000A6F1F00000A725B020070282000000AD00300001B280A00000AD019000001280A00000A282100000A2D041F512B021F29281D00000A802200000A00724D020070D00300001B280A00000A6F1F00000A726B020070282000000A7E2200000A281D00000A262A"
+            },
+            {
+              "calls": [
+                {
+                  "offset": 19,
+                  "opcode": "call",
+                  "target": ".InitEvents::Method"
+                }
+              ],
+              "exception_regions": [],
+              "name": "Next",
+              "token": 100663310,
+              "il_sha256": "82473314259236730f1d2cd338dbbcb161ec9bfe5b066bf75c361ef46cb0d6e6",
+              "il_bytes": 29,
+              "il_hex": "00727B0200707E2200000A175825802200000A281E00000A0A2B00062A"
+            }
+          ]
+        },
+        {
+          "ns": "HotInit",
+          "name": "Failed",
+          "token": 33554439,
+          "beforefieldinit": false,
+          "methods": [
+            {
+              "calls": [
+                {
+                  "offset": 7,
+                  "opcode": "call",
+                  "target": ".InitEvents::Initial"
+                },
+                {
+                  "offset": 18,
+                  "opcode": "newobj",
+                  "target": "System.InvalidOperationException::.ctor"
+                }
+              ],
+              "exception_regions": [],
+              "name": ".cctor",
+              "token": 100663311,
+              "il_sha256": "a19ca0d913f85d7688333c4641bf06ffd13efa68ec98b86c7ad78c56443b557d",
+              "il_bytes": 24,
+              "il_hex": "00728502007017281D00000A26729F020070732300000A7A"
+            },
+            {
+              "calls": [
+                {
+                  "offset": 7,
+                  "opcode": "call",
+                  "target": ".InitEvents::Method"
+                }
+              ],
+              "exception_regions": [],
+              "name": "Ping",
+              "token": 100663312,
+              "il_sha256": "67205b25b30df17d3683e959d5cf5dff0bb74f81b3a6566ae016528586688d2d",
+              "il_bytes": 17,
+              "il_hex": "0072270200701D281E00000A0A2B00062A"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hot_update_excluded_from_aot": true,
+  "raw_log_sha256": {
+    "aot-strict-1.log": "a8fe33c1afee029adf1bba2455a7676619a1c76bb4d840ce622ecc9be960db21",
+    "aot-strict-2.log": "652de30e758b1321484f9a6e36beb912c23bf26482d1fd211a2f192a7f7e22fc",
+    "aot-strict-3.log": "d9811cfe3eac439105d59787bfcbc85299ec1054c926c0141bc923766787d6d1",
+    "aot-relaxed-1.log": "1bd647ed4b00b9d1d0544504ac97b03f93e0e6aca00a79bd9fdda1e19369eeca",
+    "aot-relaxed-2.log": "cc95d30f93d22152e306a5172a4cd95f70a447eff2a2d96ed213d376d135936a",
+    "aot-relaxed-3.log": "d3321e5fe0088ea9831b82a302f47bb0b4e7ecccba15d852e110aee7cf2bb09b",
+    "aot-generic-1.log": "17cdfd898b33a5773adf6327e735bd1933d963c42380c9b55f4073efbc436d5e",
+    "aot-generic-2.log": "eb285211b748d587bfa557d7fb846ce931133d48edc7f56c1a554a8aa34c5a4c",
+    "aot-generic-3.log": "0b12d4269de9d7843dfb3588fc919175215ecfda8f0fbce2533b72ff10019213",
+    "aot-failed-1.log": "65ab648434f823f71604f51d6bd9942dca32690ed640e1ff1c37501077675ba1",
+    "aot-failed-2.log": "fda0967667340d50d213b78ad1a95edf302993102513efa08ae44d4e9b825a16",
+    "aot-failed-3.log": "7cf92e248a72e85e4402d66be5cd40ab6d46dd0baf6999faf7c86cd5841c561f",
+    "aot-failed-outer-1.log": "a7ec43dd10d1ec9d545c5862afb07ca7fe19b7eaf73e5284aa10820ea961a3c9",
+    "aot-failed-outer-2.log": "762b8f0027b1bfbf71cdc2097440451356e07ae9751cb68bd017d2910dac9638",
+    "aot-failed-outer-3.log": "9e0be35a6ec0f6caab07948754e714e1898849ff21a2833c737447ece57d836e",
+    "hot-strict-1.log": "387b41ea9baf91e70ab62bcf2433fb5af4c04d726bda3e29f744b42ab6ed192f",
+    "hot-strict-2.log": "8019acf2cc987e552f88fbf13f56d75f6a9f1bc77f79079e6e15ccef773efd10",
+    "hot-strict-3.log": "d0efa5715bb4077fc39b484bbd0d8e719f831246fd448e41a4f3b09b952a626f",
+    "hot-relaxed-1.log": "67128c927950b1536f6e5f73a5d70eb0421f92ad709a1d040f6a7f4a020a0969",
+    "hot-relaxed-2.log": "f073da76ccff0d71c49aef8606c8c356a522047c4f2a58ee94a435a7f6eb72ca",
+    "hot-relaxed-3.log": "ca4407484742841f9cb1bfa46dd194d178df63bd6e5c17216894ef99a36c9f7c",
+    "hot-generic-1.log": "083367f8ecc1f941d9d0d770ad07c53f08ce081c8968294a35c8f92a363d307c",
+    "hot-generic-2.log": "fc84edc15b83dfb696a44bf0c7ee5d10ec5bb74179ec4cd27ebbcab22b172674",
+    "hot-generic-3.log": "4848bd833adace00acdb2aa4ce8d2be8e506290f3efc74702515c88787124310",
+    "hot-failed-1.log": "2c91fd9346adc1f7d4f0bb83631b0f8d709e001e98f7cce3c6f0484bed8f9161",
+    "hot-failed-2.log": "3ad91b85e00497d3beda6948c06c94bd551da07cb094cfe28890b26e18fd1b80",
+    "hot-failed-3.log": "29fdde2ef1578cabcc314726961dd9c6614b77cae19356cb32c5b4aa743ef378",
+    "hot-failed-outer-1.log": "449386b150cb678c4663bf2cc3cb6ead5263103f630bb0d98fa422650f7a91da",
+    "hot-failed-outer-2.log": "67d34e18a5a48e9d1cd8e2f4603eebd3a6d9e89598d5ab3e6fcdfe944674f3df",
+    "hot-failed-outer-3.log": "faf0307d83558ba27ec527392273264fbc4c9e63b249deecf9fd09ca87ff5128",
+    "run-results.json": "dd1d90c1aaeb153f98ddcdbb5f228c1629f105a707375e1b6f63612743b857de"
+  },
+  "trace_log_sha256": {
+    "type-init.cdb": "6d2f1cad8125bd482f257d7485b09ee0a34bbbf3b885a07638e437d58aec698f",
+    "trace-strict.log": "7e1767e85284f00efff618e6a15109d4ed22a709730306022150d3f2e51adf09",
+    "trace-strict-player.log": "afc4d50a61e0f1f04cf77de605a7877995c1317f0812629bf488bf6d89936070",
+    "trace-failed.log": "d714bc764cbcb50fe518afedde1e7e9b6ffeea762328e910315b2b292e43a59b",
+    "trace-failed-player.log": "66d62f119bdeb879d55b69ac0d51a1aed8b16149fe8b7064910205fdfc499626",
+    "trace-results.json": "4c8c1babe3d3f6e42aa2815434be82062e528dc72cfc396883b7e0b4644a0158"
+  },
+  "native_trace": [
+    {
+      "mode": "strict",
+      "pid": 106804,
+      "exit_code": 0,
+      "observations": {
+        "side": "hot",
+        "mode": "strict",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Strict.field",
+            "value": 41,
+            "after_stage": "before_call1",
+            "seq": 7
+          },
+          {
+            "subject": "Strict.cctor",
+            "value": 41,
+            "after_stage": "before_call1",
+            "seq": 8
+          }
+        ],
+        "reads": {
+          "call1": 7,
+          "field": 41,
+          "call2": 7
+        },
+        "exceptions": []
+      },
+      "native": {
+        "cctor_transforms": 1,
+        "cctor_execute_entries": 1,
+        "ping_transforms": 1,
+        "ping_prepare_entries": 1,
+        "ping_execute_function_entries": 0,
+        "same_method_identity": true,
+        "ping_cache_ready_at_end": true,
+        "ping_prepared_before_cctor": true,
+        "cctor_class_init_stack": true,
+        "limit": "Execute native function entry count does not count interpreted internal calls; use own method events for body execution."
+      },
+      "event_file": "trace-strict-events.jsonl",
+      "event_sha256": "1b2c1f6dc81a66aa7f9ab6f1b0a465e0b5e87d2e17d86266f52dc6923ddb3bb9"
+    },
+    {
+      "mode": "failed",
+      "pid": 156740,
+      "exit_code": 2,
+      "observations": {
+        "side": "hot",
+        "mode": "failed",
+        "classification": "escaped_first_access",
+        "semantic_match": false,
+        "initializers": [
+          {
+            "subject": "Failed.cctor",
+            "value": 1,
+            "after_stage": "before_call1",
+            "seq": 7
+          }
+        ],
+        "reads": {},
+        "exceptions": [
+          {
+            "subject": "outer_entry",
+            "type": "System.Reflection.TargetInvocationException",
+            "detail": "System.Reflection.TargetInvocationException>System.TypeInitializationException>System.InvalidOperationException"
+          }
+        ]
+      },
+      "native": {
+        "cctor_transforms": 1,
+        "cctor_execute_entries": 1,
+        "ping_transforms": 1,
+        "ping_prepare_entries": 1,
+        "ping_execute_function_entries": 0,
+        "same_method_identity": true,
+        "ping_cache_ready_at_end": true,
+        "ping_prepared_before_cctor": true,
+        "cctor_class_init_stack": true,
+        "limit": "Execute native function entry count does not count interpreted internal calls; use own method events for body execution."
+      },
+      "event_file": "trace-failed-events.jsonl",
+      "event_sha256": "c30a1344ed34b320d16ad1b1ce54d412fab9adb27855540228abcd7990c838a9"
+    }
+  ],
+  "runs": [
+    {
+      "side": "aot",
+      "mode": "strict",
+      "run": 1,
+      "pid": 66240,
+      "exit_code": 0,
+      "observations": {
+        "side": "aot",
+        "mode": "strict",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Strict.field",
+            "value": 41,
+            "after_stage": "before_call1",
+            "seq": 7
+          },
+          {
+            "subject": "Strict.cctor",
+            "value": 41,
+            "after_stage": "before_call1",
+            "seq": 8
+          }
+        ],
+        "reads": {
+          "call1": 7,
+          "field": 41,
+          "call2": 7
+        },
+        "exceptions": []
+      },
+      "event_file": "aot-strict-1-events.jsonl",
+      "event_sha256": "ddb24a9e29f0f38853cc1992059d5d1db64b29778c4c8c26d94fa08828419d98"
+    },
+    {
+      "side": "aot",
+      "mode": "strict",
+      "run": 2,
+      "pid": 114124,
+      "exit_code": 0,
+      "observations": {
+        "side": "aot",
+        "mode": "strict",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Strict.field",
+            "value": 41,
+            "after_stage": "before_call1",
+            "seq": 7
+          },
+          {
+            "subject": "Strict.cctor",
+            "value": 41,
+            "after_stage": "before_call1",
+            "seq": 8
+          }
+        ],
+        "reads": {
+          "call1": 7,
+          "field": 41,
+          "call2": 7
+        },
+        "exceptions": []
+      },
+      "event_file": "aot-strict-2-events.jsonl",
+      "event_sha256": "ddb24a9e29f0f38853cc1992059d5d1db64b29778c4c8c26d94fa08828419d98"
+    },
+    {
+      "side": "aot",
+      "mode": "strict",
+      "run": 3,
+      "pid": 108768,
+      "exit_code": 0,
+      "observations": {
+        "side": "aot",
+        "mode": "strict",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Strict.field",
+            "value": 41,
+            "after_stage": "before_call1",
+            "seq": 7
+          },
+          {
+            "subject": "Strict.cctor",
+            "value": 41,
+            "after_stage": "before_call1",
+            "seq": 8
+          }
+        ],
+        "reads": {
+          "call1": 7,
+          "field": 41,
+          "call2": 7
+        },
+        "exceptions": []
+      },
+      "event_file": "aot-strict-3-events.jsonl",
+      "event_sha256": "ddb24a9e29f0f38853cc1992059d5d1db64b29778c4c8c26d94fa08828419d98"
+    },
+    {
+      "side": "aot",
+      "mode": "relaxed",
+      "run": 1,
+      "pid": 140168,
+      "exit_code": 0,
+      "observations": {
+        "side": "aot",
+        "mode": "relaxed",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Relaxed.field",
+            "value": 41,
+            "after_stage": "before_call1",
+            "seq": 7
+          }
+        ],
+        "reads": {
+          "call1": 7,
+          "field": 41,
+          "call2": 7
+        },
+        "exceptions": []
+      },
+      "event_file": "aot-relaxed-1-events.jsonl",
+      "event_sha256": "e28f729a16c564f5d1cfc0b3147c27c31db5ae66958141e7db28bf23a5812d70"
+    },
+    {
+      "side": "aot",
+      "mode": "relaxed",
+      "run": 2,
+      "pid": 101092,
+      "exit_code": 0,
+      "observations": {
+        "side": "aot",
+        "mode": "relaxed",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Relaxed.field",
+            "value": 41,
+            "after_stage": "before_call1",
+            "seq": 7
+          }
+        ],
+        "reads": {
+          "call1": 7,
+          "field": 41,
+          "call2": 7
+        },
+        "exceptions": []
+      },
+      "event_file": "aot-relaxed-2-events.jsonl",
+      "event_sha256": "e28f729a16c564f5d1cfc0b3147c27c31db5ae66958141e7db28bf23a5812d70"
+    },
+    {
+      "side": "aot",
+      "mode": "relaxed",
+      "run": 3,
+      "pid": 138348,
+      "exit_code": 0,
+      "observations": {
+        "side": "aot",
+        "mode": "relaxed",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Relaxed.field",
+            "value": 41,
+            "after_stage": "before_call1",
+            "seq": 7
+          }
+        ],
+        "reads": {
+          "call1": 7,
+          "field": 41,
+          "call2": 7
+        },
+        "exceptions": []
+      },
+      "event_file": "aot-relaxed-3-events.jsonl",
+      "event_sha256": "e28f729a16c564f5d1cfc0b3147c27c31db5ae66958141e7db28bf23a5812d70"
+    },
+    {
+      "side": "aot",
+      "mode": "generic",
+      "run": 1,
+      "pid": 133600,
+      "exit_code": 0,
+      "observations": {
+        "side": "aot",
+        "mode": "generic",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Cache<System.Int32>.field",
+            "value": 41,
+            "after_stage": "before_int1",
+            "seq": 7
+          },
+          {
+            "subject": "Cache<System.Int32>.cctor",
+            "value": 41,
+            "after_stage": "before_int1",
+            "seq": 8
+          },
+          {
+            "subject": "Cache<System.String>.field",
+            "value": 81,
+            "after_stage": "before_string1",
+            "seq": 12
+          },
+          {
+            "subject": "Cache<System.String>.cctor",
+            "value": 81,
+            "after_stage": "before_string1",
+            "seq": 13
+          }
+        ],
+        "reads": {
+          "int1": 42,
+          "string1": 82,
+          "int2": 43,
+          "string2": 83
+        },
+        "exceptions": []
+      },
+      "event_file": "aot-generic-1-events.jsonl",
+      "event_sha256": "646add7ca33152cbd98b5554e70e7aaa9da2d11baf5d08a12b3680ce94d1691b"
+    },
+    {
+      "side": "aot",
+      "mode": "generic",
+      "run": 2,
+      "pid": 80264,
+      "exit_code": 0,
+      "observations": {
+        "side": "aot",
+        "mode": "generic",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Cache<System.Int32>.field",
+            "value": 41,
+            "after_stage": "before_int1",
+            "seq": 7
+          },
+          {
+            "subject": "Cache<System.Int32>.cctor",
+            "value": 41,
+            "after_stage": "before_int1",
+            "seq": 8
+          },
+          {
+            "subject": "Cache<System.String>.field",
+            "value": 81,
+            "after_stage": "before_string1",
+            "seq": 12
+          },
+          {
+            "subject": "Cache<System.String>.cctor",
+            "value": 81,
+            "after_stage": "before_string1",
+            "seq": 13
+          }
+        ],
+        "reads": {
+          "int1": 42,
+          "string1": 82,
+          "int2": 43,
+          "string2": 83
+        },
+        "exceptions": []
+      },
+      "event_file": "aot-generic-2-events.jsonl",
+      "event_sha256": "646add7ca33152cbd98b5554e70e7aaa9da2d11baf5d08a12b3680ce94d1691b"
+    },
+    {
+      "side": "aot",
+      "mode": "generic",
+      "run": 3,
+      "pid": 169908,
+      "exit_code": 0,
+      "observations": {
+        "side": "aot",
+        "mode": "generic",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Cache<System.Int32>.field",
+            "value": 41,
+            "after_stage": "before_int1",
+            "seq": 7
+          },
+          {
+            "subject": "Cache<System.Int32>.cctor",
+            "value": 41,
+            "after_stage": "before_int1",
+            "seq": 8
+          },
+          {
+            "subject": "Cache<System.String>.field",
+            "value": 81,
+            "after_stage": "before_string1",
+            "seq": 12
+          },
+          {
+            "subject": "Cache<System.String>.cctor",
+            "value": 81,
+            "after_stage": "before_string1",
+            "seq": 13
+          }
+        ],
+        "reads": {
+          "int1": 42,
+          "string1": 82,
+          "int2": 43,
+          "string2": 83
+        },
+        "exceptions": []
+      },
+      "event_file": "aot-generic-3-events.jsonl",
+      "event_sha256": "646add7ca33152cbd98b5554e70e7aaa9da2d11baf5d08a12b3680ce94d1691b"
+    },
+    {
+      "side": "aot",
+      "mode": "failed",
+      "run": 1,
+      "pid": 175604,
+      "exit_code": 0,
+      "observations": {
+        "side": "aot",
+        "mode": "failed",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Failed.cctor",
+            "value": 1,
+            "after_stage": "before_call1",
+            "seq": 7
+          }
+        ],
+        "reads": {},
+        "exceptions": [
+          {
+            "subject": "call1",
+            "type": "System.TypeInitializationException",
+            "detail": "System.TypeInitializationException>System.InvalidOperationException"
+          },
+          {
+            "subject": "call2",
+            "type": "System.TypeInitializationException",
+            "detail": "System.TypeInitializationException>System.InvalidOperationException"
+          }
+        ]
+      },
+      "event_file": "aot-failed-1-events.jsonl",
+      "event_sha256": "08acf752f856d0b20b18bcdee3fb51e9f43f6a9601c668c81062a8a98b27c690"
+    },
+    {
+      "side": "aot",
+      "mode": "failed",
+      "run": 2,
+      "pid": 28308,
+      "exit_code": 0,
+      "observations": {
+        "side": "aot",
+        "mode": "failed",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Failed.cctor",
+            "value": 1,
+            "after_stage": "before_call1",
+            "seq": 7
+          }
+        ],
+        "reads": {},
+        "exceptions": [
+          {
+            "subject": "call1",
+            "type": "System.TypeInitializationException",
+            "detail": "System.TypeInitializationException>System.InvalidOperationException"
+          },
+          {
+            "subject": "call2",
+            "type": "System.TypeInitializationException",
+            "detail": "System.TypeInitializationException>System.InvalidOperationException"
+          }
+        ]
+      },
+      "event_file": "aot-failed-2-events.jsonl",
+      "event_sha256": "08acf752f856d0b20b18bcdee3fb51e9f43f6a9601c668c81062a8a98b27c690"
+    },
+    {
+      "side": "aot",
+      "mode": "failed",
+      "run": 3,
+      "pid": 172792,
+      "exit_code": 0,
+      "observations": {
+        "side": "aot",
+        "mode": "failed",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Failed.cctor",
+            "value": 1,
+            "after_stage": "before_call1",
+            "seq": 7
+          }
+        ],
+        "reads": {},
+        "exceptions": [
+          {
+            "subject": "call1",
+            "type": "System.TypeInitializationException",
+            "detail": "System.TypeInitializationException>System.InvalidOperationException"
+          },
+          {
+            "subject": "call2",
+            "type": "System.TypeInitializationException",
+            "detail": "System.TypeInitializationException>System.InvalidOperationException"
+          }
+        ]
+      },
+      "event_file": "aot-failed-3-events.jsonl",
+      "event_sha256": "08acf752f856d0b20b18bcdee3fb51e9f43f6a9601c668c81062a8a98b27c690"
+    },
+    {
+      "side": "aot",
+      "mode": "failed-outer",
+      "run": 1,
+      "pid": 158696,
+      "exit_code": 0,
+      "observations": {
+        "side": "aot",
+        "mode": "failed-outer",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Failed.cctor",
+            "value": 1,
+            "after_stage": "before_call1",
+            "seq": 7
+          }
+        ],
+        "reads": {},
+        "exceptions": [
+          {
+            "subject": "call1",
+            "type": "System.Reflection.TargetInvocationException",
+            "detail": "System.Reflection.TargetInvocationException>System.TypeInitializationException>System.InvalidOperationException"
+          },
+          {
+            "subject": "call2",
+            "type": "System.Reflection.TargetInvocationException",
+            "detail": "System.Reflection.TargetInvocationException>System.TypeInitializationException>System.InvalidOperationException"
+          }
+        ]
+      },
+      "event_file": "aot-failed-outer-1-events.jsonl",
+      "event_sha256": "15433b3eaa586c3ef279326e0e8ada80ba35a0d5b83a625716cd85d29dcfe596"
+    },
+    {
+      "side": "aot",
+      "mode": "failed-outer",
+      "run": 2,
+      "pid": 149020,
+      "exit_code": 0,
+      "observations": {
+        "side": "aot",
+        "mode": "failed-outer",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Failed.cctor",
+            "value": 1,
+            "after_stage": "before_call1",
+            "seq": 7
+          }
+        ],
+        "reads": {},
+        "exceptions": [
+          {
+            "subject": "call1",
+            "type": "System.Reflection.TargetInvocationException",
+            "detail": "System.Reflection.TargetInvocationException>System.TypeInitializationException>System.InvalidOperationException"
+          },
+          {
+            "subject": "call2",
+            "type": "System.Reflection.TargetInvocationException",
+            "detail": "System.Reflection.TargetInvocationException>System.TypeInitializationException>System.InvalidOperationException"
+          }
+        ]
+      },
+      "event_file": "aot-failed-outer-2-events.jsonl",
+      "event_sha256": "15433b3eaa586c3ef279326e0e8ada80ba35a0d5b83a625716cd85d29dcfe596"
+    },
+    {
+      "side": "aot",
+      "mode": "failed-outer",
+      "run": 3,
+      "pid": 58448,
+      "exit_code": 0,
+      "observations": {
+        "side": "aot",
+        "mode": "failed-outer",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Failed.cctor",
+            "value": 1,
+            "after_stage": "before_call1",
+            "seq": 7
+          }
+        ],
+        "reads": {},
+        "exceptions": [
+          {
+            "subject": "call1",
+            "type": "System.Reflection.TargetInvocationException",
+            "detail": "System.Reflection.TargetInvocationException>System.TypeInitializationException>System.InvalidOperationException"
+          },
+          {
+            "subject": "call2",
+            "type": "System.Reflection.TargetInvocationException",
+            "detail": "System.Reflection.TargetInvocationException>System.TypeInitializationException>System.InvalidOperationException"
+          }
+        ]
+      },
+      "event_file": "aot-failed-outer-3-events.jsonl",
+      "event_sha256": "15433b3eaa586c3ef279326e0e8ada80ba35a0d5b83a625716cd85d29dcfe596"
+    },
+    {
+      "side": "hot",
+      "mode": "strict",
+      "run": 1,
+      "pid": 53148,
+      "exit_code": 0,
+      "observations": {
+        "side": "hot",
+        "mode": "strict",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Strict.field",
+            "value": 41,
+            "after_stage": "before_call1",
+            "seq": 7
+          },
+          {
+            "subject": "Strict.cctor",
+            "value": 41,
+            "after_stage": "before_call1",
+            "seq": 8
+          }
+        ],
+        "reads": {
+          "call1": 7,
+          "field": 41,
+          "call2": 7
+        },
+        "exceptions": []
+      },
+      "event_file": "hot-strict-1-events.jsonl",
+      "event_sha256": "1b2c1f6dc81a66aa7f9ab6f1b0a465e0b5e87d2e17d86266f52dc6923ddb3bb9"
+    },
+    {
+      "side": "hot",
+      "mode": "strict",
+      "run": 2,
+      "pid": 172744,
+      "exit_code": 0,
+      "observations": {
+        "side": "hot",
+        "mode": "strict",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Strict.field",
+            "value": 41,
+            "after_stage": "before_call1",
+            "seq": 7
+          },
+          {
+            "subject": "Strict.cctor",
+            "value": 41,
+            "after_stage": "before_call1",
+            "seq": 8
+          }
+        ],
+        "reads": {
+          "call1": 7,
+          "field": 41,
+          "call2": 7
+        },
+        "exceptions": []
+      },
+      "event_file": "hot-strict-2-events.jsonl",
+      "event_sha256": "1b2c1f6dc81a66aa7f9ab6f1b0a465e0b5e87d2e17d86266f52dc6923ddb3bb9"
+    },
+    {
+      "side": "hot",
+      "mode": "strict",
+      "run": 3,
+      "pid": 156160,
+      "exit_code": 0,
+      "observations": {
+        "side": "hot",
+        "mode": "strict",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Strict.field",
+            "value": 41,
+            "after_stage": "before_call1",
+            "seq": 7
+          },
+          {
+            "subject": "Strict.cctor",
+            "value": 41,
+            "after_stage": "before_call1",
+            "seq": 8
+          }
+        ],
+        "reads": {
+          "call1": 7,
+          "field": 41,
+          "call2": 7
+        },
+        "exceptions": []
+      },
+      "event_file": "hot-strict-3-events.jsonl",
+      "event_sha256": "1b2c1f6dc81a66aa7f9ab6f1b0a465e0b5e87d2e17d86266f52dc6923ddb3bb9"
+    },
+    {
+      "side": "hot",
+      "mode": "relaxed",
+      "run": 1,
+      "pid": 108800,
+      "exit_code": 0,
+      "observations": {
+        "side": "hot",
+        "mode": "relaxed",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Relaxed.field",
+            "value": 41,
+            "after_stage": "before_call1",
+            "seq": 7
+          }
+        ],
+        "reads": {
+          "call1": 7,
+          "field": 41,
+          "call2": 7
+        },
+        "exceptions": []
+      },
+      "event_file": "hot-relaxed-1-events.jsonl",
+      "event_sha256": "0383b4d2a94a3d439390513271d4f8687ff1589c5c2695cf701b3065bc8d2c40"
+    },
+    {
+      "side": "hot",
+      "mode": "relaxed",
+      "run": 2,
+      "pid": 104400,
+      "exit_code": 0,
+      "observations": {
+        "side": "hot",
+        "mode": "relaxed",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Relaxed.field",
+            "value": 41,
+            "after_stage": "before_call1",
+            "seq": 7
+          }
+        ],
+        "reads": {
+          "call1": 7,
+          "field": 41,
+          "call2": 7
+        },
+        "exceptions": []
+      },
+      "event_file": "hot-relaxed-2-events.jsonl",
+      "event_sha256": "0383b4d2a94a3d439390513271d4f8687ff1589c5c2695cf701b3065bc8d2c40"
+    },
+    {
+      "side": "hot",
+      "mode": "relaxed",
+      "run": 3,
+      "pid": 144568,
+      "exit_code": 0,
+      "observations": {
+        "side": "hot",
+        "mode": "relaxed",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Relaxed.field",
+            "value": 41,
+            "after_stage": "before_call1",
+            "seq": 7
+          }
+        ],
+        "reads": {
+          "call1": 7,
+          "field": 41,
+          "call2": 7
+        },
+        "exceptions": []
+      },
+      "event_file": "hot-relaxed-3-events.jsonl",
+      "event_sha256": "0383b4d2a94a3d439390513271d4f8687ff1589c5c2695cf701b3065bc8d2c40"
+    },
+    {
+      "side": "hot",
+      "mode": "generic",
+      "run": 1,
+      "pid": 153580,
+      "exit_code": 0,
+      "observations": {
+        "side": "hot",
+        "mode": "generic",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Cache<System.Int32>.field",
+            "value": 41,
+            "after_stage": "before_int1",
+            "seq": 7
+          },
+          {
+            "subject": "Cache<System.Int32>.cctor",
+            "value": 41,
+            "after_stage": "before_int1",
+            "seq": 8
+          },
+          {
+            "subject": "Cache<System.String>.field",
+            "value": 81,
+            "after_stage": "before_string1",
+            "seq": 12
+          },
+          {
+            "subject": "Cache<System.String>.cctor",
+            "value": 81,
+            "after_stage": "before_string1",
+            "seq": 13
+          }
+        ],
+        "reads": {
+          "int1": 42,
+          "string1": 82,
+          "int2": 43,
+          "string2": 83
+        },
+        "exceptions": []
+      },
+      "event_file": "hot-generic-1-events.jsonl",
+      "event_sha256": "df9db5db2ab43ffdf317f20ab196a66e86ea3d3b3ac77e9ccd8555ef7f5eab71"
+    },
+    {
+      "side": "hot",
+      "mode": "generic",
+      "run": 2,
+      "pid": 144728,
+      "exit_code": 0,
+      "observations": {
+        "side": "hot",
+        "mode": "generic",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Cache<System.Int32>.field",
+            "value": 41,
+            "after_stage": "before_int1",
+            "seq": 7
+          },
+          {
+            "subject": "Cache<System.Int32>.cctor",
+            "value": 41,
+            "after_stage": "before_int1",
+            "seq": 8
+          },
+          {
+            "subject": "Cache<System.String>.field",
+            "value": 81,
+            "after_stage": "before_string1",
+            "seq": 12
+          },
+          {
+            "subject": "Cache<System.String>.cctor",
+            "value": 81,
+            "after_stage": "before_string1",
+            "seq": 13
+          }
+        ],
+        "reads": {
+          "int1": 42,
+          "string1": 82,
+          "int2": 43,
+          "string2": 83
+        },
+        "exceptions": []
+      },
+      "event_file": "hot-generic-2-events.jsonl",
+      "event_sha256": "df9db5db2ab43ffdf317f20ab196a66e86ea3d3b3ac77e9ccd8555ef7f5eab71"
+    },
+    {
+      "side": "hot",
+      "mode": "generic",
+      "run": 3,
+      "pid": 129320,
+      "exit_code": 0,
+      "observations": {
+        "side": "hot",
+        "mode": "generic",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Cache<System.Int32>.field",
+            "value": 41,
+            "after_stage": "before_int1",
+            "seq": 7
+          },
+          {
+            "subject": "Cache<System.Int32>.cctor",
+            "value": 41,
+            "after_stage": "before_int1",
+            "seq": 8
+          },
+          {
+            "subject": "Cache<System.String>.field",
+            "value": 81,
+            "after_stage": "before_string1",
+            "seq": 12
+          },
+          {
+            "subject": "Cache<System.String>.cctor",
+            "value": 81,
+            "after_stage": "before_string1",
+            "seq": 13
+          }
+        ],
+        "reads": {
+          "int1": 42,
+          "string1": 82,
+          "int2": 43,
+          "string2": 83
+        },
+        "exceptions": []
+      },
+      "event_file": "hot-generic-3-events.jsonl",
+      "event_sha256": "df9db5db2ab43ffdf317f20ab196a66e86ea3d3b3ac77e9ccd8555ef7f5eab71"
+    },
+    {
+      "side": "hot",
+      "mode": "failed",
+      "run": 1,
+      "pid": 131944,
+      "exit_code": 2,
+      "observations": {
+        "side": "hot",
+        "mode": "failed",
+        "classification": "escaped_first_access",
+        "semantic_match": false,
+        "initializers": [
+          {
+            "subject": "Failed.cctor",
+            "value": 1,
+            "after_stage": "before_call1",
+            "seq": 7
+          }
+        ],
+        "reads": {},
+        "exceptions": [
+          {
+            "subject": "outer_entry",
+            "type": "System.Reflection.TargetInvocationException",
+            "detail": "System.Reflection.TargetInvocationException>System.TypeInitializationException>System.InvalidOperationException"
+          }
+        ]
+      },
+      "event_file": "hot-failed-1-events.jsonl",
+      "event_sha256": "c30a1344ed34b320d16ad1b1ce54d412fab9adb27855540228abcd7990c838a9"
+    },
+    {
+      "side": "hot",
+      "mode": "failed",
+      "run": 2,
+      "pid": 174216,
+      "exit_code": 2,
+      "observations": {
+        "side": "hot",
+        "mode": "failed",
+        "classification": "escaped_first_access",
+        "semantic_match": false,
+        "initializers": [
+          {
+            "subject": "Failed.cctor",
+            "value": 1,
+            "after_stage": "before_call1",
+            "seq": 7
+          }
+        ],
+        "reads": {},
+        "exceptions": [
+          {
+            "subject": "outer_entry",
+            "type": "System.Reflection.TargetInvocationException",
+            "detail": "System.Reflection.TargetInvocationException>System.TypeInitializationException>System.InvalidOperationException"
+          }
+        ]
+      },
+      "event_file": "hot-failed-2-events.jsonl",
+      "event_sha256": "c30a1344ed34b320d16ad1b1ce54d412fab9adb27855540228abcd7990c838a9"
+    },
+    {
+      "side": "hot",
+      "mode": "failed",
+      "run": 3,
+      "pid": 148568,
+      "exit_code": 2,
+      "observations": {
+        "side": "hot",
+        "mode": "failed",
+        "classification": "escaped_first_access",
+        "semantic_match": false,
+        "initializers": [
+          {
+            "subject": "Failed.cctor",
+            "value": 1,
+            "after_stage": "before_call1",
+            "seq": 7
+          }
+        ],
+        "reads": {},
+        "exceptions": [
+          {
+            "subject": "outer_entry",
+            "type": "System.Reflection.TargetInvocationException",
+            "detail": "System.Reflection.TargetInvocationException>System.TypeInitializationException>System.InvalidOperationException"
+          }
+        ]
+      },
+      "event_file": "hot-failed-3-events.jsonl",
+      "event_sha256": "c30a1344ed34b320d16ad1b1ce54d412fab9adb27855540228abcd7990c838a9"
+    },
+    {
+      "side": "hot",
+      "mode": "failed-outer",
+      "run": 1,
+      "pid": 165196,
+      "exit_code": 0,
+      "observations": {
+        "side": "hot",
+        "mode": "failed-outer",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Failed.cctor",
+            "value": 1,
+            "after_stage": "before_call1",
+            "seq": 7
+          }
+        ],
+        "reads": {},
+        "exceptions": [
+          {
+            "subject": "call1",
+            "type": "System.Reflection.TargetInvocationException",
+            "detail": "System.Reflection.TargetInvocationException>System.TypeInitializationException>System.InvalidOperationException"
+          },
+          {
+            "subject": "call2",
+            "type": "System.Reflection.TargetInvocationException",
+            "detail": "System.Reflection.TargetInvocationException>System.TypeInitializationException>System.InvalidOperationException"
+          }
+        ]
+      },
+      "event_file": "hot-failed-outer-1-events.jsonl",
+      "event_sha256": "af6d6bcfbde636108762a2c2da534e8b94f3a66643d63413a2286abd3e71f050"
+    },
+    {
+      "side": "hot",
+      "mode": "failed-outer",
+      "run": 2,
+      "pid": 82648,
+      "exit_code": 0,
+      "observations": {
+        "side": "hot",
+        "mode": "failed-outer",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Failed.cctor",
+            "value": 1,
+            "after_stage": "before_call1",
+            "seq": 7
+          }
+        ],
+        "reads": {},
+        "exceptions": [
+          {
+            "subject": "call1",
+            "type": "System.Reflection.TargetInvocationException",
+            "detail": "System.Reflection.TargetInvocationException>System.TypeInitializationException>System.InvalidOperationException"
+          },
+          {
+            "subject": "call2",
+            "type": "System.Reflection.TargetInvocationException",
+            "detail": "System.Reflection.TargetInvocationException>System.TypeInitializationException>System.InvalidOperationException"
+          }
+        ]
+      },
+      "event_file": "hot-failed-outer-2-events.jsonl",
+      "event_sha256": "af6d6bcfbde636108762a2c2da534e8b94f3a66643d63413a2286abd3e71f050"
+    },
+    {
+      "side": "hot",
+      "mode": "failed-outer",
+      "run": 3,
+      "pid": 66312,
+      "exit_code": 0,
+      "observations": {
+        "side": "hot",
+        "mode": "failed-outer",
+        "classification": "completed",
+        "semantic_match": true,
+        "initializers": [
+          {
+            "subject": "Failed.cctor",
+            "value": 1,
+            "after_stage": "before_call1",
+            "seq": 7
+          }
+        ],
+        "reads": {},
+        "exceptions": [
+          {
+            "subject": "call1",
+            "type": "System.Reflection.TargetInvocationException",
+            "detail": "System.Reflection.TargetInvocationException>System.TypeInitializationException>System.InvalidOperationException"
+          },
+          {
+            "subject": "call2",
+            "type": "System.Reflection.TargetInvocationException",
+            "detail": "System.Reflection.TargetInvocationException>System.TypeInitializationException>System.InvalidOperationException"
+          }
+        ]
+      },
+      "event_file": "hot-failed-outer-3-events.jsonl",
+      "event_sha256": "af6d6bcfbde636108762a2c2da534e8b94f3a66643d63413a2286abd3e71f050"
+    }
+  ],
+  "baseline_commit": "74da063e0fe2a4cbac894acfa77d3b0df4074356",
+  "publication": "Sources and verified evidence are published together in the commit containing this record. Use the fixed commit linked by the articles; baseline_commit is only the preceding resource experiment.",
+  "limits": [
+    "Single-thread, fixed local-custom Editor and Windows x64 Development IL2CPP Debug; no timing/performance or other-platform claim.",
+    "Both sides enter Cases.Run via reflection; target scenario calls are direct. AOT assembly is part of Player startup; hot Assembly.Load is explicit.",
+    "beforefieldinit observation is one allowed schedule, not a required schedule for other runtimes. Native strict/failed traces are separate observations, not proof of all initializer or exception paths."
+  ]
+}

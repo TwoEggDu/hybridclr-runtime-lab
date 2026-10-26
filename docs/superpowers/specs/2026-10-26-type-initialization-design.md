@@ -1,0 +1,9 @@
+# Type initialization and first-call experiment
+The user approved the four-case AOT/hot proposal and inline implementation on 2026-10-26.
+Use existing lab-lock.json: local-custom Unity 2022.3.62f3_96770f904ca7, package9.0.3/runtime9.0.1; Windows x64 Development IL2CPP Debug, Minimal stripping.
+New independent projects/type-initialization and artifacts/type-initialization. Same self-authored scenario source modulo namespace compiled AOT/hot. Four cases strict/relaxed/generic/failed; failure has inner and outer capture routes. Two sides, three fresh processes each =30, plus two separately counted hot strict/failed native traces.
+Strict: load, resolve, metadata, first/second static calls and field value. Relaxed: actual initializer position, allowing initialization earlier than first field access; no fixed timing claim. Generic: int/string closed-type static state and initializer counts. Failed: first/second accesses, exception chains and initializer-body execution count.
+Both sides enter Cases by reflection; target calls inside scenarios are direct. Read final stripped AOT and shipped hot DLL metadata without execution. Verify .cctor, beforefieldinit, input parity and hot exclusion from AOT. Public own JSON events and summaries/hash receipts only; binary/PDB/Unity/native logs remain ignored.
+Approaches: reuse locked tools and fresh project; reject desktop-only evidence (does not prove Player), and modifying prior resource project (breaks fixed baseline).
+No concurrency, performance, cross-platform, resource lifecycle or native call-path assertions without separate evidence. Record unexpected differences honestly. No automatic Git commit/push.
+Extend three existing articles (type initialization, source reading, IL2CPP runtime), three indexes/canonical plans and one execution record. Distinguish norm, metadata and local observations.

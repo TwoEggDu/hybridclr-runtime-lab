@@ -202,3 +202,7 @@ python -m unittest discover -s tests -v
 检查项目结构、依赖路径、固定版本、seeds 隔离和公开文件范围。它不需要 Unity，也不证明 Player 可运行。
 
 上游项目及 Unity 安装遵循各自许可。本仓不复制或重新授权第三方实现；源码阅读只发布自有样本、符号指引和可核对的行为记录。
+
+## 类型初始化与首次调用
+
+独立 `projects/type-initialization` 比较 AOT／hot 的显式 .cctor、beforefieldinit、泛型静态字段及失败初始化。四组问题加内外捕获边界，共30个普通Player与2个独立native取证进程；27个普通进程完成，3个热更内部捕获对照保留为异常逃逸差异，不宣称全部语义通过。见[实验记录](evidence/2026-10-26-type-initialization/README.md)。本轮源码与证据随包含实验记录的同一提交发布；复现请固定文章所列提交。74da063仍是前轮资源实验。
