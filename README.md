@@ -210,3 +210,9 @@ python -m unittest discover -s tests -v
 ## 跨 AOT／解释器异常传播
 
 独立 `projects/exception-flow` 比较四个调用方向与四种抛出/初始化路径。原始与隔离反事实各48个普通Player，另8个native取证；新工程内仅延后一个公开宏的活动imi切换，保持方法准备与自有DLL不变。已定位初始化失败时调用方帧与被调方法EH表错配，保留基线3个逃逸对照，并验证catch/finally恢复。见[实验记录](evidence/2026-10-26-exception-flow/README.md)。本轮源码、公开补丁与验证记录随包含实验记录的同一提交发布；复现请固定文章所列的本轮提交。46ac71c仍是前轮类型初始化实验。
+
+## async / UniTask 跨边界状态机
+
+独立`projects/async-unitask`固定UniTask2.5.10，比较实际class/struct热更状态机的同步完成、两次跨帧恢复、await前后异常，以及补充metadata on/off。同一Player的60个普通进程与12个native进程结果见[本轮记录](evidence/2026-10-26-async-unitask/README.md)。本样本保留整个UniTask程序集，两种形态都已有native builder实现，因此不补metadata组也完成；不把它推广为所有async都无需补充。
+
+先运行`python tools/prepare_async.py`获取额外固定依赖，再用`tools/async_lab.py build/run/verify/export`和`tools/async_trace.py --cdb $cdb`复现。旧runtime／实验和异常反事实不改；历史Android故障仍保留未知。本轮源码与证据随包含本实验记录的同一提交发布；复现请固定文章所列提交。

@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "name": "UniTask",
+  "version": "2.5.10",
+  "commit": "7c0f199fe0d3fc528024488ccd671e6c7b27745b",
+  "url": "https://github.com/Cysharp/UniTask.git",
+  "path": ".local/async-unitask/UniTask",
+  "package_path": "src/UniTask/Assets/Plugins/UniTask"
+}

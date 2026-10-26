@@ -1,0 +1,9 @@
+{"seq":1,"kind":"env","frame":1,"thread":1,"side":"aot","mode":"throw-before","metadata":"off","build":"c2a81f08-12d1-4f70-b333-d4bd26705388","unity":"2022.3.62f3","label":"","type":"","detail":"","value":0,"hot_before":false}
+{"seq":2,"kind":"enter","frame":1,"thread":1,"side":"","mode":"","metadata":"","build":"","unity":"","label":"aot","type":"","detail":"","value":0,"hot_before":false}
+{"seq":3,"kind":"work_finally","frame":1,"thread":1,"side":"","mode":"","metadata":"","build":"","unity":"","label":"","type":"","detail":"","value":0,"hot_before":false}
+{"seq":4,"kind":"entry_return","frame":1,"thread":1,"side":"","mode":"","metadata":"","build":"","unity":"","label":"Faulted","type":"","detail":"","value":0,"hot_before":false}
+{"seq":5,"kind":"consumer_begin","frame":1,"thread":1,"side":"","mode":"","metadata":"","build":"","unity":"","label":"","type":"","detail":"","value":0,"hot_before":false}
+{"seq":6,"kind":"consumer_caught","frame":1,"thread":1,"side":"","mode":"","metadata":"","build":"","unity":"","label":"","type":"System.InvalidOperationException","detail":"before-await","value":0,"hot_before":false}
+{"seq":7,"kind":"consumer_finally","frame":1,"thread":1,"side":"","mode":"","metadata":"","build":"","unity":"","label":"","type":"","detail":"","value":0,"hot_before":false}
+{"seq":8,"kind":"waiting","frame":1,"thread":1,"side":"","mode":"","metadata":"","build":"","unity":"","label":"Succeeded","type":"","detail":"","value":0,"hot_before":false}
+{"seq":9,"kind":"done","frame":1,"thread":1,"side":"","mode":"","metadata":"","build":"","unity":"","label":"","type":"","detail":"","value":0,"hot_before":false}

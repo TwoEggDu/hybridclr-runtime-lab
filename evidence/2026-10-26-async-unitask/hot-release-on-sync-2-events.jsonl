@@ -1,0 +1,12 @@
+{"seq":1,"kind":"env","frame":1,"thread":1,"side":"hot-release","mode":"sync","metadata":"on","build":"c2a81f08-12d1-4f70-b333-d4bd26705388","unity":"2022.3.62f3","label":"","type":"","detail":"","value":0,"hot_before":false}
+{"seq":2,"kind":"metadata","frame":1,"thread":1,"side":"","mode":"","metadata":"","build":"","unity":"","label":"UniTask","type":"","detail":"Superset","value":0,"hot_before":false}
+{"seq":3,"kind":"enter","frame":1,"thread":1,"side":"","mode":"","metadata":"","build":"","unity":"","label":"hot","type":"","detail":"","value":0,"hot_before":false}
+{"seq":4,"kind":"before_await","frame":1,"thread":1,"side":"","mode":"","metadata":"","build":"","unity":"","label":"","type":"","detail":"","value":0,"hot_before":false}
+{"seq":5,"kind":"resumed","frame":1,"thread":1,"side":"","mode":"","metadata":"","build":"","unity":"","label":"","type":"","detail":"","value":0,"hot_before":false}
+{"seq":6,"kind":"work_finally","frame":1,"thread":1,"side":"","mode":"","metadata":"","build":"","unity":"","label":"","type":"","detail":"","value":0,"hot_before":false}
+{"seq":7,"kind":"entry_return","frame":1,"thread":1,"side":"","mode":"","metadata":"","build":"","unity":"","label":"Succeeded","type":"","detail":"","value":0,"hot_before":false}
+{"seq":8,"kind":"consumer_begin","frame":1,"thread":1,"side":"","mode":"","metadata":"","build":"","unity":"","label":"","type":"","detail":"","value":0,"hot_before":false}
+{"seq":9,"kind":"consumer_result","frame":1,"thread":1,"side":"","mode":"","metadata":"","build":"","unity":"","label":"","type":"","detail":"","value":42,"hot_before":false}
+{"seq":10,"kind":"consumer_finally","frame":1,"thread":1,"side":"","mode":"","metadata":"","build":"","unity":"","label":"","type":"","detail":"","value":0,"hot_before":false}
+{"seq":11,"kind":"waiting","frame":1,"thread":1,"side":"","mode":"","metadata":"","build":"","unity":"","label":"Succeeded","type":"","detail":"","value":0,"hot_before":false}
+{"seq":12,"kind":"done","frame":1,"thread":1,"side":"","mode":"","metadata":"","build":"","unity":"","label":"","type":"","detail":"","value":0,"hot_before":false}

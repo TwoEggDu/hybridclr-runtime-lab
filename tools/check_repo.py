@@ -11,7 +11,7 @@ assert lock["editor"]["distribution"] == "local-custom"
 for spec in lock["dependencies"].values():
     assert re.fullmatch(r"[0-9a-f]{40}", spec["commit"])
     assert spec["url"].startswith("https://github.com/focus-creative-games/")
-for name in ("call-chain", "generic-p0", "generic-p1", "lifetime-threads", "native-callbacks", "gc-callbacks", "gc-roots", "incremental-barriers", "resource-mounting", "type-initialization", "exception-flow"):
+for name in ("call-chain", "generic-p0", "generic-p1", "lifetime-threads", "native-callbacks", "gc-callbacks", "gc-roots", "incremental-barriers", "resource-mounting", "type-initialization", "exception-flow", "async-unitask"):
     project = ROOT / "projects" / name
     manifest = json.loads((project / "Packages/manifest.json").read_text())
     dependency = manifest["dependencies"]["com.code-philosophy.hybridclr"]
@@ -20,6 +20,10 @@ for name in ("call-chain", "generic-p0", "generic-p1", "lifetime-threads", "nati
     assert lock["editor"]["version"] in (project / "ProjectSettings/ProjectVersion.txt").read_text()
     for f in (project / "Assets").rglob("*.asmdef"):
         json.loads(f.read_text())
+async_lock = json.loads((ROOT / "async-lock.json").read_text())
+assert async_lock["commit"] == "7c0f199fe0d3fc528024488ccd671e6c7b27745b"
+async_manifest = json.loads((ROOT / "projects/async-unitask/Packages/manifest.json").read_text())
+assert async_manifest["dependencies"]["com.cysharp.unitask"] == "file:../../../.local/async-unitask/UniTask/src/UniTask/Assets/Plugins/UniTask"
 assert not (ROOT / "projects/generic-p0/Assets/AOT/SeedCalls.cs").exists()
 assert (ROOT / "projects/generic-p1/Assets/AOT/SeedCalls.cs").is_file()
 for folder in ("GenericAOT", "HotUpdate"):

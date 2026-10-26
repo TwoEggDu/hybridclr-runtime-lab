@@ -1,0 +1,1 @@
+{"name": "Probe.AOT", "references": ["UniTask", "HybridCLR.Runtime"], "autoReferenced": true}
